@@ -69,7 +69,7 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 <table>
 <tr>
-<td>👩‍💻 <a href="#-software-engineer">Software Engineer</a></td>
+<td>💻 <a href="#-software-engineer">Software Engineer</a></td>
 <td>🔬 <a href="#-researcher--academic">Researcher</a></td>
 <td>📈 <a href="#-marketer--growth">Marketer</a></td>
 <td>🎬 <a href="#-content-creator">Content Creator</a></td>
@@ -82,7 +82,7 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 </tr>
 </table>
 
-### 👩‍💻 Software Engineer
+### 💻 Software Engineer
 > Ship code faster without losing the plot on a large codebase.
 
 | Job | Default | Alternates |
