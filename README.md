@@ -256,16 +256,16 @@ Conversational generalists — your daily-driver chat. Most now support memory, 
 
 | Tool | Best for |
 | :-- | :-- |
-| [ChatGPT](https://chatgpt.com) | Broadest feature set; voice, image gen, Agents, Operator, native video |
-| [Claude](https://claude.ai) | Strongest writing and code reasoning; 1M-token context on Opus |
-| [Gemini](https://gemini.google.com) | Tight Google Workspace integration; strongest multimodal at scale |
-| [Microsoft Copilot](https://copilot.microsoft.com) | Default for M365 / Windows users |
-| [Apple Intelligence](https://www.apple.com/apple-intelligence/) | Built into iOS / macOS; private on-device + Private Cloud Compute |
-| [Grok](https://grok.com) | Real-time X data, looser content policy |
-| [DeepSeek](https://chat.deepseek.com) | `Free` frontier-tier reasoning; `OSS` weights |
-| [Mistral Le Chat](https://chat.mistral.ai) | EU-hosted, fast, OSS-friendly |
-| [Qwen Chat](https://chat.qwen.ai) | Strong CN + EN; `OSS` weights |
-| [Meta AI](https://meta.ai) | Built into WhatsApp / Instagram / Messenger |
+| [ChatGPT](tools/chatgpt.md) | Broadest feature set; voice, image gen, Agents, Operator, native video |
+| [Claude](tools/claude.md) | Strongest writing and code reasoning; 1M-token context on Opus |
+| [Gemini](tools/gemini.md) | Tight Google Workspace integration; strongest multimodal at scale |
+| [Microsoft Copilot](tools/microsoft_copilot.md) | Default for M365 / Windows users |
+| [Apple Intelligence](tools/apple_intelligence.md) | Built into iOS / macOS; private on-device + Private Cloud Compute |
+| [Grok](tools/grok.md) | Real-time X data, looser content policy |
+| [DeepSeek](tools/deepseek.md) | `Free` frontier-tier reasoning; `OSS` weights |
+| [Mistral Le Chat](tools/mistral_le_chat.md) | EU-hosted, fast, OSS-friendly |
+| [Qwen Chat](tools/qwen.md) | Strong CN + EN; `OSS` weights |
+| [Meta AI](tools/meta_ai.md) | Built into WhatsApp / Instagram / Messenger |
 
 ### Research & deep research
 
@@ -273,30 +273,30 @@ Long-form research with citations, multi-source synthesis, and document groundin
 
 | Tool | Best for |
 | :-- | :-- |
-| [ChatGPT Deep Research](https://chatgpt.com) | Multi-step web research; thorough reports |
-| [Gemini Deep Research](https://gemini.google.com) | Reads many sources; annotated reports |
-| [Claude Research](https://claude.ai) | Multi-agent research mode; strong synthesis |
-| [Perplexity](https://www.perplexity.ai) | Cited answers; "Pro Search" and Spaces |
-| [NotebookLM](https://notebooklm.google.com) | Q&A on your docs; podcast-style audio overviews |
-| [Elicit](https://elicit.com) | Academic literature review automation |
-| [Consensus](https://consensus.app) | AI search across peer-reviewed papers |
-| [SciSpace](https://scispace.com) | PDF chat, paper explanations |
-| [Explainpaper](https://www.explainpaper.com) | Highlight a passage, get an explanation |
-| [Undermind](https://www.undermind.ai) | Deep scientific search |
-| [STORM](https://storm.genie.stanford.edu) | `OSS` Stanford project; Wikipedia-style articles from sources |
+| [ChatGPT Deep Research](tools/chatgpt.md) | Multi-step web research; thorough reports |
+| [Gemini Deep Research](tools/gemini.md) | Reads many sources; annotated reports |
+| [Claude Research](tools/claude.md) | Multi-agent research mode; strong synthesis |
+| [Perplexity](tools/perplexity.md) | Cited answers; "Pro Search" and Spaces |
+| [NotebookLM](tools/notebooklm.md) | Q&A on your docs; podcast-style audio overviews |
+| [Elicit](tools/elicit.md) | Academic literature review automation |
+| [Consensus](tools/consensus.md) | AI search across peer-reviewed papers |
+| [SciSpace](tools/scispace.md) | PDF chat, paper explanations |
+| [Explainpaper](tools/explainpaper.md) | Highlight a passage, get an explanation |
+| [Undermind](tools/undermind.md) | Deep scientific search |
+| [STORM](tools/storm.md) | `OSS` Stanford project; Wikipedia-style articles from sources |
 
 ### AI search engines
 
 | Tool | Best for |
 | :-- | :-- |
-| [Perplexity](https://www.perplexity.ai) | Cited AI answers; the category default |
-| [You.com](https://you.com) | Mode selection; pick the model behind the answer |
-| [Phind](https://www.phind.com) | Tuned for developers; indexes docs / GitHub / SO |
-| [Kagi](https://kagi.com) | Paid, ad-free; FastGPT, Assistant, Universal Summarizer |
-| [Exa](https://exa.ai) | Neural search API; finds source content not just SEO pages |
-| [Tavily](https://tavily.com) | Search API for agents and RAG |
-| [Andi](https://andisearch.com) | Conversational answer-first search |
-| [Brave Search + Leo](https://search.brave.com) | Privacy-first; built-in AI summaries |
+| [Perplexity](tools/perplexity.md) | Cited AI answers; the category default |
+| [You.com](tools/you_com.md) | Mode selection; pick the model behind the answer |
+| [Phind](tools/phind.md) | Tuned for developers; indexes docs / GitHub / SO |
+| [Kagi](tools/kagi.md) | Paid, ad-free; FastGPT, Assistant, Universal Summarizer |
+| [Exa](tools/exa.md) | Neural search API; finds source content not just SEO pages |
+| [Tavily](tools/tavily.md) | Search API for agents and RAG |
+| [Andi](tools/andi.md) | Conversational answer-first search |
+| [Brave Search + Leo](tools/brave_search.md) | Privacy-first; built-in AI summaries |
 
 ### AI browsers & sidebars
 
@@ -304,14 +304,14 @@ A new wave of browsers (and extensions) where AI is the primary input, not a fea
 
 | Tool | Best for |
 | :-- | :-- |
-| [Perplexity Comet](https://www.perplexity.ai/comet) | Agentic browser; navigate and act with Perplexity at the core |
-| [Dia](https://www.diabrowser.com) | The Browser Company's AI-native successor to Arc |
-| [Arc Search](https://arc.net/search) | "Browse for me" mobile search that builds web pages |
-| [Edge Copilot](https://www.microsoft.com/edge) | Sidebar Copilot in Microsoft Edge |
-| [Brave Leo](https://brave.com/leo/) | Built-in private AI assistant |
-| [Sigma AI Browser](https://sigmaos.com) | macOS browser with multi-agent workflows |
-| [Monica](https://monica.im) | Cross-browser AI sidebar / extension |
-| [Sider](https://sider.ai) | All-in-one AI sidebar |
+| [Perplexity Comet](tools/comet.md) | Agentic browser; navigate and act with Perplexity at the core |
+| [Dia](tools/dia.md) | The Browser Company's AI-native successor to Arc |
+| [Arc Search](tools/arc_search.md) | "Browse for me" mobile search that builds web pages |
+| [Edge Copilot](tools/edge_copilot.md) | Sidebar Copilot in Microsoft Edge |
+| [Brave Leo](tools/brave_search.md) | Built-in private AI assistant |
+| [Sigma AI Browser](tools/sigma_browser.md) | macOS browser with multi-agent workflows |
+| [Monica](tools/monica.md) | Cross-browser AI sidebar / extension |
+| [Sider](tools/sider.md) | All-in-one AI sidebar |
 
 <sub>[⤴ back to top](#top)</sub>
 
@@ -332,71 +332,71 @@ Make things — words, images, video, sound.
 #### General / long-form
 | Tool | Best for |
 | :-- | :-- |
-| [Claude](https://claude.ai) / [ChatGPT](https://chatgpt.com) / [Gemini](https://gemini.google.com) | Now beat most dedicated writing tools for free-form prose |
-| [Lex](https://lex.page) | AI-native long-form editor; clean writing UX |
-| [Grammarly](https://www.grammarly.com) | Editor + GenAI; broad app coverage |
-| [Wordtune](https://www.wordtune.com) | Rewriting and tone control |
-| [HyperWrite](https://www.hyperwriteai.com) | Personal writing assistant with browser agent |
+| [Claude](tools/claude.md) / [ChatGPT](tools/chatgpt.md) / [Gemini](tools/gemini.md) | Now beat most dedicated writing tools for free-form prose |
+| [Lex](tools/lex.md) | AI-native long-form editor; clean writing UX |
+| [Grammarly](tools/grammarly.md) | Editor + GenAI; broad app coverage |
+| [Wordtune](tools/wordtune.md) | Rewriting and tone control |
+| [HyperWrite](tools/hyperwrite.md) | Personal writing assistant with browser agent |
 
 #### Marketing / brand voice / SEO
 | Tool | Best for |
 | :-- | :-- |
-| [Jasper](https://www.jasper.ai) | Brand voice + templates for marketing teams |
-| [Copy.ai](https://www.copy.ai) | GTM workflows |
-| [Writesonic](https://writesonic.com) | SEO-focused content + Chatsonic |
-| [Surfer SEO](https://surferseo.com) | SEO content optimization |
-| [Frase](https://www.frase.io) | SERP analysis + brief generation |
-| [Writer](https://writer.com) | Enterprise content platform; brand governance |
+| [Jasper](tools/jasper.md) | Brand voice + templates for marketing teams |
+| [Copy.ai](tools/copy_ai.md) | GTM workflows |
+| [Writesonic](tools/writesonic.md) | SEO-focused content + Chatsonic |
+| [Surfer SEO](tools/surfer_seo.md) | SEO content optimization |
+| [Frase](tools/frase.md) | SERP analysis + brief generation |
+| [Writer](tools/writer.md) | Enterprise content platform; brand governance |
 
 #### Fiction & creative
 | Tool | Best for |
 | :-- | :-- |
-| [Sudowrite](https://www.sudowrite.com) | Category leader for fiction (Story Engine, Canvas) |
-| [NovelCrafter](https://www.novelcrafter.com) | Codex-style world-bibles + AI writing |
-| [NovelAI](https://novelai.net) | AI storytelling with custom models |
+| [Sudowrite](tools/sudowrite.md) | Category leader for fiction (Story Engine, Canvas) |
+| [NovelCrafter](tools/novelcrafter.md) | Codex-style world-bibles + AI writing |
+| [NovelAI](tools/novelai.md) | AI storytelling with custom models |
 
 ### Image generation
 
 | Tool | Best for |
 | :-- | :-- |
-| [Midjourney](https://www.midjourney.com) | Aesthetic / artistic peak; v7 |
-| [GPT Image / DALL·E in ChatGPT](https://chatgpt.com) | Best prompt comprehension and text rendering in chat |
-| [Google Imagen / Gemini](https://gemini.google.com) | Photorealism + integrated editing |
-| [FLUX](https://blackforestlabs.ai) | Pro / Dev / Schnell; best $/image for photoreal |
-| [Stable Diffusion](https://stability.ai) | `OSS` `Local`; the entire ecosystem (LoRAs, ControlNet) |
-| [ComfyUI](https://www.comfy.org) | `OSS` `Local` node-graph workflow editor for SD/Flux |
-| [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | `OSS` `Local` classic SD WebUI |
-| [Ideogram](https://ideogram.ai) | Best in class for legible text in images |
-| [Recraft](https://www.recraft.ai) | Vector + brand-style consistency |
-| [Leonardo](https://leonardo.ai) | Game / asset focus; fine-tunable models |
-| [Krea](https://www.krea.ai) | Real-time generation + enhance |
-| [Adobe Firefly](https://www.adobe.com/products/firefly.html) | Commercially safe; in Photoshop |
-| [Reve](https://reve.art) | Strong at prompt fidelity |
+| [Midjourney](tools/midjourney.md) | Aesthetic / artistic peak; v7 |
+| [GPT Image / DALL·E in ChatGPT](tools/chatgpt.md) | Best prompt comprehension and text rendering in chat |
+| [Google Imagen / Gemini](tools/gemini.md) | Photorealism + integrated editing |
+| [FLUX](tools/flux.md) | Pro / Dev / Schnell; best $/image for photoreal |
+| [Stable Diffusion](tools/stable_diffusion.md) | `OSS` `Local`; the entire ecosystem (LoRAs, ControlNet) |
+| [ComfyUI](tools/comfyui.md) | `OSS` `Local` node-graph workflow editor for SD/Flux |
+| [Automatic1111](tools/automatic1111.md) | `OSS` `Local` classic SD WebUI |
+| [Ideogram](tools/ideogram.md) | Best in class for legible text in images |
+| [Recraft](tools/recraft.md) | Vector + brand-style consistency |
+| [Leonardo](tools/leonardo.md) | Game / asset focus; fine-tunable models |
+| [Krea](tools/krea.md) | Real-time generation + enhance |
+| [Adobe Firefly](tools/adobe_firefly.md) | Commercially safe; in Photoshop |
+| [Reve](tools/reve.md) | Strong at prompt fidelity |
 
 ### Image editing & object work
 
 | Tool | Best for |
 | :-- | :-- |
-| [Photoshop Generative Fill](https://www.adobe.com/products/photoshop.html) | Inpaint / outpaint via Firefly |
-| [Magnific](https://magnific.ai) | AI upscaling + relight |
-| [Topaz Photo AI](https://www.topazlabs.com/topaz-photo-ai) | Pro denoise / upscale |
-| [Clipdrop](https://clipdrop.co) | Background removal, relight, replace |
-| [Remove.bg](https://www.remove.bg) | One-click background removal |
-| [Photoroom](https://www.photoroom.com) | Product photography + bulk image edits |
+| [Photoshop Generative Fill](tools/photoshop_genfill.md) | Inpaint / outpaint via Firefly |
+| [Magnific](tools/magnific.md) | AI upscaling + relight |
+| [Topaz Photo AI](tools/topaz_photo.md) | Pro denoise / upscale |
+| [Clipdrop](tools/clipdrop.md) | Background removal, relight, replace |
+| [Remove.bg](tools/removebg.md) | One-click background removal |
+| [Photoroom](tools/photoroom.md) | Product photography + bulk image edits |
 
 ### Video generation
 
 | Tool | Best for |
 | :-- | :-- |
-| [Veo 3.1 (Google)](https://deepmind.google/technologies/veo) | Strongest all-rounder; native audio, 4K, prompt fidelity |
-| [Runway](https://runwayml.com) | Gen-4 / Gen-4.5; pro creative controls (motion brush, refs) |
-| [Kling](https://www.klingai.com) | Long durations, best $/clip |
-| [Seedance 2.0](https://seed.bytedance.com) | ByteDance; strong motion in blind tests |
-| [Pika](https://pika.art) | Fast iterations + Pikaffects |
-| [Luma Dream Machine](https://lumalabs.ai/dream-machine) | Smooth camera moves |
-| [Hailuo (MiniMax)](https://hailuoai.com) | Generous `Free` tier; image-to-video |
-| [Higgsfield](https://higgsfield.ai) | Cinematic camera presets |
-| [Pixverse](https://pixverse.ai) | Anime / stylized motion |
+| [Veo 3.1 (Google)](tools/veo.md) | Strongest all-rounder; native audio, 4K, prompt fidelity |
+| [Runway](tools/runway.md) | Gen-4 / Gen-4.5; pro creative controls (motion brush, refs) |
+| [Kling](tools/kling.md) | Long durations, best $/clip |
+| [Seedance 2.0](tools/seedance.md) | ByteDance; strong motion in blind tests |
+| [Pika](tools/pika.md) | Fast iterations + Pikaffects |
+| [Luma Dream Machine](tools/luma.md) | Smooth camera moves |
+| [Hailuo (MiniMax)](tools/hailuo.md) | Generous `Free` tier; image-to-video |
+| [Higgsfield](tools/higgsfield.md) | Cinematic camera presets |
+| [Pixverse](tools/pixverse.md) | Anime / stylized motion |
 
 > ⚠️ **Heads up (April 2026):** OpenAI's Sora consumer apps shut down on **2026-04-26**; the API follows on **2026-09-24**.
 
@@ -404,56 +404,56 @@ Make things — words, images, video, sound.
 
 | Tool | Best for |
 | :-- | :-- |
-| [Descript](https://www.descript.com) | Edit video by editing the transcript |
-| [Runway](https://runwayml.com) | Color, mask, rotoscope, lipsync |
-| [CapCut](https://www.capcut.com) | AI clip editing on desktop / mobile |
-| [Opus Clip](https://www.opus.pro) | Long video → viral short clips, auto-captioned |
-| [Captions](https://www.captions.ai) | Mobile-first AI video editor with avatars |
-| [Submagic](https://www.submagic.co) | Auto-captions, B-roll, hooks |
-| [Klap](https://klap.app) | Long → short clips with virality scoring |
-| [Topaz Video AI](https://www.topazlabs.com/topaz-video-ai) | Upscale / interpolate |
-| [HeyGen](https://www.heygen.com) | AI avatars; multilingual lipsync |
-| [Synthesia](https://www.synthesia.io) | Corporate avatar videos from scripts |
-| [Tavus](https://www.tavus.io) | Personalized AI video at scale |
+| [Descript](tools/descript.md) | Edit video by editing the transcript |
+| [Runway](tools/runway.md) | Color, mask, rotoscope, lipsync |
+| [CapCut](tools/capcut.md) | AI clip editing on desktop / mobile |
+| [Opus Clip](tools/opus_clip.md) | Long video → viral short clips, auto-captioned |
+| [Captions](tools/captions.md) | Mobile-first AI video editor with avatars |
+| [Submagic](tools/submagic.md) | Auto-captions, B-roll, hooks |
+| [Klap](tools/klap.md) | Long → short clips with virality scoring |
+| [Topaz Video AI](tools/topaz_video.md) | Upscale / interpolate |
+| [HeyGen](tools/heygen.md) | AI avatars; multilingual lipsync |
+| [Synthesia](tools/synthesia.md) | Corporate avatar videos from scripts |
+| [Tavus](tools/tavus.md) | Personalized AI video at scale |
 
 ### Voice & speech
 
 #### TTS / voice cloning
 | Tool | Best for |
 | :-- | :-- |
-| [ElevenLabs](https://elevenlabs.io) | Industry standard; natural TTS, cloning, dubbing, voice agents |
-| [PlayHT](https://play.ht) | TTS + voice cloning |
-| [Cartesia (Sonic)](https://cartesia.ai) | Ultra-low-latency real-time voice |
-| [Resemble AI](https://www.resemble.ai) | Cloning + speech-to-speech |
-| [OpenAI Voice / Realtime API](https://platform.openai.com) | Native multimodal voice |
-| [Suno Bark](https://github.com/suno-ai/bark) | `OSS` TTS |
+| [ElevenLabs](tools/elevenlabs.md) | Industry standard; natural TTS, cloning, dubbing, voice agents |
+| [PlayHT](tools/playht.md) | TTS + voice cloning |
+| [Cartesia (Sonic)](tools/cartesia.md) | Ultra-low-latency real-time voice |
+| [Resemble AI](tools/resemble.md) | Cloning + speech-to-speech |
+| [OpenAI Voice / Realtime API](tools/openai_voice.md) | Native multimodal voice |
+| [Suno Bark](tools/suno_bark.md) | `OSS` TTS |
 
 #### Transcription & speech-to-text
 | Tool | Best for |
 | :-- | :-- |
-| [Whisper](https://github.com/openai/whisper) | `OSS` `Local`; the de-facto baseline |
-| [Deepgram](https://deepgram.com) | Fast streaming ASR API |
-| [AssemblyAI](https://www.assemblyai.com) | Speech AI API; speaker labels, summarization |
-| [Otter](https://otter.ai) | Live transcription + meeting notes |
+| [Whisper](tools/whisper.md) | `OSS` `Local`; the de-facto baseline |
+| [Deepgram](tools/deepgram.md) | Fast streaming ASR API |
+| [AssemblyAI](tools/assemblyai.md) | Speech AI API; speaker labels, summarization |
+| [Otter](tools/otter.md) | Live transcription + meeting notes |
 
 #### Real-time conversation & voice agents
 | Tool | Best for |
 | :-- | :-- |
-| [Vapi](https://vapi.ai) · [Retell](https://www.retellai.com) · [Bland](https://www.bland.ai) | Build phone-call voice agents |
-| [LiveKit Agents](https://livekit.io/agents) | `OSS` voice agent framework |
+| [Vapi](tools/vapi.md) · [Retell](tools/retell.md) · [Bland](https://www.bland.ai) | Build phone-call voice agents |
+| [LiveKit Agents](tools/livekit.md) | `OSS` voice agent framework |
 
 ### Music generation
 
 | Tool | Best for |
 | :-- | :-- |
-| [Suno](https://suno.com) | v5; full songs with vocals, stem editing — most polished |
-| [Udio](https://www.udio.com) | High control; embroiled in Sony litigation |
-| [ElevenLabs Music](https://elevenlabs.io) | Trim / cut in-tool; high credit cost |
-| [Mubert](https://mubert.com) | API-friendly, license-safe royalty-free music |
-| [Loudly](https://www.loudly.com) | Genre-driven multi-track generation |
-| [Stable Audio](https://stableaudio.com) | Stability's audio model |
-| [AIVA](https://www.aiva.ai) | Soundtracks / film scoring |
-| [Endel](https://endel.io) | Adaptive focus / ambient soundscapes |
+| [Suno](tools/suno.md) | v5; full songs with vocals, stem editing — most polished |
+| [Udio](tools/udio.md) | High control; embroiled in Sony litigation |
+| [ElevenLabs Music](tools/elevenlabs.md) | Trim / cut in-tool; high credit cost |
+| [Mubert](tools/mubert.md) | API-friendly, license-safe royalty-free music |
+| [Loudly](tools/loudly.md) | Genre-driven multi-track generation |
+| [Stable Audio](tools/stable_audio.md) | Stability's audio model |
+| [AIVA](tools/aiva.md) | Soundtracks / film scoring |
+| [Endel](tools/endel.md) | Adaptive focus / ambient soundscapes |
 
 <sub>[⤴ back to top](#top)</sub>
 
@@ -474,40 +474,40 @@ Get the day's work done.
 #### Meeting notes
 | Tool | Best for |
 | :-- | :-- |
-| [Granola](https://www.granola.ai) | Bot-free; you write rough notes, it polishes after the call |
-| [Fathom](https://fathom.video) | `Free` unlimited recording + transcription |
-| [Otter](https://otter.ai) | Mature meeting + transcription |
-| [Fireflies](https://fireflies.ai) | Cross-platform meeting bot |
-| [Read AI](https://www.read.ai) | Meeting + email + messaging summaries |
-| [Krisp](https://krisp.ai) | Bot-free meeting notes + noise cancel |
-| [tl;dv](https://tldv.io) | Meeting recap + CRM sync |
-| [Jamie](https://www.meetjamie.ai) | Bot-free, EU-friendly |
+| [Granola](tools/granola.md) | Bot-free; you write rough notes, it polishes after the call |
+| [Fathom](tools/fathom.md) | `Free` unlimited recording + transcription |
+| [Otter](tools/otter.md) | Mature meeting + transcription |
+| [Fireflies](tools/fireflies.md) | Cross-platform meeting bot |
+| [Read AI](tools/read_ai.md) | Meeting + email + messaging summaries |
+| [Krisp](tools/krisp.md) | Bot-free meeting notes + noise cancel |
+| [tl;dv](tools/tldv.md) | Meeting recap + CRM sync |
+| [Jamie](tools/jamie.md) | Bot-free, EU-friendly |
 
 #### Notes & second-brain
 | Tool | Best for |
 | :-- | :-- |
-| [Notion AI](https://www.notion.so/product/ai) | AI inside the Notion workspace |
-| [Mem](https://get.mem.ai) | Self-organizing notes with persistent memory |
-| [Reflect](https://reflect.app) | Networked notes with GPT-4o |
-| [Obsidian + Smart Connections](https://obsidian.md) | `OSS` `Local` notes + AI plugins |
-| [Capacities](https://capacities.io) | Object-based notes with AI |
+| [Notion AI](tools/notion_ai.md) | AI inside the Notion workspace |
+| [Mem](tools/mem.md) | Self-organizing notes with persistent memory |
+| [Reflect](tools/reflect.md) | Networked notes with GPT-4o |
+| [Obsidian + Smart Connections](tools/obsidian.md) | `OSS` `Local` notes + AI plugins |
+| [Capacities](tools/capacities.md) | Object-based notes with AI |
 
 #### Email
 | Tool | Best for |
 | :-- | :-- |
-| [Superhuman](https://superhuman.com) | AI-native email triage and drafts |
-| [Shortwave](https://www.shortwave.com) | Gmail front-end with strong AI |
-| [Fyxer](https://www.fyxer.com) | AI executive assistant for inbox |
-| [SaneBox](https://www.sanebox.com) | AI email triage |
+| [Superhuman](tools/superhuman.md) | AI-native email triage and drafts |
+| [Shortwave](tools/shortwave.md) | Gmail front-end with strong AI |
+| [Fyxer](tools/fyxer.md) | AI executive assistant for inbox |
+| [SaneBox](tools/sanebox.md) | AI email triage |
 
 #### Scheduling & tasks
 | Tool | Best for |
 | :-- | :-- |
-| [Motion](https://www.usemotion.com) | Auto-schedules tasks into your calendar |
-| [Reclaim](https://reclaim.ai) | Defends focus time, syncs habits |
-| [Akiflow](https://akiflow.com) | Task aggregator + time blocking |
-| [Todoist AI](https://www.todoist.com) | Task suggestions + breakdowns |
-| [ChatPRD](https://www.chatprd.ai) | PRDs and product specs |
+| [Motion](tools/motion.md) | Auto-schedules tasks into your calendar |
+| [Reclaim](tools/reclaim.md) | Defends focus time, syncs habits |
+| [Akiflow](tools/akiflow.md) | Task aggregator + time blocking |
+| [Todoist AI](tools/todoist.md) | Task suggestions + breakdowns |
+| [ChatPRD](tools/chatprd.md) | PRDs and product specs |
 
 ### Agents & browser automation
 
@@ -515,18 +515,18 @@ General-purpose agents that can plan, browse, click, and execute multi-step work
 
 | Tool | Best for |
 | :-- | :-- |
-| [ChatGPT Operator / Agent](https://openai.com/index/introducing-operator) | OpenAI's browser-using agent in ChatGPT |
-| [Manus](https://manus.im) | Cloud agent; "My Computer" sandbox; acquired by Meta (Dec 2025) |
-| [Claude Computer Use](https://www.anthropic.com/news/3-5-models-and-computer-use) | API for screen / mouse / keyboard control |
-| [Gemini / Project Mariner](https://deepmind.google/technologies/project-mariner/) | Google's browser agent |
-| [Microsoft Copilot Actions](https://www.microsoft.com/en-us/microsoft-365-copilot) | Enterprise Copilot agents |
-| [Goose (Block)](https://block.github.io/goose/) | `OSS` local agent |
-| [Browser Use](https://browser-use.com) | `OSS` Python lib for LLM-controlled browsers |
-| [Browserbase + Stagehand](https://www.browserbase.com) | Headless browser infra for agents |
-| [AutoGPT](https://agpt.co) | `OSS` autonomous agent platform |
-| [CrewAI](https://www.crewai.com) | `OSS` multi-agent orchestration |
-| [LangGraph](https://www.langchain.com/langgraph) | `OSS` stateful agent graphs |
-| [Smolagents](https://github.com/huggingface/smolagents) | `OSS` minimal agent framework (HF) |
+| [ChatGPT Operator / Agent](tools/chatgpt_operator.md) | OpenAI's browser-using agent in ChatGPT |
+| [Manus](tools/manus.md) | Cloud agent; "My Computer" sandbox; acquired by Meta (Dec 2025) |
+| [Claude Computer Use](tools/claude_computer_use.md) | API for screen / mouse / keyboard control |
+| [Gemini / Project Mariner](tools/gemini.md) | Google's browser agent |
+| [Microsoft Copilot Actions](tools/microsoft_copilot.md) | Enterprise Copilot agents |
+| [Goose (Block)](tools/goose.md) | `OSS` local agent |
+| [Browser Use](tools/browser_use.md) | `OSS` Python lib for LLM-controlled browsers |
+| [Browserbase + Stagehand](tools/browserbase.md) | Headless browser infra for agents |
+| [AutoGPT](tools/autogpt.md) | `OSS` autonomous agent platform |
+| [CrewAI](tools/crewai.md) | `OSS` multi-agent orchestration |
+| [LangGraph](tools/langgraph.md) | `OSS` stateful agent graphs |
+| [Smolagents](tools/smolagents.md) | `OSS` minimal agent framework (HF) |
 
 ### Workflow automation
 
@@ -534,42 +534,42 @@ Connect apps and trigger AI in multi-step pipelines.
 
 | Tool | Best for |
 | :-- | :-- |
-| [n8n](https://n8n.io) | `OSS` self-hostable; the developer-favorite |
-| [Make](https://www.make.com) | Visual scenario builder with AI modules |
-| [Zapier AI](https://zapier.com/ai) | Largest app catalog; AI Actions + Agents |
-| [Pipedream](https://pipedream.com) | Code-first workflows with AI steps |
-| [Activepieces](https://www.activepieces.com) | `OSS` Zapier alternative |
-| [Lindy](https://www.lindy.ai) | AI assistant builder for ops workflows |
-| [Relevance AI](https://relevanceai.com) | No-code AI agent teams |
+| [n8n](tools/n8n.md) | `OSS` self-hostable; the developer-favorite |
+| [Make](tools/make.md) | Visual scenario builder with AI modules |
+| [Zapier AI](tools/zapier.md) | Largest app catalog; AI Actions + Agents |
+| [Pipedream](tools/pipedream.md) | Code-first workflows with AI steps |
+| [Activepieces](tools/activepieces.md) | `OSS` Zapier alternative |
+| [Lindy](tools/lindy.md) | AI assistant builder for ops workflows |
+| [Relevance AI](tools/relevance_ai.md) | No-code AI agent teams |
 
 ### Design (UI/UX, graphics, presentations)
 
 | Tool | Best for |
 | :-- | :-- |
-| [Figma + Figma Make](https://www.figma.com) | Industry standard; prompt-to-prototype |
-| [Google Stitch](https://stitch.withgoogle.com) | Prompt → editable UI design (formerly Galileo) |
-| [v0 by Vercel](https://v0.dev) | Prompt → React / Tailwind components |
-| [Uizard](https://uizard.io) | Wireframe to UI |
-| [Magic Patterns](https://www.magicpatterns.com) | Generate React + Figma UIs |
-| [Canva](https://www.canva.com) | Magic Studio: visuals at scale for non-designers |
-| [Adobe Firefly](https://www.adobe.com/products/firefly.html) | Generative inside Creative Cloud |
-| [Gamma](https://gamma.app) | AI presentations / decks / sites |
-| [Tome](https://tome.app) | AI decks + sales narratives |
-| [Beautiful.ai](https://www.beautiful.ai) | Smart slide templates |
-| [Recraft](https://www.recraft.ai) | Brand-consistent vector + raster |
+| [Figma + Figma Make](tools/figma.md) | Industry standard; prompt-to-prototype |
+| [Google Stitch](tools/google_stitch.md) | Prompt → editable UI design (formerly Galileo) |
+| [v0 by Vercel](tools/v0.md) | Prompt → React / Tailwind components |
+| [Uizard](tools/uizard.md) | Wireframe to UI |
+| [Magic Patterns](tools/magic_patterns.md) | Generate React + Figma UIs |
+| [Canva](tools/canva.md) | Magic Studio: visuals at scale for non-designers |
+| [Adobe Firefly](tools/adobe_firefly.md) | Generative inside Creative Cloud |
+| [Gamma](tools/gamma.md) | AI presentations / decks / sites |
+| [Tome](tools/tome.md) | AI decks + sales narratives |
+| [Beautiful.ai](tools/beautiful_ai.md) | Smart slide templates |
+| [Recraft](tools/recraft.md) | Brand-consistent vector + raster |
 
 ### Data, analysis & spreadsheets
 
 | Tool | Best for |
 | :-- | :-- |
-| [Julius](https://julius.ai) | Chat-driven data analysis on CSVs / sheets |
-| [Hex + Magic](https://hex.tech) | Notebook + AI for data teams |
-| [Mode + AI Assistant](https://mode.com) | BI with AI |
-| [Rows](https://rows.com) | AI spreadsheet |
-| [Bricks](https://www.thebricks.com) | Spreadsheet that talks back |
-| [Numerous](https://numerous.ai) | AI inside Sheets / Excel |
-| [Equals](https://equals.com) | Connected spreadsheet with AI |
-| [DataChat](https://datachat.ai) | Conversational analytics |
+| [Julius](tools/julius.md) | Chat-driven data analysis on CSVs / sheets |
+| [Hex + Magic](tools/hex.md) | Notebook + AI for data teams |
+| [Mode + AI Assistant](tools/mode.md) | BI with AI |
+| [Rows](tools/rows.md) | AI spreadsheet |
+| [Bricks](tools/bricks.md) | Spreadsheet that talks back |
+| [Numerous](tools/numerous.md) | AI inside Sheets / Excel |
+| [Equals](tools/equals.md) | Connected spreadsheet with AI |
+| [DataChat](tools/datachat.md) | Conversational analytics |
 
 <sub>[⤴ back to top](#top)</sub>
 
@@ -589,62 +589,62 @@ For the people writing software, training models, or shipping products.
 #### Terminal / agentic coding
 | Tool | Best for |
 | :-- | :-- |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Anthropic's CLI agent; full-codebase context, hooks, MCP, sub-agents |
-| [Codex CLI](https://github.com/openai/codex) | OpenAI's terminal agent; surged with GPT-5.5 |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | `OSS` Google terminal agent; ReAct loop, MCP, 1M context |
-| [Aider](https://aider.chat) | `OSS` pair-programming in the terminal; git-native |
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | `OSS` autonomous SWE agent (formerly OpenDevin) |
-| [SWE-agent](https://swe-agent.com) | `OSS` agent that fixes GitHub issues (Princeton) |
+| [Claude Code](tools/claude_code.md) | Anthropic's CLI agent; full-codebase context, hooks, MCP, sub-agents |
+| [Codex CLI](tools/codex_cli.md) | OpenAI's terminal agent; surged with GPT-5.5 |
+| [Gemini CLI](tools/gemini_cli.md) | `OSS` Google terminal agent; ReAct loop, MCP, 1M context |
+| [Aider](tools/aider.md) | `OSS` pair-programming in the terminal; git-native |
+| [OpenHands](tools/openhands.md) | `OSS` autonomous SWE agent (formerly OpenDevin) |
+| [SWE-agent](tools/swe_agent.md) | `OSS` agent that fixes GitHub issues (Princeton) |
 
 #### AI-native IDEs & editors
 | Tool | Best for |
 | :-- | :-- |
-| [Cursor](https://cursor.com) | Dominant AI IDE; Composer for multi-file edits, codebase indexing |
-| [Windsurf](https://windsurf.com) | Codeium's agentic IDE; Cascade flow, lower price |
-| [Zed](https://zed.dev) | `OSS` native, fast Rust-based editor with AI |
-| [Void](https://voideditor.com) | `OSS` Cursor alternative |
-| [Pochi](https://www.pochi.app) | VS Code-native agent (TabbyML); parallel agents, local models |
-| [Trae](https://trae.ai) | ByteDance's AI IDE |
+| [Cursor](tools/cursor.md) | Dominant AI IDE; Composer for multi-file edits, codebase indexing |
+| [Windsurf](tools/windsurf.md) | Codeium's agentic IDE; Cascade flow, lower price |
+| [Zed](tools/zed.md) | `OSS` native, fast Rust-based editor with AI |
+| [Void](tools/void.md) | `OSS` Cursor alternative |
+| [Pochi](tools/pochi.md) | VS Code-native agent (TabbyML); parallel agents, local models |
+| [Trae](tools/trae.md) | ByteDance's AI IDE |
 
 #### Inline completion / copilots
 | Tool | Best for |
 | :-- | :-- |
-| [GitHub Copilot](https://github.com/features/copilot) | Best inline autocomplete; deep JetBrains/VS Code support |
-| [Tabnine](https://www.tabnine.com) | Privacy-first; on-prem and air-gap |
-| [Codeium](https://codeium.com) | `Free` tier; many IDEs |
-| [Supermaven](https://supermaven.com) | Very fast completion; long context |
-| [Continue](https://continue.dev) | `OSS` BYO-model, VS Code/JetBrains |
+| [GitHub Copilot](tools/github_copilot.md) | Best inline autocomplete; deep JetBrains/VS Code support |
+| [Tabnine](tools/tabnine.md) | Privacy-first; on-prem and air-gap |
+| [Codeium](tools/codeium.md) | `Free` tier; many IDEs |
+| [Supermaven](tools/supermaven.md) | Very fast completion; long context |
+| [Continue](tools/continue.md) | `OSS` BYO-model, VS Code/JetBrains |
 
 #### Code review & quality
 | Tool | Best for |
 | :-- | :-- |
-| [CodeRabbit](https://www.coderabbit.ai) | AI PR reviewer with chat |
-| [Greptile](https://www.greptile.com) | Codebase Q&A and review |
-| [Cody (Sourcegraph)](https://sourcegraph.com/cody) | Codebase-aware assistant; enterprise |
-| [Qodo](https://www.qodo.ai) | Test generation + review (formerly Codium) |
-| [Diamond by Graphite](https://graphite.dev/diamond) | PR review tightly integrated with Graphite stacks |
+| [CodeRabbit](tools/coderabbit.md) | AI PR reviewer with chat |
+| [Greptile](tools/greptile.md) | Codebase Q&A and review |
+| [Cody (Sourcegraph)](tools/cody.md) | Codebase-aware assistant; enterprise |
+| [Qodo](tools/qodo.md) | Test generation + review (formerly Codium) |
+| [Diamond by Graphite](tools/diamond.md) | PR review tightly integrated with Graphite stacks |
 
 #### Cloud / remote SWE agents
 | Tool | Best for |
 | :-- | :-- |
-| [Devin](https://devin.ai) | Cognition's autonomous engineer |
-| [GitHub Copilot Coding Agent](https://github.com/features/copilot) | Assigns issues directly to Copilot; opens PRs |
-| [Replit Agent](https://replit.com) | Build, test, and deploy from a prompt |
+| [Devin](tools/devin.md) | Cognition's autonomous engineer |
+| [GitHub Copilot Coding Agent](tools/github_copilot.md) | Assigns issues directly to Copilot; opens PRs |
+| [Replit Agent](tools/replit_agent.md) | Build, test, and deploy from a prompt |
 
 ### App & web builders (vibe coding / no-code)
 
 | Tool | Best for |
 | :-- | :-- |
-| [Lovable](https://lovable.dev) | Full-stack from prompt; built-in hosting + Supabase + auth |
-| [Bolt.new](https://bolt.new) | Browser IDE; fastest path to a shareable demo |
-| [v0](https://v0.dev) | Best for Next.js teams; UI-first |
-| [Replit Agent](https://replit.com) | Glass-box: see and edit the code as it builds |
-| [Base44](https://base44.com) | All-in-one no-code app builder |
-| [Softr](https://www.softr.io) | No-code apps on top of Airtable / Sheets |
-| [Glide](https://www.glideapps.com) | No-code mobile-first apps |
-| [Bubble](https://bubble.io) | No-code with AI assist |
-| [Webflow + AI](https://webflow.com) | AI features in a designer-grade web builder |
-| [Framer](https://www.framer.com) | AI sites with strong design defaults |
+| [Lovable](tools/lovable.md) | Full-stack from prompt; built-in hosting + Supabase + auth |
+| [Bolt.new](tools/bolt_new.md) | Browser IDE; fastest path to a shareable demo |
+| [v0](tools/v0.md) | Best for Next.js teams; UI-first |
+| [Replit Agent](tools/replit_agent.md) | Glass-box: see and edit the code as it builds |
+| [Base44](tools/base44.md) | All-in-one no-code app builder |
+| [Softr](tools/softr.md) | No-code apps on top of Airtable / Sheets |
+| [Glide](tools/glide.md) | No-code mobile-first apps |
+| [Bubble](tools/bubble.md) | No-code with AI assist |
+| [Webflow + AI](tools/webflow.md) | AI features in a designer-grade web builder |
+| [Framer](tools/framer.md) | AI sites with strong design defaults |
 
 ### Local & open-source model runners
 
@@ -652,15 +652,15 @@ Run models on your own machine — no data leaves the device.
 
 | Tool | Best for |
 | :-- | :-- |
-| [Ollama](https://ollama.com) | The default; CLI-first, OpenAI-compatible API |
-| [LM Studio](https://lmstudio.ai) | Friendly GUI; HF browser; headless mode |
-| [Jan](https://jan.ai) | `OSS` desktop ChatGPT replacement |
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | `OSS` inference engine; backbone of most local tooling |
-| [text-generation-webui](https://github.com/oobabooga/text-generation-webui) | `OSS` power-user web UI |
-| [GPT4All](https://www.nomic.ai/gpt4all) | `OSS` desktop app for local LLMs |
-| [LocalAI](https://localai.io) | `OSS` OpenAI-compatible drop-in for local |
-| [vLLM](https://github.com/vllm-project/vllm) | `OSS` high-throughput serving |
-| [Open WebUI](https://openwebui.com) | `OSS` ChatGPT-style UI for Ollama / OpenAI-compatible APIs |
+| [Ollama](tools/ollama.md) | The default; CLI-first, OpenAI-compatible API |
+| [LM Studio](tools/lm_studio.md) | Friendly GUI; HF browser; headless mode |
+| [Jan](tools/jan.md) | `OSS` desktop ChatGPT replacement |
+| [llama.cpp](tools/llama_cpp.md) | `OSS` inference engine; backbone of most local tooling |
+| [text-generation-webui](tools/text_generation_webui.md) | `OSS` power-user web UI |
+| [GPT4All](tools/gpt4all.md) | `OSS` desktop app for local LLMs |
+| [LocalAI](tools/localai.md) | `OSS` OpenAI-compatible drop-in for local |
+| [vLLM](tools/vllm.md) | `OSS` high-throughput serving |
+| [Open WebUI](tools/open_webui.md) | `OSS` ChatGPT-style UI for Ollama / OpenAI-compatible APIs |
 
 **Notable open-weight model families (2026):** Llama (Meta) · Gemma (Google) · Qwen (Alibaba) · DeepSeek · Mistral · Kimi K2.x (Moonshot) · GLM (Zhipu) · Nemotron (NVIDIA) · Phi (Microsoft).
 
@@ -670,22 +670,22 @@ For developers building on top of models.
 
 | Provider | Best for |
 | :-- | :-- |
-| [Anthropic API](https://docs.anthropic.com) | Claude family; tool use, computer use, MCP |
-| [OpenAI Platform](https://platform.openai.com) | GPT, Realtime, Responses API, Agents SDK |
-| [Google AI Studio / Vertex](https://aistudio.google.com) | Gemini family |
-| [xAI](https://x.ai/api) | Grok API |
-| [Mistral La Plateforme](https://mistral.ai/) | EU-hosted models |
-| [DeepSeek API](https://platform.deepseek.com) | Cheap frontier reasoning |
-| [Together AI](https://www.together.ai) | OSS model hosting + fine-tuning |
-| [Fireworks AI](https://fireworks.ai) | Fast OSS model inference |
-| [Groq](https://groq.com) | LPU inference at very high TPS |
-| [Cerebras Inference](https://cerebras.ai) | Wafer-scale inference; very fast |
-| [Replicate](https://replicate.com) | Run any model via API |
-| [Hugging Face](https://huggingface.co) | Models, datasets, Spaces, Inference Endpoints |
-| [Modal](https://modal.com) · [Runpod](https://www.runpod.io) | GPU compute for AI workloads |
-| [LangChain](https://www.langchain.com) · [LlamaIndex](https://www.llamaindex.ai) | `OSS` app frameworks |
-| [Vercel AI SDK](https://sdk.vercel.ai) | TS-first AI app SDK |
-| [LiteLLM](https://github.com/BerriAI/litellm) | `OSS` unified API gateway across providers |
+| [Anthropic API](tools/anthropic_api.md) | Claude family; tool use, computer use, MCP |
+| [OpenAI Platform](tools/openai_platform.md) | GPT, Realtime, Responses API, Agents SDK |
+| [Google AI Studio / Vertex](tools/google_ai_studio.md) | Gemini family |
+| [xAI](tools/xai.md) | Grok API |
+| [Mistral La Plateforme](tools/mistral_la_plateforme.md) | EU-hosted models |
+| [DeepSeek API](tools/deepseek.md) | Cheap frontier reasoning |
+| [Together AI](tools/together.md) | OSS model hosting + fine-tuning |
+| [Fireworks AI](tools/fireworks.md) | Fast OSS model inference |
+| [Groq](tools/groq.md) | LPU inference at very high TPS |
+| [Cerebras Inference](tools/cerebras.md) | Wafer-scale inference; very fast |
+| [Replicate](tools/replicate.md) | Run any model via API |
+| [Hugging Face](tools/huggingface.md) | Models, datasets, Spaces, Inference Endpoints |
+| [Modal](tools/modal.md) · [Runpod](tools/runpod.md) | GPU compute for AI workloads |
+| [LangChain](tools/langchain.md) · [LlamaIndex](tools/llamaindex.md) | `OSS` app frameworks |
+| [Vercel AI SDK](tools/vercel_ai_sdk.md) | TS-first AI app SDK |
+| [LiteLLM](tools/litellm.md) | `OSS` unified API gateway across providers |
 
 <sub>[⤴ back to top](#top)</sub>
 
@@ -704,24 +704,24 @@ Apps designed around long-running emotional / social interaction rather than pro
 
 | Tool | Best for |
 | :-- | :-- |
-| [Nomi](https://nomi.ai) | Strong long-term memory; group chats; deep personalization |
-| [Replika](https://replika.com) | The original; gamified relationship + companion-world |
-| [Character.AI](https://character.ai) | Largest character library; generous `Free` tier |
-| [Kindroid](https://kindroid.ai) | Lifelike personalities, in-app social feed |
-| [Pi (Inflection)](https://pi.ai) | Calmer, conversational tone |
-| [Talkie](https://www.talkie-ai.com) | Mobile-first roleplay |
+| [Nomi](tools/nomi.md) | Strong long-term memory; group chats; deep personalization |
+| [Replika](tools/replika.md) | The original; gamified relationship + companion-world |
+| [Character.AI](tools/character_ai.md) | Largest character library; generous `Free` tier |
+| [Kindroid](tools/kindroid.md) | Lifelike personalities, in-app social feed |
+| [Pi (Inflection)](tools/pi.md) | Calmer, conversational tone |
+| [Talkie](tools/talkie.md) | Mobile-first roleplay |
 
 ### Education & learning
 
 | Tool | Best for |
 | :-- | :-- |
-| [Khanmigo](https://www.khanmigo.ai) | K-12 tutoring assistant (Khan Academy) |
-| [Quizlet AI](https://quizlet.com) | Flashcards + Q-Chat tutor |
-| [Duolingo Max](https://www.duolingo.com) | Roleplay + Explain My Answer |
-| [Speak](https://www.speak.com) | AI conversation for language learning |
-| [NotebookLM](https://notebooklm.google.com) | Turn course material into Q&A + audio |
-| [Brisk Teaching](https://www.briskteaching.com) | AI for teachers (lesson plans, feedback) |
-| [Eightify](https://eightify.app) | YouTube lecture summaries |
+| [Khanmigo](tools/khanmigo.md) | K-12 tutoring assistant (Khan Academy) |
+| [Quizlet AI](tools/quizlet.md) | Flashcards + Q-Chat tutor |
+| [Duolingo Max](tools/duolingo_max.md) | Roleplay + Explain My Answer |
+| [Speak](tools/speak.md) | AI conversation for language learning |
+| [NotebookLM](tools/notebooklm.md) | Turn course material into Q&A + audio |
+| [Brisk Teaching](tools/brisk_teaching.md) | AI for teachers (lesson plans, feedback) |
+| [Eightify](tools/eightify.md) | YouTube lecture summaries |
 
 <sub>[⤴ back to top](#top)</sub>
 
