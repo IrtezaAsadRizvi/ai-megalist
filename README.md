@@ -34,32 +34,32 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 | I want to... | Go to | Top picks |
 | :-- | :-- | :-- |
-| Chat with the smartest model | [General assistants](#general-purpose-assistants) | ChatGPT · Claude · Gemini |
-| Write or refactor code | [Coding](#coding) | Cursor · Claude Code · Copilot |
-| Build an app from a prompt | [App builders](#app--web-builders-vibe-coding--no-code) | Lovable · Bolt · v0 · Replit |
-| Search the web with citations | [AI search](#ai-search-engines) | Perplexity · Phind · Exa |
-| Read & question my own PDFs | [Research](#research--deep-research) | NotebookLM · SciSpace |
-| Run a multi-step research task | [Research](#research--deep-research) | ChatGPT Deep Research · Gemini DR |
-| Generate an image | [Image](#image-generation) | Midjourney · Flux · Ideogram |
-| Edit / upscale an image | [Image editing](#image-editing--object-work) | Photoshop GenFill · Magnific |
-| Generate a video | [Video](#video-generation) | Veo 3.1 · Runway · Kling |
-| Edit / repurpose video | [Video editing](#video-editing--repurposing) | Descript · Opus Clip · Captions |
-| Clone a voice / dub | [Voice](#voice--speech) | ElevenLabs · Cartesia |
-| Transcribe audio | [Transcription](#transcription--speech-to-text) | Whisper · Deepgram |
-| Make a song with AI | [Music](#music-generation) | Suno · Udio |
-| Take meeting notes | [Productivity → Meetings](#meeting-notes) | Granola · Fathom |
-| Triage my inbox | [Productivity → Email](#email) | Superhuman · Shortwave |
-| Auto-schedule my day | [Productivity → Tasks](#scheduling--tasks) | Motion · Reclaim |
-| Run an agent that uses my browser | [Agents](#agents--browser-automation) | Operator · Manus · Claude Computer Use |
-| Wire up multi-step automation | [Workflow automation](#workflow-automation) | n8n · Make · Zapier AI |
-| Design a UI | [Design](#design-uiux-graphics-presentations) | Figma Make · Stitch · v0 |
-| Make slides | [Decks](#design-uiux-graphics-presentations) | Gamma · Tome |
-| Talk to my spreadsheet | [Data](#data-analysis--spreadsheets) | Julius · Rows |
-| Run a model on my laptop | [Local](#local--open-source-model-runners) | Ollama · LM Studio · Jan |
-| Build on a model API | [APIs](#model-apis--dev-platforms) | Anthropic · OpenAI · Groq |
-| Find a study buddy | [Education](#education--learning) | NotebookLM · Khanmigo |
-| Have an AI companion | [Companions](#personal-companions) | Nomi · Replika · Character.AI |
-| Browse the web with AI built in | [AI browsers](#ai-browsers--sidebars) | Comet · Dia · Arc · Edge Copilot |
+| Chat with the smartest model | [General assistants](#general-purpose-assistants) | [ChatGPT](tools/chatgpt.md) · [Claude](tools/claude.md) · [Gemini](tools/gemini.md) |
+| Write or refactor code | [Coding](#coding) | [Cursor](tools/cursor.md) · [Claude Code](tools/claude_code.md) · [Copilot](tools/github_copilot.md) |
+| Build an app from a prompt | [App builders](#app--web-builders-vibe-coding--no-code) | [Lovable](tools/lovable.md) · [Bolt](tools/bolt_new.md) · [v0](tools/v0.md) · [Replit](tools/replit_agent.md) |
+| Search the web with citations | [AI search](#ai-search-engines) | [Perplexity](tools/perplexity.md) · [Phind](tools/phind.md) · [Exa](tools/exa.md) |
+| Read & question my own PDFs | [Research](#research--deep-research) | [NotebookLM](tools/notebooklm.md) · [SciSpace](tools/scispace.md) |
+| Run a multi-step research task | [Research](#research--deep-research) | [ChatGPT Deep Research](tools/chatgpt.md) · [Gemini DR](tools/gemini.md) |
+| Generate an image | [Image](#image-generation) | [Midjourney](tools/midjourney.md) · [Flux](tools/flux.md) · [Ideogram](tools/ideogram.md) |
+| Edit / upscale an image | [Image editing](#image-editing--object-work) | [Photoshop GenFill](tools/photoshop_genfill.md) · [Magnific](tools/magnific.md) |
+| Generate a video | [Video](#video-generation) | [Veo 3.1](tools/veo.md) · [Runway](tools/runway.md) · [Kling](tools/kling.md) |
+| Edit / repurpose video | [Video editing](#video-editing--repurposing) | [Descript](tools/descript.md) · [Opus Clip](tools/opus_clip.md) · [Captions](tools/captions.md) |
+| Clone a voice / dub | [Voice](#voice--speech) | [ElevenLabs](tools/elevenlabs.md) · [Cartesia](tools/cartesia.md) |
+| Transcribe audio | [Transcription](#transcription--speech-to-text) | [Whisper](tools/whisper.md) · [Deepgram](tools/deepgram.md) |
+| Make a song with AI | [Music](#music-generation) | [Suno](tools/suno.md) · [Udio](tools/udio.md) |
+| Take meeting notes | [Productivity → Meetings](#meeting-notes) | [Granola](tools/granola.md) · [Fathom](tools/fathom.md) |
+| Triage my inbox | [Productivity → Email](#email) | [Superhuman](tools/superhuman.md) · [Shortwave](tools/shortwave.md) |
+| Auto-schedule my day | [Productivity → Tasks](#scheduling--tasks) | [Motion](tools/motion.md) · [Reclaim](tools/reclaim.md) |
+| Run an agent that uses my browser | [Agents](#agents--browser-automation) | [Operator](tools/chatgpt_operator.md) · [Manus](tools/manus.md) · [Claude Computer Use](tools/claude_computer_use.md) |
+| Wire up multi-step automation | [Workflow automation](#workflow-automation) | [n8n](tools/n8n.md) · [Make](tools/make.md) · [Zapier AI](tools/zapier.md) |
+| Design a UI | [Design](#design-uiux-graphics-presentations) | [Figma Make](tools/figma.md) · [Stitch](tools/google_stitch.md) · [v0](tools/v0.md) |
+| Make slides | [Decks](#design-uiux-graphics-presentations) | [Gamma](tools/gamma.md) · [Tome](tools/tome.md) |
+| Talk to my spreadsheet | [Data](#data-analysis--spreadsheets) | [Julius](tools/julius.md) · [Rows](tools/rows.md) |
+| Run a model on my laptop | [Local](#local--open-source-model-runners) | [Ollama](tools/ollama.md) · [LM Studio](tools/lm_studio.md) · [Jan](tools/jan.md) |
+| Build on a model API | [APIs](#model-apis--dev-platforms) | [Anthropic](tools/anthropic_api.md) · [OpenAI](tools/openai_platform.md) · [Groq](tools/groq.md) |
+| Find a study buddy | [Education](#education--learning) | [NotebookLM](tools/notebooklm.md) · [Khanmigo](tools/khanmigo.md) |
+| Have an AI companion | [Companions](#personal-companions) | [Nomi](tools/nomi.md) · [Replika](tools/replika.md) · [Character.AI](tools/character_ai.md) |
+| Browse the web with AI built in | [AI browsers](#ai-browsers--sidebars) | [Comet](tools/comet.md) · [Dia](tools/dia.md) · [Arc](tools/arc_search.md) · [Edge Copilot](tools/edge_copilot.md) |
 
 <sub>[⤴ back to top](#top)</sub>
 
