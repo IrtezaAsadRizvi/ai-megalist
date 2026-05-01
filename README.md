@@ -87,13 +87,13 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 | Job | Default | Alternates |
 | :-- | :-- | :-- |
-| Daily driver chat | **Claude** | ChatGPT · Gemini |
-| In-editor pair programmer | **Cursor** | Windsurf · Zed · Copilot |
-| Terminal coding agent | **Claude Code** | Codex CLI · Aider · Gemini CLI |
-| PR review | **CodeRabbit** | Greptile · Diamond · Qodo |
-| Cloud SWE agent | **Devin** | Copilot Coding Agent · Replit Agent |
-| Search docs / SO | **Phind** | Perplexity · Exa |
-| Local model runner | **Ollama** | LM Studio · Jan |
+| Daily driver chat | **[Claude](tools/claude.md)** | [ChatGPT](tools/chatgpt.md) · [Gemini](tools/gemini.md) |
+| In-editor pair programmer | **[Cursor](tools/cursor.md)** | [Windsurf](tools/windsurf.md) · [Zed](tools/zed.md) · [Copilot](tools/github_copilot.md) |
+| Terminal coding agent | **[Claude Code](tools/claude_code.md)** | [Codex CLI](tools/codex_cli.md) · [Aider](tools/aider.md) · [Gemini CLI](tools/gemini_cli.md) |
+| PR review | **[CodeRabbit](tools/coderabbit.md)** | [Greptile](tools/greptile.md) · [Diamond](tools/diamond.md) · [Qodo](tools/qodo.md) |
+| Cloud SWE agent | **[Devin](tools/devin.md)** | [Copilot Coding Agent](tools/github_copilot.md) · [Replit Agent](tools/replit_agent.md) |
+| Search docs / SO | **[Phind](tools/phind.md)** | [Perplexity](tools/perplexity.md) · [Exa](tools/exa.md) |
+| Local model runner | **[Ollama](tools/ollama.md)** | [LM Studio](tools/lm_studio.md) · [Jan](tools/jan.md) |
 
 <sub>→ Deeper: [Coding](#coding) · [Local & OSS](#local--open-source-model-runners)</sub>
 
@@ -102,12 +102,12 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 | Job | Default | Alternates |
 | :-- | :-- | :-- |
-| Daily driver | **Claude** *(long-context)* | Gemini · ChatGPT |
-| Multi-step deep research | **ChatGPT Deep Research** | Gemini Deep Research · Claude Research |
-| Q&A on your own PDFs | **NotebookLM** | SciSpace · Explainpaper |
-| Literature search | **Elicit** | Consensus · Undermind |
-| Cited web answers | **Perplexity** | Exa · Tavily |
-| Wikipedia-style writeups | **STORM** `OSS` | — |
+| Daily driver | **[Claude](tools/claude.md)** *(long-context)* | [Gemini](tools/gemini.md) · [ChatGPT](tools/chatgpt.md) |
+| Multi-step deep research | **[ChatGPT Deep Research](tools/chatgpt.md)** | [Gemini Deep Research](tools/gemini.md) · [Claude Research](tools/claude.md) |
+| Q&A on your own PDFs | **[NotebookLM](tools/notebooklm.md)** | [SciSpace](tools/scispace.md) · [Explainpaper](tools/explainpaper.md) |
+| Literature search | **[Elicit](tools/elicit.md)** | [Consensus](tools/consensus.md) · [Undermind](tools/undermind.md) |
+| Cited web answers | **[Perplexity](tools/perplexity.md)** | [Exa](tools/exa.md) · [Tavily](tools/tavily.md) |
+| Wikipedia-style writeups | **[STORM](tools/storm.md)** `OSS` | — |
 
 <sub>→ Deeper: [Research](#research--deep-research) · [AI search](#ai-search-engines)</sub>
 
@@ -116,14 +116,14 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 | Job | Default | Alternates |
 | :-- | :-- | :-- |
-| Daily driver | **ChatGPT** / **Claude** | Gemini |
-| Brand voice + templates | **Jasper** | Writer · Copy.ai |
-| SEO content + briefs | **Surfer SEO** | Frase · Writesonic |
-| Visuals at scale | **Canva Magic Studio** | Adobe Firefly |
-| Decks & landing pages | **Gamma** | Tome · Beautiful.ai |
-| Email + outreach | **Superhuman** | Shortwave · Fyxer |
-| Repurpose video → clips | **Opus Clip** | Captions · Submagic · Descript |
-| Campaign images | **Midjourney** + **Ideogram** *(text)* | DALL·E · Flux |
+| Daily driver | **[ChatGPT](tools/chatgpt.md)** / **[Claude](tools/claude.md)** | [Gemini](tools/gemini.md) |
+| Brand voice + templates | **[Jasper](tools/jasper.md)** | [Writer](tools/writer.md) · [Copy.ai](tools/copy_ai.md) |
+| SEO content + briefs | **[Surfer SEO](tools/surfer_seo.md)** | [Frase](tools/frase.md) · [Writesonic](tools/writesonic.md) |
+| Visuals at scale | **[Canva Magic Studio](tools/canva.md)** | [Adobe Firefly](tools/adobe_firefly.md) |
+| Decks & landing pages | **[Gamma](tools/gamma.md)** | [Tome](tools/tome.md) · [Beautiful.ai](tools/beautiful_ai.md) |
+| Email + outreach | **[Superhuman](tools/superhuman.md)** | [Shortwave](tools/shortwave.md) · [Fyxer](tools/fyxer.md) |
+| Repurpose video → clips | **[Opus Clip](tools/opus_clip.md)** | [Captions](tools/captions.md) · [Submagic](tools/submagic.md) · [Descript](tools/descript.md) |
+| Campaign images | **[Midjourney](tools/midjourney.md)** + **[Ideogram](tools/ideogram.md)** *(text)* | [DALL·E](tools/chatgpt.md) · [Flux](tools/flux.md) |
 
 <sub>→ Deeper: [Writing](#writing--content) · [Design](#design-uiux-graphics-presentations) · [Image](#image-generation)</sub>
 
@@ -132,15 +132,15 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 | Job | Default | Alternates |
 | :-- | :-- | :-- |
-| Scripting + ideation | **Claude** / **ChatGPT** | Gemini |
-| Text → video | **Veo 3.1** | Runway · Kling · Pika |
-| Edit by transcript | **Descript** | CapCut |
-| Short-form clips from a podcast | **Opus Clip** | Captions · Submagic · Klap |
-| AI avatars / explainers | **HeyGen** | Synthesia · Tavus |
-| Voice / dubbing | **ElevenLabs** | PlayHT · Cartesia |
-| Music beds | **Suno** | Udio · Mubert |
-| Thumbnails | **Midjourney** + **Ideogram** | Flux · Recraft |
-| Upscale old footage | **Topaz Video AI** | Magnific *(stills)* |
+| Scripting + ideation | **[Claude](tools/claude.md)** / **[ChatGPT](tools/chatgpt.md)** | [Gemini](tools/gemini.md) |
+| Text → video | **[Veo 3.1](tools/veo.md)** | [Runway](tools/runway.md) · [Kling](tools/kling.md) · [Pika](tools/pika.md) |
+| Edit by transcript | **[Descript](tools/descript.md)** | [CapCut](tools/capcut.md) |
+| Short-form clips from a podcast | **[Opus Clip](tools/opus_clip.md)** | [Captions](tools/captions.md) · [Submagic](tools/submagic.md) · [Klap](tools/klap.md) |
+| AI avatars / explainers | **[HeyGen](tools/heygen.md)** | [Synthesia](tools/synthesia.md) · [Tavus](tools/tavus.md) |
+| Voice / dubbing | **[ElevenLabs](tools/elevenlabs.md)** | [PlayHT](tools/playht.md) · [Cartesia](tools/cartesia.md) |
+| Music beds | **[Suno](tools/suno.md)** | [Udio](tools/udio.md) · [Mubert](tools/mubert.md) |
+| Thumbnails | **[Midjourney](tools/midjourney.md)** + **[Ideogram](tools/ideogram.md)** | [Flux](tools/flux.md) · [Recraft](tools/recraft.md) |
+| Upscale old footage | **[Topaz Video AI](tools/topaz_video.md)** | [Magnific](tools/magnific.md) *(stills)* |
 
 <sub>→ Deeper: [Video](#video-generation) · [Voice](#voice--speech) · [Music](#music-generation)</sub>
 
@@ -149,14 +149,14 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 | Job | Default | Alternates |
 | :-- | :-- | :-- |
-| Daily UI + handoff | **Figma + Figma Make** | — |
-| Prompt → editable UI | **Google Stitch** *(ex-Galileo)* | Uizard · Magic Patterns |
-| Prompt → React / Tailwind | **v0** | Magic Patterns |
-| Brand visuals | **Recraft** | Adobe Firefly · Canva |
-| Mood / concept boards | **Midjourney** | Krea · Leonardo |
-| Photo edit / inpaint | **Photoshop Generative Fill** | Magnific · Clipdrop |
-| Product photos | **Photoroom** | Pebblely |
-| Client decks | **Gamma** | Tome |
+| Daily UI + handoff | **[Figma + Figma Make](tools/figma.md)** | — |
+| Prompt → editable UI | **[Google Stitch](tools/google_stitch.md)** *(ex-Galileo)* | [Uizard](tools/uizard.md) · [Magic Patterns](tools/magic_patterns.md) |
+| Prompt → React / Tailwind | **[v0](tools/v0.md)** | [Magic Patterns](tools/magic_patterns.md) |
+| Brand visuals | **[Recraft](tools/recraft.md)** | [Adobe Firefly](tools/adobe_firefly.md) · [Canva](tools/canva.md) |
+| Mood / concept boards | **[Midjourney](tools/midjourney.md)** | [Krea](tools/krea.md) · [Leonardo](tools/leonardo.md) |
+| Photo edit / inpaint | **[Photoshop Generative Fill](tools/photoshop_genfill.md)** | [Magnific](tools/magnific.md) · [Clipdrop](tools/clipdrop.md) |
+| Product photos | **[Photoroom](tools/photoroom.md)** | Pebblely |
+| Client decks | **[Gamma](tools/gamma.md)** | [Tome](tools/tome.md) |
 
 <sub>→ Deeper: [Design](#design-uiux-graphics-presentations) · [Image](#image-generation)</sub>
 
@@ -165,16 +165,16 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 | Job | Default | Alternates |
 | :-- | :-- | :-- |
-| Daily driver | **ChatGPT** / **Claude** | Gemini |
-| Prompt → live app | **Lovable** | Bolt.new · Replit Agent |
-| In-editor coding | **Cursor** | Windsurf |
-| Landing + content | **Framer** + **Gamma** | Webflow · v0 |
-| Logo / brand mark | **Recraft** + **Ideogram** | Midjourney |
-| Inbox + outreach | **Superhuman** | Shortwave |
+| Daily driver | **[ChatGPT](tools/chatgpt.md)** / **[Claude](tools/claude.md)** | [Gemini](tools/gemini.md) |
+| Prompt → live app | **[Lovable](tools/lovable.md)** | [Bolt.new](tools/bolt_new.md) · [Replit Agent](tools/replit_agent.md) |
+| In-editor coding | **[Cursor](tools/cursor.md)** | [Windsurf](tools/windsurf.md) |
+| Landing + content | **[Framer](tools/framer.md)** + **[Gamma](tools/gamma.md)** | [Webflow](tools/webflow.md) · [v0](tools/v0.md) |
+| Logo / brand mark | **[Recraft](tools/recraft.md)** + **[Ideogram](tools/ideogram.md)** | [Midjourney](tools/midjourney.md) |
+| Inbox + outreach | **[Superhuman](tools/superhuman.md)** | [Shortwave](tools/shortwave.md) |
 | Outbound list-building | **Clay** | Apollo |
-| Browser agent for ops | **ChatGPT Operator** | Manus |
-| Multi-step automation | **n8n** `OSS` | Make · Zapier AI |
-| Meeting notes | **Granola** | Fathom |
+| Browser agent for ops | **[ChatGPT Operator](tools/chatgpt_operator.md)** | [Manus](tools/manus.md) |
+| Multi-step automation | **[n8n](tools/n8n.md)** `OSS` | [Make](tools/make.md) · [Zapier AI](tools/zapier.md) |
+| Meeting notes | **[Granola](tools/granola.md)** | [Fathom](tools/fathom.md) |
 
 <sub>→ Deeper: [App builders](#app--web-builders-vibe-coding--no-code) · [Agents](#agents--browser-automation)</sub>
 
@@ -183,13 +183,13 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 | Job | Default | Alternates |
 | :-- | :-- | :-- |
-| Study buddy | **ChatGPT** / **Claude** | Gemini |
-| Lecture / paper Q&A | **NotebookLM** | SciSpace |
-| K-12 / math tutoring | **Khanmigo** | — |
-| Flashcards | **Quizlet AI** | Anki + GPT |
-| Language practice | **Speak** · **Duolingo Max** | — |
-| Long video → notes | **Eightify** | NotebookLM |
-| Cite-able answers | **Perplexity** | Consensus |
+| Study buddy | **[ChatGPT](tools/chatgpt.md)** / **[Claude](tools/claude.md)** | [Gemini](tools/gemini.md) |
+| Lecture / paper Q&A | **[NotebookLM](tools/notebooklm.md)** | [SciSpace](tools/scispace.md) |
+| K-12 / math tutoring | **[Khanmigo](tools/khanmigo.md)** | — |
+| Flashcards | **[Quizlet AI](tools/quizlet.md)** | Anki + GPT |
+| Language practice | **[Speak](tools/speak.md)** · **[Duolingo Max](tools/duolingo_max.md)** | — |
+| Long video → notes | **[Eightify](tools/eightify.md)** | [NotebookLM](tools/notebooklm.md) |
+| Cite-able answers | **[Perplexity](tools/perplexity.md)** | [Consensus](tools/consensus.md) |
 
 <sub>→ Deeper: [Education](#education--learning) · [Research](#research--deep-research)</sub>
 
@@ -198,15 +198,15 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 | Job | Default | Alternates |
 | :-- | :-- | :-- |
-| Daily driver | **ChatGPT** / **Claude** | Gemini |
-| Meeting notes | **Granola** | Fathom · Notion AI |
-| Inbox triage | **Superhuman** | Shortwave · Fyxer |
-| Calendar + tasks | **Motion** | Reclaim |
-| Second-brain | **Notion AI** | Mem · Reflect |
-| Decks | **Gamma** | Tome |
-| Talk to spreadsheets | **Julius** | Numerous · Rows |
-| PRDs / specs | **ChatPRD** | Claude · Notion AI |
-| Cite-able research | **Perplexity** | Gemini Deep Research |
+| Daily driver | **[ChatGPT](tools/chatgpt.md)** / **[Claude](tools/claude.md)** | [Gemini](tools/gemini.md) |
+| Meeting notes | **[Granola](tools/granola.md)** | [Fathom](tools/fathom.md) · [Notion AI](tools/notion_ai.md) |
+| Inbox triage | **[Superhuman](tools/superhuman.md)** | [Shortwave](tools/shortwave.md) · [Fyxer](tools/fyxer.md) |
+| Calendar + tasks | **[Motion](tools/motion.md)** | [Reclaim](tools/reclaim.md) |
+| Second-brain | **[Notion AI](tools/notion_ai.md)** | [Mem](tools/mem.md) · [Reflect](tools/reflect.md) |
+| Decks | **[Gamma](tools/gamma.md)** | [Tome](tools/tome.md) |
+| Talk to spreadsheets | **[Julius](tools/julius.md)** | [Numerous](tools/numerous.md) · [Rows](tools/rows.md) |
+| PRDs / specs | **[ChatPRD](tools/chatprd.md)** | [Claude](tools/claude.md) · [Notion AI](tools/notion_ai.md) |
+| Cite-able research | **[Perplexity](tools/perplexity.md)** | [Gemini Deep Research](tools/gemini.md) |
 
 <sub>→ Deeper: [Productivity](#productivity-notes-meetings-email-scheduling)</sub>
 
