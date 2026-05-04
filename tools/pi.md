@@ -1,6 +1,6 @@
-# Pi
+# Pi: conversational personal AI from Inflection
 
-Pi was Inflection AI's bet on a personal AI built around emotional intelligence and conversational warmth rather than utility. It launched in 2023, attracted serious users for its calm tone and active listening style, and changed shape after Inflection's leadership and core team moved to Microsoft in 2024. The product is still online and still distinctive; just operating in a smaller orbit than its early hype suggested.
+Pi sits in the personal companions category alongside [Replika](replika.md), [Nomi](nomi.md), and [Character.AI](character_ai.md), but tuned for warmth over roleplay. Pi was Inflection AI's bet on a personal AI built around emotional intelligence and conversational warmth rather than utility. It launched in 2023, attracted serious users for its calm tone and active listening style, and changed shape after Inflection's leadership and core team moved to Microsoft in 2024. The product is still online and still distinctive; just operating in a smaller orbit than its early hype suggested.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ It's not the model I'd use for code or research; Pi knows that and doesn't prete
 * Pi declines a lot of utility tasks; it's tuned for conversation, not commands.
 * Voice quality is excellent but token throughput in voice mode is bounded by latency; some pauses are noticeable.
 * No paid tier means no SLA; treat it as a casual companion, not infrastructure.
+
+## Alternatives
+
+* If you want strong long-term memory and group chats, [Nomi](nomi.md) is the deeper companion.
+* If you want a gamified relationship and the original companion experience, [Replika](replika.md) is the long-running incumbent.
+* If you want thousands of community-made characters and roleplay, [Character.AI](character_ai.md) is the right fit.
+* If you actually want utility (code, research, drafts), [Claude](claude.md) or [ChatGPT](chatgpt.md) will outperform Pi by a wide margin.
+
+## FAQ
+
+### Is Pi free?
+
+Yes. As of writing there's no paid tier - the whole product is free. That also means no SLA; treat it as a casual companion, not infrastructure.
+
+### Is Pi still being developed?
+
+Uncertain. Inflection's founders and most of the team moved to Microsoft in early 2024, and the product's resourcing dropped after that. The site is still online and the model still works, but expect a slower release cadence than the frontier labs.
+
+### Pi vs Replika - which one?
+
+Different vibes. Pi is calmer, conversational-by-default, and not romantic. [Replika](replika.md) is built around a persistent character relationship, includes a 3D avatar, and offers explicit relationship modes. Pick Pi for thinking-out-loud, Replika for companionship.
+
+### Does Pi have voice mode?
+
+Yes - six TTS voices, and the voice quality is one of Pi's standout features. Pauses can be noticeable due to latency, but the conversational feel is the closest to a real call I've used in this category.
 
 ## Pointers
 

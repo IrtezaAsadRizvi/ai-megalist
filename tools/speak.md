@@ -1,6 +1,6 @@
-# Speak
+# Speak: AI conversation practice for language learners
 
-Speak is the AI conversation partner for language learners. Where Duolingo Max layers AI on top of a curriculum, Speak is conversation first — the entire experience is "talk to the AI in your target language about something." For learners past beginner level, the unscripted speaking practice is what closes the gap to fluency.
+Speak is the AI conversation-first language learning app, the spoken-practice complement to curriculum tools like [Duolingo Max](duolingo_max.md). Speak is the AI conversation partner for language learners. Where Duolingo Max layers AI on top of a curriculum, Speak is conversation first - the entire experience is "talk to the AI in your target language about something." For learners past beginner level, the unscripted speaking practice is what closes the gap to fluency.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ A mobile app (iOS + Android) and web app from Speak. Built around free form spok
 * Speech recognition struggles in noisy environments; quiet space + decent mic improves reliability.
 * No human tutor in the loop. For accountability and nuanced feedback, supplement with italki or in person classes.
 * Pricing: Premium Plus ($24/mo annual) is real money. Verify on free tier whether it suits your style.
+
+## Alternatives
+
+* If you want a curriculum and gamified streaks alongside AI features, [Duolingo Max](duolingo_max.md) is the structured path.
+* If you want a human tutor on a per-session basis, italki and Preply are the realistic options.
+* If you want general voice chat in any language and don't need curriculum at all, [ChatGPT](chatgpt.md) Voice Mode does the unscripted-conversation job for free at Plus tier.
+* If you mostly need vocab drilling, [Quizlet AI](quizlet.md) or Anki + GPT covers that.
+
+## FAQ
+
+### Is Speak free?
+
+The free tier covers 3 lessons per day. Premium ($14/mo annual, $99/year) lifts that and adds full features; Premium Plus ($24/mo annual) unlocks unlimited AI Tutor conversation. Premium Plus is real money - try free first.
+
+### Speak vs Duolingo Max - which should I use?
+
+Different jobs. [Duolingo Max](duolingo_max.md) is curriculum-first with AI bolted on. Speak is conversation-first with no curriculum scaffold. Past beginner level, Speak closes the gap to fluency faster; for total beginners, Duolingo's structure helps more.
+
+### What languages does Speak support?
+
+English, Spanish, French, German, Italian, Japanese, Mandarin, Korean, plus a few more. The product was originally Korean-only and has expanded since 2023; check the latest list before committing.
+
+### Does Speak replace a human tutor?
+
+For unscripted speaking practice, mostly yes. For accountability, nuanced grammatical feedback, and cultural context, no - a human tutor still wins. Best results come from pairing Speak with weekly italki / Preply sessions.
 
 ## Pointers
 

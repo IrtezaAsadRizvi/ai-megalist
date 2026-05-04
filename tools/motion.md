@@ -1,6 +1,6 @@
-# Motion
+# Motion: AI calendar that schedules tasks for you
 
-Motion is the calendar app that schedules itself. You add tasks with priorities and durations; Motion picks where they go on your calendar, defends the time, and reshuffles when something changes. The first week feels weird (the AI moved my meetings); the second week, you realise you've been planning your day wrong for years.
+Motion is an AI scheduling app in the productivity category alongside [Reclaim](reclaim.md) and [Akiflow](akiflow.md), pitched as the calendar that auto-books your tasks. Motion is the calendar app that schedules itself. You add tasks with priorities and durations; Motion picks where they go on your calendar, defends the time, and reshuffles when something changes. The first week feels weird (the AI moved my meetings); the second week, you realise you've been planning your day wrong for years.
 
 ## What it actually is
 
@@ -9,7 +9,7 @@ A web + iOS/Android app combining calendar, tasks, and projects, with an AI sche
 ## Setup
 
 1. Go to [usemotion.com](https://www.usemotion.com), sign up.
-2. Pricing: Pro $19/mo (annual), $34/mo (monthly). No free tier — there's a free trial.
+2. Pricing: Pro $19/mo (annual), $34/mo (monthly). No free tier - there's a free trial.
 3. Connect your calendar(s). Motion treats your existing meetings as fixed and schedules tasks around them.
 4. Set work hours (when Motion is allowed to schedule), set priorities (urgent vs medium), add tasks with estimated durations.
 5. Motion produces a daily plan. Adjust the plan or trust it.
@@ -31,6 +31,31 @@ About 15 minutes to set up; the value compounds over weeks.
 * Calendar mods from outside Motion (someone moves your meeting in Google) sometimes confuse the scheduler. Refresh.
 * The project management features are decent but if your team uses Linear / Jira, Motion's PM layer feels like overhead. Use it for personal scheduling and ignore the team features.
 * Pricing is high vs comparable tools. The argument is that better focus time is worth it; verify on your own week before paying.
+
+## Alternatives
+
+* If you want the same auto-scheduling idea at half the price, [Reclaim](reclaim.md) is the lighter pick.
+* If you want to aggregate tasks from many tools without auto-scheduling, [Akiflow](akiflow.md) is the time-blocker.
+* If you mostly need a smarter task list with AI breakdowns, [Todoist AI](todoist.md) is the simpler tool.
+* If meeting notes are the bigger pain than scheduling, pair Motion with [Granola](granola.md) instead of switching tools.
+
+## FAQ
+
+### Is Motion free?
+
+No - there's a free trial but no permanent free tier. Pro is $19/mo annual ($34/mo monthly). Pricing is high vs Reclaim ($10/mo) but the auto-scheduling logic is more aggressive.
+
+### Motion vs Reclaim - which should I use?
+
+Motion when you want the calendar to make scheduling decisions for you, including reflowing meetings. [Reclaim](reclaim.md) when you want a simpler focus-time defender at half the price. Motion is more opinionated; Reclaim is gentler.
+
+### Does Motion work with Google Calendar?
+
+Yes, plus iCal and Outlook. Motion treats your existing meetings as fixed and schedules tasks around them. Calendar mods from outside Motion sometimes confuse the scheduler - refresh when that happens.
+
+### Is the auto-scheduler reliable?
+
+Mostly. The first week feels weird because the AI moves your meetings; the second week it clicks. Habit cost is real - either commit for two weeks or don't bother.
 
 ## Pointers
 

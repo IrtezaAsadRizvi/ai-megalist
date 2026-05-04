@@ -1,6 +1,6 @@
-# Pipedream
+# Pipedream: code-first workflow automation with AI steps
 
-Pipedream is the workflow automation platform built for developers who'd rather write a Node or Python step than drag and drop in Zapier. Each step is real code with full access to npm or pip; the platform handles auth, scheduling, and event sources. With AI steps now first class, it's a credible "code first n8n" with a hosted twist.
+Pipedream sits in the workflow automation category, the developer's pick alongside [n8n](n8n.md), [Make](make.md), and [Zapier](zapier.md). Pipedream is the workflow automation platform built for developers who'd rather write a Node or Python step than drag and drop in Zapier. Each step is real code with full access to npm or pip; the platform handles auth, scheduling, and event sources. With AI steps now first class, it's a credible "code first n8n" with a hosted twist.
 
 ## What it actually is
 
@@ -28,6 +28,31 @@ For pure point and click automation, Zapier is friendlier. For self hosted contr
 * Code steps run in their own sandboxes; cold starts add latency. For latency sensitive paths, bake in a warm trigger.
 * Logging is good; debugging long workflows can still be tedious. Test step by step.
 * The platform stores secrets and OAuth tokens; trust model is "their cloud, their security." Read the policy before connecting sensitive accounts.
+
+## Alternatives
+
+* If you want OSS and self-hosting, [n8n](n8n.md) is the developer favorite.
+* If you'd rather drag-and-drop than write code, [Make](make.md) has a more visual scenario builder.
+* If you need the largest catalog of pre-built integrations, [Zapier](zapier.md) is broader.
+* If your work is specifically agent-shaped (planning, tool use, state), [LangGraph](langgraph.md) is the right primitive.
+
+## FAQ
+
+### Is Pipedream free?
+
+Yes, and the free tier is real, not a trial. It caps invocations and credits but works for personal automations. Paid tiers raise limits, lengthen timeouts, and add team features.
+
+### Pipedream vs n8n - which one?
+
+Different deployment models. Pipedream is hosted SaaS; [n8n](n8n.md) is OSS and self-hosted (or hosted by them). Pick Pipedream when you don't want to run servers; n8n when you want full control or compliance demands self-hosting.
+
+### Does Pipedream support custom code?
+
+Yes - that's its main pitch. Each step can be Node.js, Python, Go, or Bash with full npm/pip access. This is the differentiator versus Zapier.
+
+### Can Pipedream call AI models?
+
+Yes - AI is a first-class step type. Drop in OpenAI or Anthropic steps, or call any HTTP API directly. Combined with prebuilt event sources, it's a fast way to build "webhook arrives, LLM enriches, post somewhere" flows.
 
 ## Pointers
 

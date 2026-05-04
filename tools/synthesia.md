@@ -1,6 +1,6 @@
-# Synthesia
+# Synthesia: AI avatar video for corporate training and L&D
 
-Synthesia is the AI avatar video tool for corporate and training content. Where HeyGen leans toward creators and personal avatars, Synthesia targets the L&D / training / enterprise communications use case — a library of stock avatars, templates, multi language voice, and the integrations a corporate customer expects (SSO, branding, audit trails). For internal training videos, Synthesia is often the first call.
+Synthesia is the AI avatar video platform for corporate L&D and training, the enterprise-flavoured alternative to creator-friendly [HeyGen](heygen.md) and personalisation-focused [Tavus](tavus.md). Synthesia is the AI avatar video tool for corporate and training content. Where HeyGen leans toward creators and personal avatars, Synthesia targets the L&D / training / enterprise communications use case - a library of stock avatars, templates, multi language voice, and the integrations a corporate customer expects (SSO, branding, audit trails). For internal training videos, Synthesia is often the first call.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ A web app for generating AI presenter videos from scripts. Pick an avatar (140+ 
 * For consumer / creator use cases, [heygen.md](heygen.md) is friendlier and often cheaper.
 * The "AI presenter" aesthetic is widely recognised now; viewers know it's AI. For brand contexts where authenticity matters, weigh carefully.
 * Custom avatars require studio recording (in person or remote) and approval. Plan ahead.
+
+## Alternatives
+
+* If you're a creator (not enterprise) and want friendlier pricing, [HeyGen](heygen.md) is the better fit.
+* If you need personalised video at scale driven by a CRM, [Tavus](tavus.md) is shaped for that.
+* If you only need voice without an avatar, [ElevenLabs](elevenlabs.md) gets you there cheaper.
+* If you want full editing alongside avatars (cuts, transitions, mixing), [Descript](descript.md) covers more of the timeline.
+
+## FAQ
+
+### Is Synthesia free?
+
+There's a free demo for new accounts but no ongoing free tier. Pricing is Personal $22/mo (10 min/mo), Starter $89/mo for more minutes, Enterprise quoted. Minutes are the primary cost driver.
+
+### Synthesia vs HeyGen - which should I use?
+
+Different audiences. Synthesia is enterprise / L&D - SSO, audit trails, governance. [HeyGen](heygen.md) is creator-friendly - personal avatars, social formats, looser pricing. For internal training, Synthesia; for personal brand or YouTube avatars, HeyGen.
+
+### Can I use my own face?
+
+Yes - custom avatars require a studio recording (in person or remote) plus approval. Plan ahead; the process is slow compared to HeyGen's self-serve avatar creation.
+
+### How many languages does Synthesia support?
+
+About 140 languages with matched lip sync. Quality is reliable on major languages and uneven on long-tail ones; test the specific language before committing to a multilingual rollout.
 
 ## Pointers
 

@@ -1,13 +1,13 @@
-# Krisp
+# Krisp: noise cancellation plus bot-free meeting notes
 
-Krisp started as the noise cancellation app that made remote calls bearable in 2020 and has expanded into AI meeting features without losing the original. The current product covers noise cancellation, accent localisation, voice cloning for translation, and bot free meeting transcription. The underlying technology — real time on device audio processing — is the moat.
+Krisp lives between meeting notes and audio-quality tooling, alongside [Granola](granola.md) on the bot-free notes side and as the older sibling of features now baked into Zoom and Teams. Krisp started as the noise cancellation app that made remote calls bearable in 2020 and has expanded into AI meeting features without losing the original. The current product covers noise cancellation, accent localisation, voice cloning for translation, and bot free meeting transcription. The underlying technology - real time on device audio processing - is the moat.
 
 ## What it actually is
 
 A desktop app (macOS, Windows) that sits between your microphone and any conferencing app. Three product lines:
-* **Krisp AI Voice** — noise cancellation, voice clarity, accent localisation.
-* **Krisp AI Notes** — bot free meeting transcription and AI summaries.
-* **Krisp AI Translation / Voice Cloning** — speak in your language, listener hears their language in your voice.
+* **Krisp AI Voice**: noise cancellation, voice clarity, accent localisation.
+* **Krisp AI Notes**: bot free meeting transcription and AI summaries.
+* **Krisp AI Translation / Voice Cloning**: speak in your language, listener hears their language in your voice.
 
 Free tier covers core noise cancellation; paid unlocks AI features.
 
@@ -34,6 +34,35 @@ Free tier covers core noise cancellation; paid unlocks AI features.
 * Accent features are sensitive. Some users find the modified voice uncanny; others find it freeing. Test before committing.
 * Bot free transcription quality is good for clear audio; degrades faster than bot based tools on noisy multi speaker calls.
 * Translation latency (~1 to 2 seconds) is good for measured conversations, awkward for fast back and forth.
+
+## Alternatives
+
+* If transcription and meeting notes are the actual job and you don't need noise cancellation, [Granola](granola.md) is the more polished pick.
+* If you want the EU/GDPR-friendly bot-free option, [Jamie](jamie.md) is built for that.
+* If you only need noise cancellation and you're on a recent Mac, Apple Voice Isolation is free and built in.
+* If you have an NVIDIA GPU, NVIDIA Broadcast covers noise cancellation locally with no subscription.
+
+## FAQ
+
+### Is Krisp free?
+
+Yes for core noise cancellation - 60 minutes/day free. Pro at $8/mo and Business at $14/seat/mo unlock unlimited use, AI Notes, accent localisation, and translation.
+
+### Does Krisp work with Zoom / Meet / Teams?
+
+Yes - Krisp installs a virtual microphone driver that sits between your real mic and any conferencing app. Pick "Krisp Microphone" and "Krisp Speaker" in the conferencing app and it works everywhere.
+
+### Krisp vs Granola - which for meeting notes?
+
+Different defaults. [Granola](granola.md) is more polished as a notes product. Krisp's edge is bundling notes with noise cancellation in one app - useful if you want both and don't want to run two background processes.
+
+### Does Krisp's accent feature actually work?
+
+Yes, in real time, converting toward neutral American English. Reception varies a lot - some non-native speakers find it freeing, others find the modified voice uncanny. Test it before committing.
+
+### How much CPU does Krisp use?
+
+Around 10-15% on an M2 MacBook Air in my testing. Real but workable on modern machines; older laptops may struggle to run Krisp plus a video call without thermal throttling.
 
 ## Pointers
 

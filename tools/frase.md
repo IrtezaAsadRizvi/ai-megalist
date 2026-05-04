@@ -1,6 +1,6 @@
-# Frase
+# Frase: SEO content brief generator for writers
 
-Frase is the SEO brief generator I'd hand to a freelance writer who needs to be productive on day one. Its output isn't the article; it's the brief: SERP analysis, suggested outline, related questions, key terms. That's exactly the artifact a writer needs to start, and Frase produces better briefs than most humans I've seen briefed by.
+Frase is in the SEO content tooling category alongside [Surfer SEO](surfer_seo.md) and [Writesonic](writesonic.md), but its tilt is different - it's the SEO brief generator I'd hand to a freelance writer who needs to be productive on day one. Its output isn't the article; it's the brief: SERP analysis, suggested outline, related questions, key terms. That's exactly the artifact a writer needs to start, and Frase produces better briefs than most humans I've seen briefed by.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ For my own work I still write in plain text. For team content production, Frase 
 * SERP analysis only sees what's currently ranking. If a topic is changing fast, the brief lags.
 * Pricing tiers gate certain features (especially Frase AI usage). Read the matrix; the cheapest tier may be sufficient for brief generation alone.
 * Frase has been acquired and rebranded over the years; UI quirks remain.
+
+## Alternatives
+
+* If you want to score and optimize a draft against the SERP rather than plan it, [Surfer SEO](surfer_seo.md) is sharper.
+* For more drafting horsepower with looser SEO analysis, [Writesonic](writesonic.md) leans generative.
+* If you want a marketing platform with brand voice and templates rather than SEO-specific tooling, [Jasper](jasper.md) is the broader pick.
+* For pure prose drafting once the brief is in hand, [Claude](claude.md) or [ChatGPT](chatgpt.md) outproduce most dedicated writing tools.
+
+## FAQ
+
+### Is Frase free?
+
+There's a trial, no permanent free tier. Pricing tiers (Solo, Basic, Team) gate features - Frase AI generation is often a separate add-on. The cheapest tier is fine if you only need brief generation; the AI drafting bumps cost meaningfully.
+
+### Frase vs Surfer SEO - which is better?
+
+Different jobs. Frase is sharper at planning the brief from SERP research. [Surfer SEO](surfer_seo.md) is sharper at scoring an existing draft against the target keyword. Some teams use both - Frase to plan, Surfer to optimize.
+
+### Does Frase write the article for me?
+
+It can, via Frase AI, but the output is fine, not great. The brief workflow is the actual product. Use Frase for the plan, write the prose in [Claude](claude.md) or [ChatGPT](chatgpt.md), and edit by hand. That's the realistic flow.
+
+### How accurate is Frase's SERP analysis?
+
+It only sees what's currently ranking. Useful as a snapshot, but if a topic is changing fast (a new product launch, breaking news), the brief lags the live SERP by a day or two.
 
 ## Pointers
 

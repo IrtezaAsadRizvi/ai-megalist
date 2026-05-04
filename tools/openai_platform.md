@@ -1,6 +1,6 @@
-# OpenAI Platform
+# OpenAI Platform: GPT, Realtime, Agents SDK in one developer surface
 
-OpenAI's platform is the most product surface I deal with, partly because GPT was first and partly because OpenAI ships features faster than anyone — Realtime, Responses API, Agents SDK, Vector Stores, fine tuning, image gen, voice. The API is straightforward; the breadth is the real story.
+OpenAI Platform is the developer API alternative to [Anthropic API](anthropic_api.md), [Google AI Studio](google_ai_studio.md), and [Mistral La Plateforme](mistral_la_plateforme.md), distinguished by feature breadth - Realtime, Agents SDK, Vector Stores, image, voice. OpenAI's platform is the most product surface I deal with, partly because GPT was first and partly because OpenAI ships features faster than anyone - Realtime, Responses API, Agents SDK, Vector Stores, fine tuning, image gen, voice. The API is straightforward; the breadth is the real story.
 
 ## What it actually is
 
@@ -36,6 +36,31 @@ A developer platform exposing GPT‑5.5, GPT‑5.5‑mini, GPT‑5.5‑nano, the
 * Fine tuning is a real escape hatch but harder to maintain than prompt engineering. Try prompts first; fine tune only when you have data and a clear win.
 * Vector Stores are convenient but not the cheapest at scale. For high volume, host your own (Qdrant, Weaviate, pgvector).
 * Multiple APIs (Chat Completions, Responses, Assistants) coexist; Assistants is being deprecated in favor of Responses + Agents SDK. New code → Responses.
+
+## Alternatives
+
+* If you want frontier reasoning with prompt caching as a first-class feature, [Anthropic API](anthropic_api.md) is the alternative.
+* If you want long context, multimodal, and Google integration, [Google AI Studio](google_ai_studio.md) is the API path.
+* If you want EU residency, [Mistral La Plateforme](mistral_la_plateforme.md) is the obvious pick.
+* If you want a unified gateway across all of these, [LiteLLM](litellm.md) abstracts the differences.
+
+## FAQ
+
+### Is OpenAI Platform free?
+
+New accounts get a small free credit allowance. Beyond that, pricing is per-million tokens and varies wildly by model - GPT-5.5-nano is cheap enough to log everything; o4-pro is not. Pick deliberately per task.
+
+### OpenAI vs Anthropic API - which should I use?
+
+OpenAI when you want the broadest feature surface (Realtime, Agents SDK, Vector Stores, image, voice). [Anthropic API](anthropic_api.md) when you want frontier reasoning, 1M context on Opus, and prompt caching that materially changes economics on repeated context. I use both.
+
+### Should I use Chat Completions or the Responses API?
+
+New code should use Responses - it's better for stateful conversations and tool use. Chat Completions still works but isn't where the new features ship. Assistants API is being deprecated in favor of Responses + Agents SDK.
+
+### What's the rate limit on a new account?
+
+Tier 1 starts low (a few thousand tokens / minute on the bigger models). Progression to Tier 5 happens automatically based on cumulative spend - the higher tiers unlock fast for serious projects.
 
 ## Pointers
 

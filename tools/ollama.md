@@ -1,6 +1,6 @@
-# Ollama
+# Ollama: easiest local LLM runner with an OpenAI-compatible API
 
-Ollama is the easiest way to run a real model on your laptop. The pitch is one sentence: `ollama run llama3.3` and you have a conversation. No Docker compose file, no model conversion script, no GPU driver yak shaving (well, mostly). For someone who has spent a weekend trying to get a HuggingFace model to load locally, this is closer to magic than the marketing copy suggests.
+Ollama is the default local model runner, in the same category as [LM Studio](lm_studio.md), [Jan](jan.md), and the lower-level [llama.cpp](llama_cpp.md). Ollama is the easiest way to run a real model on your laptop. The pitch is one sentence: `ollama run llama3.3` and you have a conversation. No Docker compose file, no model conversion script, no GPU driver yak shaving (well, mostly). For someone who has spent a weekend trying to get a HuggingFace model to load locally, this is closer to magic than the marketing copy suggests.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ I'd budget 10 minutes including the download for the smaller models. Bigger mode
 * "Open weights" doesn't mean "as smart as GPT 5." A local 8B model is plenty for autocomplete and small tasks; for serious reasoning, you still want a frontier model.
 * Disk fills up fast. `ollama list` shows what you've pulled, `ollama rm <name>` removes one. I've accidentally hoarded 200 GB of weights more than once.
 * Quantization matters. The default Q4 quantization is a great speed/quality tradeoff. If output looks dumb, try Q8 or full precision (more VRAM).
+
+## Alternatives
+
+* If you want a friendly GUI with a Hugging Face browser, [LM Studio](lm_studio.md) is the more polished pick.
+* If you want an OSS desktop ChatGPT replacement, [Jan](jan.md) is the closer cousin.
+* If you want raw control over the inference engine, drop down to [llama.cpp](llama_cpp.md).
+* If you need a ChatGPT-style web UI on top of Ollama, pair with [Open WebUI](open_webui.md).
+
+## FAQ
+
+### Is Ollama free?
+
+Yes, fully free and OSS. You pay for hardware and electricity. New macOS / Windows users can install the desktop app; Linux is a one-line curl install.
+
+### Ollama vs LM Studio - which should I use?
+
+Ollama when you want a CLI-first tool with an OpenAI-compatible API for scripting and integration. [LM Studio](lm_studio.md) when you want a GUI to browse Hugging Face and chat. Many users run both.
+
+### What's the best model for Ollama?
+
+Depends on hardware and task. For a 16GB Mac, Llama 3.3 8B or Qwen 2.5 7B are solid daily drivers. For 64GB+ machines, the 70B variants are usable. For coding specifically, DeepSeek Coder or Qwen Coder are strong. Open-weights aren't as smart as GPT-5.5 - calibrate expectations.
+
+### Does Ollama work on Windows?
+
+Yes, native Windows support shipped a while ago and is the official path. Apple Silicon is still the easiest setup; NVIDIA Linux works fine; some Windows GPU configurations remain painful.
 
 ## Pointers
 

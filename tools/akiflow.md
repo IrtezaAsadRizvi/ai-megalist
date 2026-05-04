@@ -1,6 +1,6 @@
-# Akiflow
+# Akiflow: keyboard-driven task aggregator and time blocker
 
-Akiflow is the task aggregator for people whose tasks live in five different places. It pulls in Gmail starred items, Slack saved messages, Notion checkboxes, Linear tickets, ClickUp tasks, and a dozen other sources, then drops them into one inbox where you triage and time block. The AI features are recent and modest; the value is the aggregation plus the keyboard driven workflow.
+Akiflow lives in the scheduling-and-tasks cluster next to [Motion](motion.md), [Reclaim](reclaim.md), and [Todoist](todoist.md), but aimed squarely at people whose tasks live in five tools at once. Akiflow is the task aggregator for people whose tasks live in five different places. It pulls in Gmail starred items, Slack saved messages, Notion checkboxes, Linear tickets, ClickUp tasks, and a dozen other sources, then drops them into one inbox where you triage and time block. The AI features are recent and modest; the value is the aggregation plus the keyboard driven workflow.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ The AI features (smart suggestions for parsing text into tasks, scheduling assis
 * Time blocking is a discipline, not a feature. The tool helps; it doesn't substitute for the habit.
 * Pricing is steep for solo users. Justified if you're routinely losing tasks across five tools; less so if you're trying to compete with a single app.
 * Sync conflicts happen occasionally between Akiflow and the source tool. Check both before assuming a task is done.
+
+## Alternatives
+
+* If your problem is "I won't actually plan my day", [Motion](motion.md) does aggressive auto scheduling that picks the slot for you.
+* If you need to defend focus time and sync recurring habits, [Reclaim](reclaim.md) is built around that constraint.
+* If you only need a single lightweight home for tasks without the integration sprawl, [Todoist](todoist.md) fits.
+* If you need notes plus tasks in one app, [Notion AI](notion_ai.md) covers both at the cost of being heavier.
+
+## FAQ
+
+### Is Akiflow free?
+
+There's a trial; no permanent free tier. Pricing is steep for solo users - justified if you're routinely losing tasks across five tools, less so if you're trying to compete with a single-app workflow.
+
+### Akiflow vs Motion - which one?
+
+Different problems. Akiflow aggregates tasks from many sources into one inbox you triage manually. [Motion](motion.md) auto-schedules tasks into your calendar without asking. Pick Akiflow if your tasks live everywhere; pick Motion if you can't bring yourself to plan.
+
+### What integrations does Akiflow support?
+
+Gmail, Slack, Notion, Asana, ClickUp, Linear, Todoist, Trello, Jira, Google Calendar, Outlook, and a dozen others. Edge cases (custom Notion databases, exotic Asana setups) sometimes require fiddling.
+
+### Does Akiflow have AI features?
+
+Yes - smart suggestions for parsing text into tasks and a scheduling assistant. Competent but not the reason to pick Akiflow over [Motion](motion.md) or [Reclaim](reclaim.md). The integrations are.
 
 ## Pointers
 

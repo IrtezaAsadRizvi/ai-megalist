@@ -1,6 +1,6 @@
-# vLLM
+# vLLM: high-throughput inference engine for production serving
 
-vLLM is the inference engine for serving LLMs at production throughput. Where llama.cpp is built for "run a model on this machine," vLLM is built for "serve thousands of concurrent users efficiently on GPU." The headline technique is PagedAttention, which fits more KV cache per GB of VRAM and consequently more concurrent users. If you're hosting models for real traffic, vLLM is the substrate.
+vLLM sits in the local and OSS model runners category alongside [Ollama](ollama.md) and [llama.cpp](llama_cpp.md), but specifically aimed at multi-user GPU serving rather than single-user laptops. vLLM is the inference engine for serving LLMs at production throughput. Where llama.cpp is built for "run a model on this machine," vLLM is built for "serve thousands of concurrent users efficiently on GPU." The headline technique is PagedAttention, which fits more KV cache per GB of VRAM and consequently more concurrent users. If you're hosting models for real traffic, vLLM is the substrate.
 
 ## What it actually is
 
@@ -40,6 +40,31 @@ An open source Python library and OpenAI compatible HTTP server (Apache 2.0). Bu
 * Some models need the right config (chat template, EOS token). The HF model card usually tells you; otherwise read vLLM logs.
 * Updates can break workflows. Pin versions in production.
 * For quick local hacking, llama.cpp / Ollama is easier; vLLM is for serving infrastructure.
+
+## Alternatives
+
+* If you want single-user local inference with minimal config, [Ollama](ollama.md) is the friendlier path.
+* If you want CPU-friendly inference and Apple Silicon support, [llama.cpp](llama_cpp.md) is the substrate.
+* If you want a polished GUI for experimentation, [LM Studio](lm_studio.md) covers that need.
+* If you want managed hosted inference instead of self-serving, [Groq](groq.md) and [Together AI](together.md) are competitive.
+
+## FAQ
+
+### Is vLLM free?
+
+Yes - Apache 2.0 licensed, free to install and run. The cost is your own GPU infrastructure (CUDA-capable cards, ideally H100/A100 for 70B+ models).
+
+### vLLM vs Ollama - which should I use?
+
+Different jobs. [Ollama](ollama.md) is single-user CLI for laptops; vLLM is multi-user GPU serving for production traffic. If you're hosting a model for many concurrent users, vLLM. If you're running locally for yourself, Ollama.
+
+### Does vLLM run on Apple Silicon?
+
+Limited. The supported path is Linux + CUDA. Some MPS (Apple Silicon) support exists but in degraded modes - for Mac local use, [llama.cpp](llama_cpp.md) is the right tool.
+
+### Can vLLM serve quantized models?
+
+Yes - AWQ, GPTQ, and FP8 quantization are supported. Quantized models load faster and serve more concurrent users with the same VRAM; quality cost is small, throughput gain is large.
 
 ## Pointers
 

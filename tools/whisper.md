@@ -1,6 +1,6 @@
-# Whisper
+# Whisper: open-source ASR baseline that ate the category
 
-Whisper is the OpenAI speech recognition model that became the default ASR for everyone, including OpenAI's competitors. It's open weights, runs locally (slowly on CPU, fast on GPU), supports 99 languages, and the accuracy is good enough that most commercial transcription tools quietly use Whisper under the hood.
+Whisper sits in the transcription category alongside [Deepgram](deepgram.md), [AssemblyAI](assemblyai.md), and [Otter](otter.md), but as the OSS baseline most commercial tools quietly run under the hood. Whisper is the OpenAI speech recognition model that became the default ASR for everyone, including OpenAI's competitors. It's open weights, runs locally (slowly on CPU, fast on GPU), supports 99 languages, and the accuracy is good enough that most commercial transcription tools quietly use Whisper under the hood.
 
 ## What it actually is
 
@@ -42,6 +42,31 @@ An open source ASR model originally released by OpenAI in 2022 and updated since
 * Hallucinations on silent or near silent audio. Whisper sometimes invents text in long pauses. Set a VAD filter (faster-whisper does this with `vad_filter=True`).
 * Long files (>30 seconds with the original Whisper) need chunking. faster-whisper handles this internally.
 * GPU is optional but transformative. CPU inference on `large-v3` is ~0.3x real time; GPU is 10x+.
+
+## Alternatives
+
+* If you want fast streaming ASR with a hosted API and SLAs, [Deepgram](deepgram.md) is the production pick.
+* If you want speaker labels, summarization, and sentiment in one API, [AssemblyAI](assemblyai.md) is the broader managed option.
+* If you want live transcription tied to meeting notes, [Otter](otter.md) is the all-in-one path.
+* If you want diarization plus word-level alignment with Whisper itself, WhisperX (a fork) adds both.
+
+## FAQ
+
+### Is Whisper free?
+
+Yes - the model weights are open source. The OpenAI hosted API is paid (~$0.006/minute) but you can run locally for free on your own hardware. CPU inference works; GPU is much faster.
+
+### Whisper vs Deepgram - which should I use?
+
+Different tradeoffs. [Deepgram](deepgram.md) is faster (real-time streaming) and adds features like speaker labels with no extra setup, but it's a paid API. Whisper is free and runs locally, slower without a GPU. For one-off transcription, Whisper. For real-time products, Deepgram.
+
+### Which Whisper model should I use?
+
+`large-v3` for serious work. The default `base` model is fine for clear audio but bad on accents and noise. faster-whisper with `large-v3` on a GPU runs at 10x+ real-time and is the right default for batch transcription.
+
+### Does Whisper handle multiple languages?
+
+Yes - 99 languages with auto-detect. The `--task translate` flag translates non-English speech directly into English text in one pass. Quality varies by language; English is best.
 
 ## Pointers
 

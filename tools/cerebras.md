@@ -1,6 +1,6 @@
-# Cerebras Inference
+# Cerebras Inference: wafer-scale API for ultra-fast token generation
 
-Cerebras Inference is the API that makes Groq look slow. Running on Cerebras's wafer scale chips (genuinely a single silicon wafer, not multiple chips), token generation hits 1500+ tokens/second on Llama 70B, 2500+ on Llama 8B. For interactive AI products where time to first token is the constraint, Cerebras is the speed king.
+Cerebras sits in the model APIs cluster alongside [Groq](groq.md), [Together AI](together.md), and [Fireworks AI](fireworks.md) - the fast-inference category for open-weight models. Cerebras Inference is the API that makes Groq look slow. Running on Cerebras's wafer scale chips (genuinely a single silicon wafer, not multiple chips), token generation hits 1500+ tokens/second on Llama 70B, 2500+ on Llama 8B. For interactive AI products where time to first token is the constraint, Cerebras is the speed king.
 
 ## What it actually is
 
@@ -34,6 +34,35 @@ A managed inference API on Cerebras's CS‑3 systems. Hosts open weight models (
 * Free tier has daily caps; production volumes hit paid tiers.
 * For non interactive workloads (batch processing, async jobs), the speed advantage is wasted; cheaper providers may be better fit.
 * Cerebras's hardware is unusual; ecosystem of niche libraries is smaller than NVIDIA's. Most users hit the API and don't care.
+
+## Alternatives
+
+* If you want a similar fast inference API with broader model availability, [Groq](groq.md) is the closest comparator.
+* If you want the largest catalog of open models even at slower speeds, [Together AI](together.md) and [Fireworks AI](fireworks.md) are the picks.
+* If you want frontier closed models (Claude, GPT) and don't need open-weight inference, [Anthropic API](anthropic_api.md) and [OpenAI Platform](openai_platform.md) are the right shops.
+* If you want a unified gateway across Cerebras + others, [LiteLLM](litellm.md) sits in front of all of them.
+
+## FAQ
+
+### Is Cerebras free?
+
+Free tier with daily quotas, enough to evaluate. Production volume runs on paid tiers.
+
+### Cerebras vs Groq - which is faster?
+
+Cerebras is faster on the same model class (1500+ tok/s vs Groq's typical 500-800 tok/s on Llama 70B). [Groq](groq.md) has broader model availability and a larger ecosystem. Both crush hyperscaler latencies; pick by model selection.
+
+### What models does Cerebras host?
+
+Select Llama 3.x and 4.x variants, Qwen, and a curated set. Narrower than [Together AI](together.md) or [Fireworks AI](fireworks.md) - they pick models that benefit most from wafer-scale.
+
+### Is Cerebras OpenAI-compatible?
+
+Yes - the OpenAI client works with the right base URL. Drop-in for most code that already speaks OpenAI's API.
+
+### When should I use Cerebras over Anthropic or OpenAI?
+
+When latency dominates UX - voice agents, real-time tutoring, live demos. For complex reasoning quality, [Anthropic API](anthropic_api.md) Sonnet/Opus still win on benchmarks; Cerebras wins when you need the user to read tokens streaming faster than they can type.
 
 ## Pointers
 

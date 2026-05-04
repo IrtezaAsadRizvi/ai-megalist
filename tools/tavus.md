@@ -1,6 +1,6 @@
-# Tavus
+# Tavus: AI video personalised at scale via API
 
-Tavus is the AI video tool for "personalised at scale" — every recipient gets a video addressed to them by name, referencing their company, their role, their context. Sales outreach, customer onboarding, post sale check ins. The economics are wild: record one video, generate thousands of personalised variants, send each via API.
+Tavus is the AI video API for personalised-at-scale outreach, a different niche from corporate avatars in [Synthesia](synthesia.md) and creator avatars in [HeyGen](heygen.md). Tavus is the AI video tool for "personalised at scale" - every recipient gets a video addressed to them by name, referencing their company, their role, their context. Sales outreach, customer onboarding, post sale check ins. The economics are wild: record one video, generate thousands of personalised variants, send each via API.
 
 ## What it actually is
 
@@ -36,6 +36,31 @@ An API + web platform for personalised AI video. You record a base video; Tavus 
 * Each variant takes minutes to generate; not real time. Plan campaigns with batch generation.
 * Recipients sometimes find the personalisation creepy when overdone. Use sparingly; calibrate per audience.
 * The Conversational AI is impressive in demos and rougher in production. Test thoroughly before deploying.
+
+## Alternatives
+
+* If you don't need per-recipient personalisation, [Synthesia](synthesia.md) is the corporate / training default.
+* If you want creator-friendly avatars and per-video editing, [HeyGen](heygen.md) is friendlier and cheaper.
+* If you want async video without AI personalisation, Loom is the simpler tool.
+* If you only need cloned voice instead of full video, [ElevenLabs](elevenlabs.md) is the lighter option.
+
+## FAQ
+
+### Is Tavus free?
+
+Free trial only. Paid plans start around $375/mo for sales / SaaS use cases; Enterprise is quoted. Pricing is enterprise-oriented - solo sellers may find the per-video economics tough.
+
+### Tavus vs Synthesia - which should I use?
+
+Different jobs. [Synthesia](synthesia.md) is for one-to-many corporate video (training, announcements). Tavus is for one-to-one personalised video at scale - thousands of recipients, each addressed by name and context. If your script changes per recipient, Tavus; if it doesn't, Synthesia.
+
+### How long does Tavus take to train my avatar?
+
+About 24 hours typical, after recording 5+ minutes of base video in good lighting. Variant generation per recipient takes a few minutes; webhooks notify when ready. Plan campaigns with batch generation, not real time.
+
+### Are personalised AI videos creepy?
+
+Sometimes. Recipients can find heavy personalisation off-putting if overdone. The published case studies show higher open and reply rates than text email; calibrate per audience, and don't pretend the video isn't AI when asked.
 
 ## Pointers
 

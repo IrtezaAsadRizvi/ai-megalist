@@ -1,6 +1,6 @@
-# Mistral La Plateforme
+# Mistral La Plateforme: EU-hosted model API platform
 
-La Plateforme is Mistral's API gateway, the European frontier API platform. Same model family that powers Le Chat (the consumer product), exposed for developers with European data residency and a pricing structure that's friendlier than the US incumbents on a $/token basis. For EU teams who care about where inference happens, this is the obvious default.
+La Plateforme is Mistral's developer API platform, the EU-hosted alternative to [OpenAI Platform](openai_platform.md), [Anthropic API](anthropic_api.md), and [Google AI Studio](google_ai_studio.md). La Plateforme is Mistral's API gateway, the European frontier API platform. Same model family that powers Le Chat (the consumer product), exposed for developers with European data residency and a pricing structure that's friendlier than the US incumbents on a $/token basis. For EU teams who care about where inference happens, this is the obvious default.
 
 ## What it actually is
 
@@ -28,6 +28,31 @@ For peak frontier capability I still reach for Sonnet or GPT 5.5. Mistral's valu
 * Some advanced features (long context handling, function calling sophistication) lag the US incumbents; verify what you need is supported at the quality you need.
 * OpenAI compatibility is mostly there but not perfect; some edge cases require Mistral's native SDK.
 * Pricing is competitive but the calculus shifts often. Re run cost comparisons periodically.
+
+## Alternatives
+
+* If you want frontier reasoning at any cost, [Anthropic API](anthropic_api.md) (Claude) or [OpenAI Platform](openai_platform.md) (GPT) lead.
+* If you want Gemini's long context and multimodal at scale, [Google AI Studio](google_ai_studio.md) is the API path.
+* If you want cheap frontier reasoning and don't mind US / Chinese hosting, [DeepSeek](deepseek.md) is the value pick.
+* If you want OSS model hosting without picking one provider, [Together AI](together.md) or [Fireworks](fireworks.md) host Mistral weights too.
+
+## FAQ
+
+### Is Mistral La Plateforme free?
+
+There's a small free tier for evaluation, then per-token pricing across the model lineup. Pricing is generally competitive vs the US incumbents but compare on your actual workload before betting.
+
+### Mistral vs OpenAI - which should I use?
+
+Mistral when EU data residency is a contract requirement or per-token cost matters more than peak capability. [OpenAI Platform](openai_platform.md) when you want the broadest feature surface (Realtime, Agents SDK, Vector Stores) and frontier capability. Different bets.
+
+### Does Mistral La Plateforme support OpenAI-compatible endpoints?
+
+Mostly yes - `https://api.mistral.ai/v1` works as an OpenAI-compatible endpoint for routine cases. Some edge cases (advanced function calling, specific streaming behaviors) require the native Mistral SDK.
+
+### Where is Mistral hosted?
+
+EU by default - that's the differentiator. For European customers with data residency contracts, this is the obvious pick over US-hosted alternatives.
 
 ## Pointers
 

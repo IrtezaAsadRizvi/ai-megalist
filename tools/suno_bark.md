@@ -1,6 +1,6 @@
-# Suno Bark
+# Suno Bark: Open-source text-to-audio model from early Suno
 
-Bark is the open source text to audio model the early Suno team released in 2023, before Suno itself pivoted into the music generation product everyone knows now. The repo is still up, the weights still work, and for hobbyist or research use it's a useful artifact: a model that can do TTS plus laughter, sighs, music, and sound effects, all from text prompts.
+Suno Bark is an MIT-licensed open-source text-to-audio model, a research-grade alternative to production TTS like [ElevenLabs](elevenlabs.md) and [Cartesia](cartesia.md). Bark is the open source text to audio model the early Suno team released in 2023, before Suno itself pivoted into the music generation product everyone knows now. The repo is still up, the weights still work, and for hobbyist or research use it's a useful artifact: a model that can do TTS plus laughter, sighs, music, and sound effects, all from text prompts.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ For production TTS I use [elevenlabs.md](elevenlabs.md) or [cartesia.md](cartesi
 * Voice consistency across generations is shaky compared to modern voice cloning tools.
 * Suno (the company) hasn't actively maintained Bark since pivoting to music. Expect minimal updates.
 * Pronunciation of jargon and proper nouns is unreliable; for production use it'd need cleanup.
+
+## Alternatives
+
+* If you want production-grade TTS and voice cloning, [ElevenLabs](elevenlabs.md) is the industry default.
+* If you want ultra-low-latency real-time voice for agents, [Cartesia](cartesia.md) is the right pick.
+* If you want voice cloning + speech-to-speech with on-prem options, [Resemble AI](resemble.md) is shaped for that.
+* If you need transcription instead of generation, [Whisper](whisper.md) is the OSS counterpart.
+
+## FAQ
+
+### Is Suno Bark free?
+
+Yes - MIT licensed, weights free on Hugging Face, runs locally. You only pay for compute (GPU recommended; CPU is slow). Check the latest README for any commercial use caveats.
+
+### Is Bark still maintained?
+
+No - Suno (the company) pivoted to music generation and hasn't actively maintained Bark since. Expect minimal updates. For research, the model is still useful; for production, the market has moved to newer OSS options like Coqui, OpenVoice, and F5 TTS.
+
+### Can Bark clone my voice?
+
+Not reliably - voice consistency across generations is shaky. For cloning, use [ElevenLabs](elevenlabs.md), [PlayHT](playht.md), or [Resemble AI](resemble.md).
+
+### Why use Bark in 2026?
+
+Two reasons: studying the architecture (the code is short and clean), or generating non-speech audio cues like laughter and ambient sounds for hobby projects. For everything else, newer tools win.
 
 ## Pointers
 

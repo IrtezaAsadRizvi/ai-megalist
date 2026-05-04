@@ -1,6 +1,6 @@
-# Andi
+# Andi: conversational AI search engine, ad-free
 
-Andi is a small, focused search engine that gives you a conversational answer first and the link list second. The pitch is straightforward: cleaner UI than Google, summaries by default, no ads. It's the search product I keep installed as a Chrome alternative for low stakes lookups where I'd rather read a paragraph than parse ten blue links.
+Andi sits in the AI search cluster next to [Perplexity](perplexity.md), [Kagi](kagi.md), and [You.com](you_com.md) - answer-first search products that compete with Google for low-stakes lookups. Andi is a small, focused search engine that gives you a conversational answer first and the link list second. The pitch is straightforward: cleaner UI than Google, summaries by default, no ads. It's the search product I keep installed as a Chrome alternative for low stakes lookups where I'd rather read a paragraph than parse ten blue links.
 
 ## What it actually is
 
@@ -27,6 +27,31 @@ For real research I still reach for [perplexity.md](perplexity.md) or [exa.md](e
 * Citation links are sometimes loose; the model paraphrases the source, and the link list isn't always perfectly aligned with which sentence came from which source.
 * The team is small; feature releases are slower than at the venture funded competitors.
 * Limited file upload, no agent capabilities. It's a search engine, not a research assistant.
+
+## Alternatives
+
+* If you want serious cited research with depth and Pro Search, [Perplexity](perplexity.md) is the category default.
+* If you want neural search results that actually return source pages and not SEO sludge, [Exa](exa.md) is the API-grade option.
+* If you'll pay for an ad-free index and FastGPT alongside, [Kagi](kagi.md) is the paid privacy answer.
+* If you want a privacy-first search with built-in AI summaries inside a browser, [Brave Search](brave_search.md) is the comparable free option.
+
+## FAQ
+
+### Is Andi free?
+
+Yes - free to use, no account required for basic queries. The team monetises through donations and (potentially) future tiers; there's no paid tier as of April 2026.
+
+### Andi vs Perplexity - which is better?
+
+[Perplexity](perplexity.md) is more rigorous, has Pro Search, Spaces, and longer-form answers. Andi is faster and cleaner for low-stakes one-shot queries with no account friction. I use Perplexity for research and Andi for "what does this acronym mean."
+
+### Does Andi track me?
+
+No tracking pixels, no ads, no logged queries by default. The privacy story is the explicit pitch.
+
+### Can I set Andi as my default search engine?
+
+Yes - the site has setup instructions for Chrome, Firefox, Safari, and Edge. Takes about a minute.
 
 ## Pointers
 

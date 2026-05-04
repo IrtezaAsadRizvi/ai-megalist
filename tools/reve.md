@@ -1,6 +1,6 @@
-# Reve
+# Reve: prompt-fidelity image generation
 
-Reve is the image generator that, for a window in 2024 and 2025, posted state of the art prompt fidelity scores on public benchmarks. The team is small, the product is focused, and the bet is specifically that "what the prompt asks for" should be the dominant axis of quality. For complex prompts with many constraints (specific objects, specific colors, specific spatial relationships), Reve often wins.
+Reve sits in the image generation category alongside [Midjourney](midjourney.md), [Flux](flux.md), and [Ideogram](ideogram.md), focused on literal prompt adherence. Reve is the image generator that, for a window in 2024 and 2025, posted state of the art prompt fidelity scores on public benchmarks. The team is small, the product is focused, and the bet is specifically that "what the prompt asks for" should be the dominant axis of quality. For complex prompts with many constraints (specific objects, specific colors, specific spatial relationships), Reve often wins.
 
 ## What it actually is
 
@@ -29,6 +29,31 @@ For aesthetic peak (cinematic, painterly, art directed), Midjourney is still my 
 * The product is small and the team is small; expect occasional outages and feature gaps versus the bigger competitors.
 * Free credits are limited; sustained use needs a paid plan.
 * Prompt fidelity benchmarks shift quickly as new models release. Reve's lead at any given moment is real but not guaranteed forward.
+
+## Alternatives
+
+* If you want aesthetic peak rather than literal accuracy, [Midjourney](midjourney.md) is still the leader.
+* If you want strong prompt adherence with an actual API for production, [Flux](flux.md) is the right pick.
+* If you need legible text in images (posters, logos, UI), [Ideogram](ideogram.md) is the specialist.
+* If you want full local control with LoRAs and ControlNet, [Stable Diffusion](stable_diffusion.md) plus [ComfyUI](comfyui.md) is the path.
+
+## FAQ
+
+### Is Reve free?
+
+Yes, with limited daily credits. Paid tiers add more generations. Sustained use needs a subscription; the free tier is mainly for evaluation.
+
+### Reve vs Midjourney - which is better?
+
+Different jobs. Reve renders the literal scene a complex prompt asks for. [Midjourney](midjourney.md) interprets toward aesthetic appeal even when the prompt is precise. For "the cyclist in red shorts holding a yellow umbrella," Reve. For "make something beautiful," Midjourney.
+
+### Does Reve have an API?
+
+Not as of writing - it's a hosted web product. For programmatic image gen with prompt fidelity, [Flux](flux.md) is the API-first option.
+
+### Why is Reve aesthetically weaker?
+
+The model trades aesthetic peak for prompt-following. The output often looks "literal" rather than "beautiful." That's the deliberate design choice; pick Reve when the brief matters more than the look.
 
 ## Pointers
 

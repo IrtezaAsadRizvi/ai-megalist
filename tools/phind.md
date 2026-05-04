@@ -1,6 +1,6 @@
-# Phind
+# Phind: AI search tuned for developers
 
-Phind is the AI search engine for developers. Where Perplexity tries to answer everything, Phind specifically optimises for "the question I would otherwise ask Stack Overflow." The index covers technical documentation, GitHub repos, Stack Overflow itself, and a curated set of dev focused sources. The cited answers are noticeably better grounded for code questions than generic AI search.
+Phind is the dev-focused AI search engine, a narrower competitor to [Perplexity](perplexity.md) and [Exa](exa.md). Phind is the AI search engine for developers. Where Perplexity tries to answer everything, Phind specifically optimises for "the question I would otherwise ask Stack Overflow." The index covers technical documentation, GitHub repos, Stack Overflow itself, and a curated set of dev focused sources. The cited answers are noticeably better grounded for code questions than generic AI search.
 
 ## What it actually is
 
@@ -27,6 +27,31 @@ A web based AI search product focused on programming. There's a Pro tier ($20/mo
 * Free tier limits hit if you're searching heavily. Pro is the floor for daily use.
 * The synthesised answer is sometimes wrong even when the citations are right. Read the cited sources for anything load bearing.
 * The community Q&A feature (which used to be a thing) is deprecated; Phind is now purely AI driven.
+
+## Alternatives
+
+* If your search isn't code-focused, [Perplexity](perplexity.md) is broader and the category default.
+* If you want neural search that finds raw papers and source code over SEO pages, [Exa](exa.md) is the right pick.
+* If you want code search inside your own repo, pair with [Cursor](cursor.md) or [Claude Code](claude_code.md) instead.
+* If you want paid, ad-free search with developer-friendly summaries, [Kagi](kagi.md) is the alternative.
+
+## FAQ
+
+### Is Phind free?
+
+Yes, the free tier is generous for casual use. Pro is $20/mo and unlocks unlimited Pro Search, Phind-70B (their tuned model), and frontier model picks (Claude, GPT). Pro is the floor for daily heavy search.
+
+### Phind vs Perplexity - which is better?
+
+Different scopes. Phind is tuned for code, docs, GitHub, and Stack Overflow; [Perplexity](perplexity.md) is tuned for everything else. For "why is my Postgres query slow," Phind. For "what happened in the news this week," Perplexity.
+
+### Does Phind have a VS Code extension?
+
+Yes. It gives in-editor search but is less integrated than [Cursor](cursor.md)'s chat. Useful as a complement, not a replacement.
+
+### What model does Phind use?
+
+Phind-70B (their fine tuned model) by default, with Claude and GPT available on Pro. Phind-70B is strong on code and weaker on general knowledge; switch to a frontier model in the picker for non-technical questions.
 
 ## Pointers
 

@@ -1,6 +1,6 @@
-# SciSpace
+# SciSpace: AI reading partner for scientific papers
 
-SciSpace is the AI tool for the actual reading of scientific papers. Where Elicit and Consensus help you find papers, SciSpace helps you understand them — chat with a paper, ask "what does this equation mean," ask "explain this to a non specialist," summarise per section. For graduate students, journalists, and anyone reading outside their narrow specialty, SciSpace is the patient reading partner.
+SciSpace is the AI research tool for chatting with academic papers, sitting alongside [NotebookLM](notebooklm.md) for PDF Q&A and complementing [Elicit](elicit.md) and [Consensus](consensus.md) for paper discovery. SciSpace is the AI tool for the actual reading of scientific papers. Where Elicit and Consensus help you find papers, SciSpace helps you understand them - chat with a paper, ask "what does this equation mean," ask "explain this to a non specialist," summarise per section. For graduate students, journalists, and anyone reading outside their narrow specialty, SciSpace is the patient reading partner.
 
 ## What it actually is
 
@@ -32,6 +32,31 @@ A web app at [scispace.com](https://scispace.com). Upload any scientific paper (
 * Coverage of SciSpace's indexed library is large but not complete; for very recent papers, upload the PDF.
 * Free tier is enough to evaluate; serious use needs Premium.
 * For systematic literature review (extraction across many papers): [Elicit](https://elicit.com) is shaped for that workflow.
+
+## Alternatives
+
+* If you want free grounded Q&A on PDFs without scientific-specific features, [NotebookLM](notebooklm.md) covers most of the ground.
+* If you're doing systematic literature review across many papers, [Elicit](elicit.md) is shaped for that workflow.
+* If you want claim-level evidence aggregation across the literature, [Consensus](consensus.md) is the right pick.
+* If you mostly need passage-by-passage explanations, [Explainpaper](explainpaper.md) is the focused tool.
+
+## FAQ
+
+### Is SciSpace free?
+
+The free tier covers 5 PDF uploads per month and limited chats. Premium ($20/mo) lifts both to unlimited; that's the tier most working researchers end up on.
+
+### SciSpace vs NotebookLM - which should I use?
+
+Different jobs. [NotebookLM](notebooklm.md) is free, generalist, and great for arbitrary documents. SciSpace is paid and specialised - equation explanations, citation graph, literature review tables. If you mostly read scientific papers, SciSpace earns its keep; otherwise NotebookLM is enough.
+
+### Can SciSpace explain equations?
+
+Yes - highlight an equation, ask, and the model walks through what each variable represents. It handles standard mathematical notation reliably; cross-check load-bearing claims against the paper itself.
+
+### Does SciSpace work on old scanned PDFs?
+
+Quality drops sharply on poorly OCR'd PDFs. For scanned books or pre-digital papers, expect weaker chat responses; run a better OCR pass first if accuracy matters.
 
 ## Pointers
 

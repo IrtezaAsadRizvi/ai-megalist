@@ -1,6 +1,6 @@
-# STORM
+# STORM: Stanford's open-source Wikipedia-style research pipeline
 
-STORM is the most academically grounded "write me a Wikipedia style article" pipeline I know of, and it's open source. Stanford OVAL built it; the codebase is public, the prompts are inspectable, and the full multi agent flow (perspective generation, conversation, outline, write) is documented in the paper. It's the closest thing to a glass box deep research tool.
+STORM is the open-source multi-agent research pipeline from Stanford OVAL, the inspectable alternative to closed deep-research products like [ChatGPT Deep Research](chatgpt.md) and [Gemini Deep Research](gemini.md). STORM is the most academically grounded "write me a Wikipedia style article" pipeline I know of, and it's open source. Stanford OVAL built it; the codebase is public, the prompts are inspectable, and the full multi agent flow (perspective generation, conversation, outline, write) is documented in the paper. It's the closest thing to a glass box deep research tool.
 
 ## What it actually is
 
@@ -33,6 +33,31 @@ An open source research and writing system from Stanford OVAL. Given a topic, ST
 * The hosted demo has rate limits and may queue your job. For sustained use, self host.
 * Citations are pulled from web search; quality of sources varies. Treat the output as a starting point, not a finished reference.
 * Long topics burn tokens fast. A single STORM run can be tens of thousands of input tokens against the LLM provider.
+
+## Alternatives
+
+* If you want a polished closed product with no setup, [ChatGPT Deep Research](chatgpt.md) is the easiest path.
+* If you want Google's flavour with annotated reports, [Gemini Deep Research](gemini.md) is the closest analogue.
+* If you want cited answers without the long-form pipeline, [Perplexity](perplexity.md) is the lighter tool.
+* If you want a multi-agent research mode tuned for synthesis, [Claude](claude.md) Research mode is the same shape.
+
+## FAQ
+
+### Is STORM free?
+
+The hosted demo is free with rate limits. Self-hosted is free to run (Apache 2.0 / MIT in the repo) - you pay only for the underlying LLM and search API calls. A single STORM run on a frontier model can run tens of thousands of tokens.
+
+### STORM vs ChatGPT Deep Research - which is better?
+
+Different bets. [ChatGPT Deep Research](chatgpt.md) is polished, closed, and behind a Plus subscription. STORM is open-source, inspectable, and self-hostable - and tracks the underlying model. With a frontier backbone, output quality is comparable; with cheaper models, STORM degrades visibly.
+
+### Can I swap STORM's search backend?
+
+Yes - the architecture is modular. The default works with [Tavily](tavily.md), [Exa](exa.md), Bing, You.com, and Serper. You can also point it at a private corpus via [LlamaIndex](llamaindex.md).
+
+### Is STORM output publishable?
+
+Rarely as-is. Treat it as a structured first draft with sources. The citation list is useful as a retrieval shortcut even when you rewrite the prose entirely.
 
 ## Pointers
 

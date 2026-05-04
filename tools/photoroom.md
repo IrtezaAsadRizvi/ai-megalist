@@ -1,15 +1,15 @@
-# Photoroom
+# Photoroom: AI image editor for product photography
 
-Photoroom is the AI image editor for product photography and commerce. The mobile and web apps remove backgrounds, generate scenes for products, batch process catalogs, and fit into the e commerce workflow without making you learn Photoshop. For sellers (Etsy, eBay, Shopify), the time savings on listing photos are immediate.
+Photoroom sits in the image editing category, a commerce-focused alternative to [Clipdrop](clipdrop.md) and [Remove.bg](removebg.md). Photoroom is the AI image editor for product photography and commerce. The mobile and web apps remove backgrounds, generate scenes for products, batch process catalogs, and fit into the e commerce workflow without making you learn Photoshop. For sellers (Etsy, eBay, Shopify), the time savings on listing photos are immediate.
 
 ## What it actually is
 
 A mobile app (iOS, Android) plus web app. Specialised in:
-* **Background removal** — among the highest accuracy in the field.
-* **AI Backgrounds** — generate scene backgrounds matching your product (e.g. "marble countertop" for a kitchen tool).
-* **AI Shadows** — realistic drop shadows for products.
-* **Batch processing** — remove backgrounds, resize, recolor across hundreds of photos.
-* **Templates** — pre built layouts for marketplaces (Amazon, Shopify, Etsy).
+* **Background removal**: among the highest accuracy in the field.
+* **AI Backgrounds**: generate scene backgrounds matching your product (e.g. "marble countertop" for a kitchen tool).
+* **AI Shadows**: realistic drop shadows for products.
+* **Batch processing**: remove backgrounds, resize, recolor across hundreds of photos.
+* **Templates**: pre built layouts for marketplaces (Amazon, Shopify, Etsy).
 
 ## Setup
 
@@ -34,6 +34,31 @@ A mobile app (iOS, Android) plus web app. Specialised in:
 * Output resolution caps differ by tier; for print quality, check before committing.
 * For service or non product photography, Photoroom's commerce focus is overkill.
 * The API (Business tier) is solid for embedding into your own listing tools.
+
+## Alternatives
+
+* If all you need is one-click background removal, [Remove.bg](removebg.md) is the faster, cheaper path.
+* If you want broader image editing (cleanup, upscale, relight), [Clipdrop](clipdrop.md) bundles more.
+* If you're already inside Photoshop, [Photoshop Generative Fill](photoshop_genfill.md) handles backgrounds and inpainting in one tool.
+* If you need pure generation rather than product editing, [Midjourney](midjourney.md) or [Flux](flux.md) are the right shapes.
+
+## FAQ
+
+### Is Photoroom free?
+
+There's a free tier with watermarked output on certain features. Pro is $9.99/mo and Business is $19.99/mo (batch processing + API). Pro is the floor for serious commerce use.
+
+### Photoroom vs Remove.bg - which one?
+
+Different scope. [Remove.bg](removebg.md) does one thing (background removal) very well and very fast. Photoroom does background removal plus AI-generated scenes, batch processing, and marketplace templates. Pick by the breadth of work.
+
+### Does Photoroom have an API?
+
+Yes, on the Business tier. Useful for embedding background removal and AI backgrounds into your own listing or e-commerce tools.
+
+### How good is Photoroom's AI background generation?
+
+Strong on products with clear silhouettes (bottles, gadgets, packaged goods). Weaker on transparent or wispy objects (glass, hair) - edges can look off. Always check before publishing.
 
 ## Pointers
 

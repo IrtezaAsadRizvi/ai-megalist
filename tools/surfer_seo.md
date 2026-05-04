@@ -1,6 +1,6 @@
-# Surfer SEO
+# Surfer SEO: SEO content optimizer with real-time SERP scoring
 
-Surfer SEO is the SEO content optimizer that's been around long enough to feel like infrastructure for content teams. Its claim to fame predates the LLM era: real time scoring of a draft against the top ranking pages for a target keyword. The AI features (auto generated drafts, AI rewrite) are layered on top of that scoring engine, which is the reason the tool still feels grounded in something concrete rather than just "spin up content."
+Surfer SEO is the SEO content optimization platform, the SERP-grounded alternative to brief-builders like [Frase](frase.md) and generative tools like [Writesonic](writesonic.md) and [Jasper](jasper.md). Surfer SEO is the SEO content optimizer that's been around long enough to feel like infrastructure for content teams. Its claim to fame predates the LLM era: real time scoring of a draft against the top ranking pages for a target keyword. The AI features (auto generated drafts, AI rewrite) are layered on top of that scoring engine, which is the reason the tool still feels grounded in something concrete rather than just "spin up content."
 
 ## What it actually is
 
@@ -29,6 +29,31 @@ I don't write SEO content myself, but the people I know who do treat Surfer as a
 * SEO is moving; what Surfer's score rewards today is not what'll rank tomorrow. Treat it as one signal, not the rule.
 * The AI features are competent but not spectacular. The real moat is the SERP analysis engine.
 * Pricing is steep for solo users; team plans are better value if you have writers to support.
+
+## Alternatives
+
+* If you want a similar SERP-brief approach with a different UI, [Frase](frase.md) is the closest competitor.
+* If you want more generative output and less analytical scoring, [Writesonic](writesonic.md) is the lighter-touch tool.
+* If you need brand voice and templates more than SEO scoring, [Jasper](jasper.md) is the right pick.
+* If you mostly need cited research and don't care about SERP optimisation, [Perplexity](perplexity.md) gives you the source list for free.
+
+## FAQ
+
+### Is Surfer SEO free?
+
+No - free trial only. Pricing is monthly across Essential through Max tiers; the cheapest is around $89/mo and scales up for teams. Solo users sometimes find Frase cheaper for similar features.
+
+### Surfer SEO vs Frase - which is better?
+
+They overlap heavily. Both run SERP analysis and produce briefs. Surfer leans on real-time scoring; [Frase](frase.md) leans on outline generation. Pick by which UI you find faster after a week.
+
+### Does Surfer SEO write content?
+
+Yes - Surfer AI generates first drafts based on the brief. Most teams I've seen don't ship that output as-is; they treat it as scaffolding and rewrite for voice. The real value is the SERP analysis, not the generation.
+
+### Does optimising for Surfer's score guarantee ranking?
+
+No. The score correlates with what's currently ranking, not with what will rank. Treat it as one signal alongside backlinks, intent matching, and depth of expertise. Optimising the number to 90+ at the cost of readability tends to backfire.
 
 ## Pointers
 

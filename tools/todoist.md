@@ -1,6 +1,6 @@
-# Todoist
+# Todoist: classic task manager with AI assists layered on
 
-Todoist is the task manager that's been around long enough to be both classic and modern. The 2024–25 AI features (AI Assistant, smart task suggestions, natural language task creation) layered on top of an already excellent productivity app made it more capable without disrupting what worked. For people who organise their lives in a task list, Todoist + AI is one of the smaller upgrades to a tool you already know.
+Todoist sits in the scheduling and tasks category alongside [Motion](motion.md) and [Reclaim](reclaim.md), but it's the manual task list rather than the auto-scheduler. Todoist is the task manager that's been around long enough to be both classic and modern. The 2024–25 AI features (AI Assistant, smart task suggestions, natural language task creation) layered on top of an already excellent productivity app made it more capable without disrupting what worked. For people who organise their lives in a task list, Todoist + AI is one of the smaller upgrades to a tool you already know.
 
 ## What it actually is
 
@@ -12,7 +12,7 @@ A task management app for web, desktop (macOS, Windows, Linux), iOS, and Android
 2. Free tier: 5 active projects, basic features.
 3. Pricing: Pro $5/mo (1 user, 300 projects, AI Assistant), Business $8/seat/mo.
 4. Install desktop / mobile apps.
-5. Add tasks via the quick add: type "Pay rent every 1st of month #Finance @phone" — Todoist parses date, project, label.
+5. Add tasks via the quick add: type "Pay rent every 1st of month #Finance @phone" - Todoist parses date, project, label.
 6. (AI) Hover over a task → AI Assistant for suggestions.
 
 ## How I use it day to day
@@ -31,6 +31,31 @@ A task management app for web, desktop (macOS, Windows, Linux), iOS, and Android
 * Free tier is real but the project cap (5 active) hits hobbyists fast.
 * Some integrations (Calendar two way sync, Outlook) are tier locked.
 * For pure auto scheduling onto your calendar: [motion.md](motion.md), [reclaim.md](reclaim.md).
+
+## Alternatives
+
+* If you want tasks auto-scheduled into your calendar (not just listed), [Motion](motion.md) or [Reclaim](reclaim.md) are the picks.
+* If you want a task aggregator that pulls from many sources into one inbox, [Akiflow](akiflow.md) is the closer fit.
+* If you want PRD and spec writing as the dominant use case, [ChatPRD](chatprd.md) is purpose-built.
+* If you want notes plus tasks with full local control, [Obsidian](obsidian.md) with the Tasks plugin is the OSS path.
+
+## FAQ
+
+### Is Todoist free?
+
+Yes - the free tier is real but caps at 5 active projects. Pro ($5/mo) lifts that to 300 projects and adds the AI Assistant; Business ($8/seat/mo) is for teams.
+
+### Is Todoist's AI Assistant worth it?
+
+Light touch. It suggests sub-tasks, surfaces missing context, and proposes breakdowns. Useful, not essential - you'd get richer breakdowns asking [ChatGPT](chatgpt.md) or [Claude](claude.md) directly. The integration is the value, not the model.
+
+### Todoist vs Motion - which should I use?
+
+Different jobs. Todoist is a manual task list with natural language input and filters; [Motion](motion.md) auto-schedules tasks into your calendar based on priority and duration. If you decide when to do things, Todoist; if you want the tool to decide, Motion.
+
+### Can Todoist parse natural language?
+
+Yes - the quick add bar parses dates, recurrence, projects, and labels in one line. Type "Pay rent every 1st of month #Finance @phone" and it sets the recurrence, project, and label without dropdown menus.
 
 ## Pointers
 

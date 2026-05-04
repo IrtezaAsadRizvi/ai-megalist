@@ -1,6 +1,6 @@
-# Meta AI
+# Meta AI: Llama-powered assistant inside WhatsApp and Instagram
 
-Meta AI is the assistant most of my non technical friends and family actually use, mostly because it's already inside WhatsApp. That's the interesting fact about it: distribution. The model is fine, the product is fine, but the reason it matters is that a billion people can summon it without installing anything.
+Meta AI is Meta's general-purpose chat assistant in the same category as [ChatGPT](chatgpt.md), [Claude](claude.md), and [Gemini](gemini.md), distinguished mainly by distribution rather than model quality. Meta AI is the assistant most of my non technical friends and family actually use, mostly because it's already inside WhatsApp. That's the interesting fact about it: distribution. The model is fine, the product is fine, but the reason it matters is that a billion people can summon it without installing anything.
 
 ## What it actually is
 
@@ -27,6 +27,31 @@ Meta's chat assistant powered by the Llama model family. It lives at [meta.ai](h
 * Image generation sometimes refuses faces of public figures, sometimes doesn't. Behaviour is inconsistent, possibly tuned by region.
 * The model under the hood is a Llama variant, not the absolute frontier. For hard reasoning I switch to Claude or ChatGPT.
 * You can't easily upload long files; this is a chat product, not a document tool.
+
+## Alternatives
+
+* If you want frontier reasoning, [Claude](claude.md) or [ChatGPT](chatgpt.md) are still the picks.
+* If you want deep Google Workspace integration, look at [Gemini](gemini.md).
+* If you want to run the same Llama family locally without sending data to Meta, [Ollama](ollama.md) is the path.
+* If you're inside Microsoft 365, [Microsoft Copilot](microsoft_copilot.md) is the equivalent embedded assistant.
+
+## FAQ
+
+### Is Meta AI free?
+
+Yes, completely free across WhatsApp, Instagram, Messenger, Facebook, and meta.ai. No subscription tier exists for the consumer product.
+
+### Meta AI vs ChatGPT - which is better?
+
+[ChatGPT](chatgpt.md) wins on raw capability and feature surface (voice, image gen, agents, Operator). Meta AI wins on distribution - it's already in the apps you're chatting in. For hard reasoning, switch out; for "ask in the group chat," it's faster.
+
+### What model does Meta AI use?
+
+A Llama variant under the hood, not the absolute frontier. Quality is fine for routine questions and image generation; below Claude / GPT for hard reasoning.
+
+### Is Meta AI private?
+
+Privacy footprint is non-trivial. Meta uses interactions to improve its models in most regions; the EU and UK have stricter defaults. Read the data settings before pasting anything sensitive.
 
 ## Pointers
 

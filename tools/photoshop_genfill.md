@@ -1,12 +1,12 @@
-# Photoshop Generative Fill
+# Photoshop Generative Fill: in-editor inpainting via Firefly
 
-Photoshop Generative Fill is the AI feature that justifies the Photoshop subscription on its own. Select an area, type what you want there (or leave blank to remove), click Generate. The first time you watch a power line vanish from a landscape photo cleanly, the rest of the AI image tools start to look ornamental — Generative Fill works inside the editor where the image already lives.
+Generative Fill sits in the image editing category, the in-Photoshop equivalent of [Magnific](magnific.md), [Clipdrop](clipdrop.md), and the inpaint nodes in [ComfyUI](comfyui.md). Photoshop Generative Fill is the AI feature that justifies the Photoshop subscription on its own. Select an area, type what you want there (or leave blank to remove), click Generate. The first time you watch a power line vanish from a landscape photo cleanly, the rest of the AI image tools start to look ornamental - Generative Fill works inside the editor where the image already lives.
 
 ## What it actually is
 
 A feature in Adobe Photoshop powered by Adobe Firefly (the same image model). Two main flavors:
-* **Generative Fill** — fill a selection with prompted content (or remove with empty prompt).
-* **Generative Expand** — extend the canvas in any direction; Photoshop fills the new area plausibly.
+* **Generative Fill**: fill a selection with prompted content (or remove with empty prompt).
+* **Generative Expand**: extend the canvas in any direction; Photoshop fills the new area plausibly.
 
 Both work non destructively (on a Generative Layer); commercially safe (Firefly trained on licensed content).
 
@@ -33,6 +33,31 @@ Both work non destructively (on a Generative Layer); commercially safe (Firefly 
 * Hands and faces are still tricky. Generative Fill is best on backgrounds and inanimate objects.
 * For the highest quality results on photoreal generation, FLUX or Midjourney still beat Firefly aesthetically. Generative Fill wins on integration.
 * Some prompt variations get blocked by content policy. Adobe's filter is conservative.
+
+## Alternatives
+
+* If you want OSS local inpainting with full control, [ComfyUI](comfyui.md) plus Stable Diffusion is the path.
+* If you only need one-click background removal, [Remove.bg](removebg.md) is faster and cheaper.
+* If you're upscaling or relighting rather than filling, [Magnific](magnific.md) is the specialist.
+* If you want pure photoreal generation (not editing), [Flux](flux.md) and [Midjourney](midjourney.md) beat Firefly aesthetically.
+
+## FAQ
+
+### Is Photoshop Generative Fill free?
+
+No. It needs a Photoshop subscription - the cheapest is Creative Cloud Photography at $20/mo, which includes 250 generative credits per month. Heavy use blows through 250 fast.
+
+### Generative Fill vs Midjourney - which is better?
+
+Different jobs. Generative Fill edits inside an existing image (fill, expand, replace) and is non-destructive. [Midjourney](midjourney.md) generates whole images from scratch with stronger aesthetics. Use Generative Fill for surgical edits, Midjourney for creation.
+
+### Are Generative Fill outputs commercially safe?
+
+Yes, that's Adobe's main marketing pitch. Firefly is trained on licensed Adobe Stock content, so outputs come with commercial-use indemnification on paid plans. Read the current terms before betting on it.
+
+### Why is Generative Fill blurry on big areas?
+
+Quality is uneven on large fills - the model trained mostly on small in-painting tasks. Work in patches, generate multiple times, and stack layers. For one large fill, FLUX inpainting in ComfyUI often does better.
 
 ## Pointers
 

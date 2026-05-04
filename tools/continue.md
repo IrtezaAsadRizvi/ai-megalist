@@ -1,10 +1,10 @@
-# Continue
+# Continue: OSS bring-your-own-model coding extension
 
-Continue is the open source AI coding assistant for "I'd like Cursor's experience but I want to choose the model and own the data." Bring your own provider (OpenAI, Anthropic, Gemini, Ollama, anything OpenAI compatible); Continue is the IDE side that uses it. Apache 2.0 licensed, configurable to a fault.
+Continue is the OSS inline-completion / chat extension in the same lane as [GitHub Copilot](github_copilot.md), [Codeium](codeium.md), and [Tabnine](tabnine.md) - except you bring the model. It's the open source AI coding assistant for "I'd like Cursor's experience but I want to choose the model and own the data." Bring your own provider (OpenAI, Anthropic, Gemini, Ollama, anything OpenAI compatible); Continue is the IDE side that uses it. Apache 2.0 licensed, configurable to a fault.
 
 ## What it actually is
 
-An open source IDE extension for VS Code and JetBrains. Provides autocomplete, chat, edit (highlight code, describe change), and agent (multi step file edits) — all driven by whichever model you configure. The extension is the product; you supply the model.
+An open source IDE extension for VS Code and JetBrains. Provides autocomplete, chat, edit (highlight code, describe change), and agent (multi step file edits) - all driven by whichever model you configure. The extension is the product; you supply the model.
 
 ## Setup
 
@@ -33,6 +33,35 @@ About 5 minutes if you already have a model API key.
 * Some agentic flows (Cursor's Composer, Claude Code's tool loop) are smoother in dedicated tools. Continue is catching up; not the leader.
 * Embedding model and vector store choices matter for codebase search. Defaults are sensible; non default setups need attention.
 * The roadmap moves fast; pin a version in production environments.
+
+## Alternatives
+
+* If you want the most polished managed experience and don't care about model choice, [Cursor](cursor.md) is the AI-native IDE.
+* If you want the same plugin shape but managed and free for individuals, [Codeium](codeium.md) is the closest.
+* If you want a privacy-first on-prem option with full air-gap, [Tabnine](tabnine.md) is the dedicated path.
+* If you want terminal-first OSS coding with the same BYO-model spirit, [Aider](aider.md) is the pair.
+
+## FAQ
+
+### Is Continue free?
+
+Yes - Apache 2.0, free forever. You pay for whichever model you wire up (OpenAI, Anthropic, etc.) or run nothing if you point it at local [Ollama](ollama.md). The extension itself is the OSS product.
+
+### Continue vs Cursor - which should I use?
+
+Different audiences. [Cursor](cursor.md) is a finished AI-native IDE with a polished GUI and a managed model picker. Continue is an extension that lives inside vanilla VS Code or JetBrains and demands you bring your own model. If you want one-click setup, Cursor. If you want full control of the model and data, Continue.
+
+### Can Continue run fully local?
+
+Yes - with [Ollama](ollama.md) for autocomplete and chat, you get a fully local coding assistant. Quality is below frontier models but private and free. The config supports mixing local and cloud models per role (local for completion, frontier for chat).
+
+### Does Continue work in JetBrains?
+
+Yes - the JetBrains plugin is one of the actively maintained ones. Some advanced features land in VS Code first; JetBrains follows.
+
+### How does Continue compare to GitHub Copilot?
+
+[GitHub Copilot](github_copilot.md) is a managed, polished, deeply-integrated extension at $10/mo. Continue is OSS, configurable, and free if you have your own model. Copilot is easier; Continue gives you the freedom to swap models or run locally.
 
 ## Pointers
 

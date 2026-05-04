@@ -1,6 +1,6 @@
-# Undermind
+# Undermind: deep scientific search that takes ten minutes
 
-Undermind is the search tool I reach for when I'm willing to wait ten minutes for an answer. It's a deep scientific search that runs an actual research process in the background: forming queries, reading abstracts, expanding the citation graph, scoring relevance, and coming back with a shortlist plus reasoning. Most search products race for low latency; Undermind explicitly trades it away.
+Undermind sits in the research category alongside [Elicit](elicit.md), [Consensus](consensus.md), and [SciSpace](scispace.md), pitched as the slowest and deepest of the bunch - it actually reads abstracts and traverses citations. Undermind is the search tool I reach for when I'm willing to wait ten minutes for an answer. It's a deep scientific search that runs an actual research process in the background: forming queries, reading abstracts, expanding the citation graph, scoring relevance, and coming back with a shortlist plus reasoning. Most search products race for low latency; Undermind explicitly trades it away.
 
 ## What it actually is
 
@@ -26,6 +26,31 @@ A research grade scientific search engine that runs multi step retrieval over pe
 * Coverage skews STEM. Humanities and social sciences are usable but the underlying corpus is thinner.
 * Free tier is limited; serious use needs the paid plan, which is priced for researchers and labs rather than casual readers.
 * Like all of these, the relevance scoring can mislead. Always read the paper, not just the model's note about it.
+
+## Alternatives
+
+* If you want fast structured answers as tables, [Elicit](elicit.md) is the speed-first pick.
+* If you want yes/no answers on specific scientific questions, [Consensus](consensus.md) is the right tool.
+* If you've narrowed to a paper and want to chat with it, [SciSpace](scispace.md) and [Explainpaper](explainpaper.md) are the next stop.
+* If you want broader (less academic) deep research, [ChatGPT Deep Research](chatgpt.md) and [Gemini Deep Research](gemini.md) read more of the open web.
+
+## FAQ
+
+### Is Undermind free?
+
+Free trial, then paid plans priced for researchers and labs rather than casual readers. Institutional plans exist for university libraries.
+
+### Undermind vs Elicit - which is better?
+
+Different shapes. [Elicit](elicit.md) is fast and structures answers as tables; Undermind spends 5-15 minutes per query and traverses the citation graph. I run both and take the union when the question is important.
+
+### How long does an Undermind search take?
+
+Roughly 5 to 15 minutes per query. The job runs in the background and notifies you when ready - this is not the tool to use during a meeting.
+
+### What fields does Undermind cover?
+
+Strongest in STEM: biomed, physics, computer science. Humanities and social sciences are usable but the underlying corpus is thinner; for those, [Elicit](elicit.md) or [Consensus](consensus.md) may serve better.
 
 ## Pointers
 

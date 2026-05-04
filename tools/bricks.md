@@ -1,6 +1,6 @@
-# Bricks
+# Bricks: AI-native spreadsheet built around natural language prompts
 
-Bricks is a spreadsheet built around AI prompts as the primary interaction. Where Rows added AI to a spreadsheet, Bricks designed the spreadsheet around AI from day one: every cell can be the result of a prompt, every chart can be generated from a description, every workflow can be automated by a request. It's a smaller product than the Excel and Sheets giants, with a more distinctive bet.
+Bricks sits in the data and spreadsheets cluster alongside [Rows](rows.md), [Julius](julius.md), and [Numerous](numerous.md) - the AI spreadsheet category. Bricks is a spreadsheet built around AI prompts as the primary interaction. Where Rows added AI to a spreadsheet, Bricks designed the spreadsheet around AI from day one: every cell can be the result of a prompt, every chart can be generated from a description, every workflow can be automated by a request. It's a smaller product than the Excel and Sheets giants, with a more distinctive bet.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ For real modeling I still go to Excel. For team collaboration, Sheets. Bricks is
 * The product is smaller than Excel or Sheets; expect feature gaps.
 * Pricing model has shifted as the product matures; check current tiers.
 * As an AI native product, your data flows through their inference path. Read the privacy policy if anything is sensitive.
+
+## Alternatives
+
+* If you want a chat-only data analysis tool that answers questions about CSVs without showing a spreadsheet, [Julius](julius.md) is the comparator.
+* If you want AI-augmented Sheets / Excel rather than a separate app, [Numerous](numerous.md) lives inside the tools you already use.
+* If you want a similar AI spreadsheet with stronger team collaboration, [Rows](rows.md) is the closer competitor.
+* If you want a connected spreadsheet aimed at finance and BI, [Equals](equals.md) leans that way.
+
+## FAQ
+
+### Is Bricks free?
+
+Free trial, then subscription tiers. Pricing has shifted as the product matures - check current rates before committing.
+
+### Bricks vs Rows - which one?
+
+Both are AI-augmented spreadsheets. Bricks bets harder on AI as the primary interaction (every cell can be a prompt result); [Rows](rows.md) is a more conventional spreadsheet with AI bolted on. Pick by how much of your workflow you want driven by prompts.
+
+### Can I trust AI-generated formulas in Bricks?
+
+Verify before relying on a number. AI-generated formulas are confidently wrong some of the time - same caveat as asking ChatGPT for an INDEX MATCH.
+
+### Bricks vs Excel - should I switch?
+
+For real modeling I still go to Excel. Bricks is for the cases where prompt-to-chart is faster than building it manually, and where you don't need Excel's depth.
 
 ## Pointers
 

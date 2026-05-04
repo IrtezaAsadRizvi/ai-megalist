@@ -1,6 +1,6 @@
-# Goose
+# Goose: Block's OSS local agent with bring-your-own-model
 
-Goose is Block's open source agent, designed to run locally on your machine and bring its own model. It's the agent I'd recommend to someone who wants Claude Code style autonomy but doesn't want to ship their codebase to a hosted provider every time they ask a question. Apache 2.0, written by the team behind Square and Cash App, and seriously good at staying out of your way.
+Goose is in the agent category alongside [Claude Code](claude_code.md) and [Codex CLI](codex_cli.md), but its angle is OSS-and-local-first. Apache 2.0, by the team behind Square and Cash App, and the agent I'd recommend to someone who wants Claude Code style autonomy but doesn't want to ship their codebase to a hosted provider every time they ask a question.
 
 ## What it actually is
 
@@ -28,6 +28,31 @@ Quality of the agent loop tracks the model you give it. With a frontier model (S
 * Local model use sounds great in theory; in practice you need a strong machine for it to be productive on real codebases.
 * Documentation is improving but lags Claude Code's. Read the GitHub issues for tribal knowledge.
 * Some MCP servers are picky about which agent harness they expect; cross compatibility is good but not perfect.
+
+## Alternatives
+
+* If you want the most polished commercial terminal agent and don't mind sending code to Anthropic, [Claude Code](claude_code.md) is the default.
+* For OpenAI's terminal agent on the GPT family, [Codex CLI](codex_cli.md) is the parallel.
+* If you want Apache-2.0 OSS with the longest context window, [Gemini CLI](gemini_cli.md) is also a fork-friendly option.
+* For autonomous longer-horizon SWE work (the "fix this GitHub issue" loop), [OpenHands](openhands.md) is more aggressive in autonomy.
+
+## FAQ
+
+### Is Goose free?
+
+Yes - Apache 2.0, fully OSS. The cost is the model: bring your own API key (OpenAI, Anthropic, Google) or run a local model via [Ollama](ollama.md). Local Ollama is free at inference time but you pay in electricity and the cost of strong hardware.
+
+### Goose vs Claude Code - which should I use?
+
+Different priorities. [Claude Code](claude_code.md) wins on polish, ecosystem, and out-of-the-box quality. Goose wins if you need OSS, want to keep code off third-party servers, or want to swap models freely. With a frontier model behind it, Goose feels close to Claude Code; with a small local model, expect more babysitting.
+
+### Does Goose support MCP?
+
+Yes - the MCP ecosystem is shared with Claude Code. Add servers via `goose mcp add`. Most reference servers work in both; a few have adapter quirks, so test cross-compatibility before depending on one.
+
+### Can Goose run fully offline?
+
+Yes, paired with [Ollama](ollama.md) or another local OpenAI-compatible server. The agent loop, file edits, and shell tools all work without a network. Quality tracks the local model - 70B-class models on a strong machine are realistic; smaller models struggle on real codebases.
 
 ## Pointers
 

@@ -1,6 +1,6 @@
-# Grammarly
+# Grammarly: cross-app writing assistant with GenAI bolted on
 
-Grammarly is the AI writing aid most people forgot was AI. Decades of grammar / spelling / style heuristics, then the LLM era added GenAI features (rewrite, generate, tone match) without changing the core promise: text everywhere gets quietly better. The breadth (every text field on every device) is what made it ubiquitous; the GenAI layer kept it relevant.
+Grammarly is the writing-assistant incumbent in the writing category, alternative to [Wordtune](wordtune.md) for rewriting and a lighter-touch option than reaching for [Claude](claude.md) or [ChatGPT](chatgpt.md). Decades of grammar / spelling / style heuristics, then the LLM era added GenAI features (rewrite, generate, tone match) without changing the core promise: text everywhere gets quietly better. The breadth (every text field on every device) is what made it ubiquitous; the GenAI layer kept it relevant.
 
 ## What it actually is
 
@@ -33,6 +33,31 @@ A grammar and writing assistant available as browser extension, desktop app (mac
 * Premium upsells inside the product are persistent. Free tier is enough for spelling / grammar; the GenAI features are paid.
 * Privacy: Grammarly sees what you type. They have policies; review them. Some employers prohibit Grammarly on work systems.
 * Conflicts with native spell check or other tools (Wordtune, Hemingway) sometimes happen. Pick one for any given workflow.
+
+## Alternatives
+
+* If you want sharper rewrite options with multiple tone choices side-by-side, [Wordtune](wordtune.md) is the rewriting-specialist pick.
+* For long-form drafting in a clean, AI-native editor, [Lex](lex.md) is a better surface than Grammarly.
+* If you want a frontier chat assistant for serious prose work, [Claude](claude.md) preserves voice better on long edits.
+* For brand-voice and team templates in marketing, [Jasper](jasper.md) or [Writer](writer.md) is the right shape.
+
+## FAQ
+
+### Is Grammarly free?
+
+Yes - free tier covers spelling, grammar, and basic suggestions, which is the core value most people use. Premium is $12/mo (GenAI rewrite + generate, tone match, full suggestions). Business is $15/seat/mo with style-guide enforcement.
+
+### Grammarly vs ChatGPT - which is better for writing?
+
+Different jobs. Grammarly catches typos and tone issues in every text field on every device, passively. [ChatGPT](chatgpt.md) is for active drafting, editing, and brainstorming when you sit down to write. Most writers I know use both.
+
+### Does Grammarly read my data?
+
+Yes - Grammarly sees what you type in the apps it's enabled in. They publish data policies and have enterprise tiers with stricter retention; some employers prohibit Grammarly on work systems for this reason. Read the policy if you're handling sensitive content.
+
+### Does Grammarly work in Google Docs?
+
+Yes, via the browser extension. Native support is solid in Docs, Word, Outlook, Slack, Notion, and Gmail. Some editors have inconsistent suggestion placement; if it bothers you, the desktop overlay is the alternative.
 
 ## Pointers
 

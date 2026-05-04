@@ -1,10 +1,10 @@
-# Suno
+# Suno: AI song generator with full vocals and stem editing
 
-I had a working "song" within sixty seconds of opening Suno for the first time. I typed a vibe, it produced two two minute tracks with vocals that more or less rhymed and a chorus that more or less landed. The bar for "music made with no instrument and no training" used to be high; Suno collapsed it.
+Suno is the AI music generator most people start with for full songs with vocals, the polished alternative to [Udio](udio.md) and a different niche from instrumental tools like [Stable Audio](stable_audio.md) and [Mubert](mubert.md). I had a working "song" within sixty seconds of opening Suno for the first time. I typed a vibe, it produced two two minute tracks with vocals that more or less rhymed and a chorus that more or less landed. The bar for "music made with no instrument and no training" used to be high; Suno collapsed it.
 
 ## What it actually is
 
-A web based AI music studio. You describe a song (genre, mood, instruments) and optionally provide lyrics. It generates two candidates, each up to four minutes, with vocals. The current model is v5 (April 2026), which sounds noticeably better than v4 — lyrics actually align with the rhythm rather than floating over it.
+A web based AI music studio. You describe a song (genre, mood, instruments) and optionally provide lyrics. It generates two candidates, each up to four minutes, with vocals. The current model is v5 (April 2026), which sounds noticeably better than v4 - lyrics actually align with the rhythm rather than floating over it.
 
 ## Setup
 
@@ -25,7 +25,7 @@ A web based AI music studio. You describe a song (genre, mood, instruments) and 
 * Use bracketed structure tags: `[Verse 1]`, `[Chorus]`, `[Bridge]`, `[Outro]`. Suno respects them.
 * `[Instrumental]` for sections without vocals.
 * Short lines beat long lines. The model handles meter better when each line is roughly the same length.
-* Vowel choices matter — open vowels (oh, ah) sing better than tight ones at high notes.
+* Vowel choices matter - open vowels (oh, ah) sing better than tight ones at high notes.
 
 ## Gotchas
 
@@ -33,6 +33,31 @@ A web based AI music studio. You describe a song (genre, mood, instruments) and 
 * Suno's training data is the subject of active litigation (RIAA lawsuit, ongoing as of 2026). Commercial release on Pro tier is officially permitted, but the legal landscape may shift.
 * It will sometimes hallucinate words in your lyrics, especially proper nouns. Listen carefully before publishing.
 * The same prompt twice gives different songs. Save the seed if you want to iterate from a specific take.
+
+## Alternatives
+
+* If you want finer control, longer tracks, or audio inpainting, [Udio](udio.md) is the contender (mind the Sony litigation).
+* If you want royalty-safe music behind a real API for products, [Mubert](mubert.md) is shaped for that.
+* If you want SFX and instrumental beds rather than full songs, [Stable Audio](stable_audio.md) covers that range.
+* If you're scoring film with classical structure, [AIVA](aiva.md) is the genre specialist.
+
+## FAQ
+
+### Is Suno free?
+
+Yes - free tier gives 50 credits/day, enough for about 10 songs. Pro ($10/mo) gives 2,500 credits/month and adds commercial use rights, which the free tier explicitly lacks.
+
+### Can I sell Suno songs?
+
+Only on Pro tier and above, and the legal status is contested - Suno is in active RIAA litigation as of 2026. Officially permitted under Pro terms; verify before launching anything that depends on clear rights.
+
+### Suno vs Udio - which is better?
+
+Different bets. Suno is the polished default - the lyrics align better with the rhythm in v5. [Udio](udio.md) gives more granular control and longer tracks. I default to Suno; I reach for Udio when I need to inpaint a specific section.
+
+### Can Suno clone my voice?
+
+No - Suno generates voices from prompts, not from samples. For cloning, use [ElevenLabs](elevenlabs.md) or [PlayHT](playht.md).
 
 ## Pointers
 

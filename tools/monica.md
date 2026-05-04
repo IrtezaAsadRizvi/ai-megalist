@@ -1,6 +1,6 @@
-# Monica
+# Monica: cross-browser AI sidebar that wraps multiple models
 
-Monica is the cross browser AI sidebar I install for friends who want one chat to rule them all without committing to a specific browser or OS. It wraps GPT, Claude, and Gemini behind a single sidebar that overlays any tab, and it has enough utility shortcuts (translate, summarize, rewrite) that it earns its place even before you start typing prompts.
+Monica is an AI browser sidebar in the same category as [Sider](sider.md), bundling [ChatGPT](chatgpt.md), [Claude](claude.md), and [Gemini](gemini.md) behind one interface that overlays any tab. Monica is the cross browser AI sidebar I install for friends who want one chat to rule them all without committing to a specific browser or OS. It wraps GPT, Claude, and Gemini behind a single sidebar that overlays any tab, and it has enough utility shortcuts (translate, summarize, rewrite) that it earns its place even before you start typing prompts.
 
 ## What it actually is
 
@@ -27,6 +27,31 @@ An AI assistant browser extension and standalone app that bundles access to mult
 * Privacy: prompts and page content flow through Monica's servers. Don't paste sensitive enterprise data without checking the policy.
 * The free tier is generous enough for casual use but the in app upsells are frequent.
 * Quality of "tasks" (summarize, rewrite) depends on which underlying model you've selected; defaults aren't always the best choice.
+
+## Alternatives
+
+* If you want the closest direct competitor with a similar wrapper model, [Sider](sider.md) is worth A/B-testing.
+* If you want the agentic browser instead of a sidebar on top of Chrome, [Comet](comet.md) is Perplexity's take.
+* If you're committed to a Microsoft browser anyway, [Edge Copilot](edge_copilot.md) is built in and free.
+* If you'd rather pay model providers directly and skip the wrapper markup, go straight to [ChatGPT](chatgpt.md) or [Claude](claude.md).
+
+## FAQ
+
+### Is Monica free?
+
+Yes, there's a free tier with a daily prompt allowance - enough for casual use. Paid plans unlock higher limits, image generation, and access to more models.
+
+### Monica vs Sider - which one?
+
+Genuinely close call. Both wrap multiple frontier models behind a sidebar. Test drive each for a day before committing - the differences are mostly UI and which utility shortcuts you use.
+
+### Is Monica safe for sensitive data?
+
+Prompts and page content flow through Monica's servers. For regulated or enterprise data, going direct to [ChatGPT](chatgpt.md) / [Claude](claude.md) (or running [Ollama](ollama.md) locally) is the safer path.
+
+### Does Monica work in Safari?
+
+Limited - the strongest support is Chrome / Edge / Firefox extensions plus standalone macOS / iOS / Windows / Android apps. Safari users typically use the standalone Mac app instead.
 
 ## Pointers
 

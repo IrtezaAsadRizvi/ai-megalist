@@ -1,10 +1,10 @@
-# Opus Clip
+# Opus Clip: long video to short clips, automated
 
-Opus Clip is the long video to short clips tool that does the entire job: it watches your full podcast/lecture/livestream, picks the most "viral" segments, captions them, reframes for vertical, and exports a stack of TikTok / Reels / Shorts ready clips. For creators repurposing long form content, it collapses a multi hour editing job into one click.
+Opus Clip sits in the video-repurposing category alongside [Captions](captions.md), [Submagic](submagic.md), and [Klap](klap.md), aimed at podcasters and creators who don't want to edit. Opus Clip is the long video to short clips tool that does the entire job: it watches your full podcast/lecture/livestream, picks the most "viral" segments, captions them, reframes for vertical, and exports a stack of TikTok / Reels / Shorts ready clips. For creators repurposing long form content, it collapses a multi hour editing job into one click.
 
 ## What it actually is
 
-A web app at [opus.pro](https://www.opus.pro). Upload (or paste a URL — YouTube, Zoom, Twitch) a long form video; Opus produces 10 to 30 short clip candidates ranked by an "Opus Virality Score." Each clip comes with auto captions, dynamic reframing (face tracking for vertical), and a hook title.
+A web app at [opus.pro](https://www.opus.pro). Upload (or paste a URL - YouTube, Zoom, Twitch) a long form video; Opus produces 10 to 30 short clip candidates ranked by an "Opus Virality Score." Each clip comes with auto captions, dynamic reframing (face tracking for vertical), and a hook title.
 
 ## Setup
 
@@ -31,6 +31,31 @@ A web app at [opus.pro](https://www.opus.pro). Upload (or paste a URL — YouTub
 * Caption styling defaults are loud. Tone them down if your brand is more restrained.
 * Pricing is steep for casual use. The free tier is enough to evaluate.
 * Long form sources with multiple speakers are harder; Opus tracks the dominant speaker.
+
+## Alternatives
+
+* If you want full transcript-based editing instead of automated picks, [Descript](descript.md) is the right shape.
+* If you're mobile-first and care about avatars + B-roll, [Captions](captions.md) is the lighter pick.
+* If you mostly want stylish auto-captions on existing clips, [Submagic](submagic.md) is cheaper and more focused.
+* If you want similar long-to-short with virality scoring, [Klap](klap.md) is the closest direct competitor.
+
+## FAQ
+
+### Is Opus Clip free?
+
+There's a free tier with 90 minutes of upload per month and a watermark on output. Starter is $19/mo and Pro is $79/mo; Pro is the floor for serious daily use without a watermark.
+
+### How accurate is Opus Clip's virality score?
+
+Weak signal at best. The scores are a marketing artifact; trust your own taste. Treat them as a rough first sort, not a recommendation.
+
+### Opus Clip vs Descript - which one?
+
+Different jobs. Opus Clip automates the "pick clips and reformat" job; [Descript](descript.md) is a real editor where you cut by editing the transcript. Use Opus Clip for volume, Descript when you want control.
+
+### Can Opus Clip handle multiple speakers?
+
+Imperfectly. The auto reframe tracks a dominant speaker; multi-person panels and roundtables produce shakier output. For dialogue-heavy formats, Descript or a manual edit is safer.
 
 ## Pointers
 

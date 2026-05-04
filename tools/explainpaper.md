@@ -1,6 +1,6 @@
-# Explainpaper
+# Explainpaper: highlight-to-explain reader for academic PDFs
 
-Explainpaper is the tool I wish I'd had in grad school. You drop in a PDF, highlight any passage you don't understand, and it explains that specific bit in context. The interaction is the whole product: you're not chatting with a paper, you're pointing at the paragraph that confused you and asking what's going on.
+Explainpaper is a research-PDF tool in the same neighborhood as [NotebookLM](notebooklm.md) and [SciSpace](scispace.md), but with a tighter loop - highlight the sentence that confused you, get the explanation pinned to that exact passage. It's the tool I wish I'd had in grad school. You drop in a PDF, highlight any passage you don't understand, and it explains that specific bit in context. The interaction is the whole product: you're not chatting with a paper, you're pointing at the paragraph that confused you and asking what's going on.
 
 ## What it actually is
 
@@ -28,6 +28,31 @@ For papers in my own field I usually don't need it; I'd rather struggle with the
 * Image and equation rendering varies. If the paper relies on a figure to make its point, the explainer can miss the gist.
 * The free tier has paper count limits. For heavy use the paid plan is reasonable but adds up if you're a student.
 * It's a reader, not a literature search. Pair with [elicit.md](elicit.md) or [scispace.md](scispace.md) when you need to find papers, not just understand one.
+
+## Alternatives
+
+* If you want multi-doc Q&A with audio summaries and shared notebooks, [NotebookLM](notebooklm.md) is the broader tool.
+* For a research-paper reader with citation graphs and follow-up question prompts, [SciSpace](scispace.md) covers more ground.
+* If you need to find papers (not just understand one you have), [Elicit](elicit.md) or [Consensus](consensus.md) is the right starting point.
+* For raw long-context Q&A with no special UI, just paste the PDF into [Claude](claude.md) - the 200K-1M context handles most papers in one shot.
+
+## FAQ
+
+### Is Explainpaper free?
+
+There's a free tier capped on paper count per month. The paid plan unlocks unlimited papers; pricing is in the consumer monthly-subscription range. For a heavy student, the paid tier is reasonable but adds up.
+
+### Explainpaper vs NotebookLM - which is better?
+
+Different jobs. Explainpaper is for one paper, one passage, one explanation - tight feedback loop. [NotebookLM](notebooklm.md) is for a stack of sources you want to query together with audio overviews. I use both.
+
+### Can Explainpaper handle math and equations?
+
+Partially. The OCR and rendering of equations is okay but not great, and explanations of dense math are confidently wrong often enough that I cross-check. For pure math passages I sometimes paste the LaTeX into [Claude](claude.md) directly.
+
+### Does it support arXiv links?
+
+Yes - paste an arXiv URL and it pulls the PDF without you needing to download it. Most academic PDFs render fine; image-heavy ones take longer.
 
 ## Pointers
 

@@ -4,7 +4,7 @@
 
 # AI Megalist
 
-#### The everything-AI index — sorted by **what you actually do.**
+#### The everything-AI index - sorted by **what you actually do.**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-111?style=flat-square)](LICENSE)
 [![Awesome](https://img.shields.io/badge/awesome-yes-ff69b4?style=flat-square)](https://awesome.re)
@@ -20,11 +20,11 @@
 
 ## About
 
-A curated, opinionated index of AI tools — categorized by the **job to be done**, not by which lab built the model. Three ways in:
+A curated, opinionated index of AI tools - categorized by the **job to be done**, not by which lab built the model. Three ways in:
 
-1. **[Quick find](#quick-find)** — one-line "I want to..." → category map. Fastest path.
-2. **[Pick your role](#pick-your-role)** — eight ready-made stacks: engineers, researchers, marketers, creators, designers, founders, students, knowledge workers.
-3. **[Browse the index](#the-index)** — 200+ tools across five clusters and 22 categories.
+1. **[Quick find](#quick-find)**: one-line "I want to..." → category map. Fastest path.
+2. **[Pick your role](#pick-your-role)**: eight ready-made stacks: engineers, researchers, marketers, creators, designers, founders, students, knowledge workers.
+3. **[Browse the index](#the-index)**: 200+ tools across five clusters and 22 categories.
 
 > **Conventions** &nbsp; `OSS` open source &nbsp;·&nbsp; `Local` runs on your machine &nbsp;·&nbsp; `Free` meaningful free tier &nbsp;·&nbsp; **Bold** in role tables = the safe default.
 
@@ -107,7 +107,7 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 | Q&A on your own PDFs | **[NotebookLM](tools/notebooklm.md)** | [SciSpace](tools/scispace.md) · [Explainpaper](tools/explainpaper.md) |
 | Literature search | **[Elicit](tools/elicit.md)** | [Consensus](tools/consensus.md) · [Undermind](tools/undermind.md) |
 | Cited web answers | **[Perplexity](tools/perplexity.md)** | [Exa](tools/exa.md) · [Tavily](tools/tavily.md) |
-| Wikipedia-style writeups | **[STORM](tools/storm.md)** `OSS` | — |
+| Wikipedia-style writeups | **[STORM](tools/storm.md)** `OSS` | - |
 
 <sub>→ Deeper: [Research](#research--deep-research) · [AI search](#ai-search-engines)</sub>
 
@@ -149,7 +149,7 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 
 | Job | Default | Alternates |
 | :-- | :-- | :-- |
-| Daily UI + handoff | **[Figma + Figma Make](tools/figma.md)** | — |
+| Daily UI + handoff | **[Figma + Figma Make](tools/figma.md)** | - |
 | Prompt → editable UI | **[Google Stitch](tools/google_stitch.md)** *(ex-Galileo)* | [Uizard](tools/uizard.md) · [Magic Patterns](tools/magic_patterns.md) |
 | Prompt → React / Tailwind | **[v0](tools/v0.md)** | [Magic Patterns](tools/magic_patterns.md) |
 | Brand visuals | **[Recraft](tools/recraft.md)** | [Adobe Firefly](tools/adobe_firefly.md) · [Canva](tools/canva.md) |
@@ -185,9 +185,9 @@ A curated, opinionated index of AI tools — categorized by the **job to be done
 | :-- | :-- | :-- |
 | Study buddy | **[ChatGPT](tools/chatgpt.md)** / **[Claude](tools/claude.md)** | [Gemini](tools/gemini.md) |
 | Lecture / paper Q&A | **[NotebookLM](tools/notebooklm.md)** | [SciSpace](tools/scispace.md) |
-| K-12 / math tutoring | **[Khanmigo](tools/khanmigo.md)** | — |
+| K-12 / math tutoring | **[Khanmigo](tools/khanmigo.md)** | - |
 | Flashcards | **[Quizlet AI](tools/quizlet.md)** | Anki + GPT |
-| Language practice | **[Speak](tools/speak.md)** · **[Duolingo Max](tools/duolingo_max.md)** | — |
+| Language practice | **[Speak](tools/speak.md)** · **[Duolingo Max](tools/duolingo_max.md)** | - |
 | Long video → notes | **[Eightify](tools/eightify.md)** | [NotebookLM](tools/notebooklm.md) |
 | Cite-able answers | **[Perplexity](tools/perplexity.md)** | [Consensus](tools/consensus.md) |
 
@@ -252,7 +252,7 @@ Where you go when you need to ask, search, or read.
 
 ### General-purpose assistants
 
-Conversational generalists — your daily-driver chat. Most now support memory, file uploads, web browsing, voice, image gen, and tool use.
+Conversational generalists - your daily-driver chat. Most now support memory, file uploads, web browsing, voice, image gen, and tool use.
 
 | Tool | Best for |
 | :-- | :-- |
@@ -319,7 +319,7 @@ A new wave of browsers (and extensions) where AI is the primary input, not a fea
 
 # ✍️ Create
 
-Make things — words, images, video, sound.
+Make things - words, images, video, sound.
 
 - [Writing & content](#writing--content)
 - [Image generation](#image-generation) · [Image editing](#image-editing--object-work)
@@ -446,7 +446,7 @@ Make things — words, images, video, sound.
 
 | Tool | Best for |
 | :-- | :-- |
-| [Suno](tools/suno.md) | v5; full songs with vocals, stem editing — most polished |
+| [Suno](tools/suno.md) | v5; full songs with vocals, stem editing - most polished |
 | [Udio](tools/udio.md) | High control; embroiled in Sony litigation |
 | [ElevenLabs Music](tools/elevenlabs.md) | Trim / cut in-tool; high credit cost |
 | [Mubert](tools/mubert.md) | API-friendly, license-safe royalty-free music |
@@ -648,7 +648,7 @@ For the people writing software, training models, or shipping products.
 
 ### Local & open-source model runners
 
-Run models on your own machine — no data leaves the device.
+Run models on your own machine - no data leaves the device.
 
 | Tool | Best for |
 | :-- | :-- |
@@ -734,44 +734,44 @@ A non-exhaustive list of write-ups consulted for this index.
 <details>
 <summary><strong>Show sources</strong></summary>
 
-- [The 12 Best AI Tools for 2026 — Synthesia](https://www.synthesia.io/post/ai-tools)
-- [I tried 70+ best AI tools in 2026 — TechRadar](https://www.techradar.com/best/best-ai-tools)
-- [Best AI Tools 2026 Complete Ranking — NxCode](https://www.nxcode.io/resources/news/best-ai-tools-2026-complete-ranking-guide)
+- [The 12 Best AI Tools for 2026 - Synthesia](https://www.synthesia.io/post/ai-tools)
+- [I tried 70+ best AI tools in 2026 - TechRadar](https://www.techradar.com/best/best-ai-tools)
+- [Best AI Tools 2026 Complete Ranking - NxCode](https://www.nxcode.io/resources/news/best-ai-tools-2026-complete-ranking-guide)
 - [eudk/awesome-ai-tools (GitHub)](https://github.com/eudk/awesome-ai-tools)
 - [caramaschiHG/awesome-ai-agents-2026 (GitHub)](https://github.com/caramaschiHG/awesome-ai-agents-2026)
 - [QAInsights/awesome-ai-tools (GitHub)](https://github.com/QAInsights/awesome-ai-tools)
 - [ai-for-developers/awesome-ai-coding-tools (GitHub)](https://github.com/ai-for-developers/awesome-ai-coding-tools)
-- [Top AI GitHub Repositories in 2026 — ByteByteGo](https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026)
-- [Best AI Code Editors in 2026 — MindStudio](https://www.mindstudio.ai/blog/best-ai-code-editors)
-- [Best AI Coding Agents for 2026 — Faros](https://www.faros.ai/blog/best-ai-coding-agents-2026)
-- [Coding Agents Comparison — Artificial Analysis](https://artificialanalysis.ai/agents/coding)
-- [Best AI Image Generators in 2026 — Zapier](https://zapier.com/blog/best-ai-image-generator/)
+- [Top AI GitHub Repositories in 2026 - ByteByteGo](https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026)
+- [Best AI Code Editors in 2026 - MindStudio](https://www.mindstudio.ai/blog/best-ai-code-editors)
+- [Best AI Coding Agents for 2026 - Faros](https://www.faros.ai/blog/best-ai-coding-agents-2026)
+- [Coding Agents Comparison - Artificial Analysis](https://artificialanalysis.ai/agents/coding)
+- [Best AI Image Generators in 2026 - Zapier](https://zapier.com/blog/best-ai-image-generator/)
 - [Midjourney vs DALL·E vs SD vs Flux 2026](https://freeacademy.ai/blog/midjourney-vs-dalle-vs-stable-diffusion-vs-flux-comparison-2026)
-- [Best AI Video Generators 2026 — Pixflow](https://pixflow.net/blog/best-ai-video-generator/)
-- [Sora alternatives — eWeek](https://www.eweek.com/news/sora-alternatives-ai-video-tools-2026/)
-- [Best AI Video Generators 2026 — AI/ML API](https://aimlapi.com/blog/best-ai-video-generators-2026-veo-3-1-kling-sora-2-seedance-more-compared)
-- [Best AI Companion Apps 2026 — AI Companion Guides](https://aicompanionguides.com/blog/best-ai-companion-apps-2026/)
-- [Best AI Companion Apps — Mindful Suite](https://www.mindfulsuite.com/reviews/best-ai-companion-apps)
-- [The 9 Best AI Personal Assistants — Zapier](https://zapier.com/blog/ai-personal-assistant/)
-- [55+ Best AI Tools for Productivity in 2026 — GPT Prompts](https://gptprompts.ai/ai-tools-for-productivity)
-- [The 10 Best AI Note Takers in 2026 — Meeting Notes](https://meetingnotes.com/blog/best-ai-note-takers)
-- [Granola vs Notion AI 2026 — Zack Proser](https://zackproser.com/blog/granola-vs-notion-ai-2026)
-- [10 Best Manus Alternatives 2026 — Vellum](https://www.vellum.ai/blog/best-manus-alternatives)
-- [Best AI Agents in 2026 — Fello AI](https://felloai.com/best-ai-agents/)
-- [Top 10 Browser Use Agents 2026 — o-mega](https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026)
-- [Best AI Music Generators 2026 — Curious Refuge](https://curiousrefuge.com/blog/best-ai-music-tools-for-2026)
-- [Best AI Music Generators 2026 — SoundGuys](https://www.soundguys.com/best-ai-music-generators-134781/)
-- [15 Best AI Design Tools 2026 — Guideflow](https://www.guideflow.com/blog/ai-design-tools)
-- [11 Best AI Design Tools — Figma](https://www.figma.com/resource-library/ai-design-tools/)
-- [I Tested 29 AI Writing Tools — eesel](https://www.eesel.ai/blog/best-ai-writing-tools)
-- [Best AI for Creative Writing 2026 — Sudowrite](https://sudowrite.com/blog/best-ai-for-creative-writing-in-2026-tested-and-compared/)
-- [AI Search Engines Compared 2026 — haoqq](https://www.haoqq.com/en/guides/ai-search-engines-compared-2026)
-- [Perplexity vs Tavily vs Exa vs You.com 2026 — Humai](https://www.humai.blog/perplexity-vs-tavily-vs-exa-vs-you-com-the-complete-ai-search-engine-comparison-2026/)
-- [Best AI App Builders 2026 — Lovable](https://lovable.dev/guides/best-ai-app-builders)
-- [AI App Builders Compared — NovaKit](https://www.novakit.ai/blog/ai-builders-comparison-bolt-lovable-v0-novakit)
-- [Top 5 Local LLM Tools and Models in 2026 — Pinggy](https://pinggy.io/blog/top_5_local_llm_tools_and_models/)
-- [Jan vs LM Studio vs Ollama — Local AI Master](https://localaimaster.com/blog/jan-vs-lm-studio-vs-ollama)
-- [15 Best LM Studio Alternatives 2026 — PremAI](https://blog.premai.io/15-best-lm-studio-alternatives-for-running-local-llms-2026/)
+- [Best AI Video Generators 2026 - Pixflow](https://pixflow.net/blog/best-ai-video-generator/)
+- [Sora alternatives - eWeek](https://www.eweek.com/news/sora-alternatives-ai-video-tools-2026/)
+- [Best AI Video Generators 2026 - AI/ML API](https://aimlapi.com/blog/best-ai-video-generators-2026-veo-3-1-kling-sora-2-seedance-more-compared)
+- [Best AI Companion Apps 2026 - AI Companion Guides](https://aicompanionguides.com/blog/best-ai-companion-apps-2026/)
+- [Best AI Companion Apps - Mindful Suite](https://www.mindfulsuite.com/reviews/best-ai-companion-apps)
+- [The 9 Best AI Personal Assistants - Zapier](https://zapier.com/blog/ai-personal-assistant/)
+- [55+ Best AI Tools for Productivity in 2026 - GPT Prompts](https://gptprompts.ai/ai-tools-for-productivity)
+- [The 10 Best AI Note Takers in 2026 - Meeting Notes](https://meetingnotes.com/blog/best-ai-note-takers)
+- [Granola vs Notion AI 2026 - Zack Proser](https://zackproser.com/blog/granola-vs-notion-ai-2026)
+- [10 Best Manus Alternatives 2026 - Vellum](https://www.vellum.ai/blog/best-manus-alternatives)
+- [Best AI Agents in 2026 - Fello AI](https://felloai.com/best-ai-agents/)
+- [Top 10 Browser Use Agents 2026 - o-mega](https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026)
+- [Best AI Music Generators 2026 - Curious Refuge](https://curiousrefuge.com/blog/best-ai-music-tools-for-2026)
+- [Best AI Music Generators 2026 - SoundGuys](https://www.soundguys.com/best-ai-music-generators-134781/)
+- [15 Best AI Design Tools 2026 - Guideflow](https://www.guideflow.com/blog/ai-design-tools)
+- [11 Best AI Design Tools - Figma](https://www.figma.com/resource-library/ai-design-tools/)
+- [I Tested 29 AI Writing Tools - eesel](https://www.eesel.ai/blog/best-ai-writing-tools)
+- [Best AI for Creative Writing 2026 - Sudowrite](https://sudowrite.com/blog/best-ai-for-creative-writing-in-2026-tested-and-compared/)
+- [AI Search Engines Compared 2026 - haoqq](https://www.haoqq.com/en/guides/ai-search-engines-compared-2026)
+- [Perplexity vs Tavily vs Exa vs You.com 2026 - Humai](https://www.humai.blog/perplexity-vs-tavily-vs-exa-vs-you-com-the-complete-ai-search-engine-comparison-2026/)
+- [Best AI App Builders 2026 - Lovable](https://lovable.dev/guides/best-ai-app-builders)
+- [AI App Builders Compared - NovaKit](https://www.novakit.ai/blog/ai-builders-comparison-bolt-lovable-v0-novakit)
+- [Top 5 Local LLM Tools and Models in 2026 - Pinggy](https://pinggy.io/blog/top_5_local_llm_tools_and_models/)
+- [Jan vs LM Studio vs Ollama - Local AI Master](https://localaimaster.com/blog/jan-vs-lm-studio-vs-ollama)
+- [15 Best LM Studio Alternatives 2026 - PremAI](https://blog.premai.io/15-best-lm-studio-alternatives-for-running-local-llms-2026/)
 
 </details>
 
@@ -779,12 +779,12 @@ A non-exhaustive list of write-ups consulted for this index.
 
 ## Contributing
 
-Spotted something missing or out of date? Open a PR — one tool per row, one-line "best for" reason, alphabetical-ish within its sub-section.
+Spotted something missing or out of date? Open a PR - one tool per row, one-line "best for" reason, alphabetical-ish within its sub-section.
 
 ## License
 
 [MIT](LICENSE) © 2026 Irteza
 
 <div align="center">
-<sub>Pricing and capabilities change weekly — always check the source.</sub>
+<sub>Pricing and capabilities change weekly - always check the source.</sub>
 </div>

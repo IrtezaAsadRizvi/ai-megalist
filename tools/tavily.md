@@ -1,6 +1,6 @@
-# Tavily
+# Tavily: Search API tuned for AI agents and RAG
 
-Tavily is a search API designed specifically for AI agents and RAG pipelines. The endpoints, the response format, and the "search depth" options are all shaped by what an LLM consumer wants — clean text, deduplicated, reasonably ranked, with optional content extraction. For agentic apps that need a search tool, Tavily is one of the simplest paths.
+Tavily is a search API designed for AI agents and RAG pipelines, the LLM-tuned alternative to neural-search APIs like [Exa](exa.md) and consumer search wrappers like [Perplexity](perplexity.md). Tavily is a search API designed specifically for AI agents and RAG pipelines. The endpoints, the response format, and the "search depth" options are all shaped by what an LLM consumer wants - clean text, deduplicated, reasonably ranked, with optional content extraction. For agentic apps that need a search tool, Tavily is one of the simplest paths.
 
 ## What it actually is
 
@@ -34,6 +34,31 @@ A search API at [tavily.com](https://tavily.com). Two main endpoints: `/search` 
 * Result quality varies by query type. Mainstream factual queries: great. Bleeding edge or niche queries: spottier.
 * Caching is your friend. If the same query repeats, cache it client side; Tavily doesn't dedupe across calls.
 * Latency is fine but not ultra fast (~1 to 3 seconds typical). Plan accordingly for real time agents.
+
+## Alternatives
+
+* If you want neural-similarity ranking that finds source content over SEO pages, [Exa](exa.md) is the right pick.
+* If you want a more developer-leaning search with mode selection, [You.com](you_com.md)'s API is the alternative.
+* If you want consumer-style cited answers and don't need an API, [Perplexity](perplexity.md) is the closer product.
+* If you need a full agent harness around the search, [LangChain](langchain.md) wraps Tavily out of the box.
+
+## FAQ
+
+### Is Tavily free?
+
+Yes - 1000 calls per month on the free tier. Paid tiers scale with volume; agent loops burn through 1000 calls faster than you'd expect, so plan for paid early.
+
+### Tavily vs Exa - which should I use?
+
+Different ranking philosophies. Tavily uses traditional search ranking with content extraction tuned for LLMs. [Exa](exa.md) uses neural similarity to find content semantically related to a description. For factual queries, Tavily; for "find me content like this," Exa.
+
+### Can I use Tavily as my primary search engine?
+
+No - it's tuned for LLMs, not humans. The consumer frontend is small. For human search, use [Perplexity](perplexity.md), [Phind](phind.md), or [Kagi](kagi.md).
+
+### Does Tavily extract content from URLs?
+
+Yes - the `/extract` endpoint returns clean Markdown from any URL. Cheaper than running [Browser Use](browser_use.md) just to read a page; useful when an agent decides a specific URL is important.
 
 ## Pointers
 

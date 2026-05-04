@@ -1,6 +1,6 @@
-# SWE agent
+# SWE-agent: Princeton's open-source autonomous SWE research agent
 
-SWE agent is the Princeton research project that turned "agent fixes a GitHub issue" into a public benchmark and a working reference implementation. It was the first OSS agent to score competitive numbers on SWE bench, the canonical benchmark for autonomous software engineering. The codebase is academic in flavour but readable, and the design choices (custom Agent Computer Interface, stripped down toolset) are influential beyond this specific tool.
+SWE-agent is Princeton's open-source autonomous SWE agent, a research-grade alternative to product-oriented tools like [OpenHands](openhands.md), [Aider](aider.md), [Claude Code](claude_code.md), and [Devin](devin.md). SWE agent is the Princeton research project that turned "agent fixes a GitHub issue" into a public benchmark and a working reference implementation. It was the first OSS agent to score competitive numbers on SWE bench, the canonical benchmark for autonomous software engineering. The codebase is academic in flavour but readable, and the design choices (custom Agent Computer Interface, stripped down toolset) are influential beyond this specific tool.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ For shipping code, Claude Code, Codex CLI, Devin, or OpenHands are all more poli
 * SWE bench numbers shift as the benchmark itself evolves and as backbone models improve. Compare apples to apples.
 * The default toolset is intentionally minimal; you're meant to study and extend.
 * Documentation is improving but assumes ML literacy.
+
+## Alternatives
+
+* If you want the closest OSS counterpart with more product polish, [OpenHands](openhands.md) is the right pick.
+* If you want a git-native pair-programming agent in your terminal, [Aider](aider.md) is shaped for that.
+* If you want a commercial CLI agent with hooks, MCP, and sub-agents, [Claude Code](claude_code.md) is the production tool.
+* If you want a fully autonomous cloud SWE that opens PRs, [Devin](devin.md) is the heavyweight option.
+
+## FAQ
+
+### Is SWE-agent free?
+
+Yes - MIT licensed. You only pay for the underlying LLM (OpenAI, Anthropic, etc.) when running tasks. Running the full SWE-bench harness against frontier models can run hundreds of dollars per benchmark sweep.
+
+### SWE-agent vs OpenHands - which should I use?
+
+Different goals. SWE-agent is a research codebase optimised for benchmarking and reading. [OpenHands](openhands.md) is the closer-to-product fork - more polished, more features, designed to actually use day-to-day. For papers and ideas, SWE-agent; for actual coding, OpenHands.
+
+### What is SWE-bench?
+
+A benchmark of real GitHub issues from popular Python repos. Agents are scored on whether their patches pass the project's existing tests. SWE-agent was the first OSS agent to score competitive numbers on it.
+
+### Should I use SWE-agent in production?
+
+No - use [Claude Code](claude_code.md), [Codex CLI](codex_cli.md), [Devin](devin.md), or [OpenHands](openhands.md) for actual work. SWE-agent is the research artifact; the production tools are downstream of its ideas.
 
 ## Pointers
 

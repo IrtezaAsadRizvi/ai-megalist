@@ -1,6 +1,6 @@
-# Groq
+# Groq: ultra-fast LPU inference for open-weight models
 
-Groq is the inference provider that makes you reconsider your assumptions about latency. They run models on custom silicon (LPUs — Language Processing Units) and the result is throughput numbers that look like typos: hundreds of tokens per second on Llama 3.3 70B. For interactive applications where time to first token matters, Groq changes the design space.
+Groq is the model-API platform competing with [Together](together.md), [Fireworks](fireworks.md), and [Cerebras](cerebras.md) - hosted inference for open-weight models, with one specific angle: speed. They run models on custom silicon (LPUs - Language Processing Units) and the result is throughput numbers that look like typos: hundreds of tokens per second on Llama 3.3 70B. For interactive applications where time to first token matters, Groq changes the design space.
 
 ## What it actually is
 
@@ -35,6 +35,35 @@ A hosted inference platform offering OpenAI compatible endpoints for Llama, Deep
 * Capacity is not infinite. During peak demand the production tier still has queues. Plan retries.
 * The "blink and you missed it" speed is real but useful only if the rest of your stack matches. A 5 ms model with a 500 ms HTTP layer is still a 500 ms feature.
 * Pricing per token is competitive but depends on model. Check before committing.
+
+## Alternatives
+
+* For comparable raw speed on different hardware (wafer-scale), [Cerebras Inference](cerebras.md) is the head-to-head competitor.
+* If you want a broader model catalog with fine-tuning support, [Fireworks](fireworks.md) or [Together](together.md) are the picks (slower but more flexible).
+* For non-LLM models (vision, audio, niche) on a hosted API, [Replicate](replicate.md) covers more ground.
+* To swap providers without code changes, put [LiteLLM](litellm.md) in front of all of them.
+
+## FAQ
+
+### Is Groq free?
+
+Yes - free tier with 30 requests/min on most models, more than enough to evaluate. Paid tiers (DevTier, Production) for real workloads. Per-token pricing is competitive but varies by model; check the current rates before committing.
+
+### Groq vs OpenAI - same thing?
+
+No, completely different (and often confused). OpenAI makes GPT models. Groq is a hardware company that hosts open-weight models (Llama, DeepSeek, Qwen) on custom LPUs. There is no GPT, Claude, or Gemini on Groq.
+
+### How fast is Groq actually?
+
+Hundreds of tokens per second on Llama 3.3 70B - real numbers, not marketing. Time-to-first-token under 500ms is typical, which is what makes Groq the call for voice agents and latency-sensitive UIs. The catch: if your HTTP layer takes 500ms, the speed advantage evaporates.
+
+### Does Groq support fine-tuning?
+
+Limited. Groq's specialty is fast inference of stock open-weight models; if you need fine-tuning or LoRAs, [Fireworks](fireworks.md) or [Together](together.md) are better-shaped.
+
+### Is Groq OpenAI-compatible?
+
+Yes - point any OpenAI SDK at `https://api.groq.com/openai/v1` with your Groq key and most existing code works. Just swap the model name to a Groq-hosted one.
 
 ## Pointers
 

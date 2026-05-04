@@ -1,6 +1,6 @@
-# Julius
+# Julius: chat-driven data analysis on CSVs and spreadsheets
 
-Julius is the chat with your spreadsheet tool that finally got the workflow right. Upload a CSV (or connect to a database, or paste data); ask questions in plain English. Julius runs Python under the hood, returns answers with charts, and shows you the code if you want it. For non technical analysts, it collapses "I need to learn pandas" into "type a question."
+Julius is in the data analysis category alongside [Rows](rows.md) and [Numerous](numerous.md), and the one I'd hand to a non-technical analyst over a Jupyter notebook. Julius is the chat with your spreadsheet tool that finally got the workflow right. Upload a CSV (or connect to a database, or paste data); ask questions in plain English. Julius runs Python under the hood, returns answers with charts, and shows you the code if you want it. For non technical analysts, it collapses "I need to learn pandas" into "type a question."
 
 ## What it actually is
 
@@ -30,6 +30,35 @@ A web app at [julius.ai](https://julius.ai) for AI driven data analysis. Support
 * Large datasets (millions of rows) may time out or sample. For full table analyses, use a real BI tool.
 * Pro features (unlimited messages, database connectors) are the realistic floor for daily use.
 * Generated charts are functional, not designer quality. Recreate in Plotly / Vega for presentations.
+
+## Alternatives
+
+* If you want AI-native spreadsheet UX with cell-level prompts, [Rows](rows.md) is closer to "talk to a sheet."
+* If you want AI inside Google Sheets or Excel directly, [Numerous](numerous.md) is the in-place option.
+* If you're on a data team and want notebooks plus AI, look at [Hex](hex.md) instead.
+* If you want BI dashboards with an AI assistant, [Mode](mode.md) is the BI-grade pick.
+
+## FAQ
+
+### Is Julius free?
+
+There's a free tier with 15 messages/month - enough to evaluate. Standard at $20/mo (250 messages) is the floor for actual work; Pro at $50/mo unlocks unlimited messages and database connectors (Postgres, Snowflake, BigQuery, MySQL).
+
+### Julius vs ChatGPT Code Interpreter - which is better?
+
+Julius is more focused on the data workflow - dataset persistence, charts on demand, database connectors. ChatGPT's Advanced Data Analysis is competitive on one-off CSVs and benefits from being inside the chat you already use. For repeat work on the same data, Julius wins; for ad hoc, ChatGPT is fine.
+
+### Can Julius connect to my database?
+
+Yes on the Pro tier and above - Postgres, MySQL, BigQuery, Snowflake. Useful for ad hoc analysis on production data; not a replacement for proper BI dashboards.
+
+### Is my data private with Julius?
+
+Your data is uploaded to Julius's servers for analysis. For sensitive data, evaluate the policy carefully or use [Hex](hex.md) (more enterprise-friendly) or local Python directly.
+
+### Does Julius write code I can see?
+
+Yes - it runs Python under the hood (pandas, numpy, matplotlib, sklearn) and shows you the code on request. Sanity-check the code; the model occasionally writes wrong logic that produces plausible-looking charts.
 
 ## Pointers
 

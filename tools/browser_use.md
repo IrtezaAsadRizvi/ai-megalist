@@ -1,6 +1,6 @@
-# Browser Use
+# Browser Use: open-source Python library for LLM-driven browser agents
 
-Browser Use is the open source library that lets an LLM drive a browser. The clever trick is the abstraction: instead of giving the model raw HTML or pixel level screenshots, Browser Use produces a structured representation of the page (interactive elements, ARIA roles, visible text) that the model can reason over efficiently. The result is browser automation that actually works, in 100 lines of code.
+Browser Use sits in the agents cluster alongside [Browserbase](browserbase.md), [Claude Computer Use](claude_computer_use.md), and [ChatGPT Operator](chatgpt_operator.md) - the OSS code-first option for letting models drive a real browser. Browser Use is the open source library that lets an LLM drive a browser. The clever trick is the abstraction: instead of giving the model raw HTML or pixel level screenshots, Browser Use produces a structured representation of the page (interactive elements, ARIA roles, visible text) that the model can reason over efficiently. The result is browser automation that actually works, in 100 lines of code.
 
 ## What it actually is
 
@@ -47,10 +47,39 @@ About 5 minutes to first working browser agent.
 * Browser Use will sometimes do the wrong thing confidently. Monitor; don't fully trust unsupervised loops on important tasks.
 * Authentication is the hardest part. Cookies + session persistence work; passing credentials in the task description is a footgun.
 
+## Alternatives
+
+* If you need cloud browser infrastructure with stealth, proxies, and live debugging, [Browserbase](browserbase.md) is the runtime to pair with this.
+* If you want a no-code consumer agent for personal tasks, [ChatGPT Operator](chatgpt_operator.md) or [Comet](comet.md) handle that without Python.
+* If you need the model to control your actual desktop (not just a browser), [Claude Computer Use](claude_computer_use.md) is the API for that.
+* If you want a similar OSS agent framework but TypeScript, Browserbase's Stagehand at github.com/browserbase/stagehand is the comparator.
+
+## FAQ
+
+### Is Browser Use free?
+
+Yes - MIT licensed OSS. You pay for the LLM API calls; a long browsing session can run $5+ in tokens, so cache and prune aggressively.
+
+### Browser Use vs Stagehand - which one?
+
+Both are OSS browser agents. Browser Use is Python-native, MIT licensed, and standalone. Stagehand is TypeScript and pairs naturally with [Browserbase](browserbase.md). Pick by language and whether you want managed browser infra.
+
+### Does Browser Use work against LinkedIn or Cloudflare?
+
+Often blocked - sites with strong anti-bot protection detect and reject. There's no easy fix; respect the rules of where you're automating, and use [Browserbase](browserbase.md) with stealth + residential proxies if you have a legitimate use case.
+
+### How much does an agent run cost?
+
+Per-action LLM calls add up fast. A 30-step session against a frontier model can hit $1-5. Use cheaper models for the simple navigation steps and reserve the expensive model for reasoning.
+
+### Can Browser Use run headlessly?
+
+Yes - default is headless. For debugging, run with `headless=False` to watch the browser. Some sites behave differently in headless mode.
+
 ## Pointers
 
 * [browser-use.com](https://browser-use.com)
 * Repo: [github.com/browser-use/browser-use](https://github.com/browser-use/browser-use)
 * Comparable: [Stagehand](https://github.com/browserbase/stagehand) (Browserbase's), Playwright + LangChain combos.
 * For consumer browser automation without code: [comet.md](comet.md), ChatGPT Operator.
-* For headless infrastructure: [Browserbase](https://www.browserbase.com) — pairs naturally with Stagehand or Browser Use.
+* For headless infrastructure: [Browserbase](https://www.browserbase.com) - pairs naturally with Stagehand or Browser Use.

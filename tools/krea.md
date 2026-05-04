@@ -1,6 +1,6 @@
-# Krea
+# Krea: real-time AI image generation as you type
 
-Krea is the AI image tool with the fastest feedback loop. Real time generation as you type, real time enhancement on a sketch, real time control via brush. Where Midjourney and FLUX have a "prompt → wait → result" rhythm, Krea has a "drag → see → drag → see" rhythm that feels closer to working in Photoshop than working with a model.
+Krea is in the image generation category alongside [Midjourney](midjourney.md) and [FLUX](flux.md), and the one I open when I want a real-time feedback loop instead of "prompt, wait, compare." Krea is the AI image tool with the fastest feedback loop. Real time generation as you type, real time enhancement on a sketch, real time control via brush. Where Midjourney and FLUX have a "prompt → wait → result" rhythm, Krea has a "drag → see → drag → see" rhythm that feels closer to working in Photoshop than working with a model.
 
 ## What it actually is
 
@@ -29,6 +29,35 @@ A web app at [krea.ai](https://www.krea.ai) for AI image and video generation wi
 * Pro tier is the realistic floor for daily creative work; free tier is for evaluation.
 * For pure raw image generation without the realtime loop, FLUX or Midjourney are simpler.
 * Some features pass through to partner APIs and inherit their content policies.
+
+## Alternatives
+
+* If you want pure aesthetic peak without the realtime loop, [Midjourney](midjourney.md) is still the pick.
+* If you want a real production API and open weights, [FLUX](flux.md) is the substrate.
+* If you want game-asset workflows (sprites, textures, ControlNet), [Leonardo](leonardo.md) is closer to that job.
+* If you want commercially safe outputs inside Adobe's stack, [Adobe Firefly](adobe_firefly.md) is the safer enterprise pick.
+
+## FAQ
+
+### Is Krea free?
+
+Yes - the free tier covers 50 daily generations, enough to evaluate. Basic at $10/mo and Pro at $35/mo are the realistic floors for daily creative work.
+
+### Krea vs Midjourney - which is better?
+
+Different jobs. [Midjourney](midjourney.md) wins on raw aesthetic peak. Krea wins on the iteration loop - real-time generation as you type or sketch is unique and changes how I work when I don't know what I want yet.
+
+### What is Krea Realtime?
+
+Sub-second generation that updates the canvas as you type or sketch. Quality is below a single committed generation, but the feedback loop is the point - use it to find direction, then run a final at higher quality.
+
+### Can Krea train custom models?
+
+Yes - upload 5+ reference images and Krea trains a custom style model in roughly the time it takes to grab coffee. Faster than building a LoRA in [ComfyUI](comfyui.md); good enough for consistent series work.
+
+### Does Krea generate video?
+
+Yes - Krea wraps multiple video models (Veo, Runway, Kling) behind one UI. Useful for A/B-ing video models without juggling separate subscriptions.
 
 ## Pointers
 

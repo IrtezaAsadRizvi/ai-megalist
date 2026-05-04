@@ -1,6 +1,6 @@
-# Lovable
+# Lovable: prompt-to-app builder with hosting and Supabase included
 
-Lovable is the tool that made "vibe coding" a real workflow rather than a meme. You describe an app in plain English, hit go, and a couple of minutes later you have a working URL with auth, a database, and a UI. The output isn't always production grade, but the floor it raised is striking — solo founders are shipping real products this way.
+Lovable is the prompt-to-app builder that competes with [Bolt.new](bolt_new.md), [v0](v0.md), and [Replit Agent](replit_agent.md) for the "ship something this weekend" slot. Lovable is the tool that made "vibe coding" a real workflow rather than a meme. You describe an app in plain English, hit go, and a couple of minutes later you have a working URL with auth, a database, and a UI. The output isn't always production grade, but the floor it raised is striking - solo founders are shipping real products this way.
 
 ## What it actually is
 
@@ -30,8 +30,33 @@ A web based AI app builder. You give it a prompt; it generates a full stack Reac
 * The generated code is real but opinionated. Spend an hour reading what it built before adding ten features on top.
 * Hosting is fine for prototypes, not for production. Either move to Vercel/Netlify or stay aware of the tradeoffs.
 
+## Alternatives
+
+* If you want the fastest shareable demo URL and a browser IDE, [Bolt.new](bolt_new.md) is one click closer.
+* If you mostly want UI components in a Next.js project, [v0](v0.md) is the narrower, sharper tool.
+* If you want to see and edit the generated code as it builds, [Replit Agent](replit_agent.md) is more glass-box.
+* If your stack is GCP / AWS first or you don't want Supabase as the default backend, the Lovable opinion will fight you - look at [Replit Agent](replit_agent.md).
+
+## FAQ
+
+### Is Lovable free?
+
+There's a free tier with a small monthly message budget. Pro is $25/mo for ~100 messages, and complex projects burn that quickly. Plan on Pro from week one if you're shipping anything real.
+
+### Lovable vs Bolt.new - which should I pick?
+
+Lovable for full-stack apps where you want auth, a database, and hosting wired up by default. [Bolt.new](bolt_new.md) for the fastest path to a shareable demo, especially when the app is mostly UI. I use both for different scopes.
+
+### Can I export Lovable code to my own GitHub?
+
+Yes, the GitHub sync is two-way and works well. Once a project gets large enough, editing in [Cursor](cursor.md) is faster than chatting with Lovable.
+
+### Does Lovable support backends other than Supabase?
+
+Technically yes, but the integration is tightest with Supabase and you'll fight upstream on anything else. If your stack is GCP or AWS first, this is the wrong tool.
+
 ## Pointers
 
 * Docs: [docs.lovable.dev](https://docs.lovable.dev)
 * Cousins: [bolt_new.md](bolt_new.md) (faster demos), [v0.md](v0.md) (UI only, Next.js native), [replit_agent.md](replit_agent.md) (more transparent code).
-* The Lovable community Discord is genuinely the best learning surface — others' prompts and recoveries.
+* The Lovable community Discord is genuinely the best learning surface - others' prompts and recoveries.

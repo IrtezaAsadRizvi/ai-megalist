@@ -1,10 +1,10 @@
-# n8n
+# n8n: OSS self-hostable workflow automation with first-class AI nodes
 
-n8n is the workflow automation tool I'd run if I were leaving Zapier in 2026. It's open source, self hostable, has a visual node editor that's genuinely usable, and the AI nodes (LLM calls, agents, RAG) are first class rather than bolted on. The pricing model — free if you self host — makes it the obvious choice for technical teams.
+n8n is the OSS workflow automation tool that competes with [Zapier](zapier.md) and [Make](make.md), pitched at technical teams who want to self-host or own their automation stack. n8n is the workflow automation tool I'd run if I were leaving Zapier in 2026. It's open source, self hostable, has a visual node editor that's genuinely usable, and the AI nodes (LLM calls, agents, RAG) are first class rather than bolted on. The pricing model - free if you self host - makes it the obvious choice for technical teams.
 
 ## What it actually is
 
-A workflow automation platform with a node based visual editor. You connect triggers (webhooks, schedules, app events) to action nodes (send Slack, write to a DB, call an API, run code) into multi step workflows. There are 500+ built in integrations and a strong community node ecosystem. Source available license — free for most use.
+A workflow automation platform with a node based visual editor. You connect triggers (webhooks, schedules, app events) to action nodes (send Slack, write to a DB, call an API, run code) into multi step workflows. There are 500+ built in integrations and a strong community node ecosystem. Source available license - free for most use.
 
 ## Setup
 
@@ -39,9 +39,34 @@ A workflow automation platform with a node based visual editor. You connect trig
 * AI node pricing depends on which model you wire in; OpenAI / Anthropic charges still apply.
 * Some integrations are community contributed and uneven in quality. Pin versions in production.
 
+## Alternatives
+
+* If you want the largest app catalog and SaaS-only convenience, [Zapier](zapier.md) wins on coverage.
+* If you want a managed visual scenario builder with strong branching, [Make](make.md) is the middle path.
+* If you want code-first workflows with AI steps, [Pipedream](pipedream.md) is for developers who'd rather write code.
+* If you want OSS without n8n's Sustainable Use license, [Activepieces](activepieces.md) is more permissively licensed.
+
+## FAQ
+
+### Is n8n free?
+
+Yes if you self-host - it's source-available under the Sustainable Use license. n8n Cloud starts at $20/mo (Starter, 5K executions). For technical teams self-hosting on a small VM is essentially free.
+
+### n8n vs Zapier - which should I use?
+
+n8n if you're technical, want to self-host, and want a Code node escape hatch. [Zapier](zapier.md) if you want the broadest app catalog and zero infrastructure. n8n is cheaper at scale; Zapier is broader.
+
+### Is n8n actually open source?
+
+Source-available, not OSI-approved open source. The Sustainable Use license restricts commercial competing services. Read it if you're considering forking or building a hosted n8n offering. For internal use it behaves like OSS.
+
+### Can n8n run AI agents?
+
+Yes - the native Agent node composes tool-using agents inside a workflow. Less flexible than [LangGraph](langgraph.md) but ships faster. For most "agent in a workflow" patterns this is enough.
+
 ## Pointers
 
 * Docs: [docs.n8n.io](https://docs.n8n.io)
-* Templates: [n8n.io/workflows](https://n8n.io/workflows) — hundreds of starting points worth browsing.
+* Templates: [n8n.io/workflows](https://n8n.io/workflows) - hundreds of starting points worth browsing.
 * For SaaS first alternatives: [zapier.com](https://zapier.com), [make.com](https://www.make.com).
 * For code first agentic workflows: LangGraph or your own scripts; n8n is the visual middle ground.

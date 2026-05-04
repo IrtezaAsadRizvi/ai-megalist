@@ -1,6 +1,6 @@
-# Grok
+# Grok: xAI's chat assistant with X firehose access
 
-Grok is xAI's chat assistant and the AI with the loosest content policies among the major frontier products. Built into X (Twitter), with real time access to the X firehose, Grok is uniquely good at "what are people saying about X right now" questions. For everything else, capability is competitive if you can stomach the brand association.
+Grok is xAI's frontier chat assistant, an alternative to [ChatGPT](chatgpt.md), [Claude](claude.md), and [Gemini](gemini.md) with two distinguishing angles - real-time access to the X firehose, and looser content policies than the mainstream products. For "what are people saying about X right now" questions, nothing else does this. For everything else, capability is competitive if you can stomach the brand association.
 
 ## What it actually is
 
@@ -29,6 +29,31 @@ A frontier model (currently Grok 4) from xAI. Available at [grok.com](https://gr
 * Real time X data is the unique value; for everything else, Claude / GPT / Gemini are at least as capable.
 * The product moves quickly; what's true this month may not be next.
 * X integration is convenient if you live on X; less useful otherwise.
+
+## Alternatives
+
+* For mainstream daily-driver chat without the X association, [Claude](claude.md), [ChatGPT](chatgpt.md), or [Gemini](gemini.md) are the picks.
+* If you want unfiltered local inference, [DeepSeek](deepseek.md) or any OSS frontier via [Ollama](ollama.md) gives you that without sending data anywhere.
+* For real-time web data without the X firehose specifically, [Perplexity](perplexity.md) is broader-source.
+* If you want image gen with fewer content restrictions than DALL-E, running [FLUX](flux.md) locally is the cleaner path.
+
+## FAQ
+
+### Is Grok free?
+
+Yes - free tier covers limited messages and image gen. SuperGrok is $30/mo (higher limits, latest model, voice, unlimited image gen). If you have X Premium ($8/mo) Grok is included at a lower tier.
+
+### Grok vs ChatGPT - which is better?
+
+Different jobs. Grok wins on real-time X data and on prompts that hit content guardrails elsewhere. [ChatGPT](chatgpt.md) wins on broader feature surface, more reliable reasoning, and a sturdier brand for client-facing work. For most daily tasks, ChatGPT or Claude.
+
+### Does Grok have an API?
+
+Yes - at console.x.ai with OpenAI-compatible endpoints. Pricing is competitive; for OSS-model inference at faster speed, [Groq](groq.md) (different company, similar name) is the alternative worth comparing.
+
+### Is Grok safe for business use?
+
+Depends on your audience. The "looser content policy" cuts both ways - some outputs require careful filtering before customer-facing use, and the brand association with Elon Musk is a real consideration for some teams. The model's responses on certain political topics also reflect this.
 
 ## Pointers
 

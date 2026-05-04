@@ -1,6 +1,6 @@
-# GitHub Copilot
+# GitHub Copilot: inline AI autocomplete in your existing IDE
 
-Copilot is the autocomplete I forget I'm using until it's not there. The headline feature is still inline tab completion — frighteningly good in popular languages, useful even in obscure ones — and the rest of the product (Chat, Workspace, Coding Agent) has caught up enough that the "should I use Copilot or Cursor" question doesn't have an obvious answer anymore.
+GitHub Copilot is the inline-completion incumbent in coding AI, the alternative to switching editors for [Cursor](cursor.md) or [Windsurf](windsurf.md), and the safe pick for JetBrains shops. The headline feature is still inline tab completion - frighteningly good in popular languages, useful even in obscure ones - and the rest of the product (Chat, Workspace, Coding Agent) has caught up enough that the "should I use Copilot or Cursor" question doesn't have an obvious answer anymore.
 
 ## What it actually is
 
@@ -29,6 +29,35 @@ GitHub's AI coding suite. It comes in three layers: inline completion (the origi
 * Coding Agent can spend a meaningful chunk of your budget on a single complex task. Set a budget cap if you're on Business.
 * Suggestions are public model output. Filtering blocks Copilot from quoting code that exactly matches a public repo, which is on by default but worth verifying.
 * JetBrains support is ahead of most competitors; if you're a JetBrains shop, Copilot is the safe pick.
+
+## Alternatives
+
+* If you want deeper codebase indexing and a multi-file Composer agent, [Cursor](cursor.md) is the closer pick (means switching to a VS Code fork).
+* For an OSS, BYO-model alternative that runs in VS Code or JetBrains, [Continue](continue.md) is the right shape.
+* If you want a privacy-first option that runs on-prem or air-gap, [Tabnine](tabnine.md) is built for that.
+* For terminal-first agentic coding instead of an IDE, jump to [Claude Code](claude_code.md) or [Codex CLI](codex_cli.md).
+
+## FAQ
+
+### Is GitHub Copilot free?
+
+There's a Free tier (2K completions/month) which is genuinely useful for casual use. Pro is $10/mo, Business $19/user/mo, Enterprise $39/user/mo. Students, teachers, and OSS maintainers get Pro free - check the GitHub Education and Maintainers programs.
+
+### Copilot vs Cursor - which should I use?
+
+Different shapes. Copilot is a plugin in your existing IDE (VS Code, JetBrains, Visual Studio, Neovim, Xcode). [Cursor](cursor.md) is a VS Code fork with deeper codebase indexing and a stronger multi-file agent. If you're in JetBrains or want minimal disruption, Copilot. If you want the cross-file workflow, Cursor.
+
+### Does Copilot work in JetBrains?
+
+Yes - JetBrains support is one of Copilot's strongest moats. Cursor and Windsurf don't run in JetBrains; if your team is on IntelliJ / PyCharm / WebStorm, Copilot or [Continue](continue.md) are the realistic options.
+
+### What models does Copilot use?
+
+A picker across the GPT family, Claude Sonnet, and Gemini, selectable per task in Chat. Inline completion uses GitHub's tuned model under the hood. The model picker is mostly relevant for Chat and Coding Agent, not for tab completion.
+
+### What is Copilot Coding Agent?
+
+A feature where you assign a GitHub issue to Copilot from the web UI; it opens a draft PR within minutes. Great for small, well-scoped tasks ("rename this everywhere," "add tests for module X"). Not great for design decisions. Watch the budget on Business tier.
 
 ## Pointers
 

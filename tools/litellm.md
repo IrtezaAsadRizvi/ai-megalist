@@ -1,6 +1,6 @@
-# LiteLLM
+# LiteLLM: unified API gateway across LLM providers
 
-LiteLLM is the unified gateway across LLM providers. The premise is simple — every provider has a slightly different API; LiteLLM gives you one API (OpenAI compatible) over all of them. For multi provider apps, fallback strategies, cost tracking, and quick provider switching, LiteLLM is the substrate.
+LiteLLM is in the model APIs / dev platform category, the one I reach for when I want provider abstraction without dragging in [LangChain](langchain.md) or the full [Vercel AI SDK](vercel_ai_sdk.md). LiteLLM is the unified gateway across LLM providers. The premise is simple - every provider has a slightly different API; LiteLLM gives you one API (OpenAI compatible) over all of them. For multi provider apps, fallback strategies, cost tracking, and quick provider switching, LiteLLM is the substrate.
 
 ## What it actually is
 
@@ -46,6 +46,35 @@ Supports 100+ providers (OpenAI, Anthropic, Gemini, Bedrock, Vertex, Azure, Toge
 * Cost tracking accuracy depends on token counting; LiteLLM has provider tokenisers, but edge cases exist.
 * Fallback logic requires careful thought. "Fall back to cheaper model" can silently degrade your product if not monitored.
 * For OpenAI compatible providers (most), LiteLLM is a thin layer; for very different APIs, the abstraction sometimes leaks.
+
+## Alternatives
+
+* If you want a full app framework on top of provider abstraction, [LangChain](langchain.md) is the broader option.
+* If you're in TypeScript / Next.js, the [Vercel AI SDK](vercel_ai_sdk.md) ships streaming primitives plus provider abstraction.
+* If you want a self-hostable OpenAI-compatible inference server (not a gateway), [LocalAI](localai.md) is the local equivalent.
+* If your only need is observability across LLM calls, Langfuse, Helicone, or LangSmith cover that without changing your call path.
+
+## FAQ
+
+### Is LiteLLM free?
+
+Yes - LiteLLM is open source (MIT). The library and the proxy are free; LiteLLM Cloud and enterprise features (SSO, audit logs, advanced routing) are paid. Most teams run the OSS proxy until they need the enterprise extras.
+
+### LiteLLM vs LangChain - which should I use?
+
+Different scopes. [LangChain](langchain.md) is a full framework (chains, agents, RAG primitives, document loaders); LiteLLM is just the provider abstraction layer. If all you need is "one API across providers, with cost tracking and fallbacks," LiteLLM is shorter and easier to reason about.
+
+### Should I use the library or the proxy?
+
+Library for solo dev work and single-process apps. Proxy when you want central key management, cross-team rate limits, cost tracking, and routing rules - the proxy shines at team / enterprise scale where you don't want every dev holding provider keys.
+
+### Does LiteLLM support prompt caching?
+
+Yes for providers that expose it (Anthropic, OpenAI). The abstraction passes through cache controls; provider-specific features sometimes lag a release behind the underlying API.
+
+### How does LiteLLM handle fallbacks?
+
+Declaratively in `config.yaml` - "primary: claude-sonnet, fallback: gpt-4o" with cooldowns and retry rules. Useful when one provider degrades; risky if you don't monitor, since "fall back to cheaper model" can silently degrade your product.
 
 ## Pointers
 

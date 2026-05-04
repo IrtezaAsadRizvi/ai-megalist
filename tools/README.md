@@ -28,7 +28,7 @@ The voice borrows from Karpathy: first person, hedged where I'm guessing, specif
 
 ## What's missing
 
-This is a sample. The full megalist names ~200 tools across 22 categories; only ~10% have a guide here so far. Open a PR if you want to add one — keep the structure consistent (hook, what it is, setup, daily use, gotchas, pointers).
+This is a sample. The full megalist names ~200 tools across 22 categories; only ~10% have a guide here so far. Open a PR if you want to add one - keep the structure consistent (hook, what it is, setup, daily use, gotchas, pointers).
 
 ## File naming convention
 

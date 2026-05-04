@@ -1,16 +1,16 @@
-# LangChain
+# LangChain: the broad LLM app framework, calmer in 2026
 
-LangChain is the AI framework everyone has an opinion about. The opinions are extreme in both directions. The library helped a generation of developers ship LLM apps; it also accumulated abstractions faster than the field stabilised. In 2026 it's calmer — LangChain Core is leaner, the loud "everything is a chain" era is over, and the framework is one option among several rather than the default.
+LangChain is in the LLM app framework category alongside [LlamaIndex](llamaindex.md) and the [Vercel AI SDK](vercel_ai_sdk.md), and the one with the broadest scope and the loudest community history. LangChain is the AI framework everyone has an opinion about. The opinions are extreme in both directions. The library helped a generation of developers ship LLM apps; it also accumulated abstractions faster than the field stabilised. In 2026 it's calmer - LangChain Core is leaner, the loud "everything is a chain" era is over, and the framework is one option among several rather than the default.
 
 ## What it actually is
 
 An open source Python (and TypeScript) framework for building LLM applications. Provides:
-* **Model abstractions** — uniform interface across OpenAI, Anthropic, Gemini, etc.
-* **Output parsers** — structured outputs from text.
-* **Tools and toolkits** — pre built tools for common integrations.
-* **Document loaders** — fetch, parse, chunk text from many sources.
-* **Vector stores** — abstractions over Pinecone, Qdrant, Chroma, etc.
-* **Memory** — conversation history with various policies.
+* **Model abstractions**: uniform interface across OpenAI, Anthropic, Gemini, etc.
+* **Output parsers**: structured outputs from text.
+* **Tools and toolkits**: pre built tools for common integrations.
+* **Document loaders**: fetch, parse, chunk text from many sources.
+* **Vector stores**: abstractions over Pinecone, Qdrant, Chroma, etc.
+* **Memory**: conversation history with various policies.
 
 Plus the LangSmith observability platform (paid), LangGraph for agent orchestration (separate package), and LangChain Hub for community prompts.
 
@@ -46,6 +46,35 @@ Plus the LangSmith observability platform (paid), LangGraph for agent orchestrat
 * The "expression language" (LCEL) is concise but takes a moment to grok. Once internalised, it's fine.
 * LangGraph (separate package) is the better choice for serious agent orchestration. LangChain's older agents are deprecated.
 * Some old tutorials reference patterns that no longer exist. Stick to current docs.
+
+## Alternatives
+
+* If RAG over your own data is the actual job, [LlamaIndex](llamaindex.md) is more focused on that and shorter to write.
+* If you're in TypeScript / Next.js, the [Vercel AI SDK](vercel_ai_sdk.md) is cleaner and ships with streaming primitives.
+* If you want serious agent orchestration with state graphs, jump to [LangGraph](langgraph.md) - the spinoff is the better path for that.
+* If you just need provider abstraction without the framework, [LiteLLM](litellm.md) covers that one job well.
+
+## FAQ
+
+### Is LangChain free?
+
+Yes - LangChain is open source (MIT). The paid product is LangSmith (the observability platform), which is free up to a usage cap and then tiered. Most apps don't need to pay until they hit production scale.
+
+### LangChain vs LlamaIndex - which should I use?
+
+Different shapes. Use [LlamaIndex](llamaindex.md) when data is the centerpiece (talk to a stack of PDFs, RAG over Notion). Use LangChain when orchestration is the centerpiece (multi-step chains, tool use, mixed providers). Many real apps use both.
+
+### Do I need LangChain to build with LLMs?
+
+No. For simple apps, the provider SDK (Anthropic, OpenAI) is shorter and easier to reason about. LangChain earns its place when you want provider abstraction, document loaders, vector store abstractions, or LangSmith tracing.
+
+### What is LCEL?
+
+LangChain Expression Language - the `prompt | model | parser` pipe syntax. Concise once you get it; takes a moment to internalise. The current canonical way to write chains in LangChain.
+
+### Are LangChain agents still recommended?
+
+Not the old `AgentExecutor`. For agent work, use [LangGraph](langgraph.md) - it's the explicitly recommended path, with state graphs, checkpoints, and human-in-the-loop primitives the old agents lacked.
 
 ## Pointers
 

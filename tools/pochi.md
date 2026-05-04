@@ -1,6 +1,6 @@
-# Pochi
+# Pochi: parallel-agent VS Code extension
 
-Pochi is the VS Code native agent from the TabbyML team, the same group that built one of the better OSS code completion engines. The differentiator versus Cursor and Windsurf is "parallel agents" (multiple agent runs at once on different tasks) and tight support for local models. It feels less like a polished commercial product and more like a power tool for engineers who want to run agents the way they run scripts.
+Pochi sits in the AI-native IDE category as a VS Code extension, alongside [Cursor](cursor.md), [Windsurf](windsurf.md), and [Continue](continue.md). Pochi is the VS Code native agent from the TabbyML team, the same group that built one of the better OSS code completion engines. The differentiator versus Cursor and Windsurf is "parallel agents" (multiple agent runs at once on different tasks) and tight support for local models. It feels less like a polished commercial product and more like a power tool for engineers who want to run agents the way they run scripts.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ For a single task at a time, Cursor is more polished. For multi tasking, Pochi h
 * The product is newer; expect rapid changes.
 * Local model performance still depends on your hardware. Frontier cloud models are the default for serious work.
 * Pricing model is evolving as the product matures; check current terms before betting on it.
+
+## Alternatives
+
+* If you want the most polished AI IDE for single-task work, [Cursor](cursor.md) is the default.
+* If you want the same shape with an OSS lean and lower price, [Windsurf](windsurf.md) is the alternative.
+* If you'd rather stay in vanilla VS Code with a BYO-model plugin, [Continue](continue.md) is the OSS pick.
+* If you want a terminal agent instead of an IDE, [Claude Code](claude_code.md) is the same job from a different surface.
+
+## FAQ
+
+### Is Pochi free?
+
+Free during development as the product matures. Pricing is evolving; check the current terms before committing. You'll still pay model costs (OpenAI, Anthropic, etc.) on top of any platform fees.
+
+### Pochi vs Cursor - which one?
+
+Different shapes. [Cursor](cursor.md) is a polished standalone editor focused on single-task surgical edits. Pochi is a VS Code extension built around running multiple agents in parallel. Pick Cursor for polish, Pochi for multi-tasking.
+
+### Does Pochi support local models?
+
+Yes - that's one of its differentiators. It plugs into TabbyML's local infrastructure and supports [Ollama](ollama.md). Local model performance is bounded by your hardware; frontier cloud models still produce stronger agent behaviour.
+
+### What does "parallel agents" actually mean?
+
+Multiple agent runs going at once on different tasks in the same workspace. Useful for unrelated refactors that don't touch the same files. Risky when two agents do touch the same files - scope work carefully or you'll fight merge conflicts.
 
 ## Pointers
 

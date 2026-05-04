@@ -1,16 +1,16 @@
-# Sudowrite
+# Sudowrite: AI writing tool built around fiction workflows
 
-Sudowrite is the AI writing tool fiction writers grudgingly admit they've been using. The general chatbots can write a passable scene; Sudowrite was built around the actual workflow of fiction — rewrites that respect voice, characters with persistent profiles, story bibles, brainstorm tools that don't break flow. Reviewed by The New Yorker, NYT, The Verge as the leader in its category, deservedly.
+Sudowrite is the AI writing tool built specifically for fiction, the category-leader alternative to [NovelCrafter](novelcrafter.md) and [NovelAI](novelai.md), and a different shape from generalist chatbots like [Claude](claude.md). Sudowrite is the AI writing tool fiction writers grudgingly admit they've been using. The general chatbots can write a passable scene; Sudowrite was built around the actual workflow of fiction - rewrites that respect voice, characters with persistent profiles, story bibles, brainstorm tools that don't break flow. Reviewed by The New Yorker, NYT, The Verge as the leader in its category, deservedly.
 
 ## What it actually is
 
 A web app for fiction writing. Major features:
-* **Story Engine** — turn a synopsis into a draft, scene by scene.
-* **Canvas** — long form editor with AI commands inline.
-* **Story Bible** — characters, places, plot, lore tracked persistently.
-* **Brainstorm** — generate plot, character, world ideas at user level granularity.
-* **Rewrite** — adjust prose intensity, length, tone while preserving voice.
-* **Visualise** — generate images for scenes or characters.
+* **Story Engine**: turn a synopsis into a draft, scene by scene.
+* **Canvas**: long form editor with AI commands inline.
+* **Story Bible**: characters, places, plot, lore tracked persistently.
+* **Brainstorm**: generate plot, character, world ideas at user level granularity.
+* **Rewrite**: adjust prose intensity, length, tone while preserving voice.
+* **Visualise**: generate images for scenes or characters.
 
 ## Setup
 
@@ -36,6 +36,31 @@ A web app for fiction writing. Major features:
 * Story Bible needs maintenance. Out of date bible content produces inconsistent characters.
 * The interface has accumulated features over years. Plan an hour of onboarding to feel competent.
 * Some publishers require disclosure of AI assistance. Know your contract.
+
+## Alternatives
+
+* If you want a structured codex / world-bible alongside writing, [NovelCrafter](novelcrafter.md) is built around that workflow.
+* If you want fine-tuned models specifically for storytelling and image generation alongside, [NovelAI](novelai.md) is the alternative.
+* If you write non-fiction long-form, [Lex](lex.md) is the AI-native editor; or use [Claude](claude.md) with a careful prompt for voice preservation.
+* If you mostly need brainstorming and don't want a dedicated tool, frontier chatbots get you 80% of the way for $0.
+
+## FAQ
+
+### Is Sudowrite free?
+
+Free trial covers 10K words. Paid tiers are Hobby $19/mo (225K words), Professional $29/mo (1M words), Max $129/mo (3M words). Hobby is enough for most writers; Pro is for active novelists.
+
+### Sudowrite vs ChatGPT for fiction?
+
+Different shapes. ChatGPT is a generalist with great prose; Sudowrite is built around the fiction workflow - Story Bible for character consistency, intensity-targeted Rewrite, scene-level Continue. For short stories, ChatGPT is fine; for novels, Sudowrite's persistence is the value.
+
+### Can I publish AI-assisted fiction?
+
+Depends on your publisher and platform. Some require disclosure of AI assistance; Amazon KDP changed its policies in 2023 and may again. Read your contract; the legal landscape moves.
+
+### Does Sudowrite preserve my voice?
+
+Better than generic LLM prompts, in my testing. The "Continue in your voice" feature pulls style from preceding text. Output still has AI tells (over-described feelings, generic descriptors); revise heavily.
 
 ## Pointers
 

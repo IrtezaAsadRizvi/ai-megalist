@@ -1,6 +1,6 @@
-# GPT4All
+# GPT4All: local LLM desktop app for older hardware
 
-GPT4All is the local LLM desktop app from Nomic. The pitch is "ChatGPT, but it runs on your laptop, even old ones." The model selection is curated (smaller models that run on CPUs and modest GPUs), the UI is clean, and the LocalDocs feature gives you RAG over your own files without any cloud dependency.
+GPT4All is in the local model runner cluster alongside [Ollama](ollama.md), [LM Studio](lm_studio.md), and [Jan](jan.md) - aimed at the simplest end of "ChatGPT, but it runs on your laptop, even old ones." The model selection is curated (smaller models that run on CPUs and modest GPUs), the UI is clean, and the LocalDocs feature gives you RAG over your own files without any cloud dependency.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ An open source (MIT) desktop app for macOS, Windows, and Linux. Includes a chat 
 * LocalDocs RAG quality is decent but not customisable; for production RAG, use a real vector DB.
 * The desktop app is the primary surface; the CLI / SDK are less polished.
 * For team scale or web UI, [open_webui.md](open_webui.md) is the better fit.
+
+## Alternatives
+
+* If you want a CLI-first runner with an OpenAI-compatible API and the broadest model catalog, [Ollama](ollama.md) is the default.
+* For a friendlier GUI with a Hugging Face model browser and headless mode, [LM Studio](lm_studio.md) is the upgrade.
+* If you want fully OSS with more configurability, [Jan](jan.md) is the closer competitor in the desktop-app space.
+* For a multi-user web UI on top of Ollama or any OpenAI-compatible API, [Open WebUI](open_webui.md) is the right tool.
+
+## FAQ
+
+### Is GPT4All really free?
+
+Yes - MIT licensed, no account required, runs entirely on your machine. There's no paid tier; Nomic monetizes through their cloud embedding business, not the desktop app.
+
+### GPT4All vs Ollama - which should I use?
+
+Different shapes. GPT4All is a desktop app with a chat UI - the easier recommendation for non-technical users. [Ollama](ollama.md) is CLI-first and more flexible; the right pick if you're comfortable with a terminal. I default to Ollama for personal use and recommend GPT4All to friends.
+
+### Can GPT4All run on a CPU?
+
+Yes - that's actually its strong suit. On laptops without GPUs it performs better than alternatives that assume GPU acceleration. Realistic ceiling is ~8B-class models on a 16GB-RAM laptop; 70B models won't fit.
+
+### What is LocalDocs?
+
+GPT4All's built-in RAG feature. Point at a folder of files; it embeds them locally and uses them to ground answers. Decent for personal document Q&A; not customizable enough for production RAG (use a real vector DB for that).
 
 ## Pointers
 

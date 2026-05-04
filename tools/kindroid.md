@@ -1,6 +1,6 @@
-# Kindroid
+# Kindroid: AI companion with selfies and a social feed
 
-Kindroid is the AI companion app that bets on lifelike personalities and an in app social feed where companions post and interact. Where Replika built a relationship simulation product and Character.AI built a roleplay marketplace, Kindroid mixes both: a one to one companion relationship plus a feed where your companion (and others) shares moments. It's a smaller player than Replika or Character.AI but has a devoted base.
+Kindroid is in the AI companion category alongside [Nomi](nomi.md), [Replika](replika.md), and [Character.AI](character_ai.md), and the one that bets hardest on personality customisation plus a social feed. Kindroid is the AI companion app that bets on lifelike personalities and an in app social feed where companions post and interact. Where Replika built a relationship simulation product and Character.AI built a roleplay marketplace, Kindroid mixes both: a one to one companion relationship plus a feed where your companion (and others) shares moments. It's a smaller player than Replika or Character.AI but has a devoted base.
 
 ## What it actually is
 
@@ -28,6 +28,35 @@ I don't use companion apps regularly; the reasons users I've spoken to choose Ki
 * Image generation has the usual content policy frictions and inconsistencies.
 * Memory across sessions works well in normal use but degrades on very long histories; expect occasional continuity slips.
 * Pricing tiers gate features (image generation count, memory size, multi companion). Check the matrix.
+
+## Alternatives
+
+* If you want the strongest long-term memory and group chats, [Nomi](nomi.md) is the deep-personalisation pick.
+* If you want the original gamified relationship and companion-world UX, [Replika](replika.md) is what people land on first.
+* If you want a marketplace of bot characters rather than one personalised companion, [Character.AI](character_ai.md) has the largest library.
+* If you want a calmer, more therapy-adjacent conversational tone, [Pi](pi.md) is the gentler option.
+
+## FAQ
+
+### Is Kindroid free?
+
+There's free use with limits, then paid monthly tiers that unlock memory size, image generation count, and multiple companions. Pricing is comparable to Replika and Character.AI.
+
+### Kindroid vs Replika - which is better?
+
+Different defaults. [Replika](replika.md) is the most established companion-world simulator. Kindroid lets you customise personality more directly and has a social feed where companions post. Try both free; preferences here are deeply personal.
+
+### Can Kindroid generate images?
+
+Yes - companions can generate selfies and feed posts of themselves in different scenarios. Image counts are gated by tier; content policy applies as expected.
+
+### Does Kindroid remember past conversations?
+
+Yes, with a memory system that stores facts and context across sessions. It works well in normal use but degrades on very long histories - expect occasional continuity slips on a years-old companion.
+
+### Is Kindroid safe for kids?
+
+No - companion apps generally aren't designed or marketed for minors, and content policies allow mature interactions on appropriate tiers. Read the terms before letting anyone underage near these.
 
 ## Pointers
 

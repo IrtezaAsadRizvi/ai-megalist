@@ -1,6 +1,6 @@
-# Gemini
+# Gemini: Google's AI assistant wired into Workspace
 
-Gemini is the AI I default to whenever the work involves Google. Search context, Gmail, Docs, Drive, YouTube — the integration is the point. Out of the surface area, Gemini is fine; inside Workspace, it's hard to beat.
+Gemini is Google's frontier chat assistant, the third pillar alongside [ChatGPT](chatgpt.md) and [Claude](claude.md) for daily-driver work, and the one I default to whenever the task touches Google. Search context, Gmail, Docs, Drive, YouTube - the integration is the point. Out of the surface area, Gemini is fine; inside Workspace, it's hard to beat.
 
 ## What it actually is
 
@@ -28,6 +28,35 @@ Google DeepMind's frontier model, with a chat interface at [gemini.google.com](h
 * Gemini's defaults can be overcautious. For research questions it sometimes refuses on topics ChatGPT and Claude answer freely. Switch models (or rephrase) and try again.
 * Workspace integrations require admin enablement and respect data residency rules. In a regulated industry, check before turning on.
 * Voice mode burns tokens fast on Ultra. The "free with sub" advertising is true; watch the quotas anyway.
+
+## Alternatives
+
+* If you want the calmer voice and 1M context for long-form analysis, [Claude](claude.md) is the daily-driver alternative.
+* For broader feature surface (voice, image gen, Operator, native video), [ChatGPT](chatgpt.md) ships more out-of-the-box.
+* If you live in Microsoft 365 instead of Google Workspace, [Microsoft Copilot](microsoft_copilot.md) is the parallel.
+* For grounded Q&A on your own documents, [NotebookLM](notebooklm.md) is the sibling Google product, often more useful than Gemini chat for that job.
+
+## FAQ
+
+### Is Gemini free?
+
+Yes - the free tier on gemini.google.com is genuinely useful and replaces Google Assistant on Android. Google AI Pro is $20/mo (higher limits, Deep Research). Ultra is $60+/mo for the 2M-token context and Gemini Live priority.
+
+### Gemini vs ChatGPT - which is better?
+
+Different jobs. Gemini wins inside Google Workspace (Gmail, Docs, Sheets) and on multimodal at scale. [ChatGPT](chatgpt.md) wins on broader features and a wider model picker. Most people use both.
+
+### What's Gemini's context window?
+
+2M tokens on Ultra (the largest in production as of April 2026), 1M on Pro. The 2M is real but, like Claude's 1M, the model gets sloppier as you fill it - I aim to stay under ~500K in practice.
+
+### Does Gemini work in Google Sheets?
+
+Yes - via the Workspace integration. An admin enables Gemini at admin.google.com → Apps → Google Workspace → Gemini. Then you get the side panel inside every Doc / Gmail / Sheet.
+
+### Is Gemini good for coding?
+
+Capable, especially with the 1M-2M context for whole-repo questions. For terminal agentic work, the matched product is [Gemini CLI](gemini_cli.md). For an in-editor experience, [Cursor](cursor.md) lets you select Gemini as the model.
 
 ## Pointers
 

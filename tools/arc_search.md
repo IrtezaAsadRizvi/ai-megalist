@@ -1,6 +1,6 @@
-# Arc Search
+# Arc Search: AI-native mobile browser that reads the web for you
 
-Arc Search is the mobile app from The Browser Company that took the radical position: maybe you don't want to "go to a website" at all. The "Browse for me" feature reads multiple websites for you and produces a single bespoke web page summarising what you wanted to know. For mobile search where every tap costs something, the workflow is materially better than Google.
+Arc Search sits in the AI browsers cluster alongside [Dia](dia.md), [Comet](comet.md), and [Edge Copilot](edge_copilot.md), but unique in being mobile-first and the only one that synthesises a bespoke web page per query. Arc Search is the mobile app from The Browser Company that took the radical position: maybe you don't want to "go to a website" at all. The "Browse for me" feature reads multiple websites for you and produces a single bespoke web page summarising what you wanted to know. For mobile search where every tap costs something, the workflow is materially better than Google.
 
 ## What it actually is
 
@@ -29,6 +29,35 @@ An iOS and Android app. Looks like a search box; behaves like a search engine fo
 * For navigational queries (find a specific URL), regular search is better. Arc Search shines on research questions.
 * The "Browse for me" agent occasionally produces summaries with errors. Click the citations for important claims.
 * Free; no paid tier as of April 2026. The Browser Company's monetization may shift.
+
+## Alternatives
+
+* If you want the same Browser Company team's desktop answer, [Dia](dia.md) is the AI-native successor to Arc.
+* If you want an agentic desktop browser that can act on sites, [Comet](comet.md) is the Perplexity-led equivalent.
+* If you want cited web answers without leaving search, [Perplexity](perplexity.md) is the closest mobile experience in spirit.
+* If you live in Microsoft's ecosystem on desktop, [Edge Copilot](edge_copilot.md) provides a similar sidebar shape.
+
+## FAQ
+
+### Is Arc Search free?
+
+Yes - free on iOS and Android, no paid tier as of April 2026. The Browser Company's monetization may shift over time.
+
+### Arc Search vs Perplexity - which one?
+
+Different shapes. [Perplexity](perplexity.md) returns a chat-style answer with citations; Arc Search synthesises an actual web page tailored to your query. Both work on mobile; the Arc Search page format is faster to skim.
+
+### Is Arc still being developed?
+
+The desktop Arc browser is in maintenance mode; The Browser Company has been transparent about that. Arc Search (mobile) and [Dia](dia.md) (desktop) are the active products.
+
+### Does Arc Search work on Android?
+
+Yes, both iOS and Android since 2024.
+
+### What is "Browse for me"?
+
+The agent feature - tap it and Arc reads multiple websites for ~10-20 seconds, then produces a single bespoke web page summarising the answer with links to each source. The unique idea behind the product.
 
 ## Pointers
 

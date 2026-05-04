@@ -1,6 +1,6 @@
-# Seedance
+# Seedance: ByteDance's AI video model with strong motion physics
 
-Seedance is ByteDance's AI video model, and it kept showing up in blind creator tests in 2026 with output that surprised people. Especially strong on motion physics — characters walking, fluid dynamics, complex camera moves through cluttered spaces — Seedance covers a domain where Veo, Runway, and Kling sometimes wobble.
+Seedance is ByteDance's AI video model and a regular contender against [Veo](veo.md), [Runway](runway.md), and [Kling](kling.md) in 2026 blind tests. Seedance is ByteDance's AI video model, and it kept showing up in blind creator tests in 2026 with output that surprised people. Especially strong on motion physics - characters walking, fluid dynamics, complex camera moves through cluttered spaces - Seedance covers a domain where Veo, Runway, and Kling sometimes wobble.
 
 ## What it actually is
 
@@ -40,6 +40,31 @@ A text and image to video model from ByteDance Seed (the same group behind Douba
 * Quality on certain stylised outputs (anime, abstract motion) lags more specialised models.
 * Cost varies across hosts; compare before committing volume.
 * The model is from ByteDance; some enterprises in regulated industries prefer Western hosted alternatives.
+
+## Alternatives
+
+* If you want the strongest all-rounder with native audio, [Veo](veo.md) is the default in 2026.
+* If you want directorial controls (motion brush, references, camera moves), [Runway](runway.md) is the answer.
+* If you need long durations or the best $/clip, [Kling](kling.md) is the value pick.
+* If you want fast iteration and effects-driven generation, [Pika](pika.md) is shaped for that loop.
+
+## FAQ
+
+### Is Seedance free?
+
+There's no consumer free tier in most regions. Access is through partner platforms - [fal.ai](https://fal.ai), [Replicate](replicate.md), [Krea](krea.md) - which charge per generation. Pricing varies; compare hosts before committing volume.
+
+### Seedance vs Veo - which is better?
+
+Different strengths. [Veo](veo.md) wins on overall quality and native audio. Seedance wins on motion physics - sports, dancing, cluttered camera moves. I A/B both per project.
+
+### Can Seedance generate audio?
+
+No - audio isn't natively generated. Add SFX and music separately, or pair with [ElevenLabs](elevenlabs.md) and [Suno](suno.md) for the audio layer.
+
+### Where can I use Seedance from outside China?
+
+Through partner platforms: fal.ai, Replicate, and Krea wrap Seedance with global access. Direct API access through ByteDance Seed varies by region.
 
 ## Pointers
 

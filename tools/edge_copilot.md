@@ -1,6 +1,6 @@
-# Edge Copilot
+# Edge Copilot: AI sidebar in Microsoft Edge
 
-Edge Copilot is the AI assistant baked into Microsoft Edge, available as a side panel one click from any tab. It's the easiest way to get a chat assistant that can see the page you're reading, without installing an extension or copying text into another tab. For Microsoft 365 users it also reaches into your Word, Excel, and Outlook context. That tight integration is the whole point.
+Edge Copilot is a browser-AI sidebar in the AI-browsers category, a lighter alternative to full AI-native browsers like [Comet](comet.md) and [Dia](dia.md). It's the AI assistant baked into Microsoft Edge, available as a side panel one click from any tab. The easiest way to get a chat assistant that can see the page you're reading, without installing an extension or copying text into another tab. For Microsoft 365 users it also reaches into your Word, Excel, and Outlook context. That tight integration is the whole point.
 
 ## What it actually is
 
@@ -28,6 +28,31 @@ I don't use it as my daily driver chat (Claude and ChatGPT win there), but for "
 * Page access permission is per site and feels finicky; I've had it silently fail to read certain SPAs.
 * Privacy stance is enterprise grade if you're on Microsoft 365 Copilot, more ambiguous on the consumer free tier. Read the Bing chat data policy before pasting anything sensitive.
 * On macOS the Edge build is a generation behind Windows for some Copilot features.
+
+## Alternatives
+
+* If you want a full AI-native browser instead of a sidebar, [Comet](comet.md) or [Dia](dia.md) are the deeper bets.
+* If you want a sidebar AI in Chrome / Safari / Firefox without switching browsers, [Monica](monica.md) or [Sider](sider.md) are the cross-browser options.
+* If you live in Microsoft 365 and want the broader Copilot story (Word, Excel, Outlook, Teams), [Microsoft Copilot](microsoft_copilot.md) is the bigger product.
+* If you want privacy-first with local-only AI, Brave Leo is the closest free alternative.
+
+## FAQ
+
+### Is Edge Copilot free?
+
+Yes - the sidebar is free with a Microsoft account, rate-limited and with model rotation. Copilot Pro ($20/mo) lifts limits and gives priority access. Microsoft 365 Copilot is the enterprise tier with Office integration; pricing is per-seat enterprise.
+
+### Edge Copilot vs ChatGPT - which should I use?
+
+Different jobs. [ChatGPT](chatgpt.md) is the daily-driver chat with the broadest feature set. Edge Copilot is a context-aware sidebar - the value is "I'm already reading this page, I have a question about it" without copying text into another tab. Use both; they don't compete.
+
+### What model does Edge Copilot use?
+
+Rotates between GPT-class models and Microsoft's own MAI series depending on the tier. The free tier rotates more aggressively (cheaper models on busy days); Pro is more consistent. Quality is GPT-4-class on average; not the right pick if you need a specific frontier model.
+
+### Is Edge Copilot safe to use on work data?
+
+Microsoft 365 Copilot has the enterprise-grade privacy story (no training on your data, audit logs, region pinning). The free consumer tier is more ambiguous - read the Bing chat data policy before pasting anything sensitive.
 
 ## Pointers
 

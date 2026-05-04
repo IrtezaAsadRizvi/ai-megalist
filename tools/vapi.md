@@ -1,10 +1,10 @@
-# Vapi
+# Vapi: voice agent platform for phone calls
 
-Vapi is the platform for building voice agents that make and receive phone calls. Where ElevenLabs and Cartesia provide the voice, Vapi provides the rest of the stack: telephony, STT, LLM orchestration, function calling, voicemail handling, transfer to humans, and the dashboard for tuning the conversation. For developers building "AI receptionist" or "AI sales agent" products, Vapi is the substrate.
+Vapi sits in the real-time voice agents category alongside [Retell](retell.md) and [LiveKit Agents](livekit.md), pitched as the managed stack for AI receptionists and outbound callers. Vapi is the platform for building voice agents that make and receive phone calls. Where ElevenLabs and Cartesia provide the voice, Vapi provides the rest of the stack: telephony, STT, LLM orchestration, function calling, voicemail handling, transfer to humans, and the dashboard for tuning the conversation. For developers building "AI receptionist" or "AI sales agent" products, Vapi is the substrate.
 
 ## What it actually is
 
-A managed voice agent platform. You configure an "Assistant" — pick STT (Deepgram, AssemblyAI), LLM (OpenAI, Anthropic, Groq), TTS (ElevenLabs, Cartesia, PlayHT), define functions (book appointment, look up account), set up phone numbers, route calls. Pricing is per minute of call time on top of underlying provider costs.
+A managed voice agent platform. You configure an "Assistant" - pick STT (Deepgram, AssemblyAI), LLM (OpenAI, Anthropic, Groq), TTS (ElevenLabs, Cartesia, PlayHT), define functions (book appointment, look up account), set up phone numbers, route calls. Pricing is per minute of call time on top of underlying provider costs.
 
 ## Setup
 
@@ -33,6 +33,31 @@ A managed voice agent platform. You configure an "Assistant" — pick STT (Deepg
 * Voice agents that do anything important need careful prompting and guardrails. Hallucinations on a phone call are immediately visible.
 * For purely local development or open source: LiveKit Agents is the OSS alternative.
 * Compliance (call recording, consent, data handling) varies by jurisdiction. Plan before deploying.
+
+## Alternatives
+
+* If you want a similar managed shape with different defaults, [Retell](retell.md) is the closest comparator.
+* If you want OSS and self-hosted, [LiveKit Agents](livekit.md) is the open framework.
+* If you want the voice layer separately and to roll your own orchestration, [ElevenLabs](elevenlabs.md) (TTS) plus [Cartesia](cartesia.md) (low-latency) are the building blocks.
+* If you only need IVR-style flows without LLM reasoning, traditional Twilio Studio is simpler.
+
+## FAQ
+
+### Is Vapi free?
+
+Free credits on signup are enough to prototype. After that, pricing is per minute of call time on top of underlying STT, LLM, TTS, and Twilio costs. Estimate the full stack carefully - it adds up.
+
+### Vapi vs Retell - which is better?
+
+Both target the same shape. The differences are dashboard UX, default provider stack, and pricing curve - small but real. Build a prototype in each and pick on which one's quirks you can live with.
+
+### What's the latency on a Vapi call?
+
+Total latency is STT + LLM + TTS + telephony. Sub-second end-to-end is the bar for natural conversation; tuning each piece (especially picking [Cartesia](cartesia.md) or fast Groq models) is what gets you there.
+
+### Can I bring my own phone number?
+
+Yes - Vapi supports BYO number via Twilio. The default flow buys a number on Vapi's account; bring-your-own works for teams with existing telephony setups.
 
 ## Pointers
 

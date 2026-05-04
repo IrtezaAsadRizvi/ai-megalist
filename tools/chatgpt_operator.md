@@ -1,6 +1,6 @@
-# ChatGPT Operator / Agent
+# ChatGPT Operator / Agent: OpenAI's browser-using agent
 
-ChatGPT Operator is OpenAI's browser using agent. You give it a task ("book a table for two at this restaurant Friday at 7"), it spins up a remote browser, and you watch it click through the web on your behalf. In 2026 this is folded into the broader "ChatGPT Agent" mode that can also use a code interpreter, a terminal, and other tools. It's the most reliable of the consumer browser agents I've tried, and that bar is set low.
+ChatGPT Operator is the browser-using agent in the consumer agents category, the OpenAI answer to [Claude Computer Use](claude_computer_use.md) and [Manus](manus.md). You give it a task ("book a table for two at this restaurant Friday at 7"), it spins up a remote browser, and you watch it click through the web on your behalf. In 2026 this is folded into the broader "ChatGPT Agent" mode that can also use a code interpreter, a terminal, and other tools. It's the most reliable of the consumer browser agents I've tried, and that bar is set low.
 
 ## What it actually is
 
@@ -28,6 +28,31 @@ I don't trust it with anything irreversible. Booking a flight: I let it find the
 * The agent can be slow; a 10 minute task on a complex site is normal.
 * You're handing the agent your logged in session through ChatGPT's remote browser; think about credential exposure before you do this for sensitive sites.
 * Payments and irreversible actions should always be confirmed by you, not the agent. The product is good at asking; don't disable that prompt.
+
+## Alternatives
+
+* If you want API-level control to build your own agent, [Claude Computer Use](claude_computer_use.md) is the developer-first equivalent.
+* If you want a cloud sandbox with a longer-running "My Computer" environment, [Manus](manus.md) is the closest match.
+* If you want browser automation as a developer library (DOM-aware, scriptable), [Browser Use](browser_use.md) is the OSS path.
+* For an AI browser where the agent is woven into normal browsing rather than a separate mode, [Comet](comet.md) is the bet.
+
+## FAQ
+
+### Is ChatGPT Operator free?
+
+No. Agent / Operator capabilities require ChatGPT Plus ($20/mo) at minimum, and Pro ($200/mo) gets you priority access and higher caps. The free tier doesn't include browser-using modes.
+
+### ChatGPT Operator vs Claude Computer Use - which should I use?
+
+Operator if you want a finished consumer product with a watchable browser pane and built-in confirmations. [Claude Computer Use](claude_computer_use.md) if you're a developer building your own agent on top of an API; Anthropic ships a reference Docker container, you ship the sandbox.
+
+### Can Operator make purchases for me?
+
+It can fill the cart and reach the checkout page, but it pauses and asks before submitting payment. Leave that prompt on - this is the right default. I let it find the option, then I click "buy" myself.
+
+### What sites does Operator break on?
+
+Sites with aggressive bot detection (some retailers, some banks, captcha-heavy flows) refuse the agent. CAPTCHAs are a hard stop unless a human takes over. Plan around it; don't fight it.
 
 ## Pointers
 

@@ -1,6 +1,6 @@
-# Writesonic
+# Writesonic: SEO content production platform
 
-Writesonic is a writing platform built around SEO content production. It also wraps a chat assistant called Chatsonic and a few adjacent tools, but the reason people use it is the workflow for "I need a 2,000 word article ranked for keyword X by next Friday." It's a niche tool, the niche is real, and the product knows what it is.
+Writesonic sits in the marketing and SEO writing category alongside [Surfer SEO](surfer_seo.md), [Frase](frase.md), and [Jasper](jasper.md), pitched specifically at the "rank for keyword X by Friday" workflow. Writesonic is a writing platform built around SEO content production. It also wraps a chat assistant called Chatsonic and a few adjacent tools, but the reason people use it is the workflow for "I need a 2,000 word article ranked for keyword X by next Friday." It's a niche tool, the niche is real, and the product knows what it is.
 
 ## What it actually is
 
@@ -28,6 +28,31 @@ I don't run an SEO content operation, so my own use is limited. When friends in 
 * SEO content from generic AI is increasingly devalued by search engines (Google's helpful content updates, etc.). The strategy itself is more contested than it was in 2023.
 * Pricing tiers are confusing; word counts vs feature unlocks vs team seats. Read the matrix carefully.
 * Quality regresses sometimes when underlying models update. Keep your own sample prompts as a smoke test.
+
+## Alternatives
+
+* If you want SEO content optimization with strong SERP analysis, [Surfer SEO](surfer_seo.md) is the closest comparator.
+* If you want SERP analysis plus brief generation specifically, [Frase](frase.md) leans into that workflow.
+* If you want brand voice and template management for a marketing team, [Jasper](jasper.md) is the broader pick.
+* If you want enterprise governance on top of content production, [Writer](writer.md) is the fit.
+
+## FAQ
+
+### Is Writesonic free?
+
+There's a free word allowance to start. Paid tiers scale by word count and features; the matrix (word counts vs feature unlocks vs team seats) is genuinely confusing - read it carefully before subscribing.
+
+### Writesonic vs Surfer SEO - which should I use?
+
+Different angles. Writesonic is content-production-first with SEO oriented prompting; [Surfer SEO](surfer_seo.md) is SEO-optimization-first with stronger SERP and on-page analysis. Many teams use both: Surfer for the brief, Writesonic for the draft.
+
+### Does AI-generated SEO content still rank?
+
+Less reliably than in 2023. Google's helpful content updates have devalued generic AI content; the strategy works better as scaffolding with substantial human editing. Treat output as a draft, not finished work.
+
+### What is Chatsonic?
+
+Writesonic's bundled chat assistant. It's fine - nothing remarkable. You'd use it because it's bundled, not because you sought it out. For general chat, [ChatGPT](chatgpt.md) or [Claude](claude.md) are better.
 
 ## Pointers
 

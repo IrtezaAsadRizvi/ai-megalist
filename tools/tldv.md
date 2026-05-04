@@ -1,6 +1,6 @@
-# tl;dv
+# tl;dv: meeting recorder with free unlimited transcription
 
-tl;dv is the meeting recording / transcription / AI summary tool that started as a free Chrome extension and grew into a full meeting intelligence platform. The pitch: free unlimited recordings, AI summaries, CRM sync, and a search across all your meetings — Fathom adjacent in features, with its own personality.
+tl;dv sits in the meeting notes category alongside [Fathom](fathom.md), [Fireflies](fireflies.md), and [Otter](otter.md), pitched as the bot-in-call recorder with a generous free tier and CRM sync for sales teams. tl;dv is the meeting recording / transcription / AI summary tool that started as a free Chrome extension and grew into a full meeting intelligence platform. The pitch: free unlimited recordings, AI summaries, CRM sync, and a search across all your meetings - Fathom adjacent in features, with its own personality.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ A meeting note taker (bot in call) that joins Zoom, Google Meet, and Microsoft T
 * Privacy: recordings live on tl;dv's cloud. Read residency docs for regulated industries.
 * Quality of summaries depends on meeting structure; sprawling discussions produce less useful summaries.
 * For strictly bot free: [granola.md](granola.md), Krisp, Jamie.
+
+## Alternatives
+
+* If you want a bot-free notetaker that polishes your rough notes after the call, [Granola](granola.md) is the default.
+* If you want free unlimited recording with a different feature mix, [Fathom](fathom.md) is the closest comparator.
+* If you live in a CRM-heavy sales motion, [Fireflies](fireflies.md) and tl;dv overlap; pick on integration depth.
+* If transcription quality and live captions matter most, [Otter](otter.md) is the more mature option.
+
+## FAQ
+
+### Is tl;dv free?
+
+Yes for unlimited recording and transcription. Pro ($29/seat/mo) unlocks AI summaries, custom templates, and CRM sync; Business ($98/seat/mo) adds analytics and multi-user features.
+
+### tl;dv vs Fathom - which is better?
+
+Both have generous free tiers. [Fathom](fathom.md) leans simpler and consumer-friendly; tl;dv leans into sales workflows with CRM sync, custom templates, and cross-meeting AI search. Pick by which features you actually use.
+
+### Does tl;dv work with Zoom and Google Meet?
+
+Yes - it's a bot-in-call notetaker that joins Zoom, Google Meet, and Microsoft Teams. The bot is visible to attendees, which some object to; if that's a constraint, [Granola](granola.md) is bot-free.
+
+### Can tl;dv push to Salesforce or HubSpot?
+
+Yes, on Pro and above. Summaries and action items push to Salesforce, HubSpot, and Pipedrive automatically. Free tier doesn't include CRM sync.
 
 ## Pointers
 

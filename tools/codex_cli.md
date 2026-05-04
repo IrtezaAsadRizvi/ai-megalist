@@ -1,6 +1,6 @@
-# Codex CLI
+# Codex CLI: OpenAI's terminal coding agent
 
-Codex CLI is OpenAI's answer to Claude Code. Same shape — a terminal agent that lives inside your repo, reads/edits files, runs commands, commits — but built around the GPT family. Since the GPT‑5.5 refresh in early 2026, the agentic execution and code quality are good enough that "which terminal agent should I use" is genuinely a coin flip rather than a clear winner.
+Codex CLI is the OpenAI entry in the terminal coding-agent category, the direct head-to-head with [Claude Code](claude_code.md) and [Aider](aider.md). Same shape - a terminal agent that lives inside your repo, reads/edits files, runs commands, commits - but built around the GPT family. Since the GPT‑5.5 refresh in early 2026, the agentic execution and code quality are good enough that "which terminal agent should I use" is genuinely a coin flip rather than a clear winner.
 
 ## What it actually is
 
@@ -30,6 +30,35 @@ About five minutes from `npm install` to first useful task.
 * `--auto-approve` is convenient and dangerous. I use it on side projects, never on prod repos.
 * Compared to Claude Code, Codex is more inclined to write tests proactively, which I like, but also occasionally writes tests for code I haven't asked it to touch.
 * MCP setup is similar to Claude Code's but config lives at `~/.codex/`. Don't expect cross compatibility.
+
+## Alternatives
+
+* If you want the Anthropic family in the same shape, [Claude Code](claude_code.md) is the direct counterpart.
+* If you want minimal git-native pair programming with no agent loop, [Aider](aider.md) is the OSS classic.
+* If you want a Google-family terminal agent with 1M context, [Gemini CLI](gemini_cli.md) is the third option.
+* If you want an editor instead of a terminal, [Cursor](cursor.md) is the IDE form of the same idea.
+
+## FAQ
+
+### Is Codex CLI free?
+
+The CLI is open-source (Apache 2.0) so the binary is free. Usage costs accrue against your OpenAI account at platform.openai.com - per-token pricing on GPT-5.5 Codex and o4. Set budget caps under Limits before you hand it `--auto-approve`.
+
+### Codex CLI vs Claude Code - which is better?
+
+Honestly close in 2026. [Claude Code](claude_code.md) feels faster on multi-file refactors; Codex digs deeper on bug hunts and is more inclined to write tests proactively. Run both on the same task once - the one whose mistakes annoy you less is the right pick for you.
+
+### What is CODEX.md?
+
+A repo-root config file Codex reads on launch, with house conventions and build commands. Same idea as CLAUDE.md for [Claude Code](claude_code.md), different filename. Keep it tight; update it as the codebase changes.
+
+### Does Codex CLI support MCP?
+
+Yes - config lives at `~/.codex/config.toml` or per-project. The MCP server protocol is the same as Claude Code's, but the config locations are not interchangeable. Don't expect to just copy your `~/.claude/` over.
+
+### Is --auto-approve safe?
+
+On side projects, fine. On production repos, no. Codex will run shell commands and write files; `--auto-approve` removes the human checkpoint. Use it on throwaway sandboxes; review plans manually on anything that matters.
 
 ## Pointers
 

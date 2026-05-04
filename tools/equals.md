@@ -1,6 +1,6 @@
-# Equals
+# Equals: AI spreadsheet wired to your data warehouse
 
-Equals is the spreadsheet that connects to your data warehouse natively. Where Sheets needs a hacky integration to pull from Snowflake or BigQuery, Equals treats SQL queries as first class cells. The result is a spreadsheet that finance and ops teams can use to build dashboards directly off the warehouse, with AI assist for SQL generation and analysis. Acquired by Numeric in 2024 but still operating.
+Equals lives in the AI spreadsheet category alongside [Rows](rows.md) and [Julius](julius.md), but its angle is different - it's a spreadsheet that treats Snowflake / BigQuery queries as first-class cells, with AI on top. The result is a spreadsheet that finance and ops teams can use to build dashboards directly off the warehouse, with AI assist for SQL generation and analysis. Acquired by Numeric in 2024 but still operating.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ For pure ad hoc analysis I'd reach for Mode or Hex (more analyst oriented). For 
 * Pricing skews team and enterprise; not designed for solo users.
 * Some warehouse features (row level security, very large queries) need careful handling.
 * The spreadsheet metaphor is comfortable for finance but constraining for some analysis tasks. Match the tool to the task.
+
+## Alternatives
+
+* If you want broader SaaS API integrations and a less warehouse-centric spreadsheet, [Rows](rows.md) is a closer fit.
+* For ad-hoc analysis on CSVs and chat-driven exploration, [Julius](julius.md) is more analyst-friendly.
+* If you want a notebook with SQL plus Python plus AI, [Hex](hex.md) is the analyst-grade option.
+* For BI dashboards with AI assist on top of warehouse data, [Mode](mode.md) is the older, more mature pick.
+
+## FAQ
+
+### Is Equals free?
+
+No. Pricing skews team and enterprise; there have been individual / starter tiers but the product is built around shared workbooks, not solo use. Pull the current pricing from equals.com - it shifts.
+
+### Equals vs Google Sheets - which should I use?
+
+Sheets if your data lives in CSVs and SaaS exports. Equals if your numbers live in Snowflake / BigQuery / Redshift / Databricks and you're tired of the weekly export-and-paste routine.
+
+### Does Equals support Snowflake and BigQuery?
+
+Yes, both, plus Redshift and Databricks, plus direct OAuth into Stripe / HubSpot / Salesforce. The native warehouse connection is the whole point of the tool.
+
+### Is Equals' AI SQL trustworthy?
+
+Treat it like any other AI-generated SQL: review every join. The spreadsheet will happily render a wrong forecast as if it were truth, and finance models inherit those errors silently.
 
 ## Pointers
 

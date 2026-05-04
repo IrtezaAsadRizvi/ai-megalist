@@ -1,6 +1,6 @@
-# Google Stitch
+# Google Stitch: prompt-to-editable-UI from the ex-Galileo team
 
-Google Stitch is the prompt to UI tool that grew out of Google's Galileo acquisition and is now part of the Google Labs / DeepMind product surface. You describe a UI ("a settings page for a fitness app with sections for profile, notifications, and connected devices"), and Stitch generates editable design files plus production ready code. It's Google's answer to v0 and Magic Patterns, with the integration into the Google ecosystem as the differentiator.
+Google Stitch is in the prompt-to-UI category alongside [v0](v0.md) and [Magic Patterns](magic_patterns.md), with the angle that it produces editable design files (Figma-compatible) before the code. Grew out of Google's Galileo acquisition and is now part of the Google Labs / DeepMind product surface. You describe a UI ("a settings page for a fitness app with sections for profile, notifications, and connected devices"), and Stitch generates editable design files plus production ready code.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ For production code I'd still hand off to a real frontend developer or use [v0.m
 * Code output is competent but not always idiomatic. Treat as scaffolding.
 * Editing is part prompt, part direct manipulation; the model of when to do which takes a session to grok.
 * Google Labs products sometimes get sunset; bet your workflow on this only if you can swap to a competitor cleanly.
+
+## Alternatives
+
+* If you want production React + Tailwind components from a prompt, [v0](v0.md) is more code-oriented.
+* For a similar prompt-to-UI flow with a different design opinion, [Magic Patterns](magic_patterns.md) is the head-to-head competitor.
+* If you're starting from a sketch or wireframe instead of a prompt, [Uizard](uizard.md) is sharper at that.
+* For staying inside Figma with prompt-to-prototype, [Figma Make](figma.md) is the in-tool option.
+
+## FAQ
+
+### Is Google Stitch free?
+
+Yes - free during the public beta as of April 2026. Pricing post-beta is unannounced; Google Labs products often shift between free / paid / sunset on short notice, so don't bet a paid workflow on it.
+
+### Stitch vs v0 - which should I use?
+
+Different upstream-vs-downstream positions. Stitch is design-first - generates editable mockups you can export to Figma. [v0](v0.md) is code-first - generates React + Tailwind components you ship. If you have a designer in the loop, Stitch first then v0. If you don't, v0 alone.
+
+### Does Stitch export to Figma?
+
+Yes - the design files export with sensible layer structure, which is the main differentiator over pure code-gen tools. The Figma round-trip works for further design polish before handing to engineering.
+
+### Is Stitch the same as Galileo AI?
+
+Effectively yes - Stitch is the productized successor to Galileo AI after Google's acquisition. The team and the underlying approach are the same; the product surface is now inside Google Labs.
 
 ## Pointers
 

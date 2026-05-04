@@ -1,6 +1,6 @@
-# LangGraph
+# LangGraph: stateful agent graphs for production reliability
 
-LangGraph is the framework for agents you'd actually trust in production. Where AutoGPT and CrewAI optimise for "describe a goal, agent figures it out," LangGraph optimises for "describe the graph of states and transitions, agent executes deterministically." More plumbing, more control, dramatically better debuggability.
+LangGraph is in the agent orchestration category alongside [CrewAI](crewai.md) and [AutoGPT](autogpt.md), and the one I'd pick when the agent has to actually work and be debuggable. LangGraph is the framework for agents you'd actually trust in production. Where AutoGPT and CrewAI optimise for "describe a goal, agent figures it out," LangGraph optimises for "describe the graph of states and transitions, agent executes deterministically." More plumbing, more control, dramatically better debuggability.
 
 ## What it actually is
 
@@ -41,6 +41,35 @@ An open source Python (and TypeScript) library from LangChain Inc. Models agents
 * Verbose for simple cases. If your "agent" is one LLM call with one tool, plain SDK is simpler.
 * Debugging multi step graphs without LangGraph Studio is harder; the Studio is a real multiplier.
 * The TypeScript port lags Python in features and ecosystem.
+
+## Alternatives
+
+* If you want role-based multi-agent setups with less plumbing, [CrewAI](crewai.md) is the friendlier option.
+* If you want a minimal Hugging Face-style agent framework, [Smolagents](smolagents.md) is the smaller pick.
+* If you want visual no-code workflow building rather than code, [n8n](n8n.md) hits that lane.
+* If you only need RAG with simple tool use, [LlamaIndex](llamaindex.md) agents may be enough without the graph overhead.
+
+## FAQ
+
+### Is LangGraph free?
+
+Yes - LangGraph is open source (MIT). LangGraph Cloud (managed execution) and LangGraph Studio (visual debugging) are paid; the Studio is genuinely a multiplier for debugging multi-step graphs.
+
+### LangGraph vs CrewAI - which should I use?
+
+Different defaults. [CrewAI](crewai.md) optimises for "describe agent roles, they figure it out" - faster to start, less control. LangGraph optimises for "describe the state graph, it executes deterministically" - more plumbing, much better debuggability. For production reliability, LangGraph.
+
+### Do I need LangChain to use LangGraph?
+
+No. LangGraph is a separate package and works with raw provider SDKs (Anthropic, OpenAI) directly. The two pair naturally - LangChain abstractions plug in cleanly - but LangGraph isn't dependent on the rest of LangChain.
+
+### Can LangGraph pause and resume?
+
+Yes - that's one of its core features. Add a checkpoint, pause the graph, let a human approve or modify state, then resume. Persistence and checkpointing are built into the framework.
+
+### Is LangGraph hard to learn?
+
+Steeper than CrewAI or AutoGPT - plan a few days to internalise the state graph mental model. Once it clicks, debugging an agent at node boundaries is dramatically easier than debugging a 50-step ReAct trace.
 
 ## Pointers
 

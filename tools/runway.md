@@ -1,6 +1,6 @@
-# Runway
+# Runway: AI video studio with directorial controls
 
-Runway is the AI video tool that's been quietly shipping for longer than most people realise. It's where the actual film and post production professionals are, in part because the controls — motion brush, reference characters, camera moves — feel like the kind of inputs a director would want, not just "type a prompt and pray."
+Runway is the AI video generator favoured by film and post production professionals, the directorial-control alternative to [Veo](veo.md), [Kling](kling.md), and [Seedance](seedance.md). Runway is the AI video tool that's been quietly shipping for longer than most people realise. It's where the actual film and post production professionals are, in part because the controls - motion brush, reference characters, camera moves - feel like the kind of inputs a director would want, not just "type a prompt and pray."
 
 ## What it actually is
 
@@ -28,6 +28,31 @@ A web based AI video studio with image to video, video to video, and now Gen‑4
 * The UI has accumulated features over years and the navigation reflects that. Plan to spend an hour learning where things live.
 * Audio generation isn't native (yet) at Veo 3.1 quality. Runway adds voice and SFX as a separate step or via integrations.
 * Pro tier and below have visible watermarks on free preview clips. Final exports are clean.
+
+## Alternatives
+
+* If you want native audio and the strongest all-rounder, [Veo](veo.md) is the default in 2026.
+* If you need long durations or the best $/clip, [Kling](kling.md) is the value pick.
+* If motion physics matter (sports, crowds, vehicles), [Seedance](seedance.md) often wins blind tests.
+* For fast iterative idea-sketches with effects, [Pika](pika.md) is shaped for that loop.
+
+## FAQ
+
+### Is Runway free?
+
+There's a free tier with 125 credits, enough for one short clip. Standard ($15/mo), Pro ($35/mo), and Unlimited ($95/mo) are the realistic tiers; credits go faster than the marketing implies.
+
+### Runway vs Veo - which is better?
+
+Different jobs. [Veo](veo.md) wins on raw quality and native audio. Runway wins when you want directorial control - motion brush, reference characters, explicit camera moves. I use Veo for "make me a clip" and Runway for "make exactly this shot."
+
+### Does Runway have an API?
+
+Yes - Gen-4 has a public API at docs.dev.runwayml.com. Most major video generators are API-gated or platform-only; Runway's API is one of the more production-usable.
+
+### How long can a Runway clip be?
+
+Gen-4 / Gen-4.5 clips top out at 5 to 10 seconds per generation. Longer sequences come from chaining shots; for single long takes, [Kling](kling.md) extends further.
 
 ## Pointers
 

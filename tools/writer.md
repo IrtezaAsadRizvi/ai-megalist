@@ -1,6 +1,6 @@
-# Writer
+# Writer: enterprise content platform with brand governance
 
-Writer is the enterprise grade content platform that takes brand governance seriously. While Jasper and Copy.ai chase mid market marketers, Writer goes after Fortune 500 communications and brand teams with a full stack: their own model family (Palmyra), a brand voice engine, a knowledge graph that grounds outputs in approved content, and on prem deployment options. It's a different kind of product from a chat assistant; it's infrastructure.
+Writer sits in the marketing and brand voice writing category alongside [Jasper](jasper.md) and [Copy.ai](copy_ai.md), but specifically aimed at Fortune 500 communications teams with on-prem options and a knowledge graph. Writer is the enterprise grade content platform that takes brand governance seriously. While Jasper and Copy.ai chase mid market marketers, Writer goes after Fortune 500 communications and brand teams with a full stack: their own model family (Palmyra), a brand voice engine, a knowledge graph that grounds outputs in approved content, and on prem deployment options. It's a different kind of product from a chat assistant; it's infrastructure.
 
 ## What it actually is
 
@@ -28,6 +28,31 @@ I don't use Writer myself; I've seen it used inside larger orgs and the value pr
 * The Palmyra models lag the absolute frontier on raw capability. The trade is governance and control, not peak performance.
 * On prem and VPC deployment exist but require negotiation; not a self serve flow.
 * The product surface is broad; some customers use only the brand voice engine, others go all in on AI Studio. Plan your rollout.
+
+## Alternatives
+
+* If you're mid-market and want brand templates without enterprise governance, [Jasper](jasper.md) is the closer fit.
+* If you want GTM-focused workflows for marketing teams, [Copy.ai](copy_ai.md) targets that segment.
+* If you're already on Microsoft 365 and want native AI in Office, Microsoft Copilot is the integrated path.
+* If governance matters less than raw model capability, an Anthropic or OpenAI enterprise plan plus your own retrieval is leaner.
+
+## FAQ
+
+### Is Writer free?
+
+No - this is enterprise-priced. Team plans start lower with a free trial, but the full feature set (knowledge graph, AI Studio, on-prem) is sales-led with negotiated pricing. Solo users should look elsewhere.
+
+### Writer vs Jasper - which should I use?
+
+Different segments. [Jasper](jasper.md) is mid-market with brand templates and a friendlier price point. Writer goes after large enterprises with governance, knowledge grounding, and compliance features. If your buying process involves legal review, Writer; if a single marketer is choosing, Jasper.
+
+### Does Writer support on-prem deployment?
+
+Yes - on-prem and VPC deployment exist but require sales negotiation, not a self-serve flow. This is part of why regulated industries pick Writer over chat-style alternatives.
+
+### What model does Writer use?
+
+Their own Palmyra family. Trade-off is governance and control over a model trained on enterprise data norms, not raw frontier capability - Palmyra lags Claude/GPT on hardest reasoning tasks but is fit for enterprise content workflows.
 
 ## Pointers
 

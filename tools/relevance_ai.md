@@ -1,6 +1,6 @@
-# Relevance AI
+# Relevance AI: no-code multi-agent workflows
 
-Relevance AI is the no code platform for building "agent teams": multiple AI agents with defined roles that collaborate on workflows. The pitch is "build your own digital workforce." For sales and ops teams that want a small fleet of specialized assistants (a research agent, an outreach agent, a scheduling agent) rather than one general one, the multi agent framing is the differentiator.
+Relevance AI sits in the workflow automation category, the multi-agent specialist alongside [Lindy](lindy.md), [n8n](n8n.md), and [CrewAI](crewai.md). Relevance AI is the no code platform for building "agent teams": multiple AI agents with defined roles that collaborate on workflows. The pitch is "build your own digital workforce." For sales and ops teams that want a small fleet of specialized assistants (a research agent, an outreach agent, a scheduling agent) rather than one general one, the multi agent framing is the differentiator.
 
 ## What it actually is
 
@@ -31,6 +31,31 @@ For single agent tasks, Lindy or a custom GPT is simpler. Relevance AI earns its
 * Pricing scales with credits; multi agent workflows burn more than single agent ones. Budget accordingly.
 * The platform abstracts a lot of underlying choices; debugging behaviour requires either trust or digging through traces.
 * Documentation has improved but the conceptual model (agents, tools, workflows, knowledge) takes a session to internalize.
+
+## Alternatives
+
+* If your work fits a single agent, [Lindy](lindy.md) is simpler and gets you running faster.
+* If you want OSS multi-agent orchestration with code-first control, [CrewAI](crewai.md) is the developer pick.
+* If you'd rather wire up visual workflows without the agent framing, [n8n](n8n.md) or [Make](make.md) are saner.
+* If you want stateful agent graphs with full programmability, [LangGraph](langgraph.md) is the lower-level primitive.
+
+## FAQ
+
+### Is Relevance AI free?
+
+There's a free trial. Paid tiers are credit and seat based; multi-agent workflows burn more credits than single-agent ones because every handoff costs tokens. Budget before scaling.
+
+### Relevance AI vs Lindy - which one?
+
+Different shapes. [Lindy](lindy.md) is single-agent oriented and simpler; build one assistant that does many things. Relevance AI is multi-agent first; build a team of role-specialised agents that hand off. Pick by whether the work decomposes into roles.
+
+### Do I need to code?
+
+No - the platform is no-code by design. The tradeoff: you get less control when debugging behaviour. Either trust the abstractions or dig through traces to see what each agent did.
+
+### Should I use multi-agent at all?
+
+Only when the work naturally splits. Multi-agent introduces latency at every handoff and a chance to lose context. Single agent with good tool use is often the saner default; reach for multi-agent when one agent's prompt becomes unmanageable.
 
 ## Pointers
 

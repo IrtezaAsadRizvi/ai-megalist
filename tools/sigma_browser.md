@@ -1,6 +1,6 @@
-# Sigma AI Browser
+# Sigma AI Browser: macOS workspace-first AI browser
 
-SigmaOS is a macOS browser built around workspaces and AI assistants, not tabs. The pitch is that you organize your browsing into spaces (work, side project, research), and an AI named Airis lives in the sidebar to help with whatever's in front of you. It's a niche product, but for people who like tab obsessive browsers (former Arc users, in particular) it's the closest spiritual successor I've found.
+Sigma AI Browser is a macOS-only AI-native browser, the workspace-organiser sibling to [Comet](comet.md) and [Dia](dia.md), and a spiritual successor to [Arc Search](arc_search.md) for tab-obsessive users. SigmaOS is a macOS browser built around workspaces and AI assistants, not tabs. The pitch is that you organize your browsing into spaces (work, side project, research), and an AI named Airis lives in the sidebar to help with whatever's in front of you. It's a niche product, but for people who like tab obsessive browsers (former Arc users, in particular) it's the closest spiritual successor I've found.
 
 ## What it actually is
 
@@ -26,6 +26,31 @@ A macOS native web browser by SigmaOS Inc., built on Chromium, with a workspace 
 * Chromium based, so most extensions work, but a handful of niche ones break against the custom UI shell.
 * The team is small; updates are steady but not fast. Some ex Arc users miss specific features.
 * Privacy: Airis sends page content to a hosted backend. Read the privacy policy before pointing it at sensitive internal docs.
+
+## Alternatives
+
+* If you want an agentic browser that navigates and acts on your behalf, [Comet](comet.md) is the more aggressive AI experiment.
+* If you want The Browser Company's polished take on Arc's successor, [Dia](dia.md) is the obvious next try.
+* If you cross between Mac, Windows, and Linux, Sigma's macOS-only stance is a non-starter - look at [Comet](comet.md) or [Edge Copilot](edge_copilot.md) instead.
+* If you want a privacy-first browser with a built-in assistant, [Brave Leo](brave_search.md) is the option.
+
+## FAQ
+
+### Is Sigma Browser free?
+
+Yes - free with limits on AI prompts and workspace count. Pro is a monthly subscription that unlocks unlimited Airis prompts and more workspaces.
+
+### Does Sigma Browser run on Windows or Linux?
+
+No - macOS only. If you switch between OSes, this is a non-starter; pick a cross-platform option like [Comet](comet.md) or stay in Chrome with a sidebar like [Sider](sider.md).
+
+### Will my Chrome extensions work?
+
+Mostly yes - Sigma is Chromium based, so most extensions install. A handful of niche ones break against the custom UI shell; test the specific ones you depend on.
+
+### Is Airis private?
+
+Page content sent to Airis goes to a hosted backend. The team is small but the privacy policy is standard fare; read it before pointing it at sensitive internal docs.
 
 ## Pointers
 

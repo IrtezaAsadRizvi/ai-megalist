@@ -1,6 +1,6 @@
-# Replicate
+# Replicate: any model, one API call
 
-Replicate is "any model, one API call." Image gen, video gen, audio, language models, niche research models — Replicate hosts thousands of them with a uniform interface. For developers who don't want to manage GPUs, build inference servers, or worry about which library a particular model uses, Replicate is the path of least resistance.
+Replicate sits in the model APIs and dev platforms category alongside [Together AI](together.md), [Fireworks](fireworks.md), and [Hugging Face](huggingface.md). Replicate is "any model, one API call." Image gen, video gen, audio, language models, niche research models - Replicate hosts thousands of them with a uniform interface. For developers who don't want to manage GPUs, build inference servers, or worry about which library a particular model uses, Replicate is the path of least resistance.
 
 ## What it actually is
 
@@ -23,8 +23,8 @@ A serverless model inference platform. You call models via REST or any of the SD
 
 ## How I use it day to day
 
-* **Image generation in apps.** FLUX, SDXL, Recraft — call from a backend, get a URL, store, serve. The SDK handles cold starts, polling, errors.
-* **Video generation.** Veo, Kling, Runway, Pika — most major video models are on Replicate (with API keys often cheaper than going direct).
+* **Image generation in apps.** FLUX, SDXL, Recraft - call from a backend, get a URL, store, serve. The SDK handles cold starts, polling, errors.
+* **Video generation.** Veo, Kling, Runway, Pika - most major video models are on Replicate (with API keys often cheaper than going direct).
 * **Niche models.** Speech enhancement, image upscaling, depth estimation, segmentation. Replicate has a long tail that other platforms don't.
 * **Cog for deploying my own.** [Cog](https://cog.run/) is the tool Replicate uses to package models. Push my own model with Cog; it gets a Replicate URL and an API.
 * **Webhooks for async.** Long running jobs (video gen) call back when done. Better than polling.
@@ -36,6 +36,31 @@ A serverless model inference platform. You call models via REST or any of the SD
 * Quality of community models varies. Stick to verified / popular ones for production.
 * The same model may be cheaper on a specialised provider (FLUX direct, Groq for text). Replicate's value is breadth, not always price.
 * Webhook delivery requires your endpoint to be reachable; for local dev, use a tunnel (ngrok, cloudflared).
+
+## Alternatives
+
+* If you want similar shape but often faster on image gen, [fal.ai](https://fal.ai) is the close peer.
+* If your work is LLM-heavy, [Together AI](together.md) and [Fireworks](fireworks.md) are tuned for it.
+* If you want models, datasets, and Spaces in one place, [Hugging Face](huggingface.md) Inference Endpoints is the broader option.
+* If you want raw GPU access for custom workloads, [Modal](modal.md) or [Runpod](runpod.md) are the right primitives.
+
+## FAQ
+
+### Is Replicate free?
+
+You get free credit on signup, enough to evaluate. After that it's pay-per-second of compute or per-request, depending on the model. Pricing varies wildly: small image gen is cents, video gen and long-context LLMs add up fast.
+
+### Replicate vs going direct to OpenAI/Anthropic?
+
+Different jobs. For LLMs you usually want the provider's own API (Anthropic, OpenAI). Replicate's value is the long tail - obscure image, video, audio, and research models packaged behind one consistent API.
+
+### What are cold starts?
+
+Models that haven't been called recently take 30-90 seconds to spin up. For interactive apps, use "always on" pricing or pre-warm the endpoint. For background jobs, cold starts don't matter.
+
+### Can I deploy my own model?
+
+Yes - that's what [Cog](https://cog.run) is for. Package your model with Cog, push to Replicate, and you get a hosted API. Useful for fine-tuned variants you don't want to self-host.
 
 ## Pointers
 

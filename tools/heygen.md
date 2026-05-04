@@ -1,13 +1,13 @@
-# HeyGen
+# HeyGen: AI avatar video for multilingual explainers
 
-HeyGen is the AI avatar tool that crossed the "uncanny valley to actually usable" line first. You upload a 2 minute video of yourself; HeyGen builds a digital twin that can speak any script in any of 175+ languages, with matched lipsync. For corporate explainers, course videos, and multilingual marketing, the productivity gain is genuine.
+HeyGen sits in the AI avatar / video category alongside [Synthesia](synthesia.md) and [Tavus](tavus.md). HeyGen is the AI avatar tool that crossed the "uncanny valley to actually usable" line first. You upload a 2 minute video of yourself; HeyGen builds a digital twin that can speak any script in any of 175+ languages, with matched lipsync. For corporate explainers, course videos, and multilingual marketing, the productivity gain is genuine.
 
 ## What it actually is
 
 A web app for generating talking head videos with AI avatars. Three flavors:
-* **Stock avatars** — pre built characters you can put a script in front of.
-* **Instant Avatar** — your face + voice, trained from a 2 minute clip.
-* **Studio Avatar** — high quality version that requires a 30+ minute studio recording (can be done at home).
+* **Stock avatars**: pre built characters you can put a script in front of.
+* **Instant Avatar**: your face + voice, trained from a 2 minute clip.
+* **Studio Avatar**: high quality version that requires a 30+ minute studio recording (can be done at home).
 
 Plus translation, lipsync to existing footage, video templates, and an API for programmatic generation.
 
@@ -35,6 +35,35 @@ Plus translation, lipsync to existing footage, video templates, and an API for p
 * Voice cloning quality depends on your recording quality. Quiet room, decent mic, clear enunciation.
 * Lipsync on heavily inflected languages (Mandarin, Vietnamese) is improving but not as crisp as on English.
 * Some industries (regulated finance, legal) prohibit AI generated likenesses in client communication. Check before deploying.
+
+## Alternatives
+
+* If your script never needs your own face, [Synthesia](synthesia.md) is the corporate stock avatar tool with the strongest enterprise story.
+* If you want personalised AI video at scale (CRM driven, name in the script), [Tavus](tavus.md) is built for that.
+* If you only need the voice and not an avatar, [ElevenLabs](elevenlabs.md) does multilingual dubbing without the face.
+* If you want to edit existing video by transcript instead of regenerating from a script, look at [Descript](descript.md) instead.
+
+## FAQ
+
+### Is HeyGen free?
+
+There's a free tier with 1 minute of watermarked video per month - enough to evaluate, not enough to use. Creator at $24/mo is the realistic floor; Team at $69/seat/mo is where most working creators end up.
+
+### HeyGen vs Synthesia - which is better?
+
+Different defaults. HeyGen is stronger if you want your own face cloned (Instant Avatar from a 2 minute clip); [Synthesia](synthesia.md) is stronger if you want a stock corporate avatar and tighter enterprise governance.
+
+### How many languages does HeyGen support?
+
+175+ for translation and lipsync as of 2026. English is the cleanest; heavily inflected languages (Mandarin, Vietnamese) hold up on direct angles but get less crisp on side profiles.
+
+### Does HeyGen have an API?
+
+Yes - the HeyGen API supports programmatic generation and is what you wire up for templated, personalised video at scale (e.g. onboarding videos with the customer's name baked into the script).
+
+### Can I tell a HeyGen video is AI?
+
+On close inspection, usually yes - especially with Instant Avatars. Studio Avatars (the 30+ minute studio recording tier) are noticeably better. For B-roll and explainers it doesn't matter; for high-stakes brand work it still does.
 
 ## Pointers
 

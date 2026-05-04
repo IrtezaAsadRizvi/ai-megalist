@@ -1,6 +1,6 @@
-# Reclaim
+# Reclaim: auto-scheduling that defends focus time
 
-Reclaim is the calendar tool that defends your focus time without the heavyweight project management Motion adds. Pure auto scheduling: tell Reclaim what you want done; it finds time on your calendar; it adapts when meetings shift. For knowledge workers who already use a separate task manager, Reclaim is the lighter complement.
+Reclaim sits in the scheduling and tasks category, the lighter alternative to [Motion](motion.md) and a peer of [Akiflow](akiflow.md). Reclaim is the calendar tool that defends your focus time without the heavyweight project management Motion adds. Pure auto scheduling: tell Reclaim what you want done; it finds time on your calendar; it adapts when meetings shift. For knowledge workers who already use a separate task manager, Reclaim is the lighter complement.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ A web + mobile app that connects to Google Calendar (Outlook in beta) and adds s
 * Pricing is tier gated by features. Some habits are limited on Lite; Business is the floor for serious daily use.
 * Doesn't handle dependencies between tasks (this requires that). For dependency aware scheduling, Motion is more capable.
 * Mobile app is functional but the desktop is where most users live.
+
+## Alternatives
+
+* If you want full project management with task dependencies built in, [Motion](motion.md) is the heavier pick.
+* If you mostly want a task aggregator across multiple tools, [Akiflow](akiflow.md) is the alternative.
+* If you only want simple AI task suggestions inside an existing list, [Todoist AI](todoist.md) is lighter.
+* If you want native AI inside a single workspace rather than a calendar tool, [Notion AI](notion_ai.md) handles task tracking inline.
+
+## FAQ
+
+### Is Reclaim free?
+
+Yes, with limited features that are decent for evaluation. Lite is $8/mo, Business $13/mo, Enterprise $19/mo. Business is the floor for serious daily use - Lite caps habit count.
+
+### Reclaim vs Motion - which one?
+
+Different shapes. [Motion](motion.md) is full project management plus auto-scheduling; it tracks dependencies and deadlines across complex projects. Reclaim is lighter - just smart scheduling around your existing task manager. Pick by whether you want PM ceremony.
+
+### Does Reclaim work with Outlook?
+
+Yes, in beta as of 2026. Google Calendar is the canonical integration with the most polish. If Outlook is your only calendar, validate behaviour for a week before standardising.
+
+### Will Reclaim move my real meetings?
+
+Yes - that's the point. It treats existing meetings as fixed and shuffles its own habits and tasks around them. When conflicts hit, Calendar Defense reschedules the focus blocks. The first week, watch what it does and override when it gets things wrong.
 
 ## Pointers
 

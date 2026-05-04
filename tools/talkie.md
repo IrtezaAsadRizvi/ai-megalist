@@ -1,6 +1,6 @@
-# Talkie
+# Talkie: Mobile-first AI roleplay companion app
 
-Talkie is the mobile first AI roleplay app from Subllime / Minimax aligned developers, popular in the long tail of teen and young adult AI roleplay alongside Character.AI. It's character driven, aggressively visual (every companion has anime style art and short animated greetings), and built mobile first in a way that distinguishes it from web rooted competitors.
+Talkie is a mobile-first AI roleplay app, the visual-heavy alternative to web-rooted competitors like [Character.AI](character_ai.md) and adult-targeted options like [Nomi](nomi.md), [Replika](replika.md), and [Kindroid](kindroid.md). Talkie is the mobile first AI roleplay app from Subllime / Minimax aligned developers, popular in the long tail of teen and young adult AI roleplay alongside Character.AI. It's character driven, aggressively visual (every companion has anime style art and short animated greetings), and built mobile first in a way that distinguishes it from web rooted competitors.
 
 ## What it actually is
 
@@ -31,6 +31,31 @@ If you're evaluating companion apps for adults or for utility, this isn't the fi
 * In app purchases can stack up. Free tier is real but bounded.
 * Privacy footprint is non trivial; chats may be visible to moderators or used for model improvement depending on settings.
 * Roleplay quality is mid; the model isn't frontier grade, and that shows in long sessions.
+
+## Alternatives
+
+* If you want the largest character library and a generous free tier, [Character.AI](character_ai.md) is the closest analogue.
+* If you want long-term emotional companionship with strong memory, [Replika](replika.md) is the original.
+* If you want lifelike personalities with deeper memory, [Nomi](nomi.md) is the leader for adults.
+* If you want a calmer, conversational tone instead of roleplay, [Pi](pi.md) is the gentler product.
+
+## FAQ
+
+### Is Talkie free?
+
+Yes - the app is free with optional in-app purchases for premium currency, faster responses, and additional features. Free tier is real but bounded; heavy users end up spending.
+
+### Talkie vs Character.AI - which is better?
+
+Different shapes. [Character.AI](character_ai.md) is web-first, has the largest character marketplace, and a more conversation-driven UX. Talkie is mobile-first with animated greetings and a card-collection meta game. Pick by aesthetic and platform.
+
+### Is Talkie safe for kids?
+
+Content moderation has been controversial and policies have shifted. The user base skews young but the content surface includes mature roleplay. Verify the current state of moderation if it matters to you; supervise younger users.
+
+### Is my Talkie data private?
+
+Chats may be visible to moderators or used for model improvement depending on settings. Read the privacy policy before sharing anything sensitive.
 
 ## Pointers
 

@@ -1,6 +1,6 @@
-# Adobe Firefly
+# Adobe Firefly: Adobe's commercially-safe AI image generator
 
-Firefly is Adobe's AI image platform, and the reason it matters isn't the model quality (it's solid, not exceptional) — it's the licensing story. Firefly is trained only on Adobe Stock, openly licensed, and out of copyright work. Generated images come with explicit commercial usage rights from Adobe. For brand and regulated industries, that's the unique value.
+Firefly is Adobe's image generation suite inside Creative Cloud, the conservative-but-licensed alternative to [Midjourney](midjourney.md), [Flux](flux.md), and [Ideogram](ideogram.md) when commercial rights actually matter. Firefly is Adobe's AI image platform, and the reason it matters isn't the model quality (it's solid, not exceptional) - it's the licensing story. Firefly is trained only on Adobe Stock, openly licensed, and out of copyright work. Generated images come with explicit commercial usage rights from Adobe. For brand and regulated industries, that's the unique value.
 
 ## What it actually is
 
@@ -32,6 +32,35 @@ Adobe's family of generative AI features: Firefly Image (text to image), Firefly
 * Some features are "early access" or "beta" and behaviour changes. Don't build production workflows on beta features.
 * Generative Fill is best on small areas; large fills sometimes produce odd repetitions or warping.
 * Firefly's text rendering improved but still trails Ideogram and Recraft.
+
+## Alternatives
+
+* If aesthetic peak matters more than licensing, [Midjourney](midjourney.md) is the model artists reach for.
+* If you need legible text in images (posters, logos, UI mocks), [Ideogram](ideogram.md) is the right pick.
+* If you want a real production API and open weights, [Flux](flux.md) is what you wire into a product.
+* If you want brand-consistent vector + raster, [Recraft](recraft.md) is built around that constraint.
+
+## FAQ
+
+### Is Adobe Firefly free?
+
+The free tier gives you 25 generative credits/month, enough to evaluate. Real use lives inside an Adobe subscription - Photography ($10-15/mo) includes 250 credits, all-apps plans include 1000+.
+
+### Are Firefly images safe to use commercially?
+
+Yes - Firefly is trained only on Adobe Stock, openly licensed, and out-of-copyright work, and Adobe grants explicit commercial usage rights. That's the headline reason brand and regulated teams pick it over [Midjourney](midjourney.md).
+
+### Firefly vs Midjourney - which is better?
+
+Different jobs. Midjourney wins on pure aesthetics in blind comparisons; Firefly wins on commercial licensing and Photoshop integration. For client deliverables I default to Firefly even when [Midjourney](midjourney.md) would produce a more striking image.
+
+### Can Firefly generate text in images?
+
+Improved but still trails [Ideogram](ideogram.md) and [Recraft](recraft.md) for legible text. Use Firefly for the photo edit; use Ideogram for the poster.
+
+### What is Generative Fill?
+
+Photoshop's inpaint/outpaint feature powered by Firefly. Select a region, type what should be there, Firefly fills with surrounding content. The single most useful AI feature in any tool I use.
 
 ## Pointers
 

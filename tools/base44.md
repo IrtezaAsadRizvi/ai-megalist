@@ -1,6 +1,6 @@
-# Base44
+# Base44: prompt-to-app builder with auth and database baked in
 
-Base44 is the prompt to app builder that emphasises "real applications" over "demos." The output is full stack, with database, auth, payments, file storage as native primitives. The model: type a description, Base44 generates the app, runs it, gives you a URL. What sets Base44 apart from Lovable / Bolt is the integrations focus — many production primitives are built in rather than wired manually.
+Base44 sits in the app builders cluster alongside [Lovable](lovable.md), [Bolt.new](bolt_new.md), and [Replit Agent](replit_agent.md) - the prompt-to-full-stack-app category. Base44 is the prompt to app builder that emphasises "real applications" over "demos." The output is full stack, with database, auth, payments, file storage as native primitives. The model: type a description, Base44 generates the app, runs it, gives you a URL. What sets Base44 apart from Lovable / Bolt is the integrations focus - many production primitives are built in rather than wired manually.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ A web based AI app builder. Generates full stack web apps from prompts. Primitiv
 * Pricing per generation (each prompt is one). Heavy iteration burns the quota.
 * Hosting on Base44 is fine for prototypes; production scale apps may want migration.
 * For pure UI generation in an existing Next.js app: [v0.md](v0.md) is more focused.
+
+## Alternatives
+
+* If you want the most polished prompt-to-app experience with Supabase + auth defaults, [Lovable](lovable.md) is the category leader.
+* If you want the fastest path to a shareable URL with a real in-browser IDE, [Bolt.new](bolt_new.md) is the comparator.
+* If you want a glass-box IDE where you can see and edit the code as it builds, [Replit Agent](replit_agent.md) is the transparent option.
+* If you only need UI components in an existing Next.js codebase, [v0](v0.md) is more focused than a full-stack builder.
+
+## FAQ
+
+### Is Base44 free?
+
+Free tier covers 25 generations/month, enough to evaluate. Paid tiers run from Builder ($20/mo, 250 generations) up through Pro ($100/mo, 3000). Each prompt is one generation - heavy iteration burns the quota fast.
+
+### Base44 vs Lovable - which one?
+
+Same job, slightly different defaults. [Lovable](lovable.md) is more polished and Supabase-native; Base44 emphasises integrations (payments, email, scheduled tasks) as native primitives. Both are credible; pick by which default stack matches your project.
+
+### Can I export Base44 code?
+
+Yes - GitHub export is supported. When the project graduates beyond the AI builder phase, export and continue in [Cursor](cursor.md) or [Claude Code](claude_code.md).
+
+### Does Base44 support custom auth or payments?
+
+Yes - Stripe is a built-in primitive, not a bolt-on. Auth is similarly native. That's the differentiator vs Bolt.new for "is this idea worth building" tests with payments.
 
 ## Pointers
 

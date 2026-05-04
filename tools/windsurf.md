@@ -1,6 +1,6 @@
-# Windsurf
+# Windsurf: AI-native IDE with the Cascade agent flow
 
-Windsurf is the IDE I recommend when someone wants the Cursor experience for less money or with stronger agentic flow. The team (formerly Codeium) ships fast, the Cascade interaction model is genuinely different from Cursor's chat panel, and the price point is friendlier for individual developers.
+Windsurf sits in the AI-native IDE category alongside [Cursor](cursor.md), [Zed](zed.md), and [Trae](trae.md), pitched as the friendlier-priced alternative with a different agentic interaction model. Windsurf is the IDE I recommend when someone wants the Cursor experience for less money or with stronger agentic flow. The team (formerly Codeium) ships fast, the Cascade interaction model is genuinely different from Cursor's chat panel, and the price point is friendlier for individual developers.
 
 ## What it actually is
 
@@ -19,7 +19,7 @@ About 10 minutes if you already use VS Code.
 ## How I use it day to day
 
 * **Cascade for multi step tasks.** "Add a new role with permissions across the auth, API, and admin UI." Cascade plans, edits, runs, asks for confirmation at each major step. The pacing feels closer to a junior collaborator than a model spitting out a diff.
-* **Inline edit on small surface area changes.** Same as Cursor's Cmd+K — highlight a function, describe the change, accept the diff.
+* **Inline edit on small surface area changes.** Same as Cursor's Cmd+K - highlight a function, describe the change, accept the diff.
 * **Codeium autocomplete** is quietly best in class for an IDE that isn't called Copilot. Especially good in Python and TypeScript.
 * **Live indexed codebase.** The chat actually knows about the repo, and updates when you edit. Useful for "where is this called?" and "explain this module."
 
@@ -29,6 +29,31 @@ About 10 minutes if you already use VS Code.
 * The Cascade agent will run shell commands. Read each step, especially the first time on a new repo.
 * Free tier is genuinely usable but the model picker is more limited; Pro unlocks frontier model access.
 * "Codeium" branding still shows up in some menus and docs. The product was renamed Windsurf when the IDE shipped in 2024 and the migration isn't 100%.
+
+## Alternatives
+
+* If you want the polished commercial leader with Composer for multi-file edits, [Cursor](cursor.md) is the safe default.
+* If you want a Rust-based fast editor with AI baked in, [Zed](zed.md) feels different and is OSS.
+* If you want OSS Cursor-shape with BYO model, [Void](void.md) is the open path.
+* If you live in the terminal instead, [Claude Code](claude_code.md) and [Aider](aider.md) cover the same model-driven coding need.
+
+## FAQ
+
+### Is Windsurf free?
+
+Yes - the free tier is genuinely usable with Cascade and chat access, though the model picker is more limited. Pro is $15/mo, lower than Cursor's $20/mo, and unlocks frontier model access.
+
+### Windsurf vs Cursor - which is better?
+
+Different feel. [Cursor](cursor.md) leans on Composer for multi-file edits with visible diff review; Windsurf leans on Cascade, a flow-oriented agent that paces like a junior collaborator. Try the same task in both for a week and pick on feel.
+
+### Does Windsurf work with VS Code extensions?
+
+Yes - it's a VS Code fork, so most extensions port over. Some integrations and themes lag Cursor's catalog; power users may notice the gap.
+
+### Is Windsurf the same as Codeium?
+
+Same company, evolved branding. Codeium was the original autocomplete extension for VS Code/JetBrains; Windsurf is the standalone IDE that shipped in 2024. The Codeium extension still exists for free if you only want autocomplete.
 
 ## Pointers
 

@@ -1,6 +1,6 @@
-# Google AI Studio / Vertex
+# Google AI Studio / Vertex: Gemini API playground and GCP deployment
 
-Google AI Studio is the consumer style playground for Gemini and adjacent Google models; Vertex AI is the enterprise grade deployment platform for the same models inside Google Cloud. Same model family, two front doors. AI Studio is where I test prompts; Vertex is where they ship to production with the rest of GCP's compliance and tooling story attached.
+Google AI Studio and Vertex are Google's developer entry points for the Gemini family - the model API alternative to the [Anthropic API](anthropic_api.md) and [OpenAI Platform](openai_platform.md). AI Studio is the consumer-style playground; Vertex AI is the enterprise-grade deployment platform inside Google Cloud. Same model family, two front doors. AI Studio is where I test prompts; Vertex is where they ship to production with the rest of GCP's compliance and tooling story attached.
 
 ## What it actually is
 
@@ -39,6 +39,31 @@ For pure capability or developer ergonomics, the Anthropic and OpenAI consoles a
 * Vertex pricing is metered and can surprise you; set quotas and budgets early.
 * Model availability differs between AI Studio and Vertex; some experimental models are AI Studio only.
 * Region selection matters for compliance and latency; Vertex respects this, AI Studio doesn't really expose it.
+
+## Alternatives
+
+* For Anthropic models with prompt caching as a first-class feature, [Anthropic API](anthropic_api.md) is the parallel.
+* If you're on the GPT family, the [OpenAI Platform](openai_platform.md) console covers the same job with a Responses / Agents SDK story.
+* For OSS-model hosting (Llama, Qwen, DeepSeek) with cheaper inference, [Together](together.md) or [Fireworks](fireworks.md) are the picks.
+* If you want a unified gateway across all of these, [LiteLLM](litellm.md) sits on top of everything.
+
+## FAQ
+
+### Is Google AI Studio free?
+
+Yes - the free tier on aistudio.google.com is generous for development and prompt iteration. Production use generally requires moving to Vertex (paid, metered). The line between "playground" and "production" is the boundary between the two products.
+
+### AI Studio vs Vertex AI - which should I use?
+
+AI Studio for prompt iteration and small-scale API access on a personal Google account. Vertex for any production use inside an existing GCP org - IAM, audit logs, region selection, billing alignment, and partner-model access (Llama, Claude on GCP) all live there.
+
+### Can I run Claude on Vertex?
+
+Yes - Anthropic's Claude models are available through Vertex's Model Garden. Useful when the rest of your stack is GCP and you want procurement and audit unified. The pricing is similar to direct Anthropic API; check current rates.
+
+### What's Gemini's context window via the API?
+
+1M tokens on Gemini 2.5 Pro, 2M on Ultra (April 2026). Both are real but get sloppier as you fill them - I aim to stay under ~500K in practice and only push past that when I genuinely need to.
 
 ## Pointers
 

@@ -1,6 +1,6 @@
-# Resemble AI
+# Resemble AI: enterprise voice cloning with on-prem and deepfake detection
 
-Resemble AI is the voice cloning platform with the deepest enterprise feature set. Where ElevenLabs and Cartesia compete on raw quality and latency, Resemble emphasises voice IP protection, deepfake detection (their separate Detect product), and on prem deployment. For brands managing a portfolio of voice assets and concerned about misuse, Resemble's positioning is unique.
+Resemble sits in the voice and speech category alongside [ElevenLabs](elevenlabs.md), [Cartesia](cartesia.md), and [PlayHT](playht.md), tilted toward enterprise. Resemble AI is the voice cloning platform with the deepest enterprise feature set. Where ElevenLabs and Cartesia compete on raw quality and latency, Resemble emphasises voice IP protection, deepfake detection (their separate Detect product), and on prem deployment. For brands managing a portfolio of voice assets and concerned about misuse, Resemble's positioning is unique.
 
 ## What it actually is
 
@@ -38,6 +38,31 @@ A voice AI platform with TTS, voice cloning, speech to speech, real time streami
 * Voice cloning consent + verification is more involved than competitors. This is a feature; also a friction point.
 * The Detect product is impressive but not infallible; AI deepfake detection is an arms race.
 * Some advanced features are tier locked.
+
+## Alternatives
+
+* If you want the most polished consumer cloning and the broader ecosystem, [ElevenLabs](elevenlabs.md) is the default.
+* If you want ultra-low latency for real-time voice agents, [Cartesia](cartesia.md) is the specialist.
+* If you want a competitive cheaper alternative without the enterprise overhead, [PlayHT](playht.md) is the right pick.
+* For voice agent infrastructure, pair with [LiveKit](livekit.md), [Vapi](vapi.md), or [Retell](retell.md).
+
+## FAQ
+
+### Is Resemble AI free?
+
+There's a free trial. Creator pricing is $0.006/sec; Pro and Enterprise are custom-quoted. The on-prem option is enterprise-only with bespoke contracts. Smaller users typically find ElevenLabs or PlayHT friendlier on price.
+
+### Resemble vs ElevenLabs - which one?
+
+Different audiences. [ElevenLabs](elevenlabs.md) wins on absolute peak expressiveness and consumer polish. Resemble wins when you need on-prem deployment, deepfake detection (Resemble Detect), or strict consent / audit trails. Enterprise vs consumer.
+
+### Can Resemble run on-premises?
+
+Yes - that's a key differentiator. Enterprise customers running fully air-gapped use Resemble's on-prem deployment. ElevenLabs and Cartesia are hosted-only.
+
+### What is Resemble Detect?
+
+A separate audio deepfake classifier. If you publish AI-generated audio at scale, having a tool that can also identify it is a real safeguard. Not infallible - deepfake detection is an arms race - but a meaningful operational piece.
 
 ## Pointers
 

@@ -1,6 +1,6 @@
-# Mistral Le Chat
+# Mistral Le Chat: EU-hosted chat assistant on Mistral models
 
-Le Chat is Mistral's consumer chat product and the EU's answer to "we'd prefer the data didn't leave the continent." Built on Mistral's own models (Large 2, Codestral, Pixtral for vision), hosted in France, with a fast and clean UI. For European companies and individual users who care about provenance, Le Chat is the natural default.
+Le Chat is Mistral's consumer chat assistant, the EU-hosted alternative to [ChatGPT](chatgpt.md), [Claude](claude.md), and [Gemini](gemini.md) for users who care where the data lives. Le Chat is Mistral's consumer chat product and the EU's answer to "we'd prefer the data didn't leave the continent." Built on Mistral's own models (Large 2, Codestral, Pixtral for vision), hosted in France, with a fast and clean UI. For European companies and individual users who care about provenance, Le Chat is the natural default.
 
 ## What it actually is
 
@@ -29,6 +29,31 @@ A web and mobile app at [chat.mistral.ai](https://chat.mistral.ai). Powered by M
 * The free tier is generous but limit hits feel sudden vs gradual on US hosted services.
 * For non European use cases, Mistral's local advantages don't apply; you'd weigh purely on capability.
 * Mistral's open weight models (Mixtral, Codestral) are useful via Ollama / vLLM; Le Chat itself is hosted only.
+
+## Alternatives
+
+* If you want frontier capability and don't care about data residency, [ChatGPT](chatgpt.md) and [Claude](claude.md) win on raw quality.
+* If you want EU residency at the API level instead of consumer chat, jump to [Mistral La Plateforme](mistral_la_plateforme.md).
+* If you want to run Mistral weights locally with no cloud at all, [Ollama](ollama.md) hosts Mixtral and Codestral.
+* If you want a chat with strong Google Workspace ties (and Google's own EU options), [Gemini](gemini.md) is worth comparing.
+
+## FAQ
+
+### Is Mistral Le Chat free?
+
+Yes, the free tier is genuinely usable for daily work. Pro is EUR 14.99/mo for higher limits, Mistral Large 2, image generation, and agents.
+
+### Le Chat vs ChatGPT - which should I use?
+
+Le Chat when EU data residency matters or when you're working in French / German / Spanish where Mistral has historically been strong. [ChatGPT](chatgpt.md) when you want the absolute frontier on reasoning and the broadest feature surface. The gap on raw capability is real but closing.
+
+### Where is Le Chat hosted?
+
+France. Everything runs on EU infrastructure with transparent governance docs. That's the differentiator vs the US incumbents.
+
+### Can I run Mistral models locally?
+
+Yes - Mistral publishes open-weight models (Mixtral, Codestral, smaller Mistral families) that run via [Ollama](ollama.md) or vLLM. Le Chat itself is hosted only, but the weights of cousin models are available.
 
 ## Pointers
 

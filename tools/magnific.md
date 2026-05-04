@@ -1,6 +1,6 @@
-# Magnific
+# Magnific: AI upscaler that hallucinates new detail
 
-Magnific is the AI image upscaler that doesn't look upscaled. Where most upscalers smooth and blur, Magnific *generates new detail* consistent with what's in the source — pores on a face, threads on fabric, individual leaves on a tree. The output is sometimes more detailed than the original photograph, which is the unsettling and fun part.
+Magnific is the AI image upscaler in the editing category alongside [Topaz Photo AI](topaz_photo.md) and [Photoshop Generative Fill](photoshop_genfill.md), but it sits at a different point on the curve - it invents detail rather than smoothing pixels. Magnific is the AI image upscaler that doesn't look upscaled. Where most upscalers smooth and blur, Magnific *generates new detail* consistent with what's in the source - pores on a face, threads on fabric, individual leaves on a tree. The output is sometimes more detailed than the original photograph, which is the unsettling and fun part.
 
 ## What it actually is
 
@@ -26,10 +26,35 @@ A web app at [magnific.ai](https://magnific.ai) for AI upscaling and image enhan
 ## Gotchas
 
 * Magnific can hallucinate details that weren't in the source. For documentary or factual photos, this is a problem.
-* Faces on high creativity look glamorised — different person territory. Use low creativity for portraits.
+* Faces on high creativity look glamorised - different person territory. Use low creativity for portraits.
 * Pricing is steep. The cheapest plan is $39/mo; the credits go fast on 8x upscales.
 * Output is heavily processed; sometimes the post processing look (unrealistic micro detail) is undesirable. Tune controls.
 * For pure resolution increase without detail synthesis: Topaz Photo AI or simple bilinear upscaling in Photoshop. Magnific is for adding detail.
+
+## Alternatives
+
+* If you want pro denoise / upscale without invented detail, [Topaz Photo AI](topaz_photo.md) is the documentary-safe pick.
+* If you want inpaint / outpaint inside Photoshop, [Photoshop Generative Fill](photoshop_genfill.md) covers most editing cases.
+* If you need background removal, relight, or replace, [Clipdrop](clipdrop.md) is the one-click tool.
+* If you're upscaling video, not stills, look at Topaz Video AI - Magnific is stills only.
+
+## FAQ
+
+### Is Magnific free?
+
+No, there's a small trial on signup but no real free tier. Pro is $39/mo (1750 credits); Premium $99/mo (5500); Business $299/mo (20000). Credits go fast on 8x upscales.
+
+### Magnific vs Topaz - which should I use?
+
+Magnific when you want it to invent detail - skin pores, fabric threads, textured leaves. [Topaz Photo AI](topaz_photo.md) when you want to preserve exactly what was in the source. For documentary, journalism, or factual work, Topaz; for marketing and creative, Magnific.
+
+### Does Magnific work on faces?
+
+Poorly at high creativity - faces drift into glamorised / different person territory. Use low creativity (1 to 3 out of 10) for portraits, or do faces in Photoshop and Magnific everything else.
+
+### Can Magnific upscale Midjourney images?
+
+Yes, that's one of the canonical workflows - generate at 1024x1024 in [Midjourney](midjourney.md), upscale to 4096x4096 in Magnific. The result is more detailed, not just bigger.
 
 ## Pointers
 

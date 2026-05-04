@@ -1,6 +1,6 @@
-# Smolagents
+# Smolagents: Hugging Face's minimal agent framework
 
-Smolagents is Hugging Face's deliberately tiny agent framework: roughly 1,000 lines of Python, one core idea (the agent writes Python code as actions instead of structured tool calls), and very few abstractions. It's the framework I recommend to someone who wants to understand what an agent loop actually does, before they reach for LangGraph or CrewAI and get lost in the layers.
+Smolagents is Hugging Face's tiny OSS agent framework, the teaching alternative to heavier rigs like [LangGraph](langgraph.md), [CrewAI](crewai.md), and [AutoGPT](autogpt.md). Smolagents is Hugging Face's deliberately tiny agent framework: roughly 1,000 lines of Python, one core idea (the agent writes Python code as actions instead of structured tool calls), and very few abstractions. It's the framework I recommend to someone who wants to understand what an agent loop actually does, before they reach for LangGraph or CrewAI and get lost in the layers.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ For production work I'd reach for LangGraph (more structure), CrewAI (multi agen
 * The minimal abstraction is a feature, not a bug, but it means you'll write more code yourself than with heavier frameworks.
 * Documentation is solid but assumes you've read the code. If you want a black box, this isn't it.
 * Tool calling agents work fine; the CodeAgent path is where smolagents has its own opinion. Try both.
+
+## Alternatives
+
+* If you want structured state machines and explicit graphs for production, [LangGraph](langgraph.md) is the heavier rig.
+* If you want multi-agent patterns out of the box, [CrewAI](crewai.md) ships those primitives.
+* If you want a fully autonomous "let it run" agent without writing code, [AutoGPT](autogpt.md) is the OG of that genre.
+* If you'd rather use an opinionated agent harness with web search and browsing built in, [Browser Use](browser_use.md) covers that surface.
+
+## FAQ
+
+### Is Smolagents free?
+
+Yes - Apache 2.0, runs locally. You only pay for the underlying LLM calls (whatever provider you wire in). Bring your own model via Hugging Face Inference, OpenAI, Anthropic, or a local transformers model.
+
+### Smolagents vs LangGraph - which should I use?
+
+Different stages. Smolagents is for understanding agents and quick experiments - the codebase is small enough to read in an evening. [LangGraph](langgraph.md) is what I'd reach for to ship a real product with branching state and observability.
+
+### Is CodeAgent safe to run?
+
+Not by default. CodeAgent runs model-written Python on your machine; you must sandbox. The library supports E2B and Docker sandboxes - use them, especially for agents you don't fully trust.
+
+### Can I use Smolagents with local models?
+
+Yes - it works with `transformers` directly, or via LiteLLM and Ollama. Pick a model with reasonable instruction-following; tiny models struggle with the CodeAgent pattern.
 
 ## Pointers
 

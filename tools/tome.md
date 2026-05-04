@@ -1,6 +1,6 @@
-# Tome
+# Tome: AI deck builder pivoted toward sales narratives
 
-Tome started as an AI presentation tool (similar to Gamma) and pivoted in 2024 toward "AI sales narratives" — decks targeted at the sales motion, with the buyer persona and account context informing the AI's choices. In 2026 the product covers presentations broadly but the strongest use case remains sales heavy decks for B2B teams.
+Tome sits in the AI presentations category alongside [Gamma](gamma.md) and [Beautiful.ai](beautiful_ai.md), with a 2024 pivot toward sales-oriented decks personalized to account context. Tome started as an AI presentation tool (similar to Gamma) and pivoted in 2024 toward "AI sales narratives" - decks targeted at the sales motion, with the buyer persona and account context informing the AI's choices. In 2026 the product covers presentations broadly but the strongest use case remains sales heavy decks for B2B teams.
 
 ## What it actually is
 
@@ -29,6 +29,31 @@ A web based AI deck builder. Generate decks from a prompt or pasted source; AI h
 * Generated visuals are decent; not premium. For high stakes brand decks, replace AI imagery.
 * Export to PowerPoint loses some interactive features (live embeds especially). Plan for this.
 * The product changed name and positioning multiple times; check current docs / pricing rather than older posts.
+
+## Alternatives
+
+* If you want general-purpose AI decks rather than sales-focused, [Gamma](gamma.md) is the broader pick.
+* If you want polished slide presets with smart templates, [Beautiful.ai](beautiful_ai.md) leans further into design defaults.
+* If you live in PowerPoint, the Microsoft Copilot integration is improving though still behind on prompt-to-deck quality.
+* If you want decks that flow into a marketing site, [Framer](framer.md) or [Webflow](webflow.md) cover the adjacent territory.
+
+## FAQ
+
+### Is Tome free?
+
+There's a free tier with 500 AI credits/mo - enough to evaluate. Pro is $16/mo for unlimited AI generations; Team is $26/seat/mo and adds collaboration features.
+
+### Tome vs Gamma - which is better?
+
+Different sweet spots. [Gamma](gamma.md) is the general-purpose default with broader reach; Tome leans into B2B sales decks with CRM-aware narratives and embedded interactive elements. If you're not in sales, default to Gamma.
+
+### Can Tome import from PowerPoint?
+
+Limited. You can upload documents and turn them into decks, but PowerPoint round-tripping loses interactive features (live embeds especially) on export back. Plan for that if your team standardizes on .pptx.
+
+### Does Tome integrate with Salesforce?
+
+Yes - the sales pivot included CRM integration. Tome can pull account context (industry, size, contacts) from Salesforce and HubSpot to personalize decks per prospect.
 
 ## Pointers
 

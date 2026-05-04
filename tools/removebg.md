@@ -1,6 +1,6 @@
-# Remove.bg
+# Remove.bg: one-click background removal
 
-Remove.bg is one of the original AI image tools — single feature, one click, faster than learning to do it manually. The product hasn't changed much since 2018 because the basic job (remove the background from a photo) didn't need to. The technology underneath has improved; the value proposition is unchanged.
+Remove.bg sits in the image editing category, the single-feature specialist alongside [Clipdrop](clipdrop.md) and [Photoroom](photoroom.md). Remove.bg is one of the original AI image tools - single feature, one click, faster than learning to do it manually. The product hasn't changed much since 2018 because the basic job (remove the background from a photo) didn't need to. The technology underneath has improved; the value proposition is unchanged.
 
 ## What it actually is
 
@@ -30,6 +30,31 @@ A web app at [remove.bg](https://www.remove.bg). Upload an image; AI cuts out th
 * For broader image editing toolkit (cleanup, upscale, relight, generate backgrounds), [clipdrop.md](clipdrop.md) and [photoroom.md](photoroom.md) bundle background removal with more.
 * Single feature focus is both the strength and the limitation. For one off needs, fastest. For workflows, alternative tools have more.
 * Pricing per image adds up at scale; subscription is the floor for heavy use.
+
+## Alternatives
+
+* If you also need AI scenes, batch templates, and a commerce workflow, [Photoroom](photoroom.md) bundles more.
+* If you want broader edits (cleanup, upscale, relight), [Clipdrop](clipdrop.md) is the wider toolkit.
+* If you're already inside Photoshop, [Photoshop Generative Fill](photoshop_genfill.md) plus the Object Selection tool handles backgrounds in-place.
+* If you want OSS local removal with no per-image cost, rembg ([github.com/danielgatis/rembg](https://github.com/danielgatis/rembg)) is the right pick.
+
+## FAQ
+
+### Is Remove.bg free?
+
+You get one free credit on signup and free low-resolution previews. Full-resolution downloads cost credits - $1-$9 each pay-as-you-go, or a subscription from $9/mo for 40 images up to $99/mo for 1000. For occasional use, pay-as-you-go is fine.
+
+### Remove.bg vs Photoroom - which one?
+
+Different scope. Remove.bg does one thing fast and well. [Photoroom](photoroom.md) is a commerce workflow with backgrounds, batch processing, and templates. Pick Remove.bg for one-offs, Photoroom for catalog work.
+
+### Does Remove.bg have an API?
+
+Yes. The API is straightforward and well-documented; useful for wiring into upload flows on e-commerce sites or scripting batch jobs.
+
+### How good is Remove.bg on hair?
+
+Decent on simple backgrounds, weaker on complex ones. For premium product or fashion photography with fine detail (hair, fur, transparent fabrics), expect to do manual touch-up in Photoshop or Affinity.
 
 ## Pointers
 

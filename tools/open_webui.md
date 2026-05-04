@@ -1,6 +1,6 @@
-# Open WebUI
+# Open WebUI: OSS ChatGPT-style UI for Ollama and OpenAI-compatible APIs
 
-Open WebUI is the ChatGPT style UI for local models you can install in five minutes and run for free forever. It connects to Ollama (its original parent), any OpenAI compatible endpoint (vLLM, LM Studio, Together, Fireworks, etc.), and gives you the chat experience users expect — model picker, history, RAG over uploaded docs, voice input, image support — without sending anything to a SaaS.
+Open WebUI is the OSS chat UI that pairs with [Ollama](ollama.md) (and any OpenAI-compatible endpoint), the team-friendly counterpart to single-user GUIs like [LM Studio](lm_studio.md) and [Jan](jan.md). Open WebUI is the ChatGPT style UI for local models you can install in five minutes and run for free forever. It connects to Ollama (its original parent), any OpenAI compatible endpoint (vLLM, LM Studio, Together, Fireworks, etc.), and gives you the chat experience users expect - model picker, history, RAG over uploaded docs, voice input, image support - without sending anything to a SaaS.
 
 ## What it actually is
 
@@ -25,7 +25,7 @@ An open source web UI (BSD 3 Clause) for self hosted LLM inference. Runs as a Do
 
 * **As the team chat UI for Ollama.** Multi user accounts, shared model picker, conversation history. Gives a small team a private ChatGPT.
 * **RAG over uploaded docs.** Drop PDFs into a chat; Open WebUI embeds them and uses for grounded answers. Quality is decent for routine Q&A.
-* **As a unified interface across providers.** Configure Anthropic, OpenAI, Groq, local Ollama — all in the same model picker. Switch per conversation.
+* **As a unified interface across providers.** Configure Anthropic, OpenAI, Groq, local Ollama - all in the same model picker. Switch per conversation.
 * **Voice input + Whisper.** Speak; Whisper transcribes; the model responds. Local end to end if you wire local models.
 * **Image generation** via ComfyUI integration. Generate an image inside a chat without leaving the UI.
 * **Function calling and tools.** Enable per conversation; useful for agentic flows in a chat UI.
@@ -37,6 +37,31 @@ An open source web UI (BSD 3 Clause) for self hosted LLM inference. Runs as a Do
 * User account management is included but minimal. For bigger orgs, you'll wrap it in your own auth.
 * Updates are frequent; Docker image pin / pull strategy matters in production.
 * For air gapped deployments, all the model + embedding + voice components need to be local. Doable; plan setup time.
+
+## Alternatives
+
+* If you want a single-user desktop GUI rather than a web UI, [LM Studio](lm_studio.md) or [Jan](jan.md) are simpler.
+* If you want the underlying local model runtime that Open WebUI sits on top of, [Ollama](ollama.md) is the pair.
+* If you want the cloud chat experience and don't need self-hosted, [ChatGPT](chatgpt.md) or [Claude](claude.md) are the obvious paths.
+* If you need power-user OSS features (LoRAs, fine-tuning UIs), [text-generation-webui](text_generation_webui.md) goes deeper.
+
+## FAQ
+
+### Is Open WebUI free?
+
+Yes, BSD 3-Clause OSS. You pay for the host (a small VM or local box) and any model API calls if you wire in cloud providers. Self-hosting on a Mac or a $10/mo VPS is the common pattern.
+
+### Open WebUI vs LM Studio - which should I use?
+
+Open WebUI when you want a multi-user team chat with shared history, RAG, and a unified model picker across providers. [LM Studio](lm_studio.md) when you're a single user on a desktop and want a friendlier GUI. Different shapes - Open WebUI is for teams; LM Studio is for individuals.
+
+### Does Open WebUI support cloud APIs like OpenAI?
+
+Yes - Settings -> Admin Settings -> Connections, paste any OpenAI-compatible endpoint (OpenAI, Together, Groq, Fireworks, Anthropic via proxy). All providers appear in the same model picker. Useful as a unified team frontend.
+
+### Can Open WebUI do RAG?
+
+Yes - upload PDFs into a chat and Open WebUI embeds them and uses them for grounded answers. Quality is decent for routine Q&A; large libraries need tuning of embedding model and chunking.
 
 ## Pointers
 

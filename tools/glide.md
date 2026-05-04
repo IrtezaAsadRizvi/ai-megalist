@@ -1,6 +1,6 @@
-# Glide
+# Glide: no-code mobile apps from a spreadsheet
 
-Glide is the no code platform for turning a spreadsheet into a mobile app. Years before "AI app builder" was a category, Glide had figured out that most internal tools are basically a CRUD UI on a Google Sheet, and that observation is still load bearing. The newer AI features (smart actions, AI columns, prompt to app) layer onto that foundation; the spreadsheet to app translation is what makes Glide work.
+Glide sits in the no-code app builder cluster alongside [Softr](softr.md), [Bubble](bubble.md), and [Lovable](lovable.md), with a sharper specialty - turning a Google Sheet, Airtable, or Excel file into a mobile-friendly app. Years before "AI app builder" was a category, Glide had figured out that most internal tools are basically a CRUD UI on a spreadsheet, and that observation is still load bearing. The newer AI features (smart actions, AI columns, prompt to app) layer onto that foundation; the spreadsheet to app translation is what makes Glide work.
 
 ## What it actually is
 
@@ -31,6 +31,31 @@ For consumer facing apps with serious scale, Glide is the wrong tool. For intern
 * Custom logic beyond simple actions hits the platform's ceiling. For complex flows, you'll wish you had code.
 * AI columns burn through credits; cost scales with row count and prompt length.
 * Pricing tiers gate user counts and AI usage; check the matrix before committing.
+
+## Alternatives
+
+* If your data lives in Airtable and you want similar Airtable-native UX, [Softr](softr.md) is the head-to-head pick.
+* For a more powerful (and more complex) no-code platform with custom workflows, [Bubble](bubble.md) is the next tier up.
+* If you want "describe a real full-stack app, get one," [Lovable](lovable.md) or [Bolt.new](bolt_new.md) are the AI-app-builder shape.
+* For an all-in-one no-code app builder without spreadsheet-first opinions, [Base44](base44.md) covers similar ground.
+
+## FAQ
+
+### Is Glide free?
+
+Yes - free starter tier covers basic apps with low user counts. Paid tiers scale by user count and AI usage. AI columns burn credits proportional to row count and prompt length, so model the cost on a real dataset before committing.
+
+### Glide vs Softr - which is better?
+
+Different defaults. Glide is more mobile-first and ships nicer phone-shaped UI out of the box. [Softr](softr.md) is more web-first and has tighter Airtable integration. If your users are mostly on phones, Glide. If they're on a desktop portal, Softr.
+
+### Can I publish a Glide app to the App Store?
+
+Not directly - Glide ships PWAs (installable web apps), not native iOS / Android. You can wrap a PWA into a native shell for App Store distribution but that's extra work outside Glide. For most internal tools, the PWA is fine.
+
+### Does Glide have AI features?
+
+Yes - AI Columns (LLM-generated cell values referencing other cells), smart actions, and prompt-to-app generation. Useful for enrichment ("summarize this free-text field," "categorize this entry") but watch the per-row cost.
 
 ## Pointers
 

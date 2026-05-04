@@ -1,6 +1,6 @@
-# CrewAI
+# CrewAI: multi-agent orchestration framework in Python
 
-CrewAI is the framework that took the "team of specialised agents" pattern and shipped it as a clean Python API. You define agents with roles, give them tools, assemble them into a Crew, and run a process. The metaphor (roles, tools, tasks, processes) maps cleanly to how teams actually work — which is the framework's argument for why this composition is easier to reason about than freeform agent loops.
+CrewAI is an OSS multi-agent framework in the same lane as [LangGraph](langgraph.md), [AutoGPT](autogpt.md), and Smolagents - the developer-side of the agents category. It took the "team of specialised agents" pattern and shipped it as a clean Python API. You define agents with roles, give them tools, assemble them into a Crew, and run a process. The metaphor (roles, tools, tasks, processes) maps cleanly to how teams actually work - which is the framework's argument for why this composition is easier to reason about than freeform agent loops.
 
 ## What it actually is
 
@@ -37,6 +37,31 @@ An open source Python framework for orchestrating multi agent systems. Agents ar
 * The role based abstraction is helpful for some problems and overhead for others. For straight pipelines, plain LangChain (or a script) is simpler.
 * Tool selection by agents is inconsistent. Sometimes an agent picks the wrong tool repeatedly; constrain tools per agent.
 * The framework is opinionated. If your mental model is "graph of nodes" rather than "team of roles," LangGraph fits better.
+
+## Alternatives
+
+* If your mental model is graph-of-nodes rather than team-of-roles, [LangGraph](langgraph.md) is lower-level and more flexible.
+* If you want a minimal agent loop without the role abstraction, Smolagents (HuggingFace) is the lightest option.
+* If you want a visual builder rather than Python code, [n8n](n8n.md) or Lindy do multi-step LLM flows with drag-and-drop.
+* If you want autonomous long-running cloud agents instead of a framework, [Manus](manus.md) or [Devin](devin.md) is the hosted shape.
+
+## FAQ
+
+### Is CrewAI free?
+
+Yes - the OSS framework is MIT licensed. CrewAI Enterprise is a paid hosted tier with execution dashboards and managed runs; pricing is sales-led. Most use stays on the OSS side.
+
+### CrewAI vs LangGraph - which should I use?
+
+Different mental models. CrewAI is roles + tasks + processes - higher-level, opinionated, fast to start. [LangGraph](langgraph.md) is graph-of-nodes - lower-level, flexible, requires more design upfront. For "research → write → critique" pipelines, CrewAI. For arbitrary state machines, LangGraph.
+
+### Is multi-agent worth it over a single agent?
+
+Often no. Three agents = roughly 3x the LLM calls and 3x the latency. The case for multi-agent is when tasks genuinely benefit from specialisation (research vs writing vs review) or when role boundaries help debugging. For straight pipelines, plain LangChain or a script is simpler.
+
+### Does CrewAI work with local models?
+
+Yes - any OpenAI-compatible endpoint works, including [Ollama](ollama.md) for fully local crews. Quality on local models is below frontier; agentic tool use particularly suffers below 70B params.
 
 ## Pointers
 

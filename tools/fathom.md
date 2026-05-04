@@ -1,6 +1,6 @@
-# Fathom
+# Fathom: free meeting bot for Zoom, Meet, and Teams
 
-Fathom is the meeting bot I keep in my back pocket for when Granola can't help — multi room calls, shared phone bridges, anything where local microphone capture isn't enough. The free tier is preposterously generous (unlimited recording, unlimited transcription, no time cap) which is why it's the default for individuals who don't want to pay for a meetings tool.
+Fathom is in the meeting-notes category alongside [Granola](granola.md) and [Otter](otter.md), but its angle is the bot-in-the-call model with a free tier that doesn't cap recording time. It's the meeting bot I keep in my back pocket for when Granola can't help - multi room calls, shared phone bridges, anything where local microphone capture isn't enough. The free tier is preposterously generous (unlimited recording, unlimited transcription, no time cap) which is why it's the default for individuals who don't want to pay for a meetings tool.
 
 ## What it actually is
 
@@ -25,10 +25,35 @@ A meeting note taker that joins your calls as a participant (the "bot in the cal
 ## Gotchas
 
 * The bot joins as a visible participant ("Fathom Notetaker"). Some attendees object; check your norms.
-* Auto join can be aggressive — disable for sensitive 1:1s or it'll show up uninvited.
+* Auto join can be aggressive - disable for sensitive 1:1s or it'll show up uninvited.
 * Privacy: recordings live on Fathom's cloud. Read the data residency docs if your industry cares.
 * The summary quality is good for medium length calls (~30 minutes) and patchier on long sprawling ones.
 * Free tier shares meeting data only with you; Team tier shares with your team. Set defaults thoughtfully.
+
+## Alternatives
+
+* If you don't want a bot visibly joining your calls, [Granola](granola.md) records via the local mic and is bot-free by design.
+* For mature transcription with longer history and OtterPilot integrations, [Otter](otter.md) has been doing this longer.
+* If you want every meeting bot covered (Zoom, Meet, Teams, Webex) under one roof, [Fireflies](fireflies.md) has the broadest platform list.
+* For deep CRM coaching on sales calls, Gong or Chorus are the enterprise-priced options most teams end up on.
+
+## FAQ
+
+### Is Fathom really free?
+
+Yes - unlimited recording, unlimited transcription, no time cap, on the individual free tier. Team tier ($24/user/mo) adds shared workspaces, custom playlists, and CRM auto sync. The free tier is the genuine product, not a teaser.
+
+### Fathom vs Granola - which should I use?
+
+Different shapes. Fathom joins as a visible bot and records the call cloud-side; [Granola](granola.md) records via your local mic with no bot in the room. Fathom for external calls where you want a clean recording; Granola for sensitive 1:1s or when you don't want a bot showing up uninvited.
+
+### Does Fathom integrate with HubSpot and Salesforce?
+
+Yes, both, plus Notion, Slack, and Linear. CRM auto-sync (the "this call is now logged against the contact") is the Team-tier feature most sales teams pay for.
+
+### Is Fathom secure for sensitive calls?
+
+Recordings live on Fathom's cloud. They've got the standard SOC 2 / GDPR posture, but if you're in a regulated industry, read the data-residency docs first. For genuinely sensitive 1:1s, a bot-free option like [Granola](granola.md) is the safer default.
 
 ## Pointers
 

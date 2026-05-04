@@ -1,10 +1,10 @@
-# NotebookLM
+# NotebookLM: grounded Q&A on your own documents
 
-NotebookLM is a small surprise of a product. The pitch is plain: you upload a stack of documents, and it answers questions only from those documents. No outside hallucination, no opinions imported from the web. The result is the most boring kind of magic, which is exactly what research often wants.
+NotebookLM is Google's grounded research tool - the category alongside [SciSpace](scispace.md), [Explainpaper](explainpaper.md), and [Perplexity](perplexity.md) but pinned to your own sources rather than the open web. NotebookLM is a small surprise of a product. The pitch is plain: you upload a stack of documents, and it answers questions only from those documents. No outside hallucination, no opinions imported from the web. The result is the most boring kind of magic, which is exactly what research often wants.
 
 ## What it actually is
 
-Google's grounded Q&A app, built on Gemini. You make a "notebook," add up to 50 sources (PDFs, Google Docs, web pages, YouTube videos, audio), and chat against them. It cites every claim with the exact passage. It will also generate study guides, briefing docs, FAQs, timelines, and the now famous Audio Overview — a two host podcast that summarises the sources, generated in about a minute.
+Google's grounded Q&A app, built on Gemini. You make a "notebook," add up to 50 sources (PDFs, Google Docs, web pages, YouTube videos, audio), and chat against them. It cites every claim with the exact passage. It will also generate study guides, briefing docs, FAQs, timelines, and the now famous Audio Overview - a two host podcast that summarises the sources, generated in about a minute.
 
 ## Setup
 
@@ -28,7 +28,32 @@ That's it. There is also a paid tier (NotebookLM Plus, bundled with Google AI Pr
 * It will not answer from outside the sources. If you ask "what is X?" and X isn't in your notebook, it'll politely refuse. This is the feature, not a bug, but it surprises people.
 * The 50 source cap matters once you're doing serious research. Plus raises this; you can also pre summarise old sources into a single doc.
 * Audio Overview is generated, not curated. It's good for vibes, not for citation grade summaries.
-* It can hallucinate within sources occasionally — the citations are usually right but reread the cited passage if the claim is load bearing.
+* It can hallucinate within sources occasionally - the citations are usually right but reread the cited passage if the claim is load bearing.
+
+## Alternatives
+
+* If you want web-cited answers (not just your sources), [Perplexity](perplexity.md) is the open-web equivalent.
+* If you're reading scientific papers specifically, [SciSpace](scispace.md) is tuned for that and includes paper-specific tools.
+* If you want to highlight a passage and get an explanation in place, [Explainpaper](explainpaper.md) is narrower but sharper.
+* If you want OSS Wikipedia-style synthesis from sources, [STORM](storm.md) is Stanford's take.
+
+## FAQ
+
+### Is NotebookLM free?
+
+Yes, the free tier covers up to 50 sources per notebook and is the default for most users. NotebookLM Plus (bundled with Google AI Pro/Ultra) raises caps and adds team features.
+
+### NotebookLM vs ChatGPT for research?
+
+NotebookLM when you want answers grounded only in the documents you've uploaded, with citations back to passages. [ChatGPT](chatgpt.md) when you want broader reasoning that pulls in outside knowledge. Different jobs - NotebookLM refuses to answer outside its sources, which is the feature.
+
+### How does Audio Overview work?
+
+It generates a two-host podcast-style summary from your uploaded sources in about a minute. Good for vibes and absorbing material on a walk; not for citation-grade summaries. Listen, then verify the load-bearing claims.
+
+### What file types does NotebookLM accept?
+
+PDFs, Google Docs, web pages, YouTube videos, and audio files - up to 50 sources per notebook on the free tier. Indexing takes ~30 seconds for a typical paper, longer for big PDFs.
 
 ## Pointers
 
