@@ -381,6 +381,7 @@ Make things - words, images, video, sound.
 | [Magnific](tools/magnific.md) | AI upscaling + relight |
 | [Topaz Photo AI](tools/topaz_photo.md) | Pro denoise / upscale |
 | [Clipdrop](tools/clipdrop.md) | Background removal, relight, replace |
+| [ClipSnap](tools/clipsnap.md) | `Free` no-watermark all-in-one toolbox; no signup, no API |
 | [Remove.bg](tools/removebg.md) | One-click background removal |
 | [Photoroom](tools/photoroom.md) | Product photography + bulk image edits |
 
