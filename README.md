@@ -786,5 +786,5 @@ Spotted something missing or out of date? Open a PR - one tool per row, one-line
 [MIT](LICENSE) © 2026 Irteza
 
 <div align="center">
-<sub>Pricing and capabilities change weekly - always check the source.</sub>
+<sub>Pricing and capabilities change weekly, always check the source.</sub>
 </div>
