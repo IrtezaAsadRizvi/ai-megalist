@@ -155,7 +155,6 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 | Brand visuals | **[Recraft](tools/recraft.md)** | [Adobe Firefly](tools/adobe_firefly.md) · [Canva](tools/canva.md) |
 | Mood / concept boards | **[Midjourney](tools/midjourney.md)** | [Krea](tools/krea.md) · [Leonardo](tools/leonardo.md) |
 | Photo edit / inpaint | **[Photoshop Generative Fill](tools/photoshop_genfill.md)** | [Magnific](tools/magnific.md) · [Clipdrop](tools/clipdrop.md) |
-| Product photos | **[Photoroom](tools/photoroom.md)** | Pebblely |
 | Client decks | **[Gamma](tools/gamma.md)** | [Tome](tools/tome.md) |
 
 <sub>→ Deeper: [Design](#design-uiux-graphics-presentations) · [Image](#image-generation)</sub>
@@ -383,7 +382,6 @@ Make things - words, images, video, sound.
 | [Clipdrop](tools/clipdrop.md) | Background removal, relight, replace |
 | [ClipSnap](tools/clipsnap.md) | `Free` no-watermark all-in-one toolbox; no signup, no API |
 | [Remove.bg](tools/removebg.md) | One-click background removal |
-| [Photoroom](tools/photoroom.md) | Product photography + bulk image edits |
 
 ### Video generation
 

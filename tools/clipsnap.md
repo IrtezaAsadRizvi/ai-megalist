@@ -43,7 +43,7 @@ The combination - no signup + no watermark + commercial use - means I reach for 
 ## Alternatives
 
 * If you want one-click edits with a published API and Stability AI lineage, [Clipdrop](clipdrop.md) is the closest sibling.
-* If background removal is the only job and you want batch, [Remove.bg](removebg.md) and [Photoroom](photoroom.md) are more focused.
+* If background removal is the only job and you want batch, [Remove.bg](removebg.md) is more focused.
 * For real layers, masks, and compositing, [Photoshop Generative Fill](photoshop_genfill.md) is the heavyweight.
 * For commercially-safe generative work where the brand team needs paperwork, [Adobe Firefly](adobe_firefly.md) is what they'll actually approve.
 * For local-only, your-own-GPU image work, [ComfyUI](comfyui.md) over [Stable Diffusion](stable_diffusion.md) or [FLUX](flux.md) is the path.
@@ -74,6 +74,6 @@ The site is explicit that output is cleared for commercial use, uploads are auto
 
 * [clipsnap.com](https://www.clipsnap.com)
 * Sibling toolbox with an API: [clipdrop.md](clipdrop.md).
-* Pure background removal: [remove.bg](https://www.remove.bg), [photoroom.md](photoroom.md).
+* Pure background removal: [remove.bg](https://www.remove.bg).
 * Commercially-safe brand-side generation: [adobe_firefly.md](adobe_firefly.md).
 * Local-only image work: [comfyui.md](comfyui.md) + [stable_diffusion.md](stable_diffusion.md) or [flux.md](flux.md).

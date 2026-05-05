@@ -1,6 +1,6 @@
 # Remove.bg: one-click background removal
 
-Remove.bg sits in the image editing category, the single-feature specialist alongside [Clipdrop](clipdrop.md) and [Photoroom](photoroom.md). Remove.bg is one of the original AI image tools - single feature, one click, faster than learning to do it manually. The product hasn't changed much since 2018 because the basic job (remove the background from a photo) didn't need to. The technology underneath has improved; the value proposition is unchanged.
+Remove.bg sits in the image editing category, the single-feature specialist alongside [Clipdrop](clipdrop.md). Remove.bg is one of the original AI image tools - single feature, one click, faster than learning to do it manually. The product hasn't changed much since 2018 because the basic job (remove the background from a photo) didn't need to. The technology underneath has improved; the value proposition is unchanged.
 
 ## What it actually is
 
@@ -27,13 +27,12 @@ A web app at [remove.bg](https://www.remove.bg). Upload an image; AI cuts out th
 
 * Quality is excellent on most subjects, weaker on hair / fur with complex backgrounds. For premium product / fashion photography, manual touch up is sometimes needed.
 * Free preview is low resolution; full resolution requires credits.
-* For broader image editing toolkit (cleanup, upscale, relight, generate backgrounds), [clipdrop.md](clipdrop.md) and [photoroom.md](photoroom.md) bundle background removal with more.
+* For broader image editing toolkit (cleanup, upscale, relight, generate backgrounds), [clipdrop.md](clipdrop.md) bundles background removal with more.
 * Single feature focus is both the strength and the limitation. For one off needs, fastest. For workflows, alternative tools have more.
 * Pricing per image adds up at scale; subscription is the floor for heavy use.
 
 ## Alternatives
 
-* If you also need AI scenes, batch templates, and a commerce workflow, [Photoroom](photoroom.md) bundles more.
 * If you want broader edits (cleanup, upscale, relight), [Clipdrop](clipdrop.md) is the wider toolkit.
 * If you're already inside Photoshop, [Photoshop Generative Fill](photoshop_genfill.md) plus the Object Selection tool handles backgrounds in-place.
 * If you want OSS local removal with no per-image cost, rembg ([github.com/danielgatis/rembg](https://github.com/danielgatis/rembg)) is the right pick.
@@ -43,10 +42,6 @@ A web app at [remove.bg](https://www.remove.bg). Upload an image; AI cuts out th
 ### Is Remove.bg free?
 
 You get one free credit on signup and free low-resolution previews. Full-resolution downloads cost credits - $1-$9 each pay-as-you-go, or a subscription from $9/mo for 40 images up to $99/mo for 1000. For occasional use, pay-as-you-go is fine.
-
-### Remove.bg vs Photoroom - which one?
-
-Different scope. Remove.bg does one thing fast and well. [Photoroom](photoroom.md) is a commerce workflow with backgrounds, batch processing, and templates. Pick Remove.bg for one-offs, Photoroom for catalog work.
 
 ### Does Remove.bg have an API?
 
@@ -59,6 +54,6 @@ Decent on simple backgrounds, weaker on complex ones. For premium product or fas
 ## Pointers
 
 * [remove.bg](https://www.remove.bg)
-* For broader image editing: [clipdrop.md](clipdrop.md), [photoroom.md](photoroom.md), Photoshop's Object Selection + Subject Selection.
+* For broader image editing: [clipdrop.md](clipdrop.md), Photoshop's Object Selection + Subject Selection.
 * For OSS alternative: rembg ([github.com/danielgatis/rembg](https://github.com/danielgatis/rembg)).
 * The Remove.bg blog has interesting case studies on edge case backgrounds.

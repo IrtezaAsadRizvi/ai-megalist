@@ -24,7 +24,7 @@ A web app at [clipdrop.co](https://clipdrop.co) and a mobile app. A collection o
 ## How I use it day to day
 
 * **Honest:** I open Clipdrop occasionally for one offs; daily image work goes through Photoshop.
-* **Background removal** for product shots. Clipdrop's removal is on par with Photoroom and Remove.bg; the choice is mostly UI preference.
+* **Background removal** for product shots. Clipdrop's removal is on par with Remove.bg; the choice is mostly UI preference.
 * **Cleanup** to remove distracting objects from photos. One click; brush over what you want gone; done. Comparable to Photoshop's Generative Fill but lighter weight.
 * **Sketch to Image.** Doodle a scene; Clipdrop generates a coherent image based on the sketch. Useful for ideation.
 * **Relight** to change lighting after the fact. Less consistent than Magnific; sometimes magical.
@@ -42,7 +42,7 @@ A web app at [clipdrop.co](https://clipdrop.co) and a mobile app. A collection o
 
 * If you want layers, masks, and proper compositing, [Photoshop Generative Fill](photoshop_genfill.md) is the heavier-weight environment.
 * If you primarily want AI upscaling and relight, [Magnific](magnific.md) is the dedicated tool.
-* If you only need background removal at scale, [Photoroom](photoroom.md) or remove.bg is cheaper and faster.
+* If you only need background removal at scale, [remove.bg](https://www.remove.bg) is cheaper and faster.
 * For full local control with diffusion models, [ComfyUI](comfyui.md) + Stable Diffusion is the path.
 
 ## FAQ
@@ -66,6 +66,6 @@ Built by Stability AI (the Stable Diffusion folks); acquired by Jasper in early 
 ## Pointers
 
 * [clipdrop.co](https://clipdrop.co)
-* For pure background removal: [remove.bg](https://www.remove.bg), [photoroom.md](photoroom.md).
+* For pure background removal: [remove.bg](https://www.remove.bg).
 * For full Photoshop integration: [photoshop_genfill.md](photoshop_genfill.md).
 * For AI upscaling specifically: [magnific.md](magnific.md), Topaz Photo AI.
