@@ -8,8 +8,8 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-111?style=flat-square)](LICENSE)
 [![Awesome](https://img.shields.io/badge/awesome-yes-ff69b4?style=flat-square)](https://awesome.re)
-![Updated](https://img.shields.io/badge/updated-April%202026-2563eb?style=flat-square)
-![Tools](https://img.shields.io/badge/tools-200%2B-22c55e?style=flat-square)
+![Updated](https://img.shields.io/badge/updated-May%202026-2563eb?style=flat-square)
+![Tools](https://img.shields.io/badge/tools-225%2B-22c55e?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-8b5cf6?style=flat-square)
 
 **[ Quick find ](#quick-find)** &nbsp;·&nbsp; **[ Pick your role ](#pick-your-role)** &nbsp;·&nbsp; **[ The index ](#the-index)** &nbsp;·&nbsp; **[ Sources ](#sources)**
@@ -24,7 +24,7 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 
 1. **[Quick find](#quick-find)**: one-line "I want to..." → category map. Fastest path.
 2. **[Pick your role](#pick-your-role)**: eight ready-made stacks: engineers, researchers, marketers, creators, designers, founders, students, knowledge workers.
-3. **[Browse the index](#the-index)**: 200+ tools across five clusters and 22 categories.
+3. **[Browse the index](#the-index)**: 225+ tools across five clusters and 22 categories.
 
 > **Conventions** &nbsp; `OSS` open source &nbsp;·&nbsp; `Local` runs on your machine &nbsp;·&nbsp; `Free` meaningful free tier &nbsp;·&nbsp; **Bold** in role tables = the safe default.
 
@@ -265,6 +265,8 @@ Conversational generalists - your daily-driver chat. Most now support memory, fi
 | [Mistral Le Chat](tools/mistral_le_chat.md) | EU-hosted, fast, OSS-friendly |
 | [Qwen Chat](tools/qwen.md) | Strong CN + EN; `OSS` weights |
 | [Meta AI](tools/meta_ai.md) | Built into WhatsApp / Instagram / Messenger |
+| [Poe](tools/poe.md) | Quora's multi-model app; one subscription across Claude / GPT / Gemini / etc |
+| [Cohere Coral](tools/cohere.md) | Enterprise-focused Command family; strong RAG + citations |
 
 ### Research & deep research
 
@@ -296,6 +298,7 @@ Long-form research with citations, multi-source synthesis, and document groundin
 | [Tavily](tools/tavily.md) | Search API for agents and RAG |
 | [Andi](tools/andi.md) | Conversational answer-first search |
 | [Brave Search + Leo](tools/brave_search.md) | Privacy-first; built-in AI summaries |
+| [Genspark](tools/genspark.md) | Agentic mixture-of-agents; multi-section "Sparkpage" answers |
 
 ### AI browsers & sidebars
 
@@ -371,6 +374,7 @@ Make things - words, images, video, sound.
 | [Krea](tools/krea.md) | Real-time generation + enhance |
 | [Adobe Firefly](tools/adobe_firefly.md) | Commercially safe; in Photoshop |
 | [Reve](tools/reve.md) | Strong at prompt fidelity |
+| [Microsoft Designer](tools/microsoft_designer.md) | `Free` DALL·E access in a templated design app + Bing Image Creator |
 
 ### Image editing & object work
 
@@ -396,6 +400,8 @@ Make things - words, images, video, sound.
 | [Hailuo (MiniMax)](tools/hailuo.md) | Generous `Free` tier; image-to-video |
 | [Higgsfield](tools/higgsfield.md) | Cinematic camera presets |
 | [Pixverse](tools/pixverse.md) | Anime / stylized motion |
+| [HunyuanVideo](tools/hunyuan_video.md) | `OSS` Tencent's 13B video model; ComfyUI / LoRA-friendly |
+| [Wan 2.x](tools/wan.md) | `OSS` Alibaba; Apache 2.0; strong motion at small + big sizes |
 
 > ⚠️ **Heads up (April 2026):** OpenAI's Sora consumer apps shut down on **2026-04-26**; the API follows on **2026-09-24**.
 
@@ -425,6 +431,8 @@ Make things - words, images, video, sound.
 | [Cartesia (Sonic)](tools/cartesia.md) | Ultra-low-latency real-time voice |
 | [Resemble AI](tools/resemble.md) | Cloning + speech-to-speech |
 | [OpenAI Voice / Realtime API](tools/openai_voice.md) | Native multimodal voice |
+| [Hume AI](tools/hume.md) | Empathic Voice Interface; emotion-aware prosody |
+| [Sesame](tools/sesame.md) | Conversational Speech Model (Maya / Miles); past the uncanny line |
 | [Suno Bark](tools/suno_bark.md) | `OSS` TTS |
 
 #### Transcription & speech-to-text
@@ -481,6 +489,7 @@ Get the day's work done.
 | [Krisp](tools/krisp.md) | Bot-free meeting notes + noise cancel |
 | [tl;dv](tools/tldv.md) | Meeting recap + CRM sync |
 | [Jamie](tools/jamie.md) | Bot-free, EU-friendly |
+| [Gong](tools/gong.md) | Revenue intelligence over sales calls; B2B default |
 
 #### Notes & second-brain
 | Tool | Best for |
@@ -523,9 +532,13 @@ General-purpose agents that can plan, browse, click, and execute multi-step work
 | [Browser Use](tools/browser_use.md) | `OSS` Python lib for LLM-controlled browsers |
 | [Browserbase + Stagehand](tools/browserbase.md) | Headless browser infra for agents |
 | [AutoGPT](tools/autogpt.md) | `OSS` autonomous agent platform |
+| [AutoGen / AG2](tools/autogen.md) | `OSS` Microsoft + community multi-agent framework |
 | [CrewAI](tools/crewai.md) | `OSS` multi-agent orchestration |
 | [LangGraph](tools/langgraph.md) | `OSS` stateful agent graphs |
 | [Smolagents](tools/smolagents.md) | `OSS` minimal agent framework (HF) |
+| [Letta](tools/letta.md) | `OSS` stateful agents with persistent memory (MemGPT) |
+| [MultiOn](tools/multion.md) | Browser agent + developer API (Agent Q) |
+| [Skyvern](tools/skyvern.md) | `OSS` vision-grounded browser automation |
 
 ### Workflow automation
 
@@ -540,6 +553,7 @@ Connect apps and trigger AI in multi-step pipelines.
 | [Activepieces](tools/activepieces.md) | `OSS` Zapier alternative |
 | [Lindy](tools/lindy.md) | AI assistant builder for ops workflows |
 | [Relevance AI](tools/relevance_ai.md) | No-code AI agent teams |
+| [Bardeen](tools/bardeen.md) | Browser-side AI automation; works on sites without APIs |
 
 ### Design (UI/UX, graphics, presentations)
 
@@ -569,6 +583,7 @@ Connect apps and trigger AI in multi-step pipelines.
 | [Numerous](tools/numerous.md) | AI inside Sheets / Excel |
 | [Equals](tools/equals.md) | Connected spreadsheet with AI |
 | [DataChat](tools/datachat.md) | Conversational analytics |
+| [Wolfram Alpha / GPT](tools/wolfram.md) | Symbolic computation as a grounded tool for LLMs |
 
 <sub>[⤴ back to top](#top)</sub>
 
@@ -604,6 +619,9 @@ For the people writing software, training models, or shipping products.
 | [Void](tools/void.md) | `OSS` Cursor alternative |
 | [Pochi](tools/pochi.md) | VS Code-native agent (TabbyML); parallel agents, local models |
 | [Trae](tools/trae.md) | ByteDance's AI IDE |
+| [Cline](tools/cline.md) | `OSS` VS Code autonomous agent extension; human-in-the-loop approval |
+| [Roo Code](tools/roo_code.md) | `OSS` Cline fork with custom modes + per-mode model selection |
+| [Augment Code](tools/augment_code.md) | Context-engine for very large codebases (VS Code + JetBrains) |
 
 #### Inline completion / copilots
 | Tool | Best for |
@@ -613,6 +631,8 @@ For the people writing software, training models, or shipping products.
 | [Codeium](tools/codeium.md) | `Free` tier; many IDEs |
 | [Supermaven](tools/supermaven.md) | Very fast completion; long context |
 | [Continue](tools/continue.md) | `OSS` BYO-model, VS Code/JetBrains |
+| [Amazon Q Developer](tools/amazon_q_developer.md) | AWS-native completion + agent (was CodeWhisperer); Java `/transform` is the killer feature |
+| [JetBrains AI Assistant](tools/jetbrains_ai.md) | Bundled across IntelliJ / PyCharm / GoLand / etc; Junie agent |
 
 #### Code review & quality
 | Tool | Best for |
@@ -629,6 +649,7 @@ For the people writing software, training models, or shipping products.
 | [Devin](tools/devin.md) | Cognition's autonomous engineer |
 | [GitHub Copilot Coding Agent](tools/github_copilot.md) | Assigns issues directly to Copilot; opens PRs |
 | [Replit Agent](tools/replit_agent.md) | Build, test, and deploy from a prompt |
+| [Factory Droids](tools/factory_droids.md) | Fleet of specialized SWE agents (Code, Reliability, Knowledge, etc) |
 
 ### App & web builders (vibe coding / no-code)
 
@@ -660,6 +681,8 @@ Run models on your own machine - no data leaves the device.
 | [LocalAI](tools/localai.md) | `OSS` OpenAI-compatible drop-in for local |
 | [vLLM](tools/vllm.md) | `OSS` high-throughput serving |
 | [Open WebUI](tools/open_webui.md) | `OSS` ChatGPT-style UI for Ollama / OpenAI-compatible APIs |
+| [AnythingLLM](tools/anythingllm.md) | `OSS` local-first RAG + chat desktop app (Mintplex) |
+| [Msty](tools/msty.md) | Polished cross-provider desktop chat; split-chat comparison |
 
 **Notable open-weight model families (2026):** Llama (Meta) · Gemma (Google) · Qwen (Alibaba) · DeepSeek · Mistral · Kimi K2.x (Moonshot) · GLM (Zhipu) · Nemotron (NVIDIA) · Phi (Microsoft).
 
@@ -672,9 +695,13 @@ For developers building on top of models.
 | [Anthropic API](tools/anthropic_api.md) | Claude family; tool use, computer use, MCP |
 | [OpenAI Platform](tools/openai_platform.md) | GPT, Realtime, Responses API, Agents SDK |
 | [Google AI Studio / Vertex](tools/google_ai_studio.md) | Gemini family |
+| [AWS Bedrock](tools/aws_bedrock.md) | Claude / Llama / Mistral / Cohere on AWS with IAM auth |
+| [Azure OpenAI](tools/azure_openai.md) | OpenAI models with Microsoft enterprise plumbing |
 | [xAI](tools/xai.md) | Grok API |
 | [Mistral La Plateforme](tools/mistral_la_plateforme.md) | EU-hosted models |
+| [Cohere](tools/cohere.md) | Command + Aya families; enterprise RAG / multilingual |
 | [DeepSeek API](tools/deepseek.md) | Cheap frontier reasoning |
+| [OpenRouter](tools/openrouter.md) | One key, every model; OpenAI-compatible aggregator |
 | [Together AI](tools/together.md) | OSS model hosting + fine-tuning |
 | [Fireworks AI](tools/fireworks.md) | Fast OSS model inference |
 | [Groq](tools/groq.md) | LPU inference at very high TPS |
@@ -720,6 +747,7 @@ Apps designed around long-running emotional / social interaction rather than pro
 | [Speak](tools/speak.md) | AI conversation for language learning |
 | [NotebookLM](tools/notebooklm.md) | Turn course material into Q&A + audio |
 | [Brisk Teaching](tools/brisk_teaching.md) | AI for teachers (lesson plans, feedback) |
+| [MagicSchool](tools/magicschool.md) | 80+ teacher tools (lesson plans, IEPs, rubrics, leveling) |
 | [Eightify](tools/eightify.md) | YouTube lecture summaries |
 
 <sub>[⤴ back to top](#top)</sub>
