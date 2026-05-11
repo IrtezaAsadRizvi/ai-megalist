@@ -34,6 +34,7 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 
 | I want to... | Go to | Top picks |
 | :-- | :-- | :-- |
+| Do everything in one app (chat, search, images, video) | [General assistants](#general-purpose-assistants) | [ZeroTwo](tools/zerotwo.md) · [Perplexity](tools/perplexity.md) |
 | Chat with the smartest model | [General assistants](#general-purpose-assistants) | [ChatGPT](tools/chatgpt.md) · [Claude](tools/claude.md) · [Gemini](tools/gemini.md) |
 | Write or refactor code | [Coding](#coding) | [Cursor](tools/cursor.md) · [Claude Code](tools/claude_code.md) · [Copilot](tools/github_copilot.md) |
 | Build an app from a prompt | [App builders](#app--web-builders-vibe-coding--no-code) | [Lovable](tools/lovable.md) · [Bolt](tools/bolt_new.md) · [v0](tools/v0.md) · [Replit](tools/replit_agent.md) |
@@ -265,6 +266,7 @@ Conversational generalists - your daily-driver chat. Most now support memory, fi
 | [Mistral Le Chat](tools/mistral_le_chat.md) | EU-hosted, fast, OSS-friendly |
 | [Qwen Chat](tools/qwen.md) | Strong CN + EN; `OSS` weights |
 | [Meta AI](tools/meta_ai.md) | Built into WhatsApp / Instagram / Messenger |
+| [ZeroTwo](tools/zerotwo.md) | All-in-one hub: chat + research + image + video behind one subscription |
 
 ### Research & deep research
 
@@ -283,6 +285,7 @@ Long-form research with citations, multi-source synthesis, and document groundin
 | [Explainpaper](tools/explainpaper.md) | Highlight a passage, get an explanation |
 | [Undermind](tools/undermind.md) | Deep scientific search |
 | [STORM](tools/storm.md) | `OSS` Stanford project; Wikipedia-style articles from sources |
+| [ZeroTwo](tools/zerotwo.md) | Unified research hub; cited search + multiple frontier models in one thread |
 
 ### AI search engines
 
@@ -371,6 +374,8 @@ Make things - words, images, video, sound.
 | [Krea](tools/krea.md) | Real-time generation + enhance |
 | [Adobe Firefly](tools/adobe_firefly.md) | Commercially safe; in Photoshop |
 | [Reve](tools/reve.md) | Strong at prompt fidelity |
+| [Higgsfield](tools/higgsfield.md) | Stylised image gen with the same cinematic preset library as their video tool |
+| [ZeroTwo](tools/zerotwo.md) | Image hub - access FLUX / Imagen / Ideogram-style outputs and switch models in one app |
 
 ### Image editing & object work
 
@@ -382,6 +387,7 @@ Make things - words, images, video, sound.
 | [Clipdrop](tools/clipdrop.md) | Background removal, relight, replace |
 | [ClipSnap](tools/clipsnap.md) | `Free` no-watermark all-in-one toolbox; no signup, no API |
 | [Remove.bg](tools/removebg.md) | One-click background removal |
+| [Higgsfield](tools/higgsfield.md) | Restyle / re-shot edits using named cinematic presets |
 
 ### Video generation
 
