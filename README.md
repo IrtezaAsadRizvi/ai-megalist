@@ -732,6 +732,7 @@ Apps designed around long-running emotional / social interaction rather than pro
 | :-- | :-- |
 | [Nomi](tools/nomi.md) | Strong long-term memory; group chats; deep personalization |
 | [Replika](tools/replika.md) | The original; gamified relationship + companion-world |
+| [Kissable](tools/kissable.md) | Photo/video generation; community scenario catalog; emotional voice |
 | [Character.AI](tools/character_ai.md) | Largest character library; generous `Free` tier |
 | [Kindroid](tools/kindroid.md) | Lifelike personalities, in-app social feed |
 | [Pi (Inflection)](tools/pi.md) | Calmer, conversational tone |
@@ -813,5 +814,5 @@ Spotted something missing or out of date? Open a PR - one tool per row, one-line
 [MIT](LICENSE) © 2026 Irteza
 
 <div align="center">
-<sub>Pricing and capabilities change weekly - always check the source.</sub>
+<sub>Pricing and capabilities change weekly, always check the source.</sub>
 </div>
