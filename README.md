@@ -391,6 +391,7 @@ Make things - words, images, video, sound.
 | [Clipdrop](tools/clipdrop.md) | Background removal, relight, replace |
 | [ClipSnap](tools/clipsnap.md) | `Free` no-watermark all-in-one toolbox; no signup, no API |
 | [Remove.bg](tools/removebg.md) | One-click background removal |
+| [TinyTools](https://tinytools-smoky.vercel.app/) | `Free` all-in-one browser toolbox: local background removal (WASM, fully offline), OG image gen, SEO tags, favicon, color palette, domain generator + AI cost calculator; no signup |
 | [Higgsfield](tools/higgsfield.md) | Restyle / re-shot edits using named cinematic presets |
 
 ### Video generation
