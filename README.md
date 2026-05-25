@@ -374,6 +374,7 @@ Make things - words, images, video, sound.
 | [Ideogram](tools/ideogram.md) | Best in class for legible text in images |
 | [Recraft](tools/recraft.md) | Vector + brand-style consistency |
 | [Leonardo](tools/leonardo.md) | Game / asset focus; fine-tunable models |
+| [LandscapioAI](tools/landscapioai.md) | AI landscape design concepts with costed, contractor-ready plans |
 | [Krea](tools/krea.md) | Real-time generation + enhance |
 | [Adobe Firefly](tools/adobe_firefly.md) | Commercially safe; in Photoshop |
 | [Reve](tools/reve.md) | Strong at prompt fidelity |
