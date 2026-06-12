@@ -42,7 +42,7 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 | Read & question my own PDFs | [Research](#research--deep-research) | [NotebookLM](tools/notebooklm.md) · [SciSpace](tools/scispace.md) |
 | Run a multi-step research task | [Research](#research--deep-research) | [ChatGPT Deep Research](tools/chatgpt.md) · [Gemini DR](tools/gemini.md) |
 | Generate an image | [Image](#image-generation) | [Midjourney](tools/midjourney.md) · [Flux](tools/flux.md) · [Ideogram](tools/ideogram.md) |
-| Edit / upscale an image | [Image editing](#image-editing--object-work) | [Photoshop GenFill](tools/photoshop_genfill.md) · [Magnific](tools/magnific.md) |
+| Edit / upscale an image | [Image editing](#image-editing--object-work) | [Photoshop GenFill](tools/photoshop_genfill.md) · [Magnific](tools/magnific.md) · [igly.ai](tools/igly.md) |
 | Generate a video | [Video](#video-generation) | [Veo 3.1](tools/veo.md) · [Runway](tools/runway.md) · [Kling](tools/kling.md) |
 | Edit / repurpose video | [Video editing](#video-editing--repurposing) | [Descript](tools/descript.md) · [Opus Clip](tools/opus_clip.md) · [Captions](tools/captions.md) |
 | Clone a voice / dub | [Voice](#voice--speech) | [ElevenLabs](tools/elevenlabs.md) · [Cartesia](tools/cartesia.md) |
@@ -155,7 +155,7 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 | Prompt → React / Tailwind | **[v0](tools/v0.md)** | [Magic Patterns](tools/magic_patterns.md) |
 | Brand visuals | **[Recraft](tools/recraft.md)** | [Adobe Firefly](tools/adobe_firefly.md) · [Canva](tools/canva.md) |
 | Mood / concept boards | **[Midjourney](tools/midjourney.md)** | [Krea](tools/krea.md) · [Leonardo](tools/leonardo.md) |
-| Photo edit / inpaint | **[Photoshop Generative Fill](tools/photoshop_genfill.md)** | [Magnific](tools/magnific.md) · [Clipdrop](tools/clipdrop.md) |
+| Photo edit / inpaint | **[Photoshop Generative Fill](tools/photoshop_genfill.md)** | [Magnific](tools/magnific.md) · [Clipdrop](tools/clipdrop.md) · [igly.ai](tools/igly.md) |
 | Client decks | **[Gamma](tools/gamma.md)** | [Tome](tools/tome.md) |
 
 <sub>→ Deeper: [Design](#design-uiux-graphics-presentations) · [Image](#image-generation)</sub>
@@ -390,6 +390,7 @@ Make things - words, images, video, sound.
 | [Magnific](tools/magnific.md) | AI upscaling + relight |
 | [Topaz Photo AI](tools/topaz_photo.md) | Pro denoise / upscale |
 | [Clipdrop](tools/clipdrop.md) | Background removal, relight, replace |
+| [igly.ai](tools/igly.md) | Browser-based background removal, inpainting, upscaling, and generative fill |
 | [ClipSnap](tools/clipsnap.md) | `Free` no-watermark all-in-one toolbox; no signup, no API |
 | [Remove.bg](tools/removebg.md) | One-click background removal |
 | [TinyTools](https://tinytools-smoky.vercel.app/) | `Free` all-in-one browser toolbox: local background removal (WASM, fully offline), OG image gen, SEO tags, favicon, color palette, domain generator + AI cost calculator; no signup |
