@@ -133,7 +133,7 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 
 | Job | Default | Alternates |
 | :-- | :-- | :-- |
-| Scripting + ideation | **[Claude](tools/claude.md)** / **[ChatGPT](tools/chatgpt.md)** | [Gemini](tools/gemini.md) |
+| Scripting + ideation | **[Claude](tools/claude.md)** / **[ChatGPT](tools/chatgpt.md)** | [Gemini](tools/gemini.md) · [CreatorSkills](tools/creatorskills.md) *(skill packs for YouTube scripting, sponsorships, audience growth)* |
 | Text → video | **[Veo 3.1](tools/veo.md)** | [Runway](tools/runway.md) · [Kling](tools/kling.md) · [Pika](tools/pika.md) |
 | Edit by transcript | **[Descript](tools/descript.md)** | [CapCut](tools/capcut.md) |
 | Short-form clips from a podcast | **[Opus Clip](tools/opus_clip.md)** | [Captions](tools/captions.md) · [Submagic](tools/submagic.md) · [Klap](tools/klap.md) |
