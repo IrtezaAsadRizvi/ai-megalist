@@ -560,6 +560,7 @@ Connect apps and trigger AI in multi-step pipelines.
 | [Make](tools/make.md) | Visual scenario builder with AI modules |
 | [Zapier AI](tools/zapier.md) | Largest app catalog; AI Actions + Agents |
 | [Pipedream](tools/pipedream.md) | Code-first workflows with AI steps |
+| [Xquik](tools/xquik.md) | X data API, MCP, webhooks, and agent workflows |
 | [Activepieces](tools/activepieces.md) | `OSS` Zapier alternative |
 | [Lindy](tools/lindy.md) | AI assistant builder for ops workflows |
 | [Relevance AI](tools/relevance_ai.md) | No-code AI agent teams |
