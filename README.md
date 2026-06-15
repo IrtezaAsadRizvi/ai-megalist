@@ -722,6 +722,7 @@ For developers building on top of models.
 | [LangChain](tools/langchain.md) · [LlamaIndex](tools/llamaindex.md) | `OSS` app frameworks |
 | [Vercel AI SDK](tools/vercel_ai_sdk.md) | TS-first AI app SDK |
 | [LiteLLM](tools/litellm.md) | `OSS` unified API gateway across providers |
+| [Respan](tools/respan.md) | Tracing, evals, prompts + gateway across 250+ models |
 
 <sub>[⤴ back to top](#top)</sub>
 
