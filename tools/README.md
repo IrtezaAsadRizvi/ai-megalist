@@ -25,6 +25,7 @@ The voice borrows from Karpathy: first person, hedged where I'm guessing, specif
 * [Cursor](cursor.md)
 * [Claude Code](claude_code.md)
 * [Ollama](ollama.md)
+* [Xquik](xquik.md)
 
 ## What's missing
 
