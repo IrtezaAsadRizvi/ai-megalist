@@ -573,6 +573,7 @@ Connect apps and trigger AI in multi-step pipelines.
 | [Figma + Figma Make](tools/figma.md) | Industry standard; prompt-to-prototype |
 | [Google Stitch](tools/google_stitch.md) | Prompt → editable UI design (formerly Galileo) |
 | [v0 by Vercel](tools/v0.md) | Prompt → React / Tailwind components |
+| [Roblox GUI Maker](tools/roblox_gui_maker.md) | Prompt → Roblox Studio GUI and Lua starter code |
 | [Uizard](tools/uizard.md) | Wireframe to UI |
 | [Magic Patterns](tools/magic_patterns.md) | Generate React + Figma UIs |
 | [Canva](tools/canva.md) | Magic Studio: visuals at scale for non-designers |
