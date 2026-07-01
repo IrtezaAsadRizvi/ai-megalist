@@ -525,6 +525,7 @@ Get the day's work done.
 | [Reclaim](tools/reclaim.md) | Defends focus time, syncs habits |
 | [Akiflow](tools/akiflow.md) | Task aggregator + time blocking |
 | [Todoist AI](tools/todoist.md) | Task suggestions + breakdowns |
+| [Tudo](tools/tudo.md) | AI task capture and personal planning |
 | [ChatPRD](tools/chatprd.md) | PRDs and product specs |
 
 ### Agents & browser automation
