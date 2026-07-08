@@ -547,6 +547,7 @@ General-purpose agents that can plan, browse, click, and execute multi-step work
 | [LangGraph](tools/langgraph.md) | `OSS` stateful agent graphs |
 | [Smolagents](tools/smolagents.md) | `OSS` minimal agent framework (HF) |
 | [Letta](tools/letta.md) | `OSS` stateful agents with persistent memory (MemGPT) |
+| [Tree Ring Memory](tools/tree_ring_memory.md) | `OSS` `Local` memory lifecycle layer for agents; SQLite/FTS recall, audit, redaction, and consolidation |
 | [MultiOn](tools/multion.md) | Browser agent + developer API (Agent Q) |
 | [Skyvern](tools/skyvern.md) | `OSS` vision-grounded browser automation |
 
