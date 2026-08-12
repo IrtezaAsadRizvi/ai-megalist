@@ -446,6 +446,7 @@ Make things - words, images, video, sound.
 | [Hume AI](tools/hume.md) | Empathic Voice Interface; emotion-aware prosody |
 | [Sesame](tools/sesame.md) | Conversational Speech Model (Maya / Miles); past the uncanny line |
 | [Suno Bark](tools/suno_bark.md) | `OSS` TTS |
+| [CharaVox](tools/charavox.md) | Multilingual character voice generator + cloning (VoxCPM) |
 
 #### Transcription & speech-to-text
 | Tool | Best for |
