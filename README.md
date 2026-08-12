@@ -380,6 +380,7 @@ Make things - words, images, video, sound.
 | [Reve](tools/reve.md) | Strong at prompt fidelity |
 | [Higgsfield](tools/higgsfield.md) | Stylised image gen with the same cinematic preset library as their video tool |
 | [ZeroTwo](tools/zerotwo.md) | Image hub - access FLUX / Imagen / Ideogram-style outputs and switch models in one app |
+| [Rao Edits](tools/rao_edits.md) | Browser-based text-to-image generation for creator and marketing visuals |
 | [Microsoft Designer](tools/microsoft_designer.md) | `Free` DALL·E access in a templated design app + Bing Image Creator |
 
 ### Image editing & object work
@@ -391,6 +392,7 @@ Make things - words, images, video, sound.
 | [Topaz Photo AI](tools/topaz_photo.md) | Pro denoise / upscale |
 | [Clipdrop](tools/clipdrop.md) | Background removal, relight, replace |
 | [igly.ai](tools/igly.md) | Browser-based background removal, inpainting, upscaling, and generative fill |
+| [Rao Edits](tools/rao_edits.md) | Reference-image variations, restyles, and AI photo transformations |
 | [ClipSnap](tools/clipsnap.md) | `Free` no-watermark all-in-one toolbox; no signup, no API |
 | [Remove.bg](tools/removebg.md) | One-click background removal |
 | [TinyTools](https://tinytools-smoky.vercel.app/) | `Free` all-in-one browser toolbox: local background removal (WASM, fully offline), OG image gen, SEO tags, favicon, color palette, domain generator + AI cost calculator; no signup |
