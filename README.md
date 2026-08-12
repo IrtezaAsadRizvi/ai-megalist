@@ -351,6 +351,7 @@ Make things - words, images, video, sound.
 | [Writesonic](tools/writesonic.md) | SEO-focused content + Chatsonic |
 | [Surfer SEO](tools/surfer_seo.md) | SEO content optimization |
 | [Frase](tools/frase.md) | SERP analysis + brief generation |
+| [NotFair](https://github.com/nowork-studio/notfair-plugin) | `OSS` agent skills for SEO, GEO, Google Ads, and Meta Ads with evidence-led, approval-bounded workflows |
 | [Writer](tools/writer.md) | Enterprise content platform; brand governance |
 
 #### Fiction & creative
