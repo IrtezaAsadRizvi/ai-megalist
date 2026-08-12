@@ -698,6 +698,7 @@ Run models on your own machine - no data leaves the device.
 | [vLLM](tools/vllm.md) | `OSS` high-throughput serving |
 | [Open WebUI](tools/open_webui.md) | `OSS` ChatGPT-style UI for Ollama / OpenAI-compatible APIs |
 | [AnythingLLM](tools/anythingllm.md) | `OSS` local-first RAG + chat desktop app (Mintplex) |
+| [Off Grid AI Desktop](tools/off_grid_ai_desktop.md) | `OSS` `Local` macOS app; on-device chat, image gen, voice, RAG, MCP - no account, no telemetry |
 | [Msty](tools/msty.md) | Polished cross-provider desktop chat; split-chat comparison |
 
 **Notable open-weight model families (2026):** Llama (Meta) · Gemma (Google) · Qwen (Alibaba) · DeepSeek · Mistral · Kimi K2.x (Moonshot) · GLM (Zhipu) · Nemotron (NVIDIA) · Phi (Microsoft).
