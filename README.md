@@ -658,6 +658,7 @@ For the people writing software, training models, or shipping products.
 #### Code review & quality
 | Tool | Best for |
 | :-- | :-- |
+| [agent-qa](https://github.com/vostride/agent-qa) | Self-improving natural-language web and mobile tests with memory and self-healing |
 | [CodeRabbit](tools/coderabbit.md) | AI PR reviewer with chat |
 | [Greptile](tools/greptile.md) | Codebase Q&A and review |
 | [Cody (Sourcegraph)](tools/cody.md) | Codebase-aware assistant; enterprise |
