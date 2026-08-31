@@ -724,6 +724,7 @@ For developers building on top of models.
 | [Cohere](tools/cohere.md) | Command + Aya families; enterprise RAG / multilingual |
 | [DeepSeek API](tools/deepseek.md) | Cheap frontier reasoning |
 | [OpenRouter](tools/openrouter.md) | One key, every model; OpenAI-compatible aggregator |
+| [XiuRouter](tools/xiurouter.md) | Hosted multi-model API; Responses, Messages, Chat, Gemini, and tiered pricing |
 | [Together AI](tools/together.md) | OSS model hosting + fine-tuning |
 | [Fireworks AI](tools/fireworks.md) | Fast OSS model inference |
 | [Groq](tools/groq.md) | LPU inference at very high TPS |
