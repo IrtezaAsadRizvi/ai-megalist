@@ -630,6 +630,7 @@ For the people writing software, training models, or shipping products.
 | [Aider](tools/aider.md) | `OSS` pair-programming in the terminal; git-native |
 | [OpenHands](tools/openhands.md) | `OSS` autonomous SWE agent (formerly OpenDevin) |
 | [SWE-agent](tools/swe_agent.md) | `OSS` agent that fixes GitHub issues (Princeton) |
+| [YYLO](tools/yylo.md) | `OSS` command-line orchestrator for coding agents; typed tasks in a dedicated worktree, risk-based merge queue |
 
 #### AI-native IDEs & editors
 | Tool | Best for |
