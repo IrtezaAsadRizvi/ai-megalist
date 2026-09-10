@@ -769,6 +769,7 @@ Apps designed around long-running emotional / social interaction rather than pro
 | [Quizlet AI](tools/quizlet.md) | Flashcards + Q-Chat tutor |
 | [Duolingo Max](tools/duolingo_max.md) | Roleplay + Explain My Answer |
 | [Speak](tools/speak.md) | AI conversation for language learning |
+| [StudyArena](https://studyarena.com) | `Free` compare three explanations of one study question before seeing model names |
 | [NotebookLM](tools/notebooklm.md) | Turn course material into Q&A + audio |
 | [Brisk Teaching](tools/brisk_teaching.md) | AI for teachers (lesson plans, feedback) |
 | [MagicSchool](tools/magicschool.md) | 80+ teacher tools (lesson plans, IEPs, rubrics, leveling) |
