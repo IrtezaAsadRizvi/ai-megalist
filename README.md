@@ -340,6 +340,7 @@ Make things - words, images, video, sound.
 | [Claude](tools/claude.md) / [ChatGPT](tools/chatgpt.md) / [Gemini](tools/gemini.md) | Now beat most dedicated writing tools for free-form prose |
 | [Lex](tools/lex.md) | AI-native long-form editor; clean writing UX |
 | [Grammarly](tools/grammarly.md) | Editor + GenAI; broad app coverage |
+| [ResumeAI](https://withresumeai.com/) | Free ATS resume checker (3/day anonymous, 10/day free) + State of ATS 2026 |
 | [Wordtune](tools/wordtune.md) | Rewriting and tone control |
 | [HyperWrite](tools/hyperwrite.md) | Personal writing assistant with browser agent |
 
