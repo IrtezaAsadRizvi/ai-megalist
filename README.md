@@ -430,6 +430,7 @@ Make things - words, images, video, sound.
 | [Captions](tools/captions.md) | Mobile-first AI video editor with avatars |
 | [Submagic](tools/submagic.md) | Auto-captions, B-roll, hooks |
 | [Klap](tools/klap.md) | Long → short clips with virality scoring |
+| [shortshort](tools/shortshort.md) | `Free` long video → 9:16 shorts cut on complete sentences; editor + MP4 export with no account |
 | [Topaz Video AI](tools/topaz_video.md) | Upscale / interpolate |
 | [HeyGen](tools/heygen.md) | AI avatars; multilingual lipsync |
 | [Synthesia](tools/synthesia.md) | Corporate avatar videos from scripts |
