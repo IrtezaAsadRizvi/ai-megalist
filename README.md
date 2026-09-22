@@ -410,6 +410,7 @@ Make things - words, images, video, sound.
 | [Seedance 2.0](tools/seedance.md) | ByteDance; strong motion in blind tests |
 | [Pika](tools/pika.md) | Fast iterations + Pikaffects |
 | [Luma Dream Machine](tools/luma.md) | Smooth camera moves |
+| [Magic Hour](https://magichour.ai/) | Multi-model image/video creation plus face swap, lip sync, and video-to-video |
 | [Hailuo (MiniMax)](tools/hailuo.md) | Generous `Free` tier; image-to-video |
 | [Higgsfield](tools/higgsfield.md) | Cinematic camera presets |
 | [Pixverse](tools/pixverse.md) | Anime / stylized motion |
