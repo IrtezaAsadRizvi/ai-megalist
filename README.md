@@ -777,6 +777,7 @@ Apps designed around long-running emotional / social interaction rather than pro
 | [Brisk Teaching](tools/brisk_teaching.md) | AI for teachers (lesson plans, feedback) |
 | [MagicSchool](tools/magicschool.md) | 80+ teacher tools (lesson plans, IEPs, rubrics, leveling) |
 | [Eightify](tools/eightify.md) | YouTube lecture summaries |
+| [SummarizAI](https://summarizai.ink) | YouTube lecture summary, chapters, chat, Study flashcards (Chrome; free for students) |
 
 <sub>[⤴ back to top](#top)</sub>
 
