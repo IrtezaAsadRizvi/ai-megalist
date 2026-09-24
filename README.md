@@ -452,6 +452,7 @@ Make things - words, images, video, sound.
 | [Sesame](tools/sesame.md) | Conversational Speech Model (Maya / Miles); past the uncanny line |
 | [Suno Bark](tools/suno_bark.md) | `OSS` TTS |
 | [CharaVox](tools/charavox.md) | Multilingual character voice generator + cloning (VoxCPM) |
+| [Speechify](tools/speechify.md) | Streaming TTS API (SIMBA 3.2) + voice cloning |
 
 #### Transcription & speech-to-text
 | Tool | Best for |
