@@ -517,6 +517,7 @@ Get the day's work done.
 | [Notion AI](tools/notion_ai.md) | AI inside the Notion workspace |
 | [Mem](tools/mem.md) | Self-organizing notes with persistent memory |
 | [Reflect](tools/reflect.md) | Networked notes with GPT-4o |
+| [Screenpipe](tools/screenpipe.md) | Recall locally captured screen text and audio history; MCP context for AI assistants (source-available) |
 | [Obsidian + Smart Connections](tools/obsidian.md) | `OSS` `Local` notes + AI plugins |
 | [Capacities](tools/capacities.md) | Object-based notes with AI |
 
