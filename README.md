@@ -559,6 +559,7 @@ General-purpose agents that can plan, browse, click, and execute multi-step work
 | [Smolagents](tools/smolagents.md) | `OSS` minimal agent framework (HF) |
 | [Letta](tools/letta.md) | `OSS` stateful agents with persistent memory (MemGPT) |
 | [Tree Ring Memory](tools/tree_ring_memory.md) | `OSS` `Local` memory lifecycle layer for agents; SQLite/FTS recall, audit, redaction, and consolidation |
+| [Mnemoverse](https://mnemoverse.com) | `Free` hosted memory for AI agents over MCP; re-ranks recall by whether a memory helped or misled; shared rooms; Claude, Cursor, VS Code, ChatGPT |
 | [MultiOn](tools/multion.md) | Browser agent + developer API (Agent Q) |
 | [Skyvern](tools/skyvern.md) | `OSS` vision-grounded browser automation |
 
