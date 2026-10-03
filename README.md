@@ -385,6 +385,7 @@ Make things - words, images, video, sound.
 | [ZeroTwo](tools/zerotwo.md) | Image hub - access FLUX / Imagen / Ideogram-style outputs and switch models in one app |
 | [Rao Edits](tools/rao_edits.md) | Browser-based text-to-image generation for creator and marketing visuals |
 | [Microsoft Designer](tools/microsoft_designer.md) | `Free` DALL·E access in a templated design app + Bing Image Creator |
+| [Tesla Wrap Generator](https://teslawrapgenerator.com/) | Prompt or photo to Tesla Paint Shop wraps, previewed on a 3D car |
 
 ### Image editing & object work
 
