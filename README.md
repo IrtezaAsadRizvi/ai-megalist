@@ -534,6 +534,7 @@ Get the day's work done.
 | [Motion](tools/motion.md) | Auto-schedules tasks into your calendar |
 | [Reclaim](tools/reclaim.md) | Defends focus time, syncs habits |
 | [Akiflow](tools/akiflow.md) | Task aggregator + time blocking |
+| [Tale](tools/tale.md) `OSS` | Shared tasks for people and AI agents, with reports and files to review |
 | [Todoist AI](tools/todoist.md) | Task suggestions + breakdowns |
 | [Tudo](tools/tudo.md) | AI task capture and personal planning |
 | [ChatPRD](tools/chatprd.md) | PRDs and product specs |
