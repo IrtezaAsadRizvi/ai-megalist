@@ -285,6 +285,7 @@ Long-form research with citations, multi-source synthesis, and document groundin
 | [Consensus](tools/consensus.md) | AI search across peer-reviewed papers |
 | [SciSpace](tools/scispace.md) | PDF chat, paper explanations |
 | [Explainpaper](tools/explainpaper.md) | Highlight a passage, get an explanation |
+| [Nujan](tools/nujan.md) | Dual-pane scientific paper reader with Socratic coaching and formula breakdowns |
 | [Undermind](tools/undermind.md) | Deep scientific search |
 | [STORM](tools/storm.md) | `OSS` Stanford project; Wikipedia-style articles from sources |
 | [ZeroTwo](tools/zerotwo.md) | Unified research hub; cited search + multiple frontier models in one thread |
