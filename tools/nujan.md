@@ -1,52 +1,47 @@
-# Nujan: dual-pane scientific paper reader with personalized paper recommendations, Socratic coaching, and multi-paper synthesis
+# Nujan: AI Research Partner for Reading Papers, Mastering New Fields & Discovering Literature
 
-Nujan sits in the academic literature discovery, PDF reading, and synthesis space alongside [Explainpaper](explainpaper.md), [SciSpace](scispace.md), [ResearchRabbit](researchrabbit.md), and [NotebookLM](notebooklm.md). It pairs a configurable **Research Profile** and **Personalized Paper Recommendation Engine** (indexing 250M+ works across OpenAlex, arXiv, bioRxiv, and medRxiv) with a full-scroll native PDF split reader, Zotero-style dark mode, Socratic Coach, and Sparring Partner.
+> Read papers side-by-side with AI · Get up to speed in any field with a First-Principles Coach · Receive personalized paper & topic recommendations from your Knowledge Profile · Analyze favorite conferences · Stress-test ideas & generate slide decks
 
-## What it actually is
+[![Read in Nujan](https://nujan.app/badge.svg)](https://nujan.app)
 
-A web workspace at [nujan.app](https://nujan.app) built for graduate students and researchers discovering and reading dense technical papers.
+**Website:** [https://nujan.app](https://nujan.app) · **Interactive Demo:** [https://nujan.app/demo](https://nujan.app/demo)
 
-* **Research Profile, Discovery Feed & Twice-Weekly Literature Digests.** Configure your Research Profile with your academic disciplines and active research topics, or let Nujan automatically infer and evolve your Knowledge Profile from the papers you read and your Socratic Coach sessions. Nujan continuously monitors OpenAlex (250M+ works), arXiv, bioRxiv, medRxiv, and OpenReview to populate your in-app Recommendation & Discovery Feed and send personalized Twice-Weekly (or Daily) Literature Digest emails with 1-click import.
-* **Split-screen PDF reader & direct arXiv URL swap.** Upload a local PDF (up to 100 MB), import via DOI/arXiv, or swap rxiv.org/abs/... to 
-ujan.app/abs/... on any preprint URL. Highlight any equation, algorithm block, or methodology paragraph on the PDF to ask questions in the side panel or branch into a 2D spatial knowledge graph.
-* **Zotero-style PDF dark mode.** Darkens the white PDF page sheet (#171717) while rotating figure and diagram hues back to true color so late-night reading does not cause eye strain.
-* **Socratic Coach & Sparring Partner.** Instead of just summarizing, Coach mode walks through mathematical derivations and prerequisite concepts step-by-step with checkpoints, while Sparring Partner mode stress-tests hypotheses, experimental designs, and missing baselines like a critical peer reviewer.
-* **Self-organizing library & slide decks.** Automatically renames uploaded PDFs to canonical publication titles, extracts concept tags, synthesizes multi-paper RAG comparisons, and exports Reveal.js, Marp, or LaTeX Beamer slide decks for journal clubs.
+---
 
-## Setup
+## Five High-Level Researcher Workflows & Their Cool Features
 
-1. Open [nujan.app](https://nujan.app). Ten pre-loaded landmark papers across subfields (Transformers, DDPMs, AlphaFold, Fourier Neural Operators, MACE force fields, LFADS neural dynamics, Double/Debiased ML, Diffusion Policy, Generative Agents, and Quantum error correction) run interactively in the browser without creating an account, or open any arXiv paper via 
-ujan.app/abs/<arxiv_id>.
-2. Sign in with Google or email to configure your Research Profile, receive personalized paper recommendations and twice-weekly literature digests, and save papers to your library (starts with complimentary welcome credits, no card required).
-3. Open any recommended or uploaded paper in the Split Reader, highlight any passage or equation, and choose Ask in Chat, Branch, or Note.
+### 1. Interactive Paper Reader & Smart Library (`/library`, `/abs/:id`)
+*Read dense papers faster, unpack math and methodology right next to the PDF, and synthesize findings across your entire reading collection.*
+- **Dual-Pane Split PDF Reader & Grounded Chat:** Read the full PDF on the left while chatting with an AI research assistant on the right that grounds every answer in exact page numbers (`[Page 4]`).
+- **Highlight-to-Ask & Line-Aligned Margin Notes:** Highlight any equation, theorem, or paragraph in the PDF to ask follow-up questions in place, or save persistent Margin Notes (`💬`, `📝`) anchored to the exact line of the PDF.
+- **Interactive Crop & Ask (Visual Figure & Equation Breakdown):** Draw a bounding box around any complex architecture diagram, table, or multi-line derivation to get an instant visual and mathematical breakdown.
+- **Authentic Extracted Figures Inline in Chat:** Embeds the actual cropped figures and tables from the paper directly inside the chat stream with a 1-click `[Jump to Page]` button.
+- **Synchronized Citation Deep-Linking & Zotero-Style PDF Dark Mode:** Click any inline bibliography reference (`[12]`) to inspect or import the cited paper, and toggle true-color PDF Dark Mode that eliminates white glare while preserving figure and plot colors.
+- **Instant `nujan.app/abs/...` URL Swap & Web Blog Import:** Replace `arxiv.org` with `nujan.app` in any paper URL (e.g., `https://nujan.app/abs/2006.11239`) to open it directly in the Split Reader, or import technical engineering blogs (Anthropic, Lil'Log, Distill) as citable PDFs.
+- **6-Part Structured Breakdown & Multi-Paper Synthesis:** Auto-organizes papers (`Author - Year - Title`) with a 6-part breakdown (`TL;DR`, `ELI5`, `Core Contributions`, `Methodology`, `Empirical Results`, `Limitations`), **Side-by-Side Comparison Matrices** (2 to 4 papers), and **Library-Wide RAG Chat**.
 
-## Pricing
+### 2. Research Coach to Get Up to Speed with Any Field (`/coach`)
+*Master unfamiliar research fields, bridge prerequisite gaps, and build deep intuition from first principles before or while diving into the literature.*
+- **Personalized 5-Step Socratic Curricula:** Enter any topic or select papers from your library, and the Coach builds a structured, step-by-step curriculum tailored to your background.
+- **Prerequisite Gap Tracing & Intuition-First Explanations:** Automatically identifies foundational concepts you need to know first, explaining plain-English intuition before introducing formal notation.
+- **Step-by-Step Mathematical Derivations & Diagrams:** Unpacks every variable, loss function, and proof step in clean KaTeX alongside interactive Mermaid architecture diagrams.
+- **2D Spatial Graph Chat (Branching Exploration):** Switch between `[ Linear Chat | Graph Chat ]` to branch off into side questions on specific sections or equations on an infinite 2D canvas without losing the main thread of your lesson.
+- **Concept Flashcards & Standalone Tutorial Book Export:** Automatically extracts key definitions and equations into flashcards and exports completed coaching sessions into Markdown or interactive HTML textbook chapters.
 
-* Free tier: includes starter credits on sign-up (no card), configurable Research Profile, personalized paper recommendations, twice-weekly literature digests, single PDF uploads, auto-renaming, auto-tagging, TL;DR extraction, and the in-app dark-mode PDF reader (up to 50 stored papers).
-* Pro (.99/month): 1,500 monthly credits, single-paper and library-wide RAG chat, batch uploads, citation exports, and paper-to-slide deck generation (up to 1,000 stored papers).
-* Pro+ (.99/month): 4,000 monthly credits, Socratic AI Coach, AI Sparring Partner, multi-paper slide decks, and conference intelligence (up to 5,000 stored papers).
+### 3. Living Knowledge Profile & Personalized Recommendations (`/profile`, `/knowledge-map`, `/discovery`)
+*Maintain an evolving model of what you know and what you are working on, so Nujan continuously recommends the right papers and topics to explore next.*
+- **Configurable & Auto-Evolving Research Profile:** Set your academic domains, subfields, and tracked keywords manually, while Nujan automatically updates your profile with concepts and topics learned from the papers you read and the Coach sessions you complete.
+- **Interactive 2D Knowledge Map:** Visualize your personal research brain as a force-directed graph connecting the **Papers** you have read, the **Core Concepts** you have mastered, and the **Datasets** and **Subfields** they share.
+- **3-Tier Personalized Paper & Topic Recommendations (250M+ Works):** Continuously searches OpenAlex, arXiv, bioRxiv, medRxiv, Semantic Scholar, and OpenReview using your Research Profile (anchoring Slot #1 to your latest Research Coach topic, Slot #2 to your latest Library paper, and remaining slots to foundational works and fresh preprints with a *"Why this matches your profile"* rationale).
+- **Twice-Weekly or Daily Literature Digests:** Curated email digests (Tuesday/Friday or Daily) tailored to your Knowledge Profile, with 1-click links to open any recommended paper directly in the Split Reader.
 
-## Where it fits day to day
+### 4. Analyzing Favorite Conferences & Research Frontiers (`/conferences`, `/datasets`)
+*Track flagship conferences and benchmark datasets in your field to see macro research trends and state-of-the-art shifts without drowning in thousands of accepted papers.*
+- **Favorite Conference Tracking:** Follow premier venues across domains (NeurIPS, ICML, ICLR, CVPR, ACL, EMNLP, KDD, MLSys, and domain symposiums) filtered through your Research Profile.
+- **Thematic Cluster Reports & Emerging Frontiers:** AI-synthesized macro reports grouping accepted conference papers into core methodological themes, emerging research directions, and contrarian findings.
+- **Automatic Benchmark & Dataset Extraction:** Extracts datasets, evaluation metrics, and baseline comparisons from papers to track how empirical state-of-the-art is evolving.
 
-* Discovering newly published preprints tailored to your Research Profile, recent Socratic Coach inquiries, and library papers via the Discovery Feed and Twice-Weekly Literature Digests.
-* Unpacking dense mathematical derivations, proofs, or methodology sections right next to the original two-column PDF without copy-pasting broken LaTeX into a separate chatbot tab.
-* Reading papers at night with true-color figures in PDF dark mode.
-* Entering an unfamiliar subfield using the Socratic Coach to build a prerequisite roadmap before reading a target paper.
-* Preparing a 10-minute weekly lab meeting or journal club presentation directly from a paper PDF.
-
-## Gotchas
-
-* **Web-first workflow.** There is no native iOS/Android app or offline desktop client yet; it runs in the browser.
-* **Credit-metered deep reasoning.** While paper recommendations, literature digests, PDF reading, dark mode, and metadata organization are free, multi-turn Socratic Coaching, Sparring, and RAG chat consume credits.
-* **Zotero two-way sync is not live yet.** You can export citations (BibTeX, APA, MLA, Chicago) and import PDFs/arXiv links, but automatic two-way Zotero collection syncing is still on the roadmap.
-
-## Alternatives
-
-* If you just want quick highlight-to-explain on a single passage without library organization, paper recommendations, or Socratic coaching, [Explainpaper](explainpaper.md) is simpler.
-* If you want automated systematic review screening tables across hundreds of clinical trials, [Elicit](elicit.md) and [SciSpace](scispace.md) focus heavily on tabular data extraction.
-* If you want to drop 10 PDFs into a notebook and generate an audio podcast overview for your commute, [NotebookLM](notebooklm.md) is the best fit.
-
-## Pointers
-
-* Web: [nujan.app](https://nujan.app)
-* Closest in shape: [explainpaper.md](explainpaper.md), [scispace.md](scispace.md), [notebooklm.md](notebooklm.md)
+### 5. Adversarial Peer-Review Sparring & Slide Deck Generation (`/sparring`, `/slides`)
+*Stress-test your own research ideas against simulated reviewers before submission, and turn papers or topics into presentation-ready slides in seconds.*
+- **Multi-Persona Adversarial Sparring Partner:** Critique a paper in your library or pitch your own draft methodology against 4 specialized reviewer personas (*Critical Reviewer #2*, *Methodological Skeptic*, *Mathematical Purist*, and *Empirical Hawk*) with Sparring Decision Memory.
+- **1-Click Journal Club & Lab Presentation Generator:** Turn any single paper, multi-paper collection, or Research Coach curriculum into a structured slide deck with speaker notes, exporting to **Live Interactive HTML (`Reveal.js`)**, **LaTeX Beamer (`.tex`)**, **Marp Markdown**, or **PDF**.
