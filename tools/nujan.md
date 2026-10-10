@@ -29,10 +29,10 @@
 - **Concept Flashcards & Standalone Tutorial Book Export:** Automatically extracts key definitions and equations into flashcards and exports completed coaching sessions into Markdown or interactive HTML textbook chapters.
 
 ### 3. Living Knowledge Profile & Personalized Recommendations (`/profile`, `/knowledge-map`, `/discovery`)
-*Maintain an evolving model of what you know and what you are working on, so Nujan continuously recommends the right papers and topics to explore next.*
-- **Configurable & Auto-Evolving Research Profile:** Set your academic domains, subfields, and tracked keywords manually, while Nujan automatically updates your profile with concepts and topics learned from the papers you read and the Coach sessions you complete.
-- **Interactive 2D Knowledge Map:** Visualize your personal research brain as a force-directed graph connecting the **Papers** you have read, the **Core Concepts** you have mastered, and the **Datasets** and **Subfields** they share.
-- **3-Tier Personalized Paper & Topic Recommendations (250M+ Works):** Continuously searches OpenAlex, arXiv, bioRxiv, medRxiv, Semantic Scholar, and OpenReview using your Research Profile (anchoring Slot #1 to your latest Research Coach topic, Slot #2 to your latest Library paper, and remaining slots to foundational works and fresh preprints with a *"Why this matches your profile"* rationale).
+*Start with zero papers (from a blank slate using only your research interests) or let your profile evolve automatically as you read and learn.*
+- **Start with Zero Papers via Your Research Profile:** You do not need an uploaded paper to start using Nujan. Select your academic domains, subfields (e.g., *Machine Learning*, *Oncology*, *Econometrics*), and tracked keywords in `/profile` to immediately get paper and topic recommendations from scratch, while Nujan also automatically updates your profile with concepts learned from the papers you read and the Coach sessions you complete.
+- **Interactive 2D Knowledge Map:** Visualize your personal research brain as a force-directed graph connecting the **Research Fields**, **Core Concepts**, **Papers**, and **Datasets** you explore.
+- **3-Tier Personalized Paper & Topic Recommendations (250M+ Works):** Continuously searches OpenAlex, arXiv, bioRxiv, medRxiv, Semantic Scholar, and OpenReview using your Research Profile to recommend reading lists and topics from scratch (and once you start using the Coach or Library, anchors Slot #1 to your latest Research Coach topic and Slot #2 to your latest Library paper, each with a *"Why this matches your profile"* rationale).
 - **Twice-Weekly or Daily Literature Digests:** Curated email digests (Tuesday/Friday or Daily) tailored to your Knowledge Profile, with 1-click links to open any recommended paper directly in the Split Reader.
 
 ### 4. Analyzing Favorite Conferences & Research Frontiers (`/conferences`, `/datasets`)
