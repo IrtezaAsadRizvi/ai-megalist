@@ -8,7 +8,7 @@ A TTS API with two current models. SIMBA 3.2 is the recommended English model; S
 
 ## Setup
 
-1. Sign up at [platform.speechify.ai](https://platform.speechify.ai). Free tier: 500K characters a month, no card.
+1. Sign up at [platform.speechify.ai](https://platform.speechify.ai/signup?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist). Free tier: 500K characters a month, no card.
 2. API key from the dashboard.
 3. Quick test:
    ```bash
@@ -45,7 +45,7 @@ A TTS API with two current models. SIMBA 3.2 is the recommended English model; S
 
 ### Is Speechify's API free?
 
-There is a free tier with 500K characters a month and no card. Paid plans start at $10 a month (1.9M characters included, then $10 per 1M) and the rate per 1M drops on Pro ($8) and Scale ($6). See [speechify.ai/pricing](https://speechify.ai/pricing).
+There is a free tier with 500K characters a month and no card. Paid plans start at $10 a month (1.9M characters included, then $10 per 1M) and the rate per 1M drops on Pro ($8) and Scale ($6). See [speechify.ai/pricing](https://speechify.ai/pricing?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist).
 
 ### Which model should I use?
 
@@ -57,8 +57,8 @@ Yes. Pitch, rate, volume, pauses, emphasis, and emotion presets through SSML tag
 
 ## Pointers
 
-* [speechify.ai](https://speechify.ai)
-* Docs: [docs.speechify.ai](https://docs.speechify.ai)
-* Pricing: [speechify.ai/pricing](https://speechify.ai/pricing)
+* [speechify.ai](https://speechify.ai?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist)
+* Docs: [docs.speechify.ai](https://docs.speechify.ai?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist)
+* Pricing: [speechify.ai/pricing](https://speechify.ai/pricing?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist)
 * For most polished TTS / cloning: [elevenlabs.md](elevenlabs.md).
 * For full voice agent infrastructure: pair with [livekit.md](livekit.md), Vapi, Retell.
