@@ -595,6 +595,7 @@ Connect apps and trigger AI in multi-step pipelines.
 | [Tome](tools/tome.md) | AI decks + sales narratives |
 | [Beautiful.ai](tools/beautiful_ai.md) | Smart slide templates |
 | [Recraft](tools/recraft.md) | Brand-consistent vector + raster |
+| [Kamply](https://kamplyapp.com) | Paid Mac app: a marketing crew builds on-brand posts, reels, ads + decks on your Claude Code / Codex plan |
 
 ### Data, analysis & spreadsheets
 
