@@ -562,6 +562,7 @@ General-purpose agents that can plan, browse, click, and execute multi-step work
 | [Tree Ring Memory](tools/tree_ring_memory.md) | `OSS` `Local` memory lifecycle layer for agents; SQLite/FTS recall, audit, redaction, and consolidation |
 | [MultiOn](tools/multion.md) | Browser agent + developer API (Agent Q) |
 | [Skyvern](tools/skyvern.md) | `OSS` vision-grounded browser automation |
+| [Drevon](https://www.drevon.dev) | `Free` Mac app that connects to your Claude Code or Codex and turns it into an end-to-end GTM operator: research, grunt work, analysis and actions across your stack from a single prompt, in your own browser with your own logins |
 
 ### Workflow automation
 
