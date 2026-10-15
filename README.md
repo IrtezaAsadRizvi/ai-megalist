@@ -360,6 +360,7 @@ Make things - words, images, video, sound.
 | [Sudowrite](tools/sudowrite.md) | Category leader for fiction (Story Engine, Canvas) |
 | [NovelCrafter](tools/novelcrafter.md) | Codex-style world-bibles + AI writing |
 | [NovelAI](tools/novelai.md) | AI storytelling with custom models |
+| [ImagineYourBook](https://www.imagineyourbook.com/) | Whole-book drafting from a brief, with series story bibles, Manuscript Rewrite, and EPUB/Word/Markdown export |
 
 ### Image generation
 
