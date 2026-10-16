@@ -393,6 +393,7 @@ Make things - words, images, video, sound.
 
 | Tool | Best for |
 | :-- | :-- |
+| [AI 만화 번역기](https://www.mangatranslate.com/ko/ai-manga-translator/) | Ficory LLC의 기업급 만화 리더는 지원하는 모든 번역 언어로 개인의 일괄·맞춤 번역을 처리하고, 스튜디오에 완전한 온라인 Photoshop 스타일 편집기를 제공하며, API로 개인 작업 흐름을 연결합니다. 무료 사용량과 유료 요금제를 제공합니다. |
 | [Photoshop Generative Fill](tools/photoshop_genfill.md) | Inpaint / outpaint via Firefly |
 | [Magnific](tools/magnific.md) | AI upscaling + relight |
 | [Topaz Photo AI](tools/topaz_photo.md) | Pro denoise / upscale |
