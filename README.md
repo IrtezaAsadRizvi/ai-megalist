@@ -285,6 +285,7 @@ Long-form research with citations, multi-source synthesis, and document groundin
 | [Consensus](tools/consensus.md) | AI search across peer-reviewed papers |
 | [SciSpace](tools/scispace.md) | PDF chat, paper explanations |
 | [Explainpaper](tools/explainpaper.md) | Highlight a passage, get an explanation |
+| [Nujan](tools/nujan.md) | Dual-pane scientific paper reader with Socratic coaching and formula breakdowns |
 | [Undermind](tools/undermind.md) | Deep scientific search |
 | [STORM](tools/storm.md) | `OSS` Stanford project; Wikipedia-style articles from sources |
 | [ZeroTwo](tools/zerotwo.md) | Unified research hub; cited search + multiple frontier models in one thread |
@@ -340,6 +341,7 @@ Make things - words, images, video, sound.
 | [Claude](tools/claude.md) / [ChatGPT](tools/chatgpt.md) / [Gemini](tools/gemini.md) | Now beat most dedicated writing tools for free-form prose |
 | [Lex](tools/lex.md) | AI-native long-form editor; clean writing UX |
 | [Grammarly](tools/grammarly.md) | Editor + GenAI; broad app coverage |
+| [Dearovo](https://www.dearovo.com/) | Relationship message writing with situation-aware tone and length controls |
 | [ResumeAI](https://withresumeai.com/) | Free ATS resume checker (3/day anonymous, 10/day free) + State of ATS 2026 |
 | [Wordtune](tools/wordtune.md) | Rewriting and tone control |
 | [HyperWrite](tools/hyperwrite.md) | Personal writing assistant with browser agent |
@@ -361,6 +363,7 @@ Make things - words, images, video, sound.
 | [NovelCrafter](tools/novelcrafter.md) | Codex-style world-bibles + AI writing |
 | [NovelAI](tools/novelai.md) | AI storytelling with custom models |
 | [kdpbook.io](https://kdpbook.io) | Describe a book in chat, get Amazon KDP-ready print PDF, full-wrap cover and Kindle EPUB |
+| [ImagineYourBook](https://www.imagineyourbook.com/) | Whole-book drafting from a brief, with series story bibles, Manuscript Rewrite, and EPUB/Word/Markdown export |
 
 ### Image generation
 
@@ -560,8 +563,10 @@ General-purpose agents that can plan, browse, click, and execute multi-step work
 | [Smolagents](tools/smolagents.md) | `OSS` minimal agent framework (HF) |
 | [Letta](tools/letta.md) | `OSS` stateful agents with persistent memory (MemGPT) |
 | [Tree Ring Memory](tools/tree_ring_memory.md) | `OSS` `Local` memory lifecycle layer for agents; SQLite/FTS recall, audit, redaction, and consolidation |
+| [Mnemoverse](https://mnemoverse.com) | `Free` hosted memory for AI agents over MCP; re-ranks recall by whether a memory helped or misled; shared rooms; Claude, Cursor, VS Code, ChatGPT |
 | [MultiOn](tools/multion.md) | Browser agent + developer API (Agent Q) |
 | [Skyvern](tools/skyvern.md) | `OSS` vision-grounded browser automation |
+| [Drevon](https://www.drevon.dev) | `Free` Mac app that connects to your Claude Code or Codex and turns it into an end-to-end GTM operator: research, grunt work, analysis and actions across your stack from a single prompt, in your own browser with your own logins |
 
 ### Workflow automation
 
@@ -595,6 +600,7 @@ Connect apps and trigger AI in multi-step pipelines.
 | [Tome](tools/tome.md) | AI decks + sales narratives |
 | [Beautiful.ai](tools/beautiful_ai.md) | Smart slide templates |
 | [Recraft](tools/recraft.md) | Brand-consistent vector + raster |
+| [Kamply](https://kamplyapp.com) | Paid Mac app: a marketing crew builds on-brand posts, reels, ads + decks on your Claude Code / Codex plan |
 
 ### Data, analysis & spreadsheets
 
