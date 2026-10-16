@@ -564,6 +564,7 @@ General-purpose agents that can plan, browse, click, and execute multi-step work
 | [Letta](tools/letta.md) | `OSS` stateful agents with persistent memory (MemGPT) |
 | [Tree Ring Memory](tools/tree_ring_memory.md) | `OSS` `Local` memory lifecycle layer for agents; SQLite/FTS recall, audit, redaction, and consolidation |
 | [Mnemoverse](https://mnemoverse.com) | `Free` hosted memory for AI agents over MCP; re-ranks recall by whether a memory helped or misled; shared rooms; Claude, Cursor, VS Code, ChatGPT |
+| [Aident Loadout](https://aident.ai) | Connect Claude Code, Codex, Cursor and other MCP clients to your apps and 400+ Skills through one remote MCP server; credentials stay in a vault, per-action cost preflight and audit log; pay-as-you-go |
 | [MultiOn](tools/multion.md) | Browser agent + developer API (Agent Q) |
 | [Skyvern](tools/skyvern.md) | `OSS` vision-grounded browser automation |
 | [Drevon](https://www.drevon.dev) | `Free` Mac app that connects to your Claude Code or Codex and turns it into an end-to-end GTM operator: research, grunt work, analysis and actions across your stack from a single prompt, in your own browser with your own logins |
