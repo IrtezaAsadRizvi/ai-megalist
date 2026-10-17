@@ -696,6 +696,7 @@ For the people writing software, training models, or shipping products.
 | [Bubble](tools/bubble.md) | No-code with AI assist |
 | [Webflow + AI](tools/webflow.md) | AI features in a designer-grade web builder |
 | [Framer](tools/framer.md) | AI sites with strong design defaults |
+| [Massvai](https://massvai.com/) | Prompt to full-stack Next.js + Supabase app with exportable code and one-click Vercel deploy |
 
 ### Local & open-source model runners
 
