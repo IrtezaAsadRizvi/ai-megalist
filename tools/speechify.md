@@ -4,7 +4,7 @@ Speechify sits in the voice cluster alongside [ElevenLabs](elevenlabs.md), [Play
 
 ## What it actually is
 
-A TTS API with two current models. SIMBA 3.2 is the recommended English model; SIMBA 3.0 covers English plus German, Spanish, French, Italian and Brazilian Portuguese. Streaming endpoint (up to 20,000 characters per request), SSML with emotion tags, word level timestamps, and voice cloning from a 10 to 30 second sample on paid plans. Official SDKs for Python and TypeScript.
+A TTS API whose latest model is SIMBA 3.5 (`simba-3.5`): 48 languages under one model id, working with every voice, and the first Speechify model with pronunciation support. SIMBA 3.2 is the English only model, and SIMBA 3.0 covers English plus German, Spanish, French, Italian and Brazilian Portuguese. Streaming endpoint (up to 20,000 characters per request), SSML with emotion tags, word level timestamps, and voice cloning from a 10 to 30 second sample on paid plans. Official SDKs for Python and TypeScript.
 
 ## Setup
 
@@ -16,7 +16,7 @@ A TTS API with two current models. SIMBA 3.2 is the recommended English model; S
      -H "Authorization: Bearer $SPEECHIFY_API_KEY" \
      -H "Accept: audio/mpeg" \
      -H "Content-Type: application/json" \
-     -d '{"input": "Hello world", "voice_id": "geffen_32", "model": "simba-3.2"}' \
+     -d '{"input": "Hello world", "voice_id": "geffen_32", "model": "simba-3.5"}' \
      --output out.mp3
    ```
 4. SDKs: `pip install speechify-api` or `npm install @speechify/api`. Both read `SPEECHIFY_API_KEY` from the environment.
@@ -30,9 +30,10 @@ A TTS API with two current models. SIMBA 3.2 is the recommended English model; S
 
 ## Gotchas
 
-* SIMBA 3.2 is English only. For other languages use SIMBA 3.0, which officially supports six.
+* If you leave `model` out, the API still defaults to `simba-3.0`, so set `simba-3.5` yourself. Pass `language` when the text is not in the voice's own language.
+* SIMBA 3.2 is English only and refuses non-English voices.
 * Voice cloning needs a verified consent recording from the speaker, not just a sample.
-* The old Simba 1.6 model ids (`simba-english`, `simba-multilingual`) are being retired; use `simba-3.2` or `simba-3.0` in new code.
+* The old Simba 1.6 model ids (`simba-english`, `simba-multilingual`) are being retired; use `simba-3.5` in new code.
 * Search results often mix up the API (speechify.ai) with the consumer app (speechify.com). Docs live at docs.speechify.ai.
 
 ## Alternatives
@@ -45,11 +46,11 @@ A TTS API with two current models. SIMBA 3.2 is the recommended English model; S
 
 ### Is Speechify's API free?
 
-There is a free tier with 500K characters a month and no card. Paid plans start at $10 a month (1.9M characters included, then $10 per 1M) and the rate per 1M drops on Pro ($8) and Scale ($6). See [speechify.ai/pricing](https://speechify.ai/pricing?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist).
+There is a free tier with 500K characters a month and no card. Paid plans start at $10 a month (1.9M characters included, then $10 per 1M) and the rate per 1M drops on Pro ($8) and Scale ($6). Those are the SIMBA 3.0 and 3.2 rates. SIMBA 3.5 is billed at the same rates until 21 Nov 2026 and lists at twice that after. See [speechify.ai/pricing](https://speechify.ai/pricing?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist).
 
 ### Which model should I use?
 
-`simba-3.2` for English, `simba-3.0` for the other supported languages. Both stream and both support cloned voices.
+`simba-3.5`. It is the latest, covers 48 languages including English, and works with every voice. Use `simba-3.2` only if you want the English only model. All of them stream and support cloned voices.
 
 ### Does it support SSML?
 
