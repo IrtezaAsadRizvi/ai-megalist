@@ -8,7 +8,7 @@ A TTS API whose latest model is SIMBA 3.5 (`simba-3.5`): 48 languages under one 
 
 ## Setup
 
-1. Sign up at [platform.speechify.ai](https://platform.speechify.ai/signup?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist). Free tier: 500K characters a month, no card.
+1. Sign up at [platform.speechify.ai](https://platform.speechify.ai/signup?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist). There is a free tier, no card.
 2. API key from the dashboard.
 3. Quick test:
    ```bash
@@ -46,7 +46,7 @@ A TTS API whose latest model is SIMBA 3.5 (`simba-3.5`): 48 languages under one 
 
 ### Is Speechify's API free?
 
-There is a free tier with 500K characters a month and no card. Paid plans start at $10 a month (1.9M characters included, then $10 per 1M) and the rate per 1M drops on Pro ($8) and Scale ($6). Those are the SIMBA 3.0 and 3.2 rates. SIMBA 3.5 is billed at the same rates until 21 Nov 2026 and lists at twice that after. See [speechify.ai/pricing](https://speechify.ai/pricing?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist).
+There is a free tier with no card. Paid plans bill per 1M characters. SIMBA 3.5 lists at $20 per 1M on Starter ($16 on Pro and $12 on Scale). SIMBA 3.0 and 3.2 are $10 on Starter ($8 on Pro and $6 on Scale). See [speechify.ai/pricing](https://speechify.ai/pricing?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist).
 
 ### Which model should I use?
 
