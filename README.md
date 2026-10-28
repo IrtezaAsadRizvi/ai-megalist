@@ -471,6 +471,7 @@ Make things - words, images, video, sound.
 | :-- | :-- |
 | [Vapi](tools/vapi.md) · [Retell](tools/retell.md) · [Bland](https://www.bland.ai) | Build phone-call voice agents |
 | [Hermes](https://www.buildwithhermes.com) | White-label platform for agencies running client voice agents (CRM + campaigns built in) |
+| [SwiftCall](https://swiftcall.org/ai-agents) | Done-for-you phone agent for small businesses, with booking, CRM follow-up and back-office agents built around it |
 | [LiveKit Agents](tools/livekit.md) | `OSS` voice agent framework |
 
 ### Music generation
