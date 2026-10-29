@@ -456,6 +456,7 @@ Make things - words, images, video, sound.
 | [Sesame](tools/sesame.md) | Conversational Speech Model (Maya / Miles); past the uncanny line |
 | [Suno Bark](tools/suno_bark.md) | `OSS` TTS |
 | [CharaVox](tools/charavox.md) | Multilingual character voice generator + cloning (VoxCPM) |
+| [SuperClonica](https://superclonica.com/) | Character and narrator voices for Supertonic 3 in 31 languages; free offline `OSS` engine (Apache-2.0) and a free API tier |
 
 #### Transcription & speech-to-text
 | Tool | Best for |
