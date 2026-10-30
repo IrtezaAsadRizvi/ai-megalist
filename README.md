@@ -441,6 +441,7 @@ Make things - words, images, video, sound.
 | [HeyGen](tools/heygen.md) | AI avatars; multilingual lipsync |
 | [Synthesia](tools/synthesia.md) | Corporate avatar videos from scripts |
 | [Tavus](tools/tavus.md) | Personalized AI video at scale |
+| [VoxSail](https://voxsail.com/en/) | Localize uploaded video/audio with AI dubbing and editable translated subtitles; paid plans, one-time starter credits |
 
 ### Voice & speech
 
