@@ -372,6 +372,7 @@ Make things - words, images, video, sound.
 | [GPT Image / DALL·E in ChatGPT](tools/chatgpt.md) | Best prompt comprehension and text rendering in chat |
 | [Google Imagen / Gemini](tools/gemini.md) | Photorealism + integrated editing |
 | [Nano Banana Pro](https://nanobananaproai.pro) | `Free` Free AI image generator on Google Gemini 3 Pro Image; 4K output, strong text rendering, character consistency |
+| [PromptImage](https://promptimage.cloud) | `Free` Freemium AI image & video studio with prompt library; signup credits, no card required |
 
 | [FLUX](tools/flux.md) | Pro / Dev / Schnell; best $/image for photoreal |
 | [Stable Diffusion](tools/stable_diffusion.md) | `OSS` `Local`; the entire ecosystem (LoRAs, ControlNet) |
@@ -422,6 +423,13 @@ Make things - words, images, video, sound.
 | [HunyuanVideo](tools/hunyuan_video.md) | `OSS` Tencent's 13B video model; ComfyUI / LoRA-friendly |
 | [Wan 2.x](tools/wan.md) | `OSS` Alibaba; Apache 2.0; strong motion at small + big sizes |
 | [Gemini Omni](https://gemini-omni.pro) | `Free` Google omni-modal model; text, image, video & audio in one prompt; native audio sync; free 720p |
+| [GrokVideo Studio](https://grokvideogenerator.dev) | Independent text/image-to-video via Grok Imagine API (not affiliated with xAI/X); `Free` trial credits |
+| [Alors On Danse Video Maker](https://alorsondansevideo.com) | Independent AI: two photos → 13s studio dance video (Paid; not affiliated with Stromae/TikTok) |
+| [Bad Times AI](https://badtimesai.dev) | Independent AI dance effect: one photo → 14–15s portrait dance video (Paid from $7.99) |
+| [I Found You in the Crowd AI](https://ifoundyouinthecrowdai.com) | Independent AI scene effect: two photos → balcony/spotlight meeting video (Paid from $7.99) |
+| [KDA Firestarter AI Dance](https://kdafirestarterai.dev) | Independent AI scene effect: two photos → balcony/spotlight meeting video (Paid from $7.99) |
+| [A2O LITE NEON AI Dance](https://a2oliteai.org) | Independent AI scene effect: two photos → balcony/spotlight meeting video (Paid from $7.99) |
+| [dime dime baby ai](https://dimedimebabyai.dev) | Independent AI scene effect: two photos → balcony/spotlight meeting video (Paid from $7.99) |
 
 > ⚠️ **Heads up (April 2026):** OpenAI's Sora consumer apps shut down on **2026-04-26**; the API follows on **2026-09-24**.
 
