@@ -345,6 +345,7 @@ Make things - words, images, video, sound.
 | [ResumeAI](https://withresumeai.com/) | Free ATS resume checker (3/day anonymous, 10/day free) + State of ATS 2026 |
 | [Wordtune](tools/wordtune.md) | Rewriting and tone control |
 | [HyperWrite](tools/hyperwrite.md) | Personal writing assistant with browser agent |
+| [Coda One](https://www.codaone.ai/) | Free AI detector with no daily limit and no signup, plus an AI humanizer, rewriter and grammar checker |
 
 #### Marketing / brand voice / SEO
 | Tool | Best for |
