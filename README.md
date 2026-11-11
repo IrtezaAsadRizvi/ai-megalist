@@ -289,6 +289,7 @@ Long-form research with citations, multi-source synthesis, and document groundin
 | [Undermind](tools/undermind.md) | Deep scientific search |
 | [STORM](tools/storm.md) | `OSS` Stanford project; Wikipedia-style articles from sources |
 | [ZeroTwo](tools/zerotwo.md) | Unified research hub; cited search + multiple frontier models in one thread |
+| [DisconfirmAI](tools/disconfirmai.md) | Investment research that shows the evidence against a stock idea before you commit |
 
 ### AI search engines
 
