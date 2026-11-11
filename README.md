@@ -490,6 +490,7 @@ Make things - words, images, video, sound.
 | [Hermes](https://www.buildwithhermes.com) | White-label platform for agencies running client voice agents (CRM + campaigns built in) |
 | [LiveKit Agents](tools/livekit.md) | `OSS` voice agent framework |
 | [PlaceCall](https://voygr.tech/placecall/) | Hand an agent a phone task: it calls US businesses for bookings, appointments or quotes (REST API, MCP server or agent skill) and reports back the outcome and transcript |
+| [Workforce Wave](https://www.workforcewave.com) | AI voice receptionist for SMBs; answers calls 24/7, books appointments, captures leads |
 
 ### Music generation
 
