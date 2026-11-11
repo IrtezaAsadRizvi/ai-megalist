@@ -607,6 +607,7 @@ Connect apps and trigger AI in multi-step pipelines.
 | [Beautiful.ai](tools/beautiful_ai.md) | Smart slide templates |
 | [Recraft](tools/recraft.md) | Brand-consistent vector + raster |
 | [Kamply](https://kamplyapp.com) | Paid Mac app: a marketing crew builds on-brand posts, reels, ads + decks on your Claude Code / Codex plan |
+| [APPLORE](https://applore.app/ai-app-icon-generator) | `Free` AI app icon generator + a reference library of 18,000+ real App Store / Google Play icons; free icon size exporter and App Store screenshot maker |
 
 ### Data, analysis & spreadsheets
 
