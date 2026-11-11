@@ -479,6 +479,7 @@ Make things - words, images, video, sound.
 | [Otter](tools/otter.md) | Live transcription + meeting notes |
 | [Echo99](tools/echo99.md) | `Free` `Local`; macOS call recorder with separate tracks + speaker labels |
 | [VoiceVibe](https://voicevibe.ai/) | An AI voice assistant you can use anywhere on your computer. |
+| [Yap](https://yapapp.cc) | `Local`; on-device dictation for Mac and Windows that types into any app, including terminals and AI coding agents |
 
 #### Real-time conversation & voice agents
 | Tool | Best for |
