@@ -439,6 +439,7 @@ Make things - words, images, video, sound.
 | [Opus Clip](tools/opus_clip.md) | Long video → viral short clips, auto-captioned |
 | [Captions](tools/captions.md) | Mobile-first AI video editor with avatars |
 | [Submagic](tools/submagic.md) | Auto-captions, B-roll, hooks |
+| [Burncaps](tools/burncaps.md) | `Free` word-by-word captions burned in, or a long recording's best clips cut to 9:16, inside the browser; the video is never uploaded |
 | [Klap](tools/klap.md) | Long → short clips with virality scoring |
 | [shortshort](tools/shortshort.md) | `Free` long video → 9:16 shorts cut on complete sentences; editor + MP4 export with no account |
 | [Topaz Video AI](tools/topaz_video.md) | Upscale / interpolate |
