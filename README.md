@@ -572,6 +572,7 @@ General-purpose agents that can plan, browse, click, and execute multi-step work
 | [MultiOn](tools/multion.md) | Browser agent + developer API (Agent Q) |
 | [Skyvern](tools/skyvern.md) | `OSS` vision-grounded browser automation |
 | [Drevon](https://www.drevon.dev) | `Free` Mac app that connects to your Claude Code or Codex and turns it into an end-to-end GTM operator: research, grunt work, analysis and actions across your stack from a single prompt, in your own browser with your own logins |
+| [NeverApply](https://neverapply.co) | `Free` tier; AI job-search agent that matches jobs, tailors your resume, answers screening questions and applies with your approval; hosted MCP server for Claude, Cursor and other clients |
 
 ### Workflow automation
 
