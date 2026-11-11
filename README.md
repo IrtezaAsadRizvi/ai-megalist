@@ -290,6 +290,7 @@ Long-form research with citations, multi-source synthesis, and document groundin
 | [STORM](tools/storm.md) | `OSS` Stanford project; Wikipedia-style articles from sources |
 | [ZeroTwo](tools/zerotwo.md) | Unified research hub; cited search + multiple frontier models in one thread |
 | [DisconfirmAI](tools/disconfirmai.md) | Investment research that shows the evidence against a stock idea before you commit |
+| [Pulse](https://pulsecorp.co) | AI-moderated customer interviews for market research |
 
 ### AI search engines
 
