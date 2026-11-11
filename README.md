@@ -493,6 +493,12 @@ Make things - words, images, video, sound.
 | [AIVA](tools/aiva.md) | Soundtracks / film scoring |
 | [Endel](tools/endel.md) | Adaptive focus / ambient soundscapes |
 
+### Stem separation & practice
+
+| Tool | Best for |
+| :-- | :-- |
+| [Vocal Separator](https://vocalseparator.com/) | `Free` tier; vocal or four-stem separation with WAV downloads, loops, tempo and pitch controls for practice |
+
 <sub>[⤴ back to top](#top)</sub>
 
 ---
