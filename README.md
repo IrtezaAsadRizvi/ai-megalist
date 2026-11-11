@@ -578,6 +578,7 @@ General-purpose agents that can plan, browse, click, and execute multi-step work
 | [LangGraph](tools/langgraph.md) | `OSS` stateful agent graphs |
 | [Smolagents](tools/smolagents.md) | `OSS` minimal agent framework (HF) |
 | [Letta](tools/letta.md) | `OSS` stateful agents with persistent memory (MemGPT) |
+| [Orkas](https://github.com/Orkas-AI/Orkas) | `OSS` `Local` desktop AI workforce; one Commander coordinates specialist agents |
 | [Tree Ring Memory](tools/tree_ring_memory.md) | `OSS` `Local` memory lifecycle layer for agents; SQLite/FTS recall, audit, redaction, and consolidation |
 | [Mnemoverse](https://mnemoverse.com) | `Free` hosted memory for AI agents over MCP; re-ranks recall by whether a memory helped or misled; shared rooms; Claude, Cursor, VS Code, ChatGPT |
 | [Aident Loadout](https://aident.ai) | Connect Claude Code, Codex, Cursor and other MCP clients to your apps and 400+ Skills through one remote MCP server; credentials stay in a vault, per-action cost preflight and audit log; pay-as-you-go |
