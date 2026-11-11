@@ -431,6 +431,7 @@ Make things - words, images, video, sound.
 | [RefVid](https://refvid.com) | Same product label or character face across clips, from 1-10 reference photos; 9 models, Kling 4 default |
 | [VidGen Studio](https://vidgen.studio/) | Multi-scene stories: direct a 3D storyboard in plain words, then film approved scenes with Veo 3.1, Kling or Seedance |
 | [Seedance Now](https://seedancenow.com/) | Multi-model text/image-to-video (Seedance 2.5, Kling 4.0, Wan 3.0) in one web app, up to 30s at 1080p |
+| [Rhyvello](https://ai-rap-video-maker.com/) | Paid credits; turns 1–2 photos into a short AI rap video for TikTok/Reels/Shorts |
 
 > ⚠️ **Heads up (April 2026):** OpenAI's Sora consumer apps shut down on **2026-04-26**; the API follows on **2026-09-24**.
 
@@ -452,6 +453,7 @@ Make things - words, images, video, sound.
 | [Synthesia](tools/synthesia.md) | Corporate avatar videos from scripts |
 | [Tavus](tools/tavus.md) | Personalized AI video at scale |
 | [VoxSail](https://voxsail.com/en/) | Localize uploaded video/audio with AI dubbing and editable translated subtitles; paid plans, one-time starter credits |
+| [Genjutsu AI](https://genjutsuai.dev/) | Freemium; browser video editor that restyles any video from reference photos (outfit/character swap) |
 
 ### Voice & speech
 
