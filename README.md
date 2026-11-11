@@ -774,6 +774,7 @@ Apps designed around long-running emotional / social interaction rather than pro
 | [Kindroid](tools/kindroid.md) | Lifelike personalities, in-app social feed |
 | [Pi (Inflection)](tools/pi.md) | Calmer, conversational tone |
 | [Talkie](tools/talkie.md) | Mobile-first roleplay |
+| [Prelulu](https://prelulu.ai/ai-video-chat) | `Free` tier; real-time AI video call and AI video chat with characters on a live face you can interrupt; AI roleplay stories; make your own character with a face, voice and memory |
 
 ### Education & learning
 
