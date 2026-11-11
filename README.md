@@ -301,6 +301,7 @@ Long-form research with citations, multi-source synthesis, and document groundin
 | [Phind](tools/phind.md) | Tuned for developers; indexes docs / GitHub / SO |
 | [Kagi](tools/kagi.md) | Paid, ad-free; FastGPT, Assistant, Universal Summarizer |
 | [Exa](tools/exa.md) | Neural search API; finds source content not just SEO pages |
+| [Firecrawl](tools/firecrawl.md) | Search, scrape and crawl the web into clean Markdown for AI agents |
 | [Tavily](tools/tavily.md) | Search API for agents and RAG |
 | [Andi](tools/andi.md) | Conversational answer-first search |
 | [Brave Search + Leo](tools/brave_search.md) | Privacy-first; built-in AI summaries |
