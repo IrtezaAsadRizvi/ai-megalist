@@ -433,6 +433,7 @@ Make things - words, images, video, sound.
 | [VidGen Studio](https://vidgen.studio/) | Multi-scene stories: direct a 3D storyboard in plain words, then film approved scenes with Veo 3.1, Kling or Seedance |
 | [Seedance Now](https://seedancenow.com/) | Multi-model text/image-to-video (Seedance 2.5, Kling 4.0, Wan 3.0) in one web app, up to 30s at 1080p |
 | [Rhyvello](https://ai-rap-video-maker.com/) | Paid credits; turns 1–2 photos into a short AI rap video for TikTok/Reels/Shorts |
+| [Sora2 Hub](https://sora2hub.org/) | Many video + image models (Veo 3.1, Kling, Seedance, Hailuo, Wan) in one credit-based studio |
 
 > ⚠️ **Heads up (April 2026):** OpenAI's Sora consumer apps shut down on **2026-04-26**; the API follows on **2026-09-24**.
 
