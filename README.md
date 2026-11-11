@@ -429,6 +429,7 @@ Make things - words, images, video, sound.
 | [Wan 2.x](tools/wan.md) | `OSS` Alibaba; Apache 2.0; strong motion at small + big sizes |
 | [Gemini Omni](https://gemini-omni.pro) | `Free` Google omni-modal model; text, image, video & audio in one prompt; native audio sync; free 720p |
 | [RefVid](https://refvid.com) | Same product label or character face across clips, from 1-10 reference photos; 9 models, Kling 4 default |
+| [VidGen Studio](https://vidgen.studio/) | Multi-scene stories: direct a 3D storyboard in plain words, then film approved scenes with Veo 3.1, Kling or Seedance |
 
 > ⚠️ **Heads up (April 2026):** OpenAI's Sora consumer apps shut down on **2026-04-26**; the API follows on **2026-09-24**.
 
