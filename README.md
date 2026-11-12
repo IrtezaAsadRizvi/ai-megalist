@@ -431,6 +431,7 @@ Make things - words, images, video, sound.
 | [Gemini Omni](https://gemini-omni.pro) | `Free` Google omni-modal model; text, image, video & audio in one prompt; native audio sync; free 720p |
 | [RefVid](https://refvid.com) | Same product label or character face across clips, from 1-10 reference photos; 9 models, Kling 4 default |
 | [VidGen Studio](https://vidgen.studio/) | Multi-scene stories: direct a 3D storyboard in plain words, then film approved scenes with Veo 3.1, Kling or Seedance |
+| [Vidney](https://vidney.ai/) | AI image and video generation from text prompts or uploaded photos. |
 | [Seedance Now](https://seedancenow.com/) | Multi-model text/image-to-video (Seedance 2.5, Kling 4.0, Wan 3.0) in one web app, up to 30s at 1080p |
 | [Rhyvello](https://ai-rap-video-maker.com/) | Paid credits; turns 1–2 photos into a short AI rap video for TikTok/Reels/Shorts |
 | [Sora2 Hub](https://sora2hub.org/) | Many video + image models (Veo 3.1, Kling, Seedance, Hailuo, Wan) in one credit-based studio |
