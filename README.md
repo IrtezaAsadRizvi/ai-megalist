@@ -822,6 +822,7 @@ Apps designed around long-running emotional / social interaction rather than pro
 | [MagicSchool](tools/magicschool.md) | 80+ teacher tools (lesson plans, IEPs, rubrics, leveling) |
 | [Eightify](tools/eightify.md) | YouTube lecture summaries |
 | [SummarizAI](https://summarizai.ink) | YouTube lecture summary, chapters, chat, Study flashcards (Chrome; free for students) |
+| [Glasp](https://glasp.co/) | YouTube transcripts with AI summaries, plus web and PDF highlights that export to Notion and Obsidian |
 
 <sub>[⤴ back to top](#top)</sub>
 
