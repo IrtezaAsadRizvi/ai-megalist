@@ -483,6 +483,7 @@ Make things - words, images, video, sound.
 | [Echo99](tools/echo99.md) | `Free` `Local`; macOS call recorder with separate tracks + speaker labels |
 | [VoiceVibe](https://voicevibe.ai/) | An AI voice assistant you can use anywhere on your computer. |
 | [Yap](https://yapapp.cc) | `Local`; on-device dictation for Mac and Windows that types into any app, including terminals and AI coding agents |
+| [Transcribe Video: To The Text](https://video2text.ttt.so) | iPhone app: video/audio files, YouTube/Vimeo links or live voice → editable transcript with speaker split, summary and TXT/DOCX export |
 
 #### Real-time conversation & voice agents
 | Tool | Best for |
