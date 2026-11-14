@@ -505,6 +505,7 @@ Make things - words, images, video, sound.
 | [Stable Audio](tools/stable_audio.md) | Stability's audio model |
 | [AIVA](tools/aiva.md) | Soundtracks / film scoring |
 | [Endel](tools/endel.md) | Adaptive focus / ambient soundscapes |
+| [Is This Song AI](https://isthissongai.app/) | `Free` Checks if a track was made with Suno, Udio or another AI music generator, from a Spotify, Apple Music, Deezer or YouTube link or an upload; Likely AI / Unclear / Likely human with reasons, 5 a day without an account |
 
 ### Stem separation & practice
 
