@@ -456,6 +456,7 @@ Make things - words, images, video, sound.
 | [Tavus](tools/tavus.md) | Personalized AI video at scale |
 | [VoxSail](https://voxsail.com/en/) | Localize uploaded video/audio with AI dubbing and editable translated subtitles; paid plans, one-time starter credits |
 | [Genjutsu AI](https://genjutsuai.dev/) | Freemium; browser video editor that restyles any video from reference photos (outfit/character swap) |
+| [GetYouTubeTranscript](https://getyoutubetranscript.com) | Paste a YouTube link, get the transcript with timestamps and export SRT, VTT, JSON, CSV, Markdown or TXT; free account with 100 credits (one-time), paid plans from $5/month |
 
 ### Voice & speech
 
