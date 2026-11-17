@@ -269,6 +269,7 @@ Conversational generalists - your daily-driver chat. Most now support memory, fi
 | [ZeroTwo](tools/zerotwo.md) | All-in-one hub: chat + research + image + video behind one subscription |
 | [Poe](tools/poe.md) | Quora's multi-model app; one subscription across Claude / GPT / Gemini / etc |
 | [Cohere Coral](tools/cohere.md) | Enterprise-focused Command family; strong RAG + citations |
+| [unbottled.ai](tools/unbottled.md) | 120+ chat models (mainstream, open and uncensored) plus image, video and music on one credit balance; OpenAI + Anthropic compatible API; `OSS` |
 
 ### Research & deep research
 
