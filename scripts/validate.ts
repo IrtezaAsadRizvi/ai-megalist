@@ -6,7 +6,8 @@
  * Exits 1 on any error. Warnings are printed but don't fail.
  * Rule settings (phrase list, word limit, tags) live in validate.config.ts.
  */
-import { existsSync } from 'node:fs';
+import { existsSync, readdirSync } from 'node:fs';
+import { basename, dirname } from 'node:path';
 import { z } from 'zod';
 import { CATEGORIES_PATH, loadRaw, TOOLS_PATH } from './lib/data.ts';
 import {
@@ -102,7 +103,7 @@ export function validate(): { errors: string[]; warnings: string[] } {
 
   for (const t of tools.data) {
     if (t.added_via === 'owner' && t.pr) warnings.push(`${t.name}: has pr but added_via is owner`);
-    if (t.writeup && !existsSync(t.writeup)) errors.push(`${t.name}: writeup ${t.writeup} does not exist`);
+    if (t.writeup && !existsExact(t.writeup)) errors.push(`${t.name}: writeup ${t.writeup} does not exist (names are case-sensitive on GitHub)`);
     const cat = catById.get(t.category);
     if (cat && cat.cluster !== t.cluster) errors.push(`${t.name}: cluster "${t.cluster}" but category "${t.category}" is in "${cat.cluster}"`);
     for (const l of [t, ...(t.also_listed ?? [])]) checkListing(t, l);
@@ -129,6 +130,11 @@ export function validate(): { errors: string[]; warnings: string[] } {
   }
 
   return { errors, warnings };
+}
+
+/** existsSync is case-insensitive on macOS; GitHub is not. Compare the real name. */
+function existsExact(path: string): boolean {
+  return existsSync(path) && readdirSync(dirname(path)).includes(basename(path));
 }
 
 function dupes(values: string[], report: (v: string) => void) {
