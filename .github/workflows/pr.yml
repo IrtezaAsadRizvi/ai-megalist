@@ -1,0 +1,27 @@
+# Runs on every PR: data must validate and README.md must match the data.
+name: PR checks
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Validate data/tools.yaml
+        run: npm run validate
+      # Fails when README.md was edited by hand, or YAML changed without a
+      # rebuild. The script prints how to add a tool the right way.
+      - name: README.md matches the data
+        run: npm run check
+      - name: Typecheck scripts
+        run: npm run typecheck

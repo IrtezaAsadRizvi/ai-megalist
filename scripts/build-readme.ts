@@ -68,6 +68,10 @@ README.md is generated - edits to it are overwritten. To add or change a tool:
   3. Commit data/tools.yaml and the rebuilt README.md together.
 Full guide: CONTRIBUTING.md`);
       printFirstDiff(current, built);
+      // Inline annotation on the PR's README.md when running in Actions.
+      if (process.env.GITHUB_ACTIONS) {
+        console.log('::error file=README.md,title=README.md is generated::Do not edit README.md directly. Add or change tools in data/tools.yaml, run npm run build, and commit both files. See CONTRIBUTING.md.');
+      }
       process.exit(1);
     }
     console.log('README.md is up to date.');

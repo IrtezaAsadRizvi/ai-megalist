@@ -1,0 +1,70 @@
+# Claude: Anthropic's long-context AI assistant
+
+> What I cannot create, I do not understand. - Feynman
+
+Claude is Anthropic's frontier chat assistant, the main alternative to [ChatGPT](chatgpt.md) and [Gemini](gemini.md) for daily-driver work, and the one I reach for when context length actually matters. I keep coming back to it for the same reason I keep using a sharp knife: it cuts. My main use is long context work - I throw an entire codebase or a 200 page PDF at it and ask careful questions. The voice of the model is calmer than ChatGPT's, which I find easier to think with.
+
+## What it actually is
+
+Anthropic's frontier model family, accessed via [claude.ai](https://claude.ai), the desktop app, the iOS/Android app, the API, or wrapped in tools like Claude Code. The Opus tier in 2026 supports a 1M token context window, which is the headline feature most other shops can't match yet. There is also Sonnet (the workhorse) and Haiku (small, fast, cheap).
+
+## Setup
+
+1. Go to [claude.ai](https://claude.ai), sign up with email or Google.
+2. Optional but recommended: install the desktop app (macOS/Windows). It comes with a global hotkey, screen capture, and microphone capture, which is what I actually use.
+3. Optional: subscribe to Claude Pro ($20/mo) for higher limits, or Max for Opus access at scale.
+4. Optional, for code: install Claude Code with `npm install -g @anthropic-ai/claude-code`, then run `claude` in any repo.
+
+That gets you working in under five minutes.
+
+## How I use it day to day
+
+* **Long edits.** Paste 5,000 words, ask for a stricter pass. Claude tends to preserve your voice better than the alternatives, in my experience.
+* **Code reasoning across many files.** With 1M context I can paste a small project and ask architectural questions instead of one file at a time.
+* **PDF Q&A.** Drop a paper in, ask. The grounding is good.
+* **Brainstorming where I want hedged answers.** Claude will tell me what it doesn't know, which I prefer to a confident hallucination.
+
+I tend to use Claude when I want a careful collaborator and ChatGPT when I want a fast first draft. I suspect this is partly preference and partly model temperament.
+
+## Gotchas
+
+* Free tier limits hit fast on Opus. If you're doing real work, Pro is the floor.
+* Claude doesn't browse the web by default in the chat UI. You have to enable web search in the composer, or pair it with Perplexity.
+* Cross conversation memory is opt in and per project. Don't expect recall unless you turn it on under Profile → Memory.
+* The 1M context is real, but the model still gets sloppier as you fill it. I aim to stay under ~200K tokens in practice and only push past that when I genuinely need to.
+
+## Alternatives
+
+* If you want web browsing on by default and the larger model picker, [ChatGPT](chatgpt.md) is more out-of-the-box.
+* If you want a free tier with deep Google integration (Docs, Gmail, Sheets), look at [Gemini](gemini.md).
+* For coding from the terminal in the same model family, jump to [Claude Code](claude_code.md).
+* If you want to own the weights and run something locally, [DeepSeek](deepseek.md) or a local runner like [LM Studio](lm_studio.md) is the path.
+
+## FAQ
+
+### Is Claude free?
+
+Yes, the free tier covers Sonnet for short conversations and a daily message cap. Pro ($20/mo) is the realistic floor for daily work; Max ($100-$200/mo) is what you need for sustained Opus access.
+
+### Claude vs ChatGPT - which is better?
+
+Different jobs. Claude is calmer, has 1M context on Opus, and tends to preserve your voice on long edits. [ChatGPT](chatgpt.md) ships features faster, browses the web by default, and has a wider model picker. I use both.
+
+### Does Claude have an API?
+
+Yes - the [Anthropic API](anthropic_api.md) at console.anthropic.com. Pricing is per-million tokens with prompt caching as a first-class feature, which materially changes economics on repeated context.
+
+### What's Claude's context window?
+
+1M tokens on Opus, 200K on Sonnet and Haiku. The 1M is real but the model gets sloppier as you fill it; I aim to stay under ~200K in practice and only push past that when I genuinely need to.
+
+### Can Claude write code?
+
+Yes, and [Claude Code](claude_code.md) is the dedicated CLI agent for it. The chat UI handles code well too; for serious agentic work in a real repo, use Claude Code or [Cursor](cursor.md) with Sonnet selected.
+
+## Pointers
+
+* Docs: [docs.anthropic.com](https://docs.anthropic.com)
+* API console: [console.anthropic.com](https://console.anthropic.com)
+* Pricing: [anthropic.com/pricing](https://www.anthropic.com/pricing)
+* If you write code, jump to [claude_code.md](claude_code.md) next.
