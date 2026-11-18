@@ -380,7 +380,6 @@ Make things - words, images, video, sound.
 | [GPT Image / DALL·E in ChatGPT](tools/chatgpt.md) | Best prompt comprehension and text rendering in chat |
 | [Google Imagen / Gemini](tools/gemini.md) | Photorealism + integrated editing |
 | [Nano Banana Pro](https://nanobananaproai.pro) | `Free` Free AI image generator on Google Gemini 3 Pro Image; 4K output, strong text rendering, character consistency |
-
 | [FLUX](tools/flux.md) | Pro / Dev / Schnell; best $/image for photoreal |
 | [Stable Diffusion](tools/stable_diffusion.md) | `OSS` `Local`; the entire ecosystem (LoRAs, ControlNet) |
 | [ComfyUI](tools/comfyui.md) | `OSS` `Local` node-graph workflow editor for SD/Flux |
@@ -438,7 +437,7 @@ Make things - words, images, video, sound.
 | [Sora2 Hub](https://sora2hub.org/) | Many video + image models (Veo 3.1, Kling, Seedance, Hailuo, Wan) in one credit-based studio |
 | [Twistavo](https://twistavo.com) | Paid plans or credit packs; replaces a person or character in an existing clip (Scene Recast); 60+ video and image models |
 
-> ⚠️ **Heads up (April 2026):** OpenAI's Sora consumer apps shut down on **2026-04-26**; the API follows on **2026-09-24**.
+> ⚠️ **Heads up:** OpenAI's Sora consumer apps shut down on **2026-04-26**, and the API followed on **2026-09-24**.
 
 ### Video editing & repurposing
 
