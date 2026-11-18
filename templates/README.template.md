@@ -26,7 +26,7 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 2. **[Pick your role](#pick-your-role)**: eight ready-made stacks: engineers, researchers, marketers, creators, designers, founders, students, knowledge workers.
 3. **[Browse the index](#the-index)**: {{tool_count}} tools across five clusters and {{category_count}} categories.
 
-> **Conventions** &nbsp; `OSS` open source &nbsp;·&nbsp; `Local` runs on your machine &nbsp;·&nbsp; `Free` meaningful free tier &nbsp;·&nbsp; **Bold** in role tables = the safe default.
+> **Conventions** &nbsp; `OSS` open source &nbsp;·&nbsp; `Local` runs on your machine &nbsp;·&nbsp; `Free` meaningful free tier &nbsp;·&nbsp; **Bold** in role tables = the safe default. &nbsp;·&nbsp; **Also listed** = community submissions, not yet hand-tested.
 
 ---
 
