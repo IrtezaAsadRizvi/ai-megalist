@@ -1,3 +1,9 @@
+<!--
+  GENERATED FILE - DO NOT EDIT README.md BY HAND.
+  Tools live in data/tools.yaml, categories in data/categories.yaml and
+  the hand-written text in templates/README.template.md.
+  Rebuild with: npm run build. See CONTRIBUTING.md.
+-->
 <a id="top"></a>
 
 <div align="center">
