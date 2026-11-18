@@ -1,0 +1,35 @@
+name: Suggest a tool
+description: Point us at a tool that's missing. A PR is faster.
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Please open a PR instead if you can.** Adding a tool is one record in `data/tools.yaml`, and
+        [CONTRIBUTING.md](https://github.com/IrtezaAsadRizvi/ai-megalist/blob/main/CONTRIBUTING.md) walks through it.
+        Suggestions sent as issues wait until a maintainer has time to write them up.
+  - type: input
+    id: name
+    attributes: { label: Tool name }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: Homepage URL (https, no referral or utm parameters) }
+    validations: { required: true }
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: An id from data/categories.yaml, e.g. image-generation, coding, agents
+  - type: input
+    id: best_for
+    attributes:
+      label: Best for (15 words or fewer, neutral)
+      placeholder: Edit video by editing the transcript
+    validations: { required: true }
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Are you affiliated with this tool?
+      options: ["No", "Yes - I make it, work on it, or am paid to submit it"]
+    validations: { required: true }

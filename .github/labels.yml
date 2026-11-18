@@ -1,0 +1,18 @@
+# Labels used by the issue forms and scheduled workflows.
+# Create or update them with:
+#   GITHUB_TOKEN=$(gh auth token) GITHUB_REPOSITORY=IrtezaAsadRizvi/ai-megalist node scripts/sync-labels.ts
+- name: maker-submitted
+  color: "8b5cf6"
+  description: PR adds a tool its submitter makes or works on
+- name: needs-rewrite
+  color: "f59e0b"
+  description: best_for is ad copy or too long
+- name: broken-link
+  color: "dc2626"
+  description: A tool URL fails (weekly link check)
+- name: stale
+  color: "6b7280"
+  description: Not re-verified in 90 days (monthly check)
+- name: category-change
+  color: "2563eb"
+  description: Proposal to move a tool between categories

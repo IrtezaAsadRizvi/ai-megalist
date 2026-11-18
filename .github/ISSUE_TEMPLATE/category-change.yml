@@ -1,0 +1,22 @@
+name: Suggest a category change
+description: A tool is in the wrong category, or a category should be split, merged or renamed.
+labels: [category-change]
+body:
+  - type: input
+    id: tools
+    attributes: { label: Tool(s) affected }
+    validations: { required: true }
+  - type: input
+    id: from
+    attributes: { label: Current category id }
+  - type: input
+    id: to
+    attributes:
+      label: Proposed category id (or new category name)
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What does the tool actually do, and why would readers look for it in the new place?
+    validations: { required: true }
