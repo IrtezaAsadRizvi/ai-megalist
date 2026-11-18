@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Add a tool yourself (preferred)
+    url: https://github.com/IrtezaAsadRizvi/ai-megalist/blob/main/CONTRIBUTING.md
+    about: Edit data/tools.yaml and open a PR. It's one YAML record.
