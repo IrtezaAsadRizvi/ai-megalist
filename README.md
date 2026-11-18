@@ -472,6 +472,7 @@ Make things - words, images, video, sound.
 | [Suno Bark](tools/suno_bark.md) | `OSS` TTS |
 | [CharaVox](tools/charavox.md) | Multilingual character voice generator + cloning (VoxCPM) |
 | [Speechify](tools/speechify.md) | Streaming TTS API (SIMBA 3.5, 48 languages) + voice cloning |
+| [Miragea](https://miragea.ai/) | Voice cloning from a 5–10 s sample + multi-speaker AI dubbing in 10 languages; free 2,000 chars |
 
 #### Transcription & speech-to-text
 | Tool | Best for |
