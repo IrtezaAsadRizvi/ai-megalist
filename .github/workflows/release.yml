@@ -31,7 +31,6 @@ jobs:
           echo "ref=${prev:-$(git rev-list --max-parents=0 HEAD)}" >> "$GITHUB_OUTPUT"
       - run: node scripts/changelog.ts "${{ steps.prev.outputs.ref }}" HEAD --out notes.md
       - name: Publish release (skipped when notes are empty)
-        if: hashFiles('notes.md') != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
