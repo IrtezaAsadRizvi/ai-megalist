@@ -16,14 +16,15 @@ const maps: Record<string, Failure[]>[] = [json.fail_map, json.error_map, json.t
 const failures = new Map<string, string>(); // url -> status text
 for (const m of maps) for (const list of Object.values(m)) for (const f of list) {
   const s = typeof f.status === 'string' ? f.status : [f.status?.code, f.status?.text, f.status?.details].filter(Boolean).join(' ');
-  failures.set(f.url, s || 'failed');
+  // keep it short: drop lychee's repeated "(error sending request …)" tail
+  failures.set(f.url, (s || 'failed').replace(/\s*\(error sending request.*$/, '').replace(/^Network error: /, '').slice(0, 80));
 }
 
 const { tools } = loadData();
 const strip = (u: string) => u.replace(/^file:\/\/.*?\/(tools\/)/, '$1').replace(/\/+$/, '');
 const rows = [...failures].map(([url, status]) => {
   const t = tools.find((x) => strip(x.url) === strip(url) || (x.writeup && strip(url).endsWith(x.writeup)));
-  return `| ${t?.name ?? '(not a tool row)'} | ${url} | ${status.replace(/\|/g, '/')} |`;
+  return `| ${t?.name ?? '(README link, not a tool)'} | ${url} | ${status.replace(/\|/g, '/')} |`;
 }).sort();
 
 const report = rows.length
