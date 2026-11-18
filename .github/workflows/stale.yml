@@ -1,0 +1,28 @@
+# Monthly: list tools not re-verified in 90 days in a single
+# "Needs re-verification" issue (updated in place, closed when empty).
+name: Staleness check
+
+on:
+  schedule:
+    - cron: '23 6 1 * *' # 1st of each month, 06:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: node scripts/stale.ts --days 90 --out report.md
+      - name: Open, update or close the "Needs re-verification" issue
+        run: node scripts/upsert-issue.ts --title "Needs re-verification" --label stale --body-file report.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
