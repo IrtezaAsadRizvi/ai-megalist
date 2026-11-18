@@ -400,7 +400,7 @@ Make things - words, images, video, sound.
 
 | Tool | Best for |
 | :-- | :-- |
-| [Midjourney](tools/midjourney.md) | Aesthetic / artistic peak; v7 |
+| [Midjourney](tools/midjourney.md) | Aesthetic / artistic peak; v7 (hand edit) |
 | [GPT Image / DALL·E in ChatGPT](tools/chatgpt.md) | Best prompt comprehension and text rendering in chat |
 | [Google Imagen / Gemini](tools/gemini.md) | Photorealism + integrated editing |
 | [FLUX](tools/flux.md) | Pro / Dev / Schnell; best $/image for photoreal |
