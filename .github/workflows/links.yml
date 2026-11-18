@@ -1,0 +1,37 @@
+# Weekly link check over every tool URL. Failures go into a single
+# "Broken links" issue that is updated in place (never duplicated) and
+# closed automatically once everything passes again.
+name: Link check
+
+on:
+  schedule:
+    - cron: '17 6 * * 1' # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Run lychee
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: --config lychee.toml --format json --output lychee.json --no-progress README.md data/tools.yaml
+          output: lychee.json
+          # The issue is the alert; don't also fail the run.
+          fail: false
+      - name: Group failures by tool
+        run: node scripts/link-report.ts lychee.json report.md
+      - name: Open, update or close the "Broken links" issue
+        run: node scripts/upsert-issue.ts --title "Broken links" --label broken-link --body-file report.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

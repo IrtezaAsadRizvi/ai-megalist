@@ -1,0 +1,11 @@
+# Settings for the weekly link check (.github/workflows/links.yml).
+max_retries = 2
+retry_wait_time = 5
+timeout = 30
+max_concurrency = 16
+# Many tool sites answer bots with 403 or 429 while working fine in a
+# browser. Counting those as broken would flood the issue with noise.
+accept = ["200..=299", "403", "429"]
+user_agent = "Mozilla/5.0 (compatible; ai-megalist-linkcheck; +https://github.com/IrtezaAsadRizvi/ai-megalist)"
+# Badge images are not tool links.
+exclude = ["^https://img\\.shields\\.io/"]
