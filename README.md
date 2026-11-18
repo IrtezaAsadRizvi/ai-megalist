@@ -20,6 +20,8 @@
 
 **[ Quick find ](#quick-find)** &nbsp;·&nbsp; **[ Pick your role ](#pick-your-role)** &nbsp;·&nbsp; **[ The index ](#the-index)** &nbsp;·&nbsp; **[ Sources ](#sources)**
 
+<sub>If this list saved you a search, star the repo - it's how other people find it.</sub>
+
 </div>
 
 ---
