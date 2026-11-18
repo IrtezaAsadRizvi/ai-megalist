@@ -380,7 +380,6 @@ Make things - words, images, video, sound.
 | [GPT Image / DALL·E in ChatGPT](tools/chatgpt.md) | Best prompt comprehension and text rendering in chat |
 | [Google Imagen / Gemini](tools/gemini.md) | Photorealism + integrated editing |
 | [Nano Banana Pro](https://nanobananaproai.pro) | `Free` Free AI image generator on Google Gemini 3 Pro Image; 4K output, strong text rendering, character consistency |
-
 | [FLUX](tools/flux.md) | Pro / Dev / Schnell; best $/image for photoreal |
 | [Stable Diffusion](tools/stable_diffusion.md) | `OSS` `Local`; the entire ecosystem (LoRAs, ControlNet) |
 | [ComfyUI](tools/comfyui.md) | `OSS` `Local` node-graph workflow editor for SD/Flux |
