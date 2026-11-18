@@ -8,8 +8,8 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-111?style=flat-square)](LICENSE)
 [![Awesome](https://img.shields.io/badge/awesome-yes-ff69b4?style=flat-square)](https://awesome.re)
-![Updated](https://img.shields.io/badge/updated-May%202026-2563eb?style=flat-square)
-![Tools](https://img.shields.io/badge/tools-225%2B-22c55e?style=flat-square)
+![Updated](https://img.shields.io/badge/updated-{{updated_badge}}-2563eb?style=flat-square)
+![Tools](https://img.shields.io/badge/tools-{{tool_count}}-22c55e?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-8b5cf6?style=flat-square)
 
 **[ Quick find ](#quick-find)** &nbsp;·&nbsp; **[ Pick your role ](#pick-your-role)** &nbsp;·&nbsp; **[ The index ](#the-index)** &nbsp;·&nbsp; **[ Sources ](#sources)**
@@ -24,7 +24,7 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 
 1. **[Quick find](#quick-find)**: one-line "I want to..." → category map. Fastest path.
 2. **[Pick your role](#pick-your-role)**: eight ready-made stacks: engineers, researchers, marketers, creators, designers, founders, students, knowledge workers.
-3. **[Browse the index](#the-index)**: 225+ tools across five clusters and 22 categories.
+3. **[Browse the index](#the-index)**: {{tool_count}} tools across five clusters and {{category_count}} categories.
 
 > **Conventions** &nbsp; `OSS` open source &nbsp;·&nbsp; `Local` runs on your machine &nbsp;·&nbsp; `Free` meaningful free tier &nbsp;·&nbsp; **Bold** in role tables = the safe default.
 
