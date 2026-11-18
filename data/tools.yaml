@@ -19,7 +19,7 @@
       order: 10
     - category: image-generation
       display_name: GPT Image / DALL·E in ChatGPT
-      best_for: Best prompt comprehension and text rendering in chat
+      best_for: Strong prompt comprehension and text rendering, inside chat
       order: 20
 - name: Claude
   url: https://claude.ai
@@ -221,7 +221,7 @@
   url: https://unbottled.ai/en-GLOBAL?utm_source=ai-megalist&utm_medium=directory&utm_campaign=listings-2026-11
   cluster: think
   category: assistants
-  best_for: 120+ chat models (mainstream, open and uncensored) plus image, video and music on one credit balance; OpenAI + Anthropic compatible API; `OSS`
+  best_for: 120+ chat models, including uncensored, plus image, video and music; OpenAI/Anthropic-compatible API; `OSS`
   tags:
     - oss
   writeup: tools/unbottled.md
@@ -813,7 +813,7 @@
   cluster: create
   category: writing
   subcategory: long-form
-  best_for: Free AI detector with no daily limit and no signup, plus an AI humanizer, rewriter and grammar checker
+  best_for: AI detector with no daily limit or signup; also rewriter, grammar checker and humanizer
   tags: []
   maker_submitted: true
   added_via: pr
@@ -826,7 +826,7 @@
   cluster: create
   category: writing
   subcategory: long-form
-  best_for: "`Free` Writes prompts in the syntax of the AI tool you pick (ChatGPT, Claude, Midjourney, Veo and more); 10 a day without an account"
+  best_for: "`Free` Writes prompts in each AI tool's syntax (ChatGPT, Claude, Midjourney, Veo); 10/day without an account"
   tags:
     - free
   maker_submitted: true
@@ -851,7 +851,7 @@
   url: https://nanobananaproai.pro
   cluster: create
   category: image-generation
-  best_for: "`Free` Free AI image generator on Google Gemini 3 Pro Image; 4K output, strong text rendering, character consistency"
+  best_for: "`Free` Image generator built on Gemini 3 Pro Image; 4K output, text rendering, character consistency"
   tags:
     - free
   maker_submitted: false
@@ -864,7 +864,7 @@
   url: https://blackforestlabs.ai
   cluster: create
   category: image-generation
-  best_for: Pro / Dev / Schnell; best $/image for photoreal
+  best_for: Pro / Dev / Schnell; low $/image for photoreal
   tags: []
   writeup: tools/flux.md
   maker_submitted: false
@@ -918,7 +918,7 @@
   url: https://ideogram.ai
   cluster: create
   category: image-generation
-  best_for: Best in class for legible text in images
+  best_for: Leads on legible text in images
   tags: []
   writeup: tools/ideogram.md
   maker_submitted: false
@@ -1158,7 +1158,7 @@
   url: https://tinytools-smoky.vercel.app/
   cluster: create
   category: image-editing
-  best_for: "`Free` all-in-one browser toolbox: local background removal (WASM, fully offline), OG image gen, SEO tags, favicon, color palette, domain generator + AI cost calculator; no signup"
+  best_for: "`Free` browser toolbox: offline background removal (WASM), OG images, favicons, palettes; no signup"
   tags:
     - free
   maker_submitted: false
@@ -1199,7 +1199,7 @@
   url: https://www.klingai.com
   cluster: create
   category: video-generation
-  best_for: Long durations, best $/clip
+  best_for: Long durations, low $/clip
   tags: []
   writeup: tools/kling.md
   maker_submitted: false
@@ -1323,7 +1323,7 @@
   url: https://refvid.com
   cluster: create
   category: video-generation
-  best_for: Same product label or character face across clips, from 1-10 reference photos; 9 models, Kling 4 default
+  best_for: Keeps a product label or face consistent across clips from 1-10 reference photos
   tags: []
   maker_submitted: true
   added_via: pr
@@ -1335,7 +1335,7 @@
   url: https://vidgen.studio/
   cluster: create
   category: video-generation
-  best_for: "Multi-scene stories: direct a 3D storyboard in plain words, then film approved scenes with Veo 3.1, Kling or Seedance"
+  best_for: "Multi-scene stories: plan a 3D storyboard in plain words, render with Veo, Kling or Seedance"
   tags: []
   maker_submitted: true
   added_via: pr
@@ -1359,7 +1359,7 @@
   url: https://seedancenow.com/
   cluster: create
   category: video-generation
-  best_for: Multi-model text/image-to-video (Seedance 2.5, Kling 4.0, Wan 3.0) in one web app, up to 30s at 1080p
+  best_for: Seedance, Kling and Wan text/image-to-video in one web app; up to 30s at 1080p
   tags: []
   maker_submitted: false
   added_via: pr
@@ -1396,7 +1396,7 @@
   url: https://twistavo.com
   cluster: create
   category: video-generation
-  best_for: Paid plans or credit packs; replaces a person or character in an existing clip (Scene Recast); 60+ video and image models
+  best_for: Paid; replaces a person or character in an existing clip; 60+ video and image models
   tags:
     - paid
   maker_submitted: true
@@ -1469,7 +1469,7 @@
   url: https://burncaps.app/
   cluster: create
   category: video-editing
-  best_for: "`Free` word-by-word captions burned in, or a long recording's best clips cut to 9:16, inside the browser; the video is never uploaded"
+  best_for: "`Free` in-browser word-by-word burned-in captions and 9:16 clip cuts; video never uploaded"
   tags:
     - free
   writeup: tools/burncaps.md
@@ -1583,7 +1583,7 @@
   url: https://getyoutubetranscript.com
   cluster: create
   category: video-editing
-  best_for: Paste a YouTube link, get the transcript with timestamps and export SRT, VTT, JSON, CSV, Markdown or TXT; free account with 100 credits (one-time), paid plans from $5/month
+  best_for: YouTube link → timestamped transcript in SRT, VTT, JSON, CSV, Markdown or TXT; 100 free credits
   tags:
     - freemium
   maker_submitted: true
@@ -1781,7 +1781,7 @@
   cluster: create
   category: voice
   subcategory: voice-agents
-  best_for: "Hand an agent a phone task: it calls US businesses for bookings, appointments or quotes (REST API, MCP server or agent skill) and reports back the outcome and transcript"
+  best_for: "Agent places phone calls to US businesses for bookings or quotes; returns outcome and transcript"
   tags: []
   maker_submitted: true
   added_via: pr
@@ -1823,7 +1823,7 @@
   cluster: create
   category: voice
   subcategory: voice-agents
-  best_for: "Remote MCP server and REST API: your agent phones US and Canada businesses, works the menu, waits on hold, asks you mid-call and returns a transcript. Paid, pay per call"
+  best_for: "Paid per call; MCP/REST API phones US and Canada businesses, waits on hold, returns transcripts"
   tags:
     - paid
   maker_submitted: true
@@ -1889,7 +1889,7 @@
   cluster: create
   category: voice
   subcategory: transcription
-  best_for: "`Local`; on-device dictation for Mac and Windows that types into any app, including terminals and AI coding agents"
+  best_for: "`Local`; on-device dictation for Mac and Windows that types into any app, including terminals"
   tags:
     - local
   maker_submitted: false
@@ -1917,7 +1917,7 @@
   cluster: create
   category: voice
   subcategory: transcription
-  best_for: "iPhone app: video/audio files, YouTube/Vimeo links or live voice → editable transcript with speaker split, summary and TXT/DOCX export"
+  best_for: "iPhone app: files, YouTube/Vimeo links or live voice → transcript with speakers, summary, TXT/DOCX export"
   tags: []
   maker_submitted: true
   added_via: pr
@@ -1958,7 +1958,7 @@
   cluster: create
   category: voice
   subcategory: tts
-  best_for: Voice cloning from a 5–10 s sample + multi-speaker AI dubbing in 10 languages; free 2,000 chars
+  best_for: Voice cloning from a 5–10 s sample; multi-speaker dubbing in 10 languages; free 2,000 chars
   tags:
     - freemium
   maker_submitted: true
@@ -2055,7 +2055,7 @@
   url: https://isthissongai.app/
   cluster: create
   category: music
-  best_for: "`Free` Checks if a track was made with Suno, Udio or another AI music generator, from a Spotify, Apple Music, Deezer or YouTube link or an upload; Likely AI / Unclear / Likely human with reasons, 5 a day without an account"
+  best_for: "`Free` Estimates whether a track was AI-generated (Suno, Udio, etc.) from a link or upload; 5/day"
   tags:
     - free
   maker_submitted: true
@@ -2579,7 +2579,7 @@
   url: https://mnemoverse.com
   cluster: work
   category: agents
-  best_for: "`Free` hosted memory for AI agents over MCP; re-ranks recall by whether a memory helped or misled; shared rooms; Claude, Cursor, VS Code, ChatGPT"
+  best_for: "`Free` hosted agent memory over MCP; re-ranks recall by whether a memory helped; shared rooms"
   tags:
     - free
   maker_submitted: true
@@ -2592,7 +2592,7 @@
   url: https://aident.ai
   cluster: work
   category: agents
-  best_for: Connect Claude Code, Codex, Cursor and other MCP clients to your apps and 400+ Skills through one remote MCP server; credentials stay in a vault, per-action cost preflight and audit log; pay-as-you-go
+  best_for: Pay-as-you-go remote MCP server linking coding agents to your apps and 400+ Skills; vaulted credentials
   tags:
     - paid
   maker_submitted: true
@@ -2630,7 +2630,7 @@
   url: https://www.drevon.dev
   cluster: work
   category: agents
-  best_for: "`Free` Mac app that connects to your Claude Code or Codex and turns it into an end-to-end GTM operator: research, grunt work, analysis and actions across your stack from a single prompt, in your own browser with your own logins"
+  best_for: "`Free` Mac app; drives Claude Code or Codex through GTM research and tasks in your browser"
   tags:
     - free
   maker_submitted: true
@@ -2643,7 +2643,7 @@
   url: https://neverapply.co
   cluster: work
   category: agents
-  best_for: "`Free` tier; AI job-search agent that matches jobs, tailors your resume, answers screening questions and applies with your approval; hosted MCP server for Claude, Cursor and other clients"
+  best_for: "`Free` tier; job-search agent that tailors your resume and applies with your approval; hosted MCP"
   tags:
     - freemium
   maker_submitted: false
@@ -2656,7 +2656,7 @@
   url: https://curlshot.com
   cluster: work
   category: agents
-  best_for: "Screenshot API with a hosted MCP server, so agents can see a web page: URL, HTML or Markdown in, PNG, JPEG, WebP, PDF or scrolling video out; free plan of 100 screenshots a month, no card"
+  best_for: "Screenshot API with hosted MCP: page in, PNG/JPEG/WebP/PDF/video out; 100 free a month"
   tags:
     - freemium
   maker_submitted: true
@@ -2669,7 +2669,7 @@
   url: https://nostairsplease.com/mcp
   cluster: work
   category: agents
-  best_for: "`Free` search; hosted remote MCP server for touring musicians and agents to search verified live-music venues across all 50 US states, DC, and British Columbia, plan tour routes, and look up booking contacts"
+  best_for: "`Free` search; MCP server of live-music venues across the US and BC, with booking contacts"
   tags:
     - free
   maker_submitted: false
@@ -2827,7 +2827,7 @@
   also_listed:
     - category: app-builders
       display_name: v0
-      best_for: Best for Next.js teams; UI-first
+      best_for: Suited to Next.js teams; UI-first
       order: 30
 - name: Roblox GUI Maker
   url: https://robloxguimaker.dev/
@@ -2918,7 +2918,7 @@
   url: https://kamplyapp.com
   cluster: work
   category: design
-  best_for: "Paid Mac app: a marketing crew builds on-brand posts, reels, ads + decks on your Claude Code / Codex plan"
+  best_for: "Paid Mac app; makes on-brand posts, reels, ads and decks via your Claude Code/Codex plan"
   tags:
     - paid
   maker_submitted: true
@@ -2931,7 +2931,7 @@
   url: https://applore.app/ai-app-icon-generator
   cluster: work
   category: design
-  best_for: "`Free` AI app icon generator + a reference library of 18,000+ real App Store / Google Play icons; free icon size exporter and App Store screenshot maker"
+  best_for: "`Free` app icon generator plus a reference library of 18,000+ App Store and Google Play icons"
   tags:
     - free
   maker_submitted: true
@@ -3079,7 +3079,7 @@
   cluster: build
   category: coding
   subcategory: completion
-  best_for: Best inline autocomplete; deep JetBrains/VS Code support
+  best_for: Mature inline autocomplete; deep JetBrains/VS Code support
   tags: []
   writeup: tools/github_copilot.md
   maker_submitted: false
@@ -4137,7 +4137,7 @@
   url: https://prelulu.ai/ai-video-chat
   cluster: life
   category: companions
-  best_for: "`Free` tier; real-time AI video call and AI video chat with characters on a live face you can interrupt; AI roleplay stories; make your own character with a face, voice and memory"
+  best_for: "`Free` tier; real-time AI video chat with characters you can interrupt; build your own character"
   tags:
     - freemium
   maker_submitted: true
@@ -4260,7 +4260,7 @@
   url: https://glasp.co/
   cluster: life
   category: education
-  best_for: YouTube transcripts with AI summaries, plus web and PDF highlights that export to Notion and Obsidian
+  best_for: YouTube transcripts with AI summaries, plus web and PDF highlights exported to Notion/Obsidian
   tags: []
   maker_submitted: true
   added_via: pr
