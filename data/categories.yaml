@@ -1,0 +1,136 @@
+# Categories, in display order. ids are referenced by data/tools.yaml.
+- id: assistants
+  title: General-purpose assistants
+  cluster: think
+  order: 10
+  intro: Conversational generalists - your daily-driver chat. Most now support memory, file uploads, web browsing, voice, image gen, and tool use.
+- id: research
+  title: Research & deep research
+  cluster: think
+  order: 20
+  intro: Long-form research with citations, multi-source synthesis, and document grounding.
+- id: ai-search
+  title: AI search engines
+  cluster: think
+  order: 30
+- id: ai-browsers
+  title: AI browsers & sidebars
+  cluster: think
+  order: 40
+  intro: A new wave of browsers (and extensions) where AI is the primary input, not a feature.
+- id: writing
+  title: Writing & content
+  cluster: create
+  order: 50
+  subcategories:
+    - id: long-form
+      title: General / long-form
+    - id: marketing-seo
+      title: Marketing / brand voice / SEO
+    - id: fiction
+      title: Fiction & creative
+- id: image-generation
+  title: Image generation
+  cluster: create
+  order: 60
+- id: image-editing
+  title: Image editing & object work
+  cluster: create
+  order: 70
+- id: video-generation
+  title: Video generation
+  cluster: create
+  order: 80
+- id: video-editing
+  title: Video editing & repurposing
+  cluster: create
+  order: 90
+- id: voice
+  title: Voice & speech
+  cluster: create
+  order: 100
+  subcategories:
+    - id: tts
+      title: TTS / voice cloning
+    - id: transcription
+      title: Transcription & speech-to-text
+    - id: voice-agents
+      title: Real-time conversation & voice agents
+- id: music
+  title: Music generation
+  cluster: create
+  order: 110
+- id: stem-separation
+  title: Stem separation & practice
+  cluster: create
+  order: 120
+- id: productivity
+  title: Productivity (notes, meetings, email, scheduling)
+  cluster: work
+  order: 130
+  subcategories:
+    - id: meeting-notes
+      title: Meeting notes
+    - id: notes
+      title: Notes & second-brain
+    - id: email
+      title: Email
+    - id: scheduling
+      title: Scheduling & tasks
+- id: agents
+  title: Agents & browser automation
+  cluster: work
+  order: 140
+  intro: General-purpose agents that can plan, browse, click, and execute multi-step work.
+- id: workflow-automation
+  title: Workflow automation
+  cluster: work
+  order: 150
+  intro: Connect apps and trigger AI in multi-step pipelines.
+- id: design
+  title: Design (UI/UX, graphics, presentations)
+  cluster: work
+  order: 160
+- id: data
+  title: Data, analysis & spreadsheets
+  cluster: work
+  order: 170
+- id: coding
+  title: Coding
+  cluster: build
+  order: 180
+  subcategories:
+    - id: terminal-agents
+      title: Terminal / agentic coding
+    - id: ides
+      title: AI-native IDEs & editors
+    - id: completion
+      title: Inline completion / copilots
+    - id: code-review
+      title: Code review & quality
+    - id: cloud-agents
+      title: Cloud / remote SWE agents
+- id: app-builders
+  title: App & web builders (vibe coding / no-code)
+  cluster: build
+  order: 190
+- id: local-models
+  title: Local & open-source model runners
+  cluster: build
+  order: 200
+  intro: Run models on your own machine - no data leaves the device.
+- id: model-apis
+  title: Model APIs & dev platforms
+  cluster: build
+  order: 210
+  intro: For developers building on top of models.
+  column: Provider
+- id: companions
+  title: Personal companions
+  cluster: life
+  order: 220
+  intro: Apps designed around long-running emotional / social interaction rather than productivity.
+- id: education
+  title: Education & learning
+  cluster: life
+  order: 230

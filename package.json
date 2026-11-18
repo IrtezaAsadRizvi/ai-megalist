@@ -1,0 +1,18 @@
+{
+  "name": "ai-megalist",
+  "private": true,
+  "type": "module",
+  "description": "Data and tooling behind the AI Megalist README",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "extract": "node scripts/extract.ts",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "typescript": "7.0.2",
+    "yaml": "2.9.1"
+  }
+}

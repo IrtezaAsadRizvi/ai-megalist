@@ -1,0 +1,4270 @@
+# One record per tool. The README tables are generated from this file.
+# Field reference: CONTRIBUTING.md. Seeded by scripts/extract.ts on 2026-11-18.
+- name: ChatGPT
+  url: https://chatgpt.com
+  cluster: think
+  category: assistants
+  best_for: Broadest feature set; voice, image gen, Agents, Operator, native video
+  tags: []
+  writeup: tools/chatgpt.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+  also_listed:
+    - category: research
+      display_name: ChatGPT Deep Research
+      best_for: Multi-step web research; thorough reports
+      order: 10
+    - category: image-generation
+      display_name: GPT Image / DALL·E in ChatGPT
+      best_for: Best prompt comprehension and text rendering in chat
+      order: 20
+- name: Claude
+  url: https://claude.ai
+  cluster: think
+  category: assistants
+  best_for: Strongest writing and code reasoning; 1M-token context on Opus
+  tags: []
+  writeup: tools/claude.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+  also_listed:
+    - category: research
+      display_name: Claude Research
+      best_for: Multi-agent research mode; strong synthesis
+      order: 30
+    - category: writing
+      subcategory: long-form
+      best_for: Now beat most dedicated writing tools for free-form prose
+      order: 10
+      row_with:
+        - ChatGPT
+        - Gemini
+      row_separator: " / "
+- name: Gemini
+  url: https://gemini.google.com
+  cluster: think
+  category: assistants
+  best_for: Tight Google Workspace integration; strongest multimodal at scale
+  tags: []
+  writeup: tools/gemini.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+  also_listed:
+    - category: research
+      display_name: Gemini Deep Research
+      best_for: Reads many sources; annotated reports
+      order: 20
+    - category: image-generation
+      display_name: Google Imagen / Gemini
+      best_for: Photorealism + integrated editing
+      order: 30
+    - category: agents
+      display_name: Gemini / Project Mariner
+      best_for: Google's browser agent
+      order: 40
+- name: Microsoft Copilot
+  url: https://www.microsoft.com/en-us/microsoft-365-copilot
+  cluster: think
+  category: assistants
+  best_for: Default for M365 / Windows users
+  tags: []
+  writeup: tools/microsoft_copilot.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+  also_listed:
+    - category: agents
+      display_name: Microsoft Copilot Actions
+      best_for: Enterprise Copilot agents
+      order: 50
+- name: Apple Intelligence
+  url: https://www.apple.com/apple-intelligence/
+  cluster: think
+  category: assistants
+  best_for: Built into iOS / macOS; private on-device + Private Cloud Compute
+  tags: []
+  writeup: tools/apple_intelligence.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Grok
+  url: https://grok.com
+  cluster: think
+  category: assistants
+  best_for: Real-time X data, looser content policy
+  tags: []
+  writeup: tools/grok.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: DeepSeek
+  url: https://chat.deepseek.com
+  cluster: think
+  category: assistants
+  best_for: "`Free` frontier-tier reasoning; `OSS` weights"
+  tags:
+    - oss
+    - free
+  writeup: tools/deepseek.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+  also_listed:
+    - category: model-apis
+      display_name: DeepSeek API
+      best_for: Cheap frontier reasoning
+      order: 90
+- name: Mistral Le Chat
+  url: https://chat.mistral.ai
+  cluster: think
+  category: assistants
+  best_for: EU-hosted, fast, OSS-friendly
+  tags: []
+  writeup: tools/mistral_le_chat.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Qwen Chat
+  url: https://chat.qwen.ai
+  cluster: think
+  category: assistants
+  best_for: Strong CN + EN; `OSS` weights
+  tags:
+    - oss
+  writeup: tools/qwen.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: Meta AI
+  url: https://meta.ai
+  cluster: think
+  category: assistants
+  best_for: Built into WhatsApp / Instagram / Messenger
+  tags: []
+  writeup: tools/meta_ai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 100
+- name: ZeroTwo
+  url: https://zerotwo.ai
+  cluster: think
+  category: assistants
+  best_for: "All-in-one hub: chat + research + image + video behind one subscription"
+  tags: []
+  writeup: tools/zerotwo.md
+  maker_submitted: false
+  added_via: pr
+  pr: 4
+  tier: listed
+  last_verified: 2026-11-18
+  order: 110
+  also_listed:
+    - category: research
+      best_for: Unified research hub; cited search + multiple frontier models in one thread
+      order: 130
+    - category: image-generation
+      best_for: Image hub - access FLUX / Imagen / Ideogram-style outputs and switch models in one app
+      order: 170
+- name: Poe
+  url: https://poe.com
+  cluster: think
+  category: assistants
+  best_for: Quora's multi-model app; one subscription across Claude / GPT / Gemini / etc
+  tags: []
+  writeup: tools/poe.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 120
+- name: Cohere Coral
+  url: https://cohere.com
+  cluster: think
+  category: assistants
+  best_for: Enterprise-focused Command family; strong RAG + citations
+  tags: []
+  writeup: tools/cohere.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 130
+  also_listed:
+    - category: model-apis
+      display_name: Cohere
+      best_for: Command + Aya families; enterprise RAG / multilingual
+      order: 80
+- name: unbottled.ai
+  url: https://unbottled.ai/en-GLOBAL?utm_source=ai-megalist&utm_medium=directory&utm_campaign=listings-2026-11
+  cluster: think
+  category: assistants
+  best_for: 120+ chat models (mainstream, open and uncensored) plus image, video and music on one credit balance; OpenAI + Anthropic compatible API; `OSS`
+  tags:
+    - oss
+  writeup: tools/unbottled.md
+  maker_submitted: true
+  added_via: pr
+  pr: 86
+  tier: listed
+  last_verified: 2026-11-18
+  order: 140
+- name: Perplexity
+  url: https://www.perplexity.ai
+  cluster: think
+  category: research
+  best_for: Cited answers; "Pro Search" and Spaces
+  tags: []
+  writeup: tools/perplexity.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+  also_listed:
+    - category: ai-search
+      best_for: Cited AI answers; the category default
+      order: 10
+- name: NotebookLM
+  url: https://notebooklm.google.com
+  cluster: think
+  category: research
+  best_for: Q&A on your docs; podcast-style audio overviews
+  tags: []
+  writeup: tools/notebooklm.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+  also_listed:
+    - category: education
+      best_for: Turn course material into Q&A + audio
+      order: 60
+- name: Elicit
+  url: https://elicit.com
+  cluster: think
+  category: research
+  best_for: Academic literature review automation
+  tags: []
+  writeup: tools/elicit.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Consensus
+  url: https://consensus.app
+  cluster: think
+  category: research
+  best_for: AI search across peer-reviewed papers
+  tags: []
+  writeup: tools/consensus.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: SciSpace
+  url: https://scispace.com
+  cluster: think
+  category: research
+  best_for: PDF chat, paper explanations
+  tags: []
+  writeup: tools/scispace.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Explainpaper
+  url: https://www.explainpaper.com
+  cluster: think
+  category: research
+  best_for: Highlight a passage, get an explanation
+  tags: []
+  writeup: tools/explainpaper.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: Nujan
+  url: https://nujan.app
+  cluster: think
+  category: research
+  best_for: Dual-pane scientific paper reader with Socratic coaching and formula breakdowns
+  tags: []
+  writeup: tools/nujan.md
+  maker_submitted: true
+  added_via: pr
+  pr: 44
+  tier: listed
+  last_verified: 2026-11-18
+  order: 100
+- name: Undermind
+  url: https://www.undermind.ai
+  cluster: think
+  category: research
+  best_for: Deep scientific search
+  tags: []
+  writeup: tools/undermind.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 110
+- name: STORM
+  url: https://storm.genie.stanford.edu
+  cluster: think
+  category: research
+  best_for: "`OSS` Stanford project; Wikipedia-style articles from sources"
+  tags:
+    - oss
+  writeup: tools/storm.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 120
+- name: DisconfirmAI
+  url: https://disconfirmai.com/en
+  cluster: think
+  category: research
+  best_for: Investment research that shows the evidence against a stock idea before you commit
+  tags: []
+  writeup: tools/disconfirmai.md
+  maker_submitted: true
+  added_via: pr
+  pr: 73
+  tier: listed
+  last_verified: 2026-11-18
+  order: 140
+- name: Pulse
+  url: https://pulsecorp.co
+  cluster: think
+  category: research
+  best_for: AI-moderated customer interviews for market research
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 56
+  tier: listed
+  last_verified: 2026-11-18
+  order: 150
+- name: You.com
+  url: https://you.com
+  cluster: think
+  category: ai-search
+  best_for: Mode selection; pick the model behind the answer
+  tags: []
+  writeup: tools/you_com.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Phind
+  url: https://www.phind.com
+  cluster: think
+  category: ai-search
+  best_for: Tuned for developers; indexes docs / GitHub / SO
+  tags: []
+  writeup: tools/phind.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Kagi
+  url: https://kagi.com
+  cluster: think
+  category: ai-search
+  best_for: Paid, ad-free; FastGPT, Assistant, Universal Summarizer
+  tags:
+    - freemium
+  writeup: tools/kagi.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Exa
+  url: https://docs.exa.ai
+  cluster: think
+  category: ai-search
+  best_for: Neural search API; finds source content not just SEO pages
+  tags: []
+  writeup: tools/exa.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Firecrawl
+  url: https://www.firecrawl.dev/?utm_source=ai-megalist&utm_medium=integration
+  cluster: think
+  category: ai-search
+  best_for: Search, scrape and crawl the web into clean Markdown for AI agents
+  tags: []
+  writeup: tools/firecrawl.md
+  maker_submitted: false
+  added_via: pr
+  pr: 76
+  tier: listed
+  last_verified: 2026-11-18
+  order: 60
+- name: Tavily
+  url: https://tavily.com
+  cluster: think
+  category: ai-search
+  best_for: Search API for agents and RAG
+  tags: []
+  writeup: tools/tavily.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Andi
+  url: https://andisearch.com
+  cluster: think
+  category: ai-search
+  best_for: Conversational answer-first search
+  tags: []
+  writeup: tools/andi.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Brave Search + Leo
+  url: https://search.brave.com
+  cluster: think
+  category: ai-search
+  best_for: Privacy-first; built-in AI summaries
+  tags: []
+  writeup: tools/brave_search.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+  also_listed:
+    - category: ai-browsers
+      display_name: Brave Leo
+      best_for: Built-in private AI assistant
+      order: 50
+- name: Genspark
+  url: https://www.genspark.ai
+  cluster: think
+  category: ai-search
+  best_for: Agentic mixture-of-agents; multi-section "Sparkpage" answers
+  tags: []
+  writeup: tools/genspark.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 100
+- name: Perplexity Comet
+  url: https://www.perplexity.ai/comet
+  cluster: think
+  category: ai-browsers
+  best_for: Agentic browser; navigate and act with Perplexity at the core
+  tags: []
+  writeup: tools/comet.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Dia
+  url: https://www.diabrowser.com
+  cluster: think
+  category: ai-browsers
+  best_for: The Browser Company's AI-native successor to Arc
+  tags: []
+  writeup: tools/dia.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Arc Search
+  url: https://arc.net/search
+  cluster: think
+  category: ai-browsers
+  best_for: '"Browse for me" mobile search that builds web pages'
+  tags: []
+  writeup: tools/arc_search.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Edge Copilot
+  url: https://copilot.microsoft.com
+  cluster: think
+  category: ai-browsers
+  best_for: Sidebar Copilot in Microsoft Edge
+  tags: []
+  writeup: tools/edge_copilot.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Sigma AI Browser
+  url: https://sigmaos.com
+  cluster: think
+  category: ai-browsers
+  best_for: macOS browser with multi-agent workflows
+  tags: []
+  writeup: tools/sigma_browser.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Monica
+  url: https://monica.im
+  cluster: think
+  category: ai-browsers
+  best_for: Cross-browser AI sidebar / extension
+  tags: []
+  writeup: tools/monica.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Sider
+  url: https://sider.ai
+  cluster: think
+  category: ai-browsers
+  best_for: All-in-one AI sidebar
+  tags: []
+  writeup: tools/sider.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Jasper
+  url: https://www.jasper.ai
+  cluster: create
+  category: writing
+  subcategory: marketing-seo
+  best_for: Brand voice + templates for marketing teams
+  tags: []
+  writeup: tools/jasper.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Sudowrite
+  url: https://www.sudowrite.com
+  cluster: create
+  category: writing
+  subcategory: fiction
+  best_for: Category leader for fiction (Story Engine, Canvas)
+  tags: []
+  writeup: tools/sudowrite.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Lex
+  url: https://lex.page
+  cluster: create
+  category: writing
+  subcategory: long-form
+  best_for: AI-native long-form editor; clean writing UX
+  tags: []
+  writeup: tools/lex.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Copy.ai
+  url: https://www.copy.ai
+  cluster: create
+  category: writing
+  subcategory: marketing-seo
+  best_for: GTM workflows
+  tags: []
+  writeup: tools/copy_ai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: NovelCrafter
+  url: https://www.novelcrafter.com
+  cluster: create
+  category: writing
+  subcategory: fiction
+  best_for: Codex-style world-bibles + AI writing
+  tags: []
+  writeup: tools/novelcrafter.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Grammarly
+  url: https://www.grammarly.com
+  cluster: create
+  category: writing
+  subcategory: long-form
+  best_for: Editor + GenAI; broad app coverage
+  tags: []
+  writeup: tools/grammarly.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Writesonic
+  url: https://writesonic.com
+  cluster: create
+  category: writing
+  subcategory: marketing-seo
+  best_for: SEO-focused content + Chatsonic
+  tags: []
+  writeup: tools/writesonic.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: NovelAI
+  url: https://novelai.net
+  cluster: create
+  category: writing
+  subcategory: fiction
+  best_for: AI storytelling with custom models
+  tags: []
+  writeup: tools/novelai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Dearovo
+  url: https://www.dearovo.com/
+  cluster: create
+  category: writing
+  subcategory: long-form
+  best_for: Relationship message writing with situation-aware tone and length controls
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 42
+  tier: listed
+  last_verified: 2026-11-18
+  order: 40
+- name: Surfer SEO
+  url: https://surferseo.com
+  cluster: create
+  category: writing
+  subcategory: marketing-seo
+  best_for: SEO content optimization
+  tags: []
+  writeup: tools/surfer_seo.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: kdpbook.io
+  url: https://kdpbook.io
+  cluster: create
+  category: writing
+  subcategory: fiction
+  best_for: Describe a book in chat, get Amazon KDP-ready print PDF, full-wrap cover and Kindle EPUB
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 40
+  tier: listed
+  last_verified: 2026-11-18
+  order: 40
+- name: ResumeAI
+  url: https://withresumeai.com/
+  cluster: create
+  category: writing
+  subcategory: long-form
+  best_for: Free ATS resume checker (3/day anonymous, 10/day free) + State of ATS 2026
+  tags: []
+  maker_submitted: false
+  added_via: pr
+  pr: 32
+  tier: listed
+  last_verified: 2026-11-18
+  order: 50
+- name: Frase
+  url: https://www.frase.io
+  cluster: create
+  category: writing
+  subcategory: marketing-seo
+  best_for: SERP analysis + brief generation
+  tags: []
+  writeup: tools/frase.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: ImagineYourBook
+  url: https://www.imagineyourbook.com/
+  cluster: create
+  category: writing
+  subcategory: fiction
+  best_for: Whole-book drafting from a brief, with series story bibles, Manuscript Rewrite, and EPUB/Word/Markdown export
+  tags: []
+  maker_submitted: false
+  added_via: pr
+  pr: 47
+  tier: listed
+  last_verified: 2026-11-18
+  order: 50
+- name: Wordtune
+  url: https://www.wordtune.com
+  cluster: create
+  category: writing
+  subcategory: long-form
+  best_for: Rewriting and tone control
+  tags: []
+  writeup: tools/wordtune.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: NotFair
+  url: https://github.com/nowork-studio/notfair-plugin
+  cluster: create
+  category: writing
+  subcategory: marketing-seo
+  best_for: "`OSS` agent skills for SEO, GEO, Google Ads, and Meta Ads with evidence-led, approval-bounded workflows"
+  tags:
+    - oss
+  maker_submitted: false
+  added_via: pr
+  pr: 24
+  tier: listed
+  last_verified: 2026-11-18
+  order: 60
+- name: HyperWrite
+  url: https://www.hyperwriteai.com
+  cluster: create
+  category: writing
+  subcategory: long-form
+  best_for: Personal writing assistant with browser agent
+  tags: []
+  writeup: tools/hyperwrite.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Writer
+  url: https://writer.com
+  cluster: create
+  category: writing
+  subcategory: marketing-seo
+  best_for: Enterprise content platform; brand governance
+  tags: []
+  writeup: tools/writer.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Coda One
+  url: https://www.codaone.ai/
+  cluster: create
+  category: writing
+  subcategory: long-form
+  best_for: Free AI detector with no daily limit and no signup, plus an AI humanizer, rewriter and grammar checker
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 72
+  tier: listed
+  last_verified: 2026-11-18
+  order: 80
+- name: Prompt Generator
+  url: https://trypromptgenerator.com
+  cluster: create
+  category: writing
+  subcategory: long-form
+  best_for: "`Free` Writes prompts in the syntax of the AI tool you pick (ChatGPT, Claude, Midjourney, Veo and more); 10 a day without an account"
+  tags:
+    - free
+  maker_submitted: true
+  added_via: pr
+  pr: 75
+  tier: listed
+  last_verified: 2026-11-18
+  order: 90
+- name: Midjourney
+  url: https://docs.midjourney.com
+  cluster: create
+  category: image-generation
+  best_for: Aesthetic / artistic peak; v7
+  tags: []
+  writeup: tools/midjourney.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Nano Banana Pro
+  url: https://nanobananaproai.pro
+  cluster: create
+  category: image-generation
+  best_for: "`Free` Free AI image generator on Google Gemini 3 Pro Image; 4K output, strong text rendering, character consistency"
+  tags:
+    - free
+  maker_submitted: false
+  added_via: pr
+  pr: 18
+  tier: listed
+  last_verified: 2026-11-18
+  order: 40
+- name: FLUX
+  url: https://blackforestlabs.ai
+  cluster: create
+  category: image-generation
+  best_for: Pro / Dev / Schnell; best $/image for photoreal
+  tags: []
+  writeup: tools/flux.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Stable Diffusion
+  url: https://huggingface.co/stabilityai
+  cluster: create
+  category: image-generation
+  best_for: "`OSS` `Local`; the entire ecosystem (LoRAs, ControlNet)"
+  tags:
+    - oss
+    - local
+  writeup: tools/stable_diffusion.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: ComfyUI
+  url: https://www.comfy.org
+  cluster: create
+  category: image-generation
+  best_for: "`OSS` `Local` node-graph workflow editor for SD/Flux"
+  tags:
+    - oss
+    - local
+  writeup: tools/comfyui.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Automatic1111
+  url: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+  cluster: create
+  category: image-generation
+  best_for: "`OSS` `Local` classic SD WebUI"
+  tags:
+    - oss
+    - local
+  writeup: tools/automatic1111.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Ideogram
+  url: https://ideogram.ai
+  cluster: create
+  category: image-generation
+  best_for: Best in class for legible text in images
+  tags: []
+  writeup: tools/ideogram.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: Recraft
+  url: https://www.recraft.ai
+  cluster: create
+  category: image-generation
+  best_for: Vector + brand-style consistency
+  tags: []
+  writeup: tools/recraft.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 100
+  also_listed:
+    - category: design
+      best_for: Brand-consistent vector + raster
+      order: 120
+- name: Leonardo
+  url: https://leonardo.ai
+  cluster: create
+  category: image-generation
+  best_for: Game / asset focus; fine-tunable models
+  tags: []
+  writeup: tools/leonardo.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 110
+- name: LandscapioAI
+  url: https://www.landscapioai.com
+  cluster: create
+  category: image-generation
+  best_for: AI landscape design concepts with costed, contractor-ready plans
+  tags: []
+  writeup: tools/landscapioai.md
+  maker_submitted: false
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-18
+  order: 120
+- name: Krea
+  url: https://www.krea.ai
+  cluster: create
+  category: image-generation
+  best_for: Real-time generation + enhance
+  tags: []
+  writeup: tools/krea.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 130
+- name: Adobe Firefly
+  url: https://firefly.adobe.com
+  cluster: create
+  category: image-generation
+  best_for: Commercially safe; in Photoshop
+  tags: []
+  writeup: tools/adobe_firefly.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 140
+  also_listed:
+    - category: design
+      best_for: Generative inside Creative Cloud
+      order: 80
+- name: Reve
+  url: https://reve.art
+  cluster: create
+  category: image-generation
+  best_for: Strong at prompt fidelity
+  tags: []
+  writeup: tools/reve.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 150
+- name: Higgsfield
+  url: https://higgsfield.ai
+  cluster: create
+  category: image-generation
+  best_for: Stylised image gen with the same cinematic preset library as their video tool
+  tags: []
+  writeup: tools/higgsfield.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 160
+  also_listed:
+    - category: image-editing
+      best_for: Restyle / re-shot edits using named cinematic presets
+      order: 100
+    - category: video-generation
+      best_for: Cinematic camera presets
+      order: 90
+- name: Rao Edits
+  url: https://raoedits.top/
+  cluster: create
+  category: image-generation
+  best_for: Browser-based text-to-image generation for creator and marketing visuals
+  tags: []
+  writeup: tools/rao_edits.md
+  maker_submitted: true
+  added_via: pr
+  pr: 23
+  tier: listed
+  last_verified: 2026-11-18
+  order: 180
+  also_listed:
+    - category: image-editing
+      best_for: Reference-image variations, restyles, and AI photo transformations
+      order: 60
+- name: Microsoft Designer
+  url: https://designer.microsoft.com
+  cluster: create
+  category: image-generation
+  best_for: "`Free` DALL·E access in a templated design app + Bing Image Creator"
+  tags:
+    - free
+  writeup: tools/microsoft_designer.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 190
+- name: MakeImg
+  url: https://makeimg.ai/
+  cluster: create
+  category: image-generation
+  best_for: Text-to-image and reference-photo edits across 11 models, with free daily credits
+  tags:
+    - freemium
+  maker_submitted: true
+  added_via: pr
+  pr: 69
+  tier: listed
+  last_verified: 2026-11-18
+  order: 200
+- name: Photoshop Generative Fill
+  url: https://www.adobe.com/products/photoshop.html
+  cluster: create
+  category: image-editing
+  best_for: Inpaint / outpaint via Firefly
+  tags: []
+  writeup: tools/photoshop_genfill.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Magnific
+  url: https://magnific.ai
+  cluster: create
+  category: image-editing
+  best_for: AI upscaling + relight
+  tags: []
+  writeup: tools/magnific.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Topaz Photo AI
+  url: https://www.topazlabs.com/topaz-photo-ai
+  cluster: create
+  category: image-editing
+  best_for: Pro denoise / upscale
+  tags: []
+  writeup: tools/topaz_photo.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Clipdrop
+  url: https://clipdrop.co
+  cluster: create
+  category: image-editing
+  best_for: Background removal, relight, replace
+  tags: []
+  writeup: tools/clipdrop.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: igly.ai
+  url: https://igly.ai
+  cluster: create
+  category: image-editing
+  best_for: Browser-based background removal, inpainting, upscaling, and generative fill
+  tags: []
+  writeup: tools/igly.md
+  maker_submitted: false
+  added_via: pr
+  pr: 9
+  tier: listed
+  last_verified: 2026-11-18
+  order: 50
+- name: ClipSnap
+  url: https://www.clipsnap.com
+  cluster: create
+  category: image-editing
+  best_for: "`Free` no-watermark all-in-one toolbox; no signup, no API"
+  tags:
+    - free
+  writeup: tools/clipsnap.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Remove.bg
+  url: https://www.remove.bg
+  cluster: create
+  category: image-editing
+  best_for: One-click background removal
+  tags: []
+  writeup: tools/removebg.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: TinyTools
+  url: https://tinytools-smoky.vercel.app/
+  cluster: create
+  category: image-editing
+  best_for: "`Free` all-in-one browser toolbox: local background removal (WASM, fully offline), OG image gen, SEO tags, favicon, color palette, domain generator + AI cost calculator; no signup"
+  tags:
+    - free
+  maker_submitted: false
+  added_via: pr
+  pr: 6
+  tier: listed
+  last_verified: 2026-11-18
+  order: 90
+- name: Veo 3.1 (Google)
+  url: https://deepmind.google/technologies/veo
+  cluster: create
+  category: video-generation
+  best_for: Strongest all-rounder; native audio, 4K, prompt fidelity
+  tags: []
+  writeup: tools/veo.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Runway
+  url: https://help.runwayml.com
+  cluster: create
+  category: video-generation
+  best_for: Gen-4 / Gen-4.5; pro creative controls (motion brush, refs)
+  tags: []
+  writeup: tools/runway.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+  also_listed:
+    - category: video-editing
+      best_for: Color, mask, rotoscope, lipsync
+      order: 20
+- name: Kling
+  url: https://www.klingai.com
+  cluster: create
+  category: video-generation
+  best_for: Long durations, best $/clip
+  tags: []
+  writeup: tools/kling.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Seedance 2.0
+  url: https://seedance2aivideo.app/
+  cluster: create
+  category: video-generation
+  best_for: ByteDance; strong motion in blind tests
+  tags: []
+  writeup: tools/seedance.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Pika
+  url: https://pika.art
+  cluster: create
+  category: video-generation
+  best_for: Fast iterations + Pikaffects
+  tags: []
+  writeup: tools/pika.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Luma Dream Machine
+  url: https://lumalabs.ai/dream-machine
+  cluster: create
+  category: video-generation
+  best_for: Smooth camera moves
+  tags: []
+  writeup: tools/luma.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Magic Hour
+  url: https://magichour.ai/
+  cluster: create
+  category: video-generation
+  best_for: Multi-model image/video creation plus face swap, lip sync, and video-to-video
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 35
+  tier: listed
+  last_verified: 2026-11-18
+  order: 70
+- name: Hailuo (MiniMax)
+  url: https://hailuoai.com
+  cluster: create
+  category: video-generation
+  best_for: Generous `Free` tier; image-to-video
+  tags:
+    - freemium
+  writeup: tools/hailuo.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Pixverse
+  url: https://pixverse.ai
+  cluster: create
+  category: video-generation
+  best_for: Anime / stylized motion
+  tags: []
+  writeup: tools/pixverse.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 100
+- name: HunyuanVideo
+  url: https://github.com/Tencent/HunyuanVideo
+  cluster: create
+  category: video-generation
+  best_for: "`OSS` Tencent's 13B video model; ComfyUI / LoRA-friendly"
+  tags:
+    - oss
+  writeup: tools/hunyuan_video.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 110
+- name: Wan 2.x
+  url: https://github.com/Wan-Video
+  cluster: create
+  category: video-generation
+  best_for: "`OSS` Alibaba; Apache 2.0; strong motion at small + big sizes"
+  tags:
+    - oss
+  writeup: tools/wan.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 120
+- name: Gemini Omni
+  url: https://gemini-omni.pro
+  cluster: create
+  category: video-generation
+  best_for: "`Free` Google omni-modal model; text, image, video & audio in one prompt; native audio sync; free 720p"
+  tags:
+    - freemium
+  maker_submitted: false
+  added_via: pr
+  pr: 11
+  tier: listed
+  last_verified: 2026-11-18
+  order: 130
+- name: RefVid
+  url: https://refvid.com
+  cluster: create
+  category: video-generation
+  best_for: Same product label or character face across clips, from 1-10 reference photos; 9 models, Kling 4 default
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 71
+  tier: listed
+  last_verified: 2026-11-18
+  order: 140
+- name: VidGen Studio
+  url: https://vidgen.studio/
+  cluster: create
+  category: video-generation
+  best_for: "Multi-scene stories: direct a 3D storyboard in plain words, then film approved scenes with Veo 3.1, Kling or Seedance"
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 70
+  tier: listed
+  last_verified: 2026-11-18
+  order: 150
+- name: Vidney
+  url: https://vidney.ai/
+  cluster: create
+  category: video-generation
+  best_for: AI image and video generation from text prompts or uploaded photos.
+  tags: []
+  maker_submitted: false
+  added_via: pr
+  pr: 77
+  tier: listed
+  last_verified: 2026-11-18
+  order: 160
+- name: Seedance Now
+  url: https://seedancenow.com/
+  cluster: create
+  category: video-generation
+  best_for: Multi-model text/image-to-video (Seedance 2.5, Kling 4.0, Wan 3.0) in one web app, up to 30s at 1080p
+  tags: []
+  maker_submitted: false
+  added_via: pr
+  pr: 68
+  tier: listed
+  last_verified: 2026-11-18
+  order: 170
+- name: Rhyvello
+  url: https://ai-rap-video-maker.com/
+  cluster: create
+  category: video-generation
+  best_for: Paid credits; turns 1–2 photos into a short AI rap video for TikTok/Reels/Shorts
+  tags:
+    - paid
+  maker_submitted: false
+  added_via: pr
+  pr: 65
+  tier: listed
+  last_verified: 2026-11-18
+  order: 180
+- name: Sora2 Hub
+  url: https://sora2hub.org/
+  cluster: create
+  category: video-generation
+  best_for: Many video + image models (Veo 3.1, Kling, Seedance, Hailuo, Wan) in one credit-based studio
+  tags: []
+  maker_submitted: false
+  added_via: pr
+  pr: 53
+  tier: listed
+  last_verified: 2026-11-18
+  order: 190
+- name: Twistavo
+  url: https://twistavo.com
+  cluster: create
+  category: video-generation
+  best_for: Paid plans or credit packs; replaces a person or character in an existing clip (Scene Recast); 60+ video and image models
+  tags:
+    - paid
+  maker_submitted: true
+  added_via: pr
+  pr: 80
+  tier: listed
+  last_verified: 2026-11-18
+  order: 200
+- name: Descript
+  url: https://help.descript.com
+  cluster: create
+  category: video-editing
+  best_for: Edit video by editing the transcript
+  tags: []
+  writeup: tools/descript.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: CapCut
+  url: https://www.capcut.com
+  cluster: create
+  category: video-editing
+  best_for: AI clip editing on desktop / mobile
+  tags: []
+  writeup: tools/capcut.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Opus Clip
+  url: https://www.opus.pro
+  cluster: create
+  category: video-editing
+  best_for: Long video → viral short clips, auto-captioned
+  tags: []
+  writeup: tools/opus_clip.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Captions
+  url: https://www.captions.ai
+  cluster: create
+  category: video-editing
+  best_for: Mobile-first AI video editor with avatars
+  tags: []
+  writeup: tools/captions.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Submagic
+  url: https://www.submagic.co
+  cluster: create
+  category: video-editing
+  best_for: Auto-captions, B-roll, hooks
+  tags: []
+  writeup: tools/submagic.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Burncaps
+  url: https://burncaps.app/
+  cluster: create
+  category: video-editing
+  best_for: "`Free` word-by-word captions burned in, or a long recording's best clips cut to 9:16, inside the browser; the video is never uploaded"
+  tags:
+    - free
+  writeup: tools/burncaps.md
+  maker_submitted: true
+  added_via: pr
+  pr: 51
+  tier: listed
+  last_verified: 2026-11-18
+  order: 70
+- name: Klap
+  url: https://klap.app
+  cluster: create
+  category: video-editing
+  best_for: Long → short clips with virality scoring
+  tags: []
+  writeup: tools/klap.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: shortshort
+  url: https://www.shortshort.io
+  cluster: create
+  category: video-editing
+  best_for: "`Free` long video → 9:16 shorts cut on complete sentences; editor + MP4 export with no account"
+  tags:
+    - free
+  writeup: tools/shortshort.md
+  maker_submitted: true
+  added_via: pr
+  pr: 34
+  tier: listed
+  last_verified: 2026-11-18
+  order: 90
+- name: Topaz Video AI
+  url: https://www.topazlabs.com/topaz-video-ai
+  cluster: create
+  category: video-editing
+  best_for: Upscale / interpolate
+  tags: []
+  writeup: tools/topaz_video.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 100
+- name: HeyGen
+  url: https://www.heygen.com
+  cluster: create
+  category: video-editing
+  best_for: AI avatars; multilingual lipsync
+  tags: []
+  writeup: tools/heygen.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 110
+- name: Synthesia
+  url: https://www.synthesia.io
+  cluster: create
+  category: video-editing
+  best_for: Corporate avatar videos from scripts
+  tags: []
+  writeup: tools/synthesia.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 120
+- name: Tavus
+  url: https://www.tavus.io
+  cluster: create
+  category: video-editing
+  best_for: Personalized AI video at scale
+  tags: []
+  writeup: tools/tavus.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 130
+- name: VoxSail
+  url: https://voxsail.com/en/
+  cluster: create
+  category: video-editing
+  best_for: Localize uploaded video/audio with AI dubbing and editable translated subtitles; paid plans, one-time starter credits
+  tags:
+    - paid
+  maker_submitted: true
+  added_via: pr
+  pr: 66
+  tier: listed
+  last_verified: 2026-11-18
+  order: 140
+- name: Genjutsu AI
+  url: https://genjutsuai.dev/
+  cluster: create
+  category: video-editing
+  best_for: Freemium; browser video editor that restyles any video from reference photos (outfit/character swap)
+  tags:
+    - freemium
+  maker_submitted: false
+  added_via: pr
+  pr: 65
+  tier: listed
+  last_verified: 2026-11-18
+  order: 150
+- name: GetYouTubeTranscript
+  url: https://getyoutubetranscript.com
+  cluster: create
+  category: video-editing
+  best_for: Paste a YouTube link, get the transcript with timestamps and export SRT, VTT, JSON, CSV, Markdown or TXT; free account with 100 credits (one-time), paid plans from $5/month
+  tags:
+    - freemium
+  maker_submitted: true
+  added_via: pr
+  pr: 83
+  tier: listed
+  last_verified: 2026-11-18
+  order: 160
+- name: ElevenLabs
+  url: https://elevenlabs.io/docs
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: Industry standard; natural TTS, cloning, dubbing, voice agents
+  tags: []
+  writeup: tools/elevenlabs.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+  also_listed:
+    - category: music
+      display_name: ElevenLabs Music
+      best_for: Trim / cut in-tool; high credit cost
+      order: 30
+- name: Whisper
+  url: https://github.com/openai/whisper
+  cluster: create
+  category: voice
+  subcategory: transcription
+  best_for: "`OSS` `Local`; the de-facto baseline"
+  tags:
+    - oss
+    - local
+  writeup: tools/whisper.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Vapi
+  url: https://vapi.ai
+  cluster: create
+  category: voice
+  subcategory: voice-agents
+  best_for: Build phone-call voice agents
+  tags: []
+  writeup: tools/vapi.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+  row_with:
+    - Retell
+    - Bland
+- name: Retell
+  url: https://www.retellai.com
+  cluster: create
+  category: voice
+  subcategory: voice-agents
+  best_for: Build phone-call voice agents
+  tags: []
+  writeup: tools/retell.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Bland
+  url: https://www.bland.ai
+  cluster: create
+  category: voice
+  subcategory: voice-agents
+  best_for: Build phone-call voice agents
+  tags: []
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: PlayHT
+  url: https://play.ht
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: TTS + voice cloning
+  tags: []
+  writeup: tools/playht.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Deepgram
+  url: https://developers.deepgram.com
+  cluster: create
+  category: voice
+  subcategory: transcription
+  best_for: Fast streaming ASR API
+  tags: []
+  writeup: tools/deepgram.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Hermes
+  url: https://www.buildwithhermes.com
+  cluster: create
+  category: voice
+  subcategory: voice-agents
+  best_for: White-label platform for agencies running client voice agents (CRM + campaigns built in)
+  tags: []
+  maker_submitted: false
+  added_via: pr
+  pr: 17
+  tier: listed
+  last_verified: 2026-11-18
+  order: 20
+- name: Cartesia (Sonic)
+  url: https://cartesia.ai
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: Ultra-low-latency real-time voice
+  tags: []
+  writeup: tools/cartesia.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: AssemblyAI
+  url: https://www.assemblyai.com/docs
+  cluster: create
+  category: voice
+  subcategory: transcription
+  best_for: Speech AI API; speaker labels, summarization
+  tags: []
+  writeup: tools/assemblyai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: LiveKit Agents
+  url: https://livekit.io/agents
+  cluster: create
+  category: voice
+  subcategory: voice-agents
+  best_for: "`OSS` voice agent framework"
+  tags:
+    - oss
+  writeup: tools/livekit.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Resemble AI
+  url: https://www.resemble.ai
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: Cloning + speech-to-speech
+  tags: []
+  writeup: tools/resemble.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Otter
+  url: https://otter.ai
+  cluster: create
+  category: voice
+  subcategory: transcription
+  best_for: Live transcription + meeting notes
+  tags: []
+  writeup: tools/otter.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+  also_listed:
+    - category: productivity
+      subcategory: meeting-notes
+      best_for: Mature meeting + transcription
+      order: 30
+- name: PlaceCall
+  url: https://voygr.tech/placecall/
+  cluster: create
+  category: voice
+  subcategory: voice-agents
+  best_for: "Hand an agent a phone task: it calls US businesses for bookings, appointments or quotes (REST API, MCP server or agent skill) and reports back the outcome and transcript"
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 58
+  tier: listed
+  last_verified: 2026-11-18
+  order: 40
+- name: OpenAI Voice / Realtime API
+  url: https://platform.openai.com/docs/guides/realtime
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: Native multimodal voice
+  tags: []
+  writeup: tools/openai_voice.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Echo99
+  url: https://www.echo99.app/
+  cluster: create
+  category: voice
+  subcategory: transcription
+  best_for: "`Free` `Local`; macOS call recorder with separate tracks + speaker labels"
+  tags:
+    - local
+    - free
+  writeup: tools/echo99.md
+  maker_submitted: true
+  added_via: pr
+  pr: 22
+  tier: listed
+  last_verified: 2026-11-18
+  order: 50
+- name: CallForMe
+  url: https://callforme.tel
+  cluster: create
+  category: voice
+  subcategory: voice-agents
+  best_for: "Remote MCP server and REST API: your agent phones US and Canada businesses, works the menu, waits on hold, asks you mid-call and returns a transcript. Paid, pay per call"
+  tags:
+    - paid
+  maker_submitted: true
+  added_via: pr
+  pr: 88
+  tier: listed
+  last_verified: 2026-11-18
+  order: 50
+- name: Hume AI
+  url: https://hume.ai
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: Empathic Voice Interface; emotion-aware prosody
+  tags: []
+  writeup: tools/hume.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: VoiceVibe
+  url: https://voicevibe.ai/
+  cluster: create
+  category: voice
+  subcategory: transcription
+  best_for: An AI voice assistant you can use anywhere on your computer.
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 59
+  tier: listed
+  last_verified: 2026-11-18
+  order: 60
+- name: Workforce Wave
+  url: https://www.workforcewave.com
+  cluster: create
+  category: voice
+  subcategory: voice-agents
+  best_for: AI voice receptionist for SMBs; answers calls 24/7, books appointments, captures leads
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 25
+  tier: listed
+  last_verified: 2026-11-18
+  order: 60
+- name: Sesame
+  url: https://www.sesame.com
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: Conversational Speech Model (Maya / Miles); past the uncanny line
+  tags: []
+  writeup: tools/sesame.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Yap
+  url: https://yapapp.cc
+  cluster: create
+  category: voice
+  subcategory: transcription
+  best_for: "`Local`; on-device dictation for Mac and Windows that types into any app, including terminals and AI coding agents"
+  tags:
+    - local
+  maker_submitted: false
+  added_via: pr
+  pr: 57
+  tier: listed
+  last_verified: 2026-11-18
+  order: 70
+- name: Suno Bark
+  url: https://github.com/suno-ai/bark
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: "`OSS` TTS"
+  tags:
+    - oss
+  writeup: tools/suno_bark.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: "Transcribe Video: To The Text"
+  url: https://video2text.ttt.so
+  cluster: create
+  category: voice
+  subcategory: transcription
+  best_for: "iPhone app: video/audio files, YouTube/Vimeo links or live voice → editable transcript with speaker split, summary and TXT/DOCX export"
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 78
+  tier: listed
+  last_verified: 2026-11-18
+  order: 80
+- name: CharaVox
+  url: https://charavox.com
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: Multilingual character voice generator + cloning (VoxCPM)
+  tags: []
+  writeup: tools/charavox.md
+  maker_submitted: false
+  added_via: pr
+  pr: 21
+  tier: listed
+  last_verified: 2026-11-18
+  order: 90
+- name: Speechify
+  url: https://speechify.ai?utm_source=github&utm_medium=listing&utm_campaign=ai-megalist
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: Streaming TTS API (SIMBA 3.5, 48 languages) + voice cloning
+  tags: []
+  writeup: tools/speechify.md
+  maker_submitted: true
+  added_via: pr
+  pr: 37
+  tier: listed
+  last_verified: 2026-11-18
+  order: 100
+- name: Miragea
+  url: https://miragea.ai/
+  cluster: create
+  category: voice
+  subcategory: tts
+  best_for: Voice cloning from a 5–10 s sample + multi-speaker AI dubbing in 10 languages; free 2,000 chars
+  tags:
+    - freemium
+  maker_submitted: true
+  added_via: pr
+  pr: 87
+  tier: listed
+  last_verified: 2026-11-18
+  order: 110
+- name: Suno
+  url: https://help.suno.com
+  cluster: create
+  category: music
+  best_for: v5; full songs with vocals, stem editing - most polished
+  tags: []
+  writeup: tools/suno.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Udio
+  url: https://www.udio.com
+  cluster: create
+  category: music
+  best_for: High control; embroiled in Sony litigation
+  tags: []
+  writeup: tools/udio.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Mubert
+  url: https://mubert.com
+  cluster: create
+  category: music
+  best_for: API-friendly, license-safe royalty-free music
+  tags: []
+  writeup: tools/mubert.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Loudly
+  url: https://www.loudly.com
+  cluster: create
+  category: music
+  best_for: Genre-driven multi-track generation
+  tags: []
+  writeup: tools/loudly.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Stable Audio
+  url: https://stableaudio.com
+  cluster: create
+  category: music
+  best_for: Stability's audio model
+  tags: []
+  writeup: tools/stable_audio.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: AIVA
+  url: https://www.aiva.ai
+  cluster: create
+  category: music
+  best_for: Soundtracks / film scoring
+  tags: []
+  writeup: tools/aiva.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Endel
+  url: https://endel.io
+  cluster: create
+  category: music
+  best_for: Adaptive focus / ambient soundscapes
+  tags: []
+  writeup: tools/endel.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Is This Song AI
+  url: https://isthissongai.app/
+  cluster: create
+  category: music
+  best_for: "`Free` Checks if a track was made with Suno, Udio or another AI music generator, from a Spotify, Apple Music, Deezer or YouTube link or an upload; Likely AI / Unclear / Likely human with reasons, 5 a day without an account"
+  tags:
+    - free
+  maker_submitted: true
+  added_via: pr
+  pr: 82
+  tier: listed
+  last_verified: 2026-11-18
+  order: 90
+- name: Vocal Separator
+  url: https://vocalseparator.com/
+  cluster: create
+  category: stem-separation
+  best_for: "`Free` tier; vocal or four-stem separation with WAV downloads, loops, tempo and pitch controls for practice"
+  tags:
+    - freemium
+  maker_submitted: true
+  added_via: pr
+  pr: 55
+  tier: listed
+  last_verified: 2026-11-18
+  order: 10
+- name: Granola
+  url: https://www.granola.ai
+  cluster: work
+  category: productivity
+  subcategory: meeting-notes
+  best_for: Bot-free; you write rough notes, it polishes after the call
+  tags: []
+  writeup: tools/granola.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Notion AI
+  url: https://www.notion.so/help/notion-ai
+  cluster: work
+  category: productivity
+  subcategory: notes
+  best_for: AI inside the Notion workspace
+  tags: []
+  writeup: tools/notion_ai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Superhuman
+  url: https://superhuman.com
+  cluster: work
+  category: productivity
+  subcategory: email
+  best_for: AI-native email triage and drafts
+  tags: []
+  writeup: tools/superhuman.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Motion
+  url: https://www.usemotion.com
+  cluster: work
+  category: productivity
+  subcategory: scheduling
+  best_for: Auto-schedules tasks into your calendar
+  tags: []
+  writeup: tools/motion.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Fathom
+  url: https://fathom.video
+  cluster: work
+  category: productivity
+  subcategory: meeting-notes
+  best_for: "`Free` unlimited recording + transcription"
+  tags:
+    - free
+  writeup: tools/fathom.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Mem
+  url: https://get.mem.ai
+  cluster: work
+  category: productivity
+  subcategory: notes
+  best_for: Self-organizing notes with persistent memory
+  tags: []
+  writeup: tools/mem.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Shortwave
+  url: https://www.shortwave.com
+  cluster: work
+  category: productivity
+  subcategory: email
+  best_for: Gmail front-end with strong AI
+  tags: []
+  writeup: tools/shortwave.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Reclaim
+  url: https://reclaim.ai
+  cluster: work
+  category: productivity
+  subcategory: scheduling
+  best_for: Defends focus time, syncs habits
+  tags: []
+  writeup: tools/reclaim.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Reflect
+  url: https://reflect.app
+  cluster: work
+  category: productivity
+  subcategory: notes
+  best_for: Networked notes with GPT-4o
+  tags: []
+  writeup: tools/reflect.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Fyxer
+  url: https://www.fyxer.com
+  cluster: work
+  category: productivity
+  subcategory: email
+  best_for: AI executive assistant for inbox
+  tags: []
+  writeup: tools/fyxer.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Akiflow
+  url: https://akiflow.com
+  cluster: work
+  category: productivity
+  subcategory: scheduling
+  best_for: Task aggregator + time blocking
+  tags: []
+  writeup: tools/akiflow.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Fireflies
+  url: https://fireflies.ai
+  cluster: work
+  category: productivity
+  subcategory: meeting-notes
+  best_for: Cross-platform meeting bot
+  tags: []
+  writeup: tools/fireflies.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Screenpipe
+  url: https://github.com/screenpipe/screenpipe#readme
+  cluster: work
+  category: productivity
+  subcategory: notes
+  best_for: Recall locally captured screen text and audio history; MCP context for AI assistants (source-available)
+  tags: []
+  writeup: tools/screenpipe.md
+  maker_submitted: true
+  added_via: pr
+  pr: 38
+  tier: listed
+  last_verified: 2026-11-18
+  order: 40
+- name: SaneBox
+  url: https://www.sanebox.com
+  cluster: work
+  category: productivity
+  subcategory: email
+  best_for: AI email triage
+  tags: []
+  writeup: tools/sanebox.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Todoist AI
+  url: https://todoist.com
+  cluster: work
+  category: productivity
+  subcategory: scheduling
+  best_for: Task suggestions + breakdowns
+  tags: []
+  writeup: tools/todoist.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Read AI
+  url: https://www.read.ai
+  cluster: work
+  category: productivity
+  subcategory: meeting-notes
+  best_for: Meeting + email + messaging summaries
+  tags: []
+  writeup: tools/read_ai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Obsidian + Smart Connections
+  url: https://obsidian.md
+  cluster: work
+  category: productivity
+  subcategory: notes
+  best_for: "`OSS` `Local` notes + AI plugins"
+  tags:
+    - oss
+    - local
+  writeup: tools/obsidian.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Tudo
+  url: https://blynkai.app/tudo/
+  cluster: work
+  category: productivity
+  subcategory: scheduling
+  best_for: AI task capture and personal planning
+  tags: []
+  writeup: tools/tudo.md
+  maker_submitted: false
+  added_via: pr
+  pr: 15
+  tier: listed
+  last_verified: 2026-11-18
+  order: 50
+- name: Krisp
+  url: https://krisp.ai
+  cluster: work
+  category: productivity
+  subcategory: meeting-notes
+  best_for: Bot-free meeting notes + noise cancel
+  tags: []
+  writeup: tools/krisp.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Capacities
+  url: https://capacities.io
+  cluster: work
+  category: productivity
+  subcategory: notes
+  best_for: Object-based notes with AI
+  tags: []
+  writeup: tools/capacities.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: ChatPRD
+  url: https://www.chatprd.ai
+  cluster: work
+  category: productivity
+  subcategory: scheduling
+  best_for: PRDs and product specs
+  tags: []
+  writeup: tools/chatprd.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: tl;dv
+  url: https://tldv.io
+  cluster: work
+  category: productivity
+  subcategory: meeting-notes
+  best_for: Meeting recap + CRM sync
+  tags: []
+  writeup: tools/tldv.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Jamie
+  url: https://www.meetjamie.ai
+  cluster: work
+  category: productivity
+  subcategory: meeting-notes
+  best_for: Bot-free, EU-friendly
+  tags: []
+  writeup: tools/jamie.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Gong
+  url: https://www.gong.io
+  cluster: work
+  category: productivity
+  subcategory: meeting-notes
+  best_for: Revenue intelligence over sales calls; B2B default
+  tags: []
+  writeup: tools/gong.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: ChatGPT Operator / Agent
+  url: https://openai.com/index/introducing-operator
+  cluster: work
+  category: agents
+  best_for: OpenAI's browser-using agent in ChatGPT
+  tags: []
+  writeup: tools/chatgpt_operator.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Manus
+  url: https://manus.im
+  cluster: work
+  category: agents
+  best_for: Cloud agent; "My Computer" sandbox; acquired by Meta (Dec 2025)
+  tags: []
+  writeup: tools/manus.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Claude Computer Use
+  url: https://docs.anthropic.com/en/docs/agents-and-tools/computer-use
+  cluster: work
+  category: agents
+  best_for: API for screen / mouse / keyboard control
+  tags: []
+  writeup: tools/claude_computer_use.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Goose (Block)
+  url: https://block.github.io/goose/
+  cluster: work
+  category: agents
+  best_for: "`OSS` local agent"
+  tags:
+    - oss
+  writeup: tools/goose.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Browser Use
+  url: https://browser-use.com
+  cluster: work
+  category: agents
+  best_for: "`OSS` Python lib for LLM-controlled browsers"
+  tags:
+    - oss
+  writeup: tools/browser_use.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Browserbase + Stagehand
+  url: https://www.browserbase.com
+  cluster: work
+  category: agents
+  best_for: Headless browser infra for agents
+  tags: []
+  writeup: tools/browserbase.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: AutoGPT
+  url: https://agpt.co
+  cluster: work
+  category: agents
+  best_for: "`OSS` autonomous agent platform"
+  tags:
+    - oss
+  writeup: tools/autogpt.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: AutoGen / AG2
+  url: https://github.com/microsoft/autogen
+  cluster: work
+  category: agents
+  best_for: "`OSS` Microsoft + community multi-agent framework"
+  tags:
+    - oss
+  writeup: tools/autogen.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 100
+- name: CrewAI
+  url: https://www.crewai.com
+  cluster: work
+  category: agents
+  best_for: "`OSS` multi-agent orchestration"
+  tags:
+    - oss
+  writeup: tools/crewai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 110
+- name: LangGraph
+  url: https://langchain-ai.github.io/langgraph/
+  cluster: work
+  category: agents
+  best_for: "`OSS` stateful agent graphs"
+  tags:
+    - oss
+  writeup: tools/langgraph.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 120
+- name: Smolagents
+  url: https://github.com/huggingface/smolagents
+  cluster: work
+  category: agents
+  best_for: "`OSS` minimal agent framework (HF)"
+  tags:
+    - oss
+  writeup: tools/smolagents.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 130
+- name: Letta
+  url: https://www.letta.com
+  cluster: work
+  category: agents
+  best_for: "`OSS` stateful agents with persistent memory (MemGPT)"
+  tags:
+    - oss
+  writeup: tools/letta.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 140
+- name: Orkas
+  url: https://github.com/Orkas-AI/Orkas
+  cluster: work
+  category: agents
+  best_for: "`OSS` `Local` desktop AI workforce; one Commander coordinates specialist agents"
+  tags:
+    - oss
+    - local
+  maker_submitted: true
+  added_via: pr
+  pr: 27
+  tier: listed
+  last_verified: 2026-11-18
+  order: 150
+- name: Tree Ring Memory
+  url: https://github.com/TerminallyLazy/Tree-Ring-Memory
+  cluster: work
+  category: agents
+  best_for: "`OSS` `Local` memory lifecycle layer for agents; SQLite/FTS recall, audit, redaction, and consolidation"
+  tags:
+    - oss
+    - local
+  writeup: tools/tree_ring_memory.md
+  maker_submitted: false
+  added_via: pr
+  pr: 16
+  tier: listed
+  last_verified: 2026-11-18
+  order: 160
+- name: Mnemoverse
+  url: https://mnemoverse.com
+  cluster: work
+  category: agents
+  best_for: "`Free` hosted memory for AI agents over MCP; re-ranks recall by whether a memory helped or misled; shared rooms; Claude, Cursor, VS Code, ChatGPT"
+  tags:
+    - free
+  maker_submitted: true
+  added_via: pr
+  pr: 39
+  tier: listed
+  last_verified: 2026-11-18
+  order: 170
+- name: Aident Loadout
+  url: https://aident.ai
+  cluster: work
+  category: agents
+  best_for: Connect Claude Code, Codex, Cursor and other MCP clients to your apps and 400+ Skills through one remote MCP server; credentials stay in a vault, per-action cost preflight and audit log; pay-as-you-go
+  tags:
+    - paid
+  maker_submitted: true
+  added_via: pr
+  pr: 50
+  tier: listed
+  last_verified: 2026-11-18
+  order: 180
+- name: MultiOn
+  url: https://www.multion.ai
+  cluster: work
+  category: agents
+  best_for: Browser agent + developer API (Agent Q)
+  tags: []
+  writeup: tools/multion.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 190
+- name: Skyvern
+  url: https://www.skyvern.com
+  cluster: work
+  category: agents
+  best_for: "`OSS` vision-grounded browser automation"
+  tags:
+    - oss
+  writeup: tools/skyvern.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 200
+- name: Drevon
+  url: https://www.drevon.dev
+  cluster: work
+  category: agents
+  best_for: "`Free` Mac app that connects to your Claude Code or Codex and turns it into an end-to-end GTM operator: research, grunt work, analysis and actions across your stack from a single prompt, in your own browser with your own logins"
+  tags:
+    - free
+  maker_submitted: true
+  added_via: pr
+  pr: 45
+  tier: listed
+  last_verified: 2026-11-18
+  order: 210
+- name: NeverApply
+  url: https://neverapply.co
+  cluster: work
+  category: agents
+  best_for: "`Free` tier; AI job-search agent that matches jobs, tailors your resume, answers screening questions and applies with your approval; hosted MCP server for Claude, Cursor and other clients"
+  tags:
+    - freemium
+  maker_submitted: false
+  added_via: pr
+  pr: 63
+  tier: listed
+  last_verified: 2026-11-18
+  order: 220
+- name: CurlShot
+  url: https://curlshot.com
+  cluster: work
+  category: agents
+  best_for: "Screenshot API with a hosted MCP server, so agents can see a web page: URL, HTML or Markdown in, PNG, JPEG, WebP, PDF or scrolling video out; free plan of 100 screenshots a month, no card"
+  tags:
+    - freemium
+  maker_submitted: true
+  added_via: pr
+  pr: 52
+  tier: listed
+  last_verified: 2026-11-18
+  order: 230
+- name: No Stairs Please MCP
+  url: https://nostairsplease.com/mcp
+  cluster: work
+  category: agents
+  best_for: "`Free` search; hosted remote MCP server for touring musicians and agents to search verified live-music venues across all 50 US states, DC, and British Columbia, plan tour routes, and look up booking contacts"
+  tags:
+    - free
+  maker_submitted: false
+  added_via: pr
+  pr: 85
+  tier: listed
+  last_verified: 2026-11-18
+  order: 240
+- name: n8n
+  url: https://docs.n8n.io
+  cluster: work
+  category: workflow-automation
+  best_for: "`OSS` self-hostable; the developer-favorite"
+  tags:
+    - oss
+  writeup: tools/n8n.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Make
+  url: https://www.make.com
+  cluster: work
+  category: workflow-automation
+  best_for: Visual scenario builder with AI modules
+  tags: []
+  writeup: tools/make.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Zapier AI
+  url: https://zapier.com
+  cluster: work
+  category: workflow-automation
+  best_for: Largest app catalog; AI Actions + Agents
+  tags: []
+  writeup: tools/zapier.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Pipedream
+  url: https://pipedream.com
+  cluster: work
+  category: workflow-automation
+  best_for: Code-first workflows with AI steps
+  tags: []
+  writeup: tools/pipedream.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Xquik
+  url: https://xquik.com
+  cluster: work
+  category: workflow-automation
+  best_for: X data API, MCP, webhooks, and agent workflows
+  tags: []
+  writeup: tools/xquik.md
+  maker_submitted: false
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-18
+  order: 50
+- name: Activepieces
+  url: https://www.activepieces.com
+  cluster: work
+  category: workflow-automation
+  best_for: "`OSS` Zapier alternative"
+  tags:
+    - oss
+  writeup: tools/activepieces.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Lindy
+  url: https://www.lindy.ai
+  cluster: work
+  category: workflow-automation
+  best_for: AI assistant builder for ops workflows
+  tags: []
+  writeup: tools/lindy.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Relevance AI
+  url: https://relevanceai.com
+  cluster: work
+  category: workflow-automation
+  best_for: No-code AI agent teams
+  tags: []
+  writeup: tools/relevance_ai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Bardeen
+  url: https://www.bardeen.ai
+  cluster: work
+  category: workflow-automation
+  best_for: Browser-side AI automation; works on sites without APIs
+  tags: []
+  writeup: tools/bardeen.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: Figma + Figma Make
+  url: https://www.figma.com
+  cluster: work
+  category: design
+  best_for: Industry standard; prompt-to-prototype
+  tags: []
+  writeup: tools/figma.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Google Stitch
+  url: https://stitch.withgoogle.com
+  cluster: work
+  category: design
+  best_for: Prompt → editable UI design (formerly Galileo)
+  tags: []
+  writeup: tools/google_stitch.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: v0 by Vercel
+  url: https://v0.dev
+  cluster: work
+  category: design
+  best_for: Prompt → React / Tailwind components
+  tags: []
+  writeup: tools/v0.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+  also_listed:
+    - category: app-builders
+      display_name: v0
+      best_for: Best for Next.js teams; UI-first
+      order: 30
+- name: Roblox GUI Maker
+  url: https://robloxguimaker.dev/
+  cluster: work
+  category: design
+  best_for: Prompt → Roblox Studio GUI and Lua starter code
+  tags: []
+  writeup: tools/roblox_gui_maker.md
+  maker_submitted: false
+  added_via: pr
+  pr: 13
+  tier: listed
+  last_verified: 2026-11-18
+  order: 40
+- name: Uizard
+  url: https://uizard.io
+  cluster: work
+  category: design
+  best_for: Wireframe to UI
+  tags: []
+  writeup: tools/uizard.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Magic Patterns
+  url: https://www.magicpatterns.com
+  cluster: work
+  category: design
+  best_for: Generate React + Figma UIs
+  tags: []
+  writeup: tools/magic_patterns.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Canva
+  url: https://www.canva.com
+  cluster: work
+  category: design
+  best_for: "Magic Studio: visuals at scale for non-designers"
+  tags: []
+  writeup: tools/canva.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Gamma
+  url: https://gamma.app
+  cluster: work
+  category: design
+  best_for: AI presentations / decks / sites
+  tags: []
+  writeup: tools/gamma.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: Tome
+  url: https://tome.app
+  cluster: work
+  category: design
+  best_for: AI decks + sales narratives
+  tags: []
+  writeup: tools/tome.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 100
+- name: Beautiful.ai
+  url: https://www.beautiful.ai
+  cluster: work
+  category: design
+  best_for: Smart slide templates
+  tags: []
+  writeup: tools/beautiful_ai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 110
+- name: Kamply
+  url: https://kamplyapp.com
+  cluster: work
+  category: design
+  best_for: "Paid Mac app: a marketing crew builds on-brand posts, reels, ads + decks on your Claude Code / Codex plan"
+  tags:
+    - paid
+  maker_submitted: true
+  added_via: pr
+  pr: 46
+  tier: listed
+  last_verified: 2026-11-18
+  order: 130
+- name: APPLORE
+  url: https://applore.app/ai-app-icon-generator
+  cluster: work
+  category: design
+  best_for: "`Free` AI app icon generator + a reference library of 18,000+ real App Store / Google Play icons; free icon size exporter and App Store screenshot maker"
+  tags:
+    - free
+  maker_submitted: true
+  added_via: pr
+  pr: 60
+  tier: listed
+  last_verified: 2026-11-18
+  order: 140
+- name: Julius
+  url: https://julius.ai
+  cluster: work
+  category: data
+  best_for: Chat-driven data analysis on CSVs / sheets
+  tags: []
+  writeup: tools/julius.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Hex + Magic
+  url: https://hex.tech
+  cluster: work
+  category: data
+  best_for: Notebook + AI for data teams
+  tags: []
+  writeup: tools/hex.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Mode + AI Assistant
+  url: https://mode.com
+  cluster: work
+  category: data
+  best_for: BI with AI
+  tags: []
+  writeup: tools/mode.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Rows
+  url: https://rows.com
+  cluster: work
+  category: data
+  best_for: AI spreadsheet
+  tags: []
+  writeup: tools/rows.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Bricks
+  url: https://www.thebricks.com
+  cluster: work
+  category: data
+  best_for: Spreadsheet that talks back
+  tags: []
+  writeup: tools/bricks.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Numerous
+  url: https://numerous.ai
+  cluster: work
+  category: data
+  best_for: AI inside Sheets / Excel
+  tags: []
+  writeup: tools/numerous.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Equals
+  url: https://equals.com
+  cluster: work
+  category: data
+  best_for: Connected spreadsheet with AI
+  tags: []
+  writeup: tools/equals.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: DataChat
+  url: https://datachat.ai
+  cluster: work
+  category: data
+  best_for: Conversational analytics
+  tags: []
+  writeup: tools/datachat.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Wolfram Alpha / GPT
+  url: https://www.wolframalpha.com
+  cluster: work
+  category: data
+  best_for: Symbolic computation as a grounded tool for LLMs
+  tags: []
+  writeup: tools/wolfram.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: Claude Code
+  url: https://www.anthropic.com/claude-code
+  cluster: build
+  category: coding
+  subcategory: terminal-agents
+  best_for: Anthropic's CLI agent; full-codebase context, hooks, MCP, sub-agents
+  tags: []
+  writeup: tools/claude_code.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Cursor
+  url: https://cursor.com/docs
+  cluster: build
+  category: coding
+  subcategory: ides
+  best_for: Dominant AI IDE; Composer for multi-file edits, codebase indexing
+  tags: []
+  writeup: tools/cursor.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: GitHub Copilot
+  url: https://docs.github.com/copilot
+  cluster: build
+  category: coding
+  subcategory: completion
+  best_for: Best inline autocomplete; deep JetBrains/VS Code support
+  tags: []
+  writeup: tools/github_copilot.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+  also_listed:
+    - category: coding
+      subcategory: cloud-agents
+      display_name: GitHub Copilot Coding Agent
+      best_for: Assigns issues directly to Copilot; opens PRs
+      order: 20
+- name: agent-qa
+  url: https://github.com/vostride/agent-qa
+  cluster: build
+  category: coding
+  subcategory: code-review
+  best_for: Self-improving natural-language web and mobile tests with memory and self-healing
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 28
+  tier: listed
+  last_verified: 2026-11-18
+  order: 10
+- name: Devin
+  url: https://docs.devin.ai
+  cluster: build
+  category: coding
+  subcategory: cloud-agents
+  best_for: Cognition's autonomous engineer
+  tags: []
+  writeup: tools/devin.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Codex CLI
+  url: https://github.com/openai/codex
+  cluster: build
+  category: coding
+  subcategory: terminal-agents
+  best_for: OpenAI's terminal agent; surged with GPT-5.5
+  tags: []
+  writeup: tools/codex_cli.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Windsurf
+  url: https://docs.windsurf.com
+  cluster: build
+  category: coding
+  subcategory: ides
+  best_for: Codeium's agentic IDE; Cascade flow, lower price
+  tags: []
+  writeup: tools/windsurf.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Tabnine
+  url: https://www.tabnine.com
+  cluster: build
+  category: coding
+  subcategory: completion
+  best_for: Privacy-first; on-prem and air-gap
+  tags: []
+  writeup: tools/tabnine.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: CodeRabbit
+  url: https://www.coderabbit.ai
+  cluster: build
+  category: coding
+  subcategory: code-review
+  best_for: AI PR reviewer with chat
+  tags: []
+  writeup: tools/coderabbit.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Gemini CLI
+  url: https://github.com/google-gemini/gemini-cli
+  cluster: build
+  category: coding
+  subcategory: terminal-agents
+  best_for: "`OSS` Google terminal agent; ReAct loop, MCP, 1M context"
+  tags:
+    - oss
+  writeup: tools/gemini_cli.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Zed
+  url: https://zed.dev
+  cluster: build
+  category: coding
+  subcategory: ides
+  best_for: "`OSS` native, fast Rust-based editor with AI"
+  tags:
+    - oss
+  writeup: tools/zed.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Codeium
+  url: https://www.codeium.com
+  cluster: build
+  category: coding
+  subcategory: completion
+  best_for: "`Free` tier; many IDEs"
+  tags:
+    - freemium
+  writeup: tools/codeium.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Greptile
+  url: https://www.greptile.com
+  cluster: build
+  category: coding
+  subcategory: code-review
+  best_for: Codebase Q&A and review
+  tags: []
+  writeup: tools/greptile.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Replit Agent
+  url: https://docs.replit.com
+  cluster: build
+  category: coding
+  subcategory: cloud-agents
+  best_for: Build, test, and deploy from a prompt
+  tags: []
+  writeup: tools/replit_agent.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+  also_listed:
+    - category: app-builders
+      best_for: "Glass-box: see and edit the code as it builds"
+      order: 40
+- name: Aider
+  url: https://aider.chat
+  cluster: build
+  category: coding
+  subcategory: terminal-agents
+  best_for: "`OSS` pair-programming in the terminal; git-native"
+  tags:
+    - oss
+  writeup: tools/aider.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Void
+  url: https://voideditor.com
+  cluster: build
+  category: coding
+  subcategory: ides
+  best_for: "`OSS` Cursor alternative"
+  tags:
+    - oss
+  writeup: tools/void.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Supermaven
+  url: https://supermaven.com
+  cluster: build
+  category: coding
+  subcategory: completion
+  best_for: Very fast completion; long context
+  tags: []
+  writeup: tools/supermaven.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Cody (Sourcegraph)
+  url: https://sourcegraph.com/cody
+  cluster: build
+  category: coding
+  subcategory: code-review
+  best_for: Codebase-aware assistant; enterprise
+  tags: []
+  writeup: tools/cody.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Factory Droids
+  url: https://www.factory.ai
+  cluster: build
+  category: coding
+  subcategory: cloud-agents
+  best_for: Fleet of specialized SWE agents (Code, Reliability, Knowledge, etc)
+  tags: []
+  writeup: tools/factory_droids.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: OpenHands
+  url: https://github.com/All-Hands-AI/OpenHands
+  cluster: build
+  category: coding
+  subcategory: terminal-agents
+  best_for: "`OSS` autonomous SWE agent (formerly OpenDevin)"
+  tags:
+    - oss
+  writeup: tools/openhands.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Pochi
+  url: https://www.pochi.app
+  cluster: build
+  category: coding
+  subcategory: ides
+  best_for: VS Code-native agent (TabbyML); parallel agents, local models
+  tags: []
+  writeup: tools/pochi.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Continue
+  url: https://continue.dev
+  cluster: build
+  category: coding
+  subcategory: completion
+  best_for: "`OSS` BYO-model, VS Code/JetBrains"
+  tags:
+    - oss
+  writeup: tools/continue.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Qodo
+  url: https://www.qodo.ai
+  cluster: build
+  category: coding
+  subcategory: code-review
+  best_for: Test generation + review (formerly Codium)
+  tags: []
+  writeup: tools/qodo.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: SWE-agent
+  url: https://swe-agent.com
+  cluster: build
+  category: coding
+  subcategory: terminal-agents
+  best_for: "`OSS` agent that fixes GitHub issues (Princeton)"
+  tags:
+    - oss
+  writeup: tools/swe_agent.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Trae
+  url: https://trae.ai
+  cluster: build
+  category: coding
+  subcategory: ides
+  best_for: ByteDance's AI IDE
+  tags: []
+  writeup: tools/trae.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Amazon Q Developer
+  url: https://aws.amazon.com/q/developer/
+  cluster: build
+  category: coding
+  subcategory: completion
+  best_for: AWS-native completion + agent (was CodeWhisperer); Java `/transform` is the killer feature
+  tags: []
+  writeup: tools/amazon_q_developer.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Diamond by Graphite
+  url: https://graphite.dev/diamond
+  cluster: build
+  category: coding
+  subcategory: code-review
+  best_for: PR review tightly integrated with Graphite stacks
+  tags: []
+  writeup: tools/diamond.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: YYLO
+  url: https://github.com/yylo-dev/yylo
+  cluster: build
+  category: coding
+  subcategory: terminal-agents
+  best_for: "`OSS` command-line orchestrator for coding agents; typed tasks in a dedicated worktree, risk-based merge queue"
+  tags:
+    - oss
+  writeup: tools/yylo.md
+  maker_submitted: true
+  added_via: pr
+  pr: 30
+  tier: listed
+  last_verified: 2026-11-18
+  order: 70
+- name: Cline
+  url: https://cline.bot
+  cluster: build
+  category: coding
+  subcategory: ides
+  best_for: "`OSS` VS Code autonomous agent extension; human-in-the-loop approval"
+  tags:
+    - oss
+  writeup: tools/cline.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: JetBrains AI Assistant
+  url: https://www.jetbrains.com/ai/
+  cluster: build
+  category: coding
+  subcategory: completion
+  best_for: Bundled across IntelliJ / PyCharm / GoLand / etc; Junie agent
+  tags: []
+  writeup: tools/jetbrains_ai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Roo Code
+  url: https://docs.roocode.com
+  cluster: build
+  category: coding
+  subcategory: ides
+  best_for: "`OSS` Cline fork with custom modes + per-mode model selection"
+  tags:
+    - oss
+  writeup: tools/roo_code.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Augment Code
+  url: https://www.augmentcode.com
+  cluster: build
+  category: coding
+  subcategory: ides
+  best_for: Context-engine for very large codebases (VS Code + JetBrains)
+  tags: []
+  writeup: tools/augment_code.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: Lovable
+  url: https://docs.lovable.dev
+  cluster: build
+  category: app-builders
+  best_for: Full-stack from prompt; built-in hosting + Supabase + auth
+  tags: []
+  writeup: tools/lovable.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Bolt.new
+  url: https://bolt.new
+  cluster: build
+  category: app-builders
+  best_for: Browser IDE; fastest path to a shareable demo
+  tags: []
+  writeup: tools/bolt_new.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Base44
+  url: https://base44.com
+  cluster: build
+  category: app-builders
+  best_for: All-in-one no-code app builder
+  tags: []
+  writeup: tools/base44.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Softr
+  url: https://www.softr.io
+  cluster: build
+  category: app-builders
+  best_for: No-code apps on top of Airtable / Sheets
+  tags: []
+  writeup: tools/softr.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Glide
+  url: https://www.glideapps.com
+  cluster: build
+  category: app-builders
+  best_for: No-code mobile-first apps
+  tags: []
+  writeup: tools/glide.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: Bubble
+  url: https://bubble.io
+  cluster: build
+  category: app-builders
+  best_for: No-code with AI assist
+  tags: []
+  writeup: tools/bubble.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Webflow + AI
+  url: https://webflow.com
+  cluster: build
+  category: app-builders
+  best_for: AI features in a designer-grade web builder
+  tags: []
+  writeup: tools/webflow.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: Framer
+  url: https://www.framer.com
+  cluster: build
+  category: app-builders
+  best_for: AI sites with strong design defaults
+  tags: []
+  writeup: tools/framer.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 100
+- name: Massvai
+  url: https://massvai.com/
+  cluster: build
+  category: app-builders
+  best_for: Prompt to full-stack Next.js + Supabase app with exportable code and one-click Vercel deploy
+  tags: []
+  maker_submitted: false
+  added_via: pr
+  pr: 54
+  tier: listed
+  last_verified: 2026-11-18
+  order: 110
+- name: Ollama
+  url: https://ollama.com
+  cluster: build
+  category: local-models
+  best_for: The default; CLI-first, OpenAI-compatible API
+  tags: []
+  writeup: tools/ollama.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: LM Studio
+  url: https://lmstudio.ai
+  cluster: build
+  category: local-models
+  best_for: Friendly GUI; HF browser; headless mode
+  tags: []
+  writeup: tools/lm_studio.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Jan
+  url: https://jan.ai
+  cluster: build
+  category: local-models
+  best_for: "`OSS` desktop ChatGPT replacement"
+  tags:
+    - oss
+  writeup: tools/jan.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: llama.cpp
+  url: https://github.com/ggml-org/llama.cpp
+  cluster: build
+  category: local-models
+  best_for: "`OSS` inference engine; backbone of most local tooling"
+  tags:
+    - oss
+  writeup: tools/llama_cpp.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: text-generation-webui
+  url: https://github.com/oobabooga/text-generation-webui
+  cluster: build
+  category: local-models
+  best_for: "`OSS` power-user web UI"
+  tags:
+    - oss
+  writeup: tools/text_generation_webui.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: GPT4All
+  url: https://gpt4all.io
+  cluster: build
+  category: local-models
+  best_for: "`OSS` desktop app for local LLMs"
+  tags:
+    - oss
+  writeup: tools/gpt4all.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: LocalAI
+  url: https://localai.io
+  cluster: build
+  category: local-models
+  best_for: "`OSS` OpenAI-compatible drop-in for local"
+  tags:
+    - oss
+  writeup: tools/localai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: vLLM
+  url: https://docs.vllm.ai
+  cluster: build
+  category: local-models
+  best_for: "`OSS` high-throughput serving"
+  tags:
+    - oss
+  writeup: tools/vllm.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Open WebUI
+  url: https://openwebui.com
+  cluster: build
+  category: local-models
+  best_for: "`OSS` ChatGPT-style UI for Ollama / OpenAI-compatible APIs"
+  tags:
+    - oss
+  writeup: tools/open_webui.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: AnythingLLM
+  url: https://useanythingllm.com
+  cluster: build
+  category: local-models
+  best_for: "`OSS` local-first RAG + chat desktop app (Mintplex)"
+  tags:
+    - oss
+  writeup: tools/anythingllm.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 100
+- name: Off Grid AI Desktop
+  url: https://getoffgridai.co/desktop
+  cluster: build
+  category: local-models
+  best_for: "`OSS` `Local` macOS app; on-device chat, image gen, voice, RAG, MCP - no account, no telemetry"
+  tags:
+    - oss
+    - local
+  writeup: tools/off_grid_ai_desktop.md
+  maker_submitted: true
+  added_via: pr
+  pr: 19
+  tier: listed
+  last_verified: 2026-11-18
+  order: 110
+- name: Msty
+  url: https://msty.app
+  cluster: build
+  category: local-models
+  best_for: Polished cross-provider desktop chat; split-chat comparison
+  tags: []
+  writeup: tools/msty.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 120
+- name: Anthropic API
+  url: https://docs.anthropic.com
+  cluster: build
+  category: model-apis
+  best_for: Claude family; tool use, computer use, MCP
+  tags: []
+  writeup: tools/anthropic_api.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: OpenAI Platform
+  url: https://platform.openai.com/docs
+  cluster: build
+  category: model-apis
+  best_for: GPT, Realtime, Responses API, Agents SDK
+  tags: []
+  writeup: tools/openai_platform.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Google AI Studio / Vertex
+  url: https://aistudio.google.com
+  cluster: build
+  category: model-apis
+  best_for: Gemini family
+  tags: []
+  writeup: tools/google_ai_studio.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: AWS Bedrock
+  url: https://aws.amazon.com/bedrock/
+  cluster: build
+  category: model-apis
+  best_for: Claude / Llama / Mistral / Cohere on AWS with IAM auth
+  tags: []
+  writeup: tools/aws_bedrock.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Azure OpenAI
+  url: https://azure.microsoft.com/products/ai-services/openai-service
+  cluster: build
+  category: model-apis
+  best_for: OpenAI models with Microsoft enterprise plumbing
+  tags: []
+  writeup: tools/azure_openai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: xAI
+  url: https://x.ai
+  cluster: build
+  category: model-apis
+  best_for: Grok API
+  tags: []
+  writeup: tools/xai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Mistral La Plateforme
+  url: https://mistral.ai
+  cluster: build
+  category: model-apis
+  best_for: EU-hosted models
+  tags: []
+  writeup: tools/mistral_la_plateforme.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: OpenRouter
+  url: https://openrouter.ai
+  cluster: build
+  category: model-apis
+  best_for: One key, every model; OpenAI-compatible aggregator
+  tags: []
+  writeup: tools/openrouter.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 100
+- name: TokenMost
+  url: https://tokenmost.com
+  cluster: build
+  category: model-apis
+  best_for: "Free-token deals tracker: verified offers, plan-value comparison"
+  tags: []
+  writeup: tools/tokenmost.md
+  maker_submitted: false
+  added_via: pr
+  pr: 81
+  tier: listed
+  last_verified: 2026-11-18
+  order: 110
+- name: XiuRouter
+  url: https://router.xiu.ai/
+  cluster: build
+  category: model-apis
+  best_for: Hosted multi-model API; Responses, Messages, Chat, Gemini, and tiered pricing
+  tags: []
+  writeup: tools/xiurouter.md
+  maker_submitted: true
+  added_via: pr
+  pr: 29
+  tier: listed
+  last_verified: 2026-11-18
+  order: 120
+- name: Together AI
+  url: https://www.together.ai
+  cluster: build
+  category: model-apis
+  best_for: OSS model hosting + fine-tuning
+  tags: []
+  writeup: tools/together.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 130
+- name: Fireworks AI
+  url: https://fireworks.ai
+  cluster: build
+  category: model-apis
+  best_for: Fast OSS model inference
+  tags: []
+  writeup: tools/fireworks.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 140
+- name: Groq
+  url: https://console.groq.com
+  cluster: build
+  category: model-apis
+  best_for: LPU inference at very high TPS
+  tags: []
+  writeup: tools/groq.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 150
+- name: Cerebras Inference
+  url: https://cerebras.ai/inference
+  cluster: build
+  category: model-apis
+  best_for: Wafer-scale inference; very fast
+  tags: []
+  writeup: tools/cerebras.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 160
+- name: Replicate
+  url: https://replicate.com
+  cluster: build
+  category: model-apis
+  best_for: Run any model via API
+  tags: []
+  writeup: tools/replicate.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 170
+- name: Hugging Face
+  url: https://huggingface.co
+  cluster: build
+  category: model-apis
+  best_for: Models, datasets, Spaces, Inference Endpoints
+  tags: []
+  writeup: tools/huggingface.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 180
+- name: Modal
+  url: https://modal.com
+  cluster: build
+  category: model-apis
+  best_for: GPU compute for AI workloads
+  tags: []
+  writeup: tools/modal.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 190
+  row_with:
+    - Runpod
+- name: Runpod
+  url: https://runpod.io
+  cluster: build
+  category: model-apis
+  best_for: GPU compute for AI workloads
+  tags: []
+  writeup: tools/runpod.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 190
+- name: LangChain
+  url: https://www.langchain.com
+  cluster: build
+  category: model-apis
+  best_for: "`OSS` app frameworks"
+  tags:
+    - oss
+  writeup: tools/langchain.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 200
+  row_with:
+    - LlamaIndex
+- name: LlamaIndex
+  url: https://www.llamaindex.ai
+  cluster: build
+  category: model-apis
+  best_for: "`OSS` app frameworks"
+  tags:
+    - oss
+  writeup: tools/llamaindex.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 200
+- name: Vercel AI SDK
+  url: https://ai-sdk.dev
+  cluster: build
+  category: model-apis
+  best_for: TS-first AI app SDK
+  tags: []
+  writeup: tools/vercel_ai_sdk.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 210
+- name: LiteLLM
+  url: https://www.litellm.ai
+  cluster: build
+  category: model-apis
+  best_for: "`OSS` unified API gateway across providers"
+  tags:
+    - oss
+  writeup: tools/litellm.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 220
+- name: Respan
+  url: https://www.respan.ai/ai-gateway
+  cluster: build
+  category: model-apis
+  best_for: Tracing, evals, prompts + gateway across 250+ models
+  tags: []
+  writeup: tools/respan.md
+  maker_submitted: false
+  added_via: pr
+  pr: 8
+  tier: listed
+  last_verified: 2026-11-18
+  order: 230
+- name: Nomi
+  url: https://nomi.ai
+  cluster: life
+  category: companions
+  best_for: Strong long-term memory; group chats; deep personalization
+  tags: []
+  writeup: tools/nomi.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Replika
+  url: https://replika.com
+  cluster: life
+  category: companions
+  best_for: The original; gamified relationship + companion-world
+  tags: []
+  writeup: tools/replika.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Kissable
+  url: https://kissable.app
+  cluster: life
+  category: companions
+  best_for: Photo/video generation; community scenario catalog; emotional voice
+  tags: []
+  writeup: tools/kissable.md
+  maker_submitted: false
+  added_via: pr
+  pr: 2
+  tier: listed
+  last_verified: 2026-11-18
+  order: 30
+- name: Character.AI
+  url: https://character.ai
+  cluster: life
+  category: companions
+  best_for: Largest character library; generous `Free` tier
+  tags:
+    - freemium
+  writeup: tools/character_ai.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: Kindroid
+  url: https://kindroid.ai
+  cluster: life
+  category: companions
+  best_for: Lifelike personalities, in-app social feed
+  tags: []
+  writeup: tools/kindroid.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 50
+- name: Pi (Inflection)
+  url: https://inflection.ai
+  cluster: life
+  category: companions
+  best_for: Calmer, conversational tone
+  tags: []
+  writeup: tools/pi.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 60
+- name: Sammi
+  url: https://sammiai.app/
+  cluster: life
+  category: companions
+  best_for: Android fictional-character text and voice chat; character customization and creative roleplay
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 84
+  tier: listed
+  last_verified: 2026-11-18
+  order: 70
+- name: Talkie
+  url: https://www.talkie-ai.com
+  cluster: life
+  category: companions
+  best_for: Mobile-first roleplay
+  tags: []
+  writeup: tools/talkie.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Prelulu
+  url: https://prelulu.ai/ai-video-chat
+  cluster: life
+  category: companions
+  best_for: "`Free` tier; real-time AI video call and AI video chat with characters on a live face you can interrupt; AI roleplay stories; make your own character with a face, voice and memory"
+  tags:
+    - freemium
+  maker_submitted: true
+  added_via: pr
+  pr: 67
+  tier: listed
+  last_verified: 2026-11-18
+  order: 90
+- name: Khanmigo
+  url: https://www.khanmigo.ai
+  cluster: life
+  category: education
+  best_for: K-12 tutoring assistant (Khan Academy)
+  tags: []
+  writeup: tools/khanmigo.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 10
+- name: Quizlet AI
+  url: https://quizlet.com
+  cluster: life
+  category: education
+  best_for: Flashcards + Q-Chat tutor
+  tags: []
+  writeup: tools/quizlet.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 20
+- name: Duolingo Max
+  url: https://www.duolingo.com
+  cluster: life
+  category: education
+  best_for: Roleplay + Explain My Answer
+  tags: []
+  writeup: tools/duolingo_max.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 30
+- name: Speak
+  url: https://www.speak.com
+  cluster: life
+  category: education
+  best_for: AI conversation for language learning
+  tags: []
+  writeup: tools/speak.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 40
+- name: StudyArena
+  url: https://studyarena.com
+  cluster: life
+  category: education
+  best_for: "`Free` compare three explanations of one study question before seeing model names"
+  tags:
+    - free
+  maker_submitted: false
+  added_via: pr
+  pr: 31
+  tier: listed
+  last_verified: 2026-11-18
+  order: 50
+- name: Brisk Teaching
+  url: https://www.briskteaching.com
+  cluster: life
+  category: education
+  best_for: AI for teachers (lesson plans, feedback)
+  tags: []
+  writeup: tools/brisk_teaching.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 70
+- name: MagicSchool
+  url: https://www.magicschool.ai
+  cluster: life
+  category: education
+  best_for: 80+ teacher tools (lesson plans, IEPs, rubrics, leveling)
+  tags: []
+  writeup: tools/magicschool.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 80
+- name: Eightify
+  url: https://eightify.app
+  cluster: life
+  category: education
+  best_for: YouTube lecture summaries
+  tags: []
+  writeup: tools/eightify.md
+  maker_submitted: false
+  added_via: owner
+  tier: top
+  last_verified: 2026-11-18
+  order: 90
+- name: SummarizAI
+  url: https://summarizai.ink
+  cluster: life
+  category: education
+  best_for: YouTube lecture summary, chapters, chat, Study flashcards (Chrome; free for students)
+  tags:
+    - freemium
+  maker_submitted: true
+  added_via: pr
+  pr: 36
+  tier: listed
+  last_verified: 2026-11-18
+  order: 100
+- name: Glasp
+  url: https://glasp.co/
+  cluster: life
+  category: education
+  best_for: YouTube transcripts with AI summaries, plus web and PDF highlights that export to Notion and Obsidian
+  tags: []
+  maker_submitted: true
+  added_via: pr
+  pr: 79
+  tier: listed
+  last_verified: 2026-11-18
+  order: 110
