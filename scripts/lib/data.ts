@@ -45,8 +45,9 @@ export interface Category {
   subcategories?: { id: string; title: string }[];
 }
 
-export const TOOLS_PATH = 'data/tools.yaml';
-export const CATEGORIES_PATH = 'data/categories.yaml';
+// Env overrides let tests point the scripts at fixture files.
+export const TOOLS_PATH = process.env.TOOLS_PATH ?? 'data/tools.yaml';
+export const CATEGORIES_PATH = process.env.CATEGORIES_PATH ?? 'data/categories.yaml';
 
 export function loadRaw(path: string): unknown {
   return YAML.parse(readFileSync(path, 'utf8'));
