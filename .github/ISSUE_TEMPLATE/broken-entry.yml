@@ -1,0 +1,25 @@
+name: Report a broken or outdated entry
+description: A link is dead, a tool shut down, or the description is wrong.
+labels: [broken-link]
+body:
+  - type: input
+    id: name
+    attributes: { label: Tool name (as listed) }
+    validations: { required: true }
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      options:
+        - Link is broken
+        - Tool shut down or was acquired
+        - Pricing or tags are wrong
+        - best_for line is wrong or reads like an ad
+        - Something else
+    validations: { required: true }
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What you saw, and the correct info if you know it (new URL, source for the shutdown, etc.)
+    validations: { required: true }
