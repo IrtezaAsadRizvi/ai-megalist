@@ -1,0 +1,39 @@
+# Weekly: publish a GitHub Release listing tools added, removed, moved or
+# re-priced since the last release. Skipped when nothing changed.
+name: Weekly release
+
+on:
+  schedule:
+    - cron: '41 7 * * 1' # Mondays 07:41 UTC, after the link check
+  workflow_dispatch:
+
+permissions:
+  contents: write # create tags and releases
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # full history + tags, so we can diff against the last release
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Find the previous release
+        id: prev
+        # Last data-* tag; on the very first run, fall back to a week ago.
+        run: |
+          prev=$(git tag --list 'data-*' --sort=-creatordate | head -n 1)
+          if [ -z "$prev" ]; then prev=$(git rev-list -n 1 --before='7 days ago' HEAD); fi
+          echo "ref=${prev:-$(git rev-list --max-parents=0 HEAD)}" >> "$GITHUB_OUTPUT"
+      - run: node scripts/changelog.ts "${{ steps.prev.outputs.ref }}" HEAD --out notes.md
+      - name: Publish release (skipped when notes are empty)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ ! -s notes.md ]; then echo "No tool changes since ${{ steps.prev.outputs.ref }}; skipping."; exit 0; fi
+          tag="data-$(date -u +%Y-%m-%d)"
+          gh release create "$tag" --target "$GITHUB_SHA" --title "Index update $(date -u +'%B %-d, %Y')" --notes-file notes.md

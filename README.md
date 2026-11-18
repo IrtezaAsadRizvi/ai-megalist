@@ -20,6 +20,8 @@
 
 **[ Quick find ](#quick-find)** &nbsp;·&nbsp; **[ Pick your role ](#pick-your-role)** &nbsp;·&nbsp; **[ The index ](#the-index)** &nbsp;·&nbsp; **[ Sources ](#sources)**
 
+<sub>If this list saved you a search, star the repo - it's how other people find it.</sub>
+
 </div>
 
 ---
@@ -974,7 +976,7 @@ A non-exhaustive list of write-ups consulted for this index.
 
 ## Contributing
 
-Spotted something missing or out of date? Open a PR - one tool per row, one-line "best for" reason, alphabetical-ish within its sub-section.
+Spotted something missing or out of date? Add or fix the record in `data/tools.yaml` and open a PR - [CONTRIBUTING.md](CONTRIBUTING.md) has the two-minute version. `README.md` is generated, so edits to it directly get overwritten.
 
 ## License
 

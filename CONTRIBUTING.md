@@ -32,7 +32,9 @@ Thanks for helping keep the list useful. One rule matters more than the rest:
    npm run build      # regenerates README.md
    ```
 
-4. Commit `data/tools.yaml` **and** the regenerated `README.md`, then open the PR and fill in the checklist.
+4. Commit `data/tools.yaml` **and** everything `npm run build` changed, then open the PR and fill in the checklist.
+
+`npm run build` also refreshes a short generated footer (between `megalist:nav` markers) at the end of each `tools/*.md` writeup. Don't edit inside those markers.
 
 The full field list, with types, is in `scripts/validate.ts`. The wording rules (banned phrases, word limit) are in `scripts/validate.config.ts`.
 
@@ -77,4 +79,4 @@ Makers are welcome to submit their own tools. Two conditions:
 | `stale` | Not re-verified in 90 days, from the monthly check |
 | `category-change` | Proposal to move a tool |
 
-These are defined in `.github/labels.yml`.
+These are defined in `.github/labels.yml`. Maintainer notes are in [MAINTAINING.md](MAINTAINING.md).
