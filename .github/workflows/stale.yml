@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: '23 6 1 * *' # 1st of each month, 06:23 UTC
   workflow_dispatch:
+  # TEMPORARY: lets this run once from the PR branch, since
+  # workflow_dispatch only works after the file reaches main. Removed in
+  # the next commit.
+  push:
+    branches: [phase-5-ci]
 
 permissions:
   contents: read
