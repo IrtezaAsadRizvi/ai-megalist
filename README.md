@@ -397,6 +397,8 @@ Make things - words, images, video, sound.
 | [Rao Edits](tools/rao_edits.md) | Browser-based text-to-image generation for creator and marketing visuals |
 | [Microsoft Designer](tools/microsoft_designer.md) | `Free` DALL·E access in a templated design app + Bing Image Creator |
 | [MakeImg](https://makeimg.ai/) | Text-to-image and reference-photo edits across 11 models, with free daily credits |
+| [PicYep](https://picyep.com) | `Free` Realistic AI headshots, family photos, and pet portraits from a prompt or reference photo, with editing and short video tools |
+
 
 ### Image editing & object work
 
