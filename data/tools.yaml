@@ -1604,6 +1604,16 @@
   tier: listed
   last_verified: 2026-11-18
   order: 160
+- name: Vidmoat
+  url: https://www.vidmoat.com
+  cluster: create
+  category: video-editing
+  best_for: Edit video by chat on a real timeline; free plan
+  tags: [freemium]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-23
 - name: ElevenLabs
   url: https://elevenlabs.io/docs
   cluster: create

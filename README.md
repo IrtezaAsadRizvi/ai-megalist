@@ -498,6 +498,7 @@ Make things - words, images, video, sound.
 | [VoxSail](https://voxsail.com/en/) | Localize uploaded video/audio with AI dubbing and editable translated subtitles; paid plans, one-time starter credits |
 | [Genjutsu AI](https://genjutsuai.dev/) | Freemium; browser video editor that restyles any video from reference photos (outfit/character swap) |
 | [GetYouTubeTranscript](https://getyoutubetranscript.com) | YouTube link → timestamped transcript in SRT, VTT, JSON, CSV, Markdown or TXT; 100 free credits |
+| [Vidmoat](https://www.vidmoat.com) | Edit video by chat on a real timeline; free plan |
 
 ### Voice & speech
 
