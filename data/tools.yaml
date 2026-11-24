@@ -3005,6 +3005,17 @@
   added_via: pr
   tier: listed
   last_verified: 2026-11-24
+- name: Wavegrain
+  url: https://wavegrain.com
+  cluster: work
+  category: design
+  best_for: TikTok slideshows and Instagram carousels from your brand and photos; schedules and posts them
+  tags:
+    - paid
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-19
 - name: Julius
   url: https://julius.ai
   cluster: work

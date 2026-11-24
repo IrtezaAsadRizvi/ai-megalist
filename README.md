@@ -712,6 +712,7 @@ Connect apps and trigger AI in multi-step pipelines.
 | [Kamply](https://kamplyapp.com) | Paid Mac app; makes on-brand posts, reels, ads and decks via your Claude Code/Codex plan |
 | [APPLORE](https://applore.app/ai-app-icon-generator) | `Free` app icon generator plus a reference library of 18,000+ App Store and Google Play icons |
 | [Kite](https://kite.new) | Shared design canvas where AI agents draw editable layers via hosted MCP |
+| [Wavegrain](https://wavegrain.com) | TikTok slideshows and Instagram carousels from your brand and photos; schedules and posts them |
 
 ### Data, analysis & spreadsheets
 
