@@ -1624,6 +1624,17 @@
   added_via: pr
   tier: listed
   last_verified: 2026-11-23
+- name: MakeAICreator
+  url: https://makeaicreator.com
+  cluster: create
+  category: video-editing
+  best_for: Face-consistent AI influencer photos and voiceover videos
+  tags:
+    - paid
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-23
 - name: ElevenLabs
   url: https://elevenlabs.io/docs
   cluster: create
