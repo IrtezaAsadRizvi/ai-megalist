@@ -374,6 +374,16 @@
   tier: listed
   last_verified: 2026-11-18
   order: 150
+- name: DDScore
+  url: https://www.ddscore.ai/
+  cluster: think
+  category: research
+  best_for: First-pass private-company due diligence using deal documents and public sources
+  tags: [paid]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-20
 - name: You.com
   url: https://you.com
   cluster: think
@@ -1167,6 +1177,18 @@
   tier: listed
   last_verified: 2026-11-18
   order: 90
+- name: Upscale Image (Best Latest Apps)
+  url: https://bestlatestapps.com/tools/upscale-image/
+  cluster: create
+  category: image-editing
+  best_for: "`Free` `Local`; upscale JPG, PNG or WebP 2× or 4× with Real-ESRGAN in the browser"
+  tags:
+    - free
+    - local
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-24
 - name: Veo 3.1 (Google)
   url: https://deepmind.google/technologies/veo
   cluster: create
@@ -1592,6 +1614,16 @@
   tier: listed
   last_verified: 2026-11-18
   order: 160
+- name: Vidmoat
+  url: https://www.vidmoat.com
+  cluster: create
+  category: video-editing
+  best_for: Edit video by chat on a real timeline; free plan
+  tags: [freemium]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-23
 - name: MakeAICreator
   url: https://makeaicreator.com
   cluster: create
@@ -2353,6 +2385,17 @@
   tier: top
   last_verified: 2026-11-18
   order: 60
+- name: AFFiNE
+  url: https://affine.pro
+  cluster: work
+  category: productivity
+  subcategory: notes
+  best_for: Local-first knowledge base with AI for docs, whiteboards and databases
+  tags: [freemium, oss, local]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-24
 - name: ChatPRD
   url: https://www.chatprd.ai
   cluster: work
@@ -2951,6 +2994,17 @@
   tier: listed
   last_verified: 2026-11-18
   order: 140
+- name: Kite
+  url: https://kite.new
+  cluster: work
+  category: design
+  best_for: Shared design canvas where AI agents draw editable layers via hosted MCP
+  tags:
+    - freemium
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-24
 - name: Julius
   url: https://julius.ai
   cluster: work
@@ -3605,6 +3659,16 @@
   tier: listed
   last_verified: 2026-11-18
   order: 110
+- name: PolyDraft
+  url: https://polydraft.ai
+  cluster: build
+  category: app-builders
+  best_for: AI website builder; free to build, paid to publish
+  tags: [freemium]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-24
 - name: Ollama
   url: https://ollama.com
   cluster: build

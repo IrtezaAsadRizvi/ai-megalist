@@ -306,6 +306,7 @@ Long-form research with citations, multi-source synthesis, and document groundin
 | [ZeroTwo](tools/zerotwo.md) | Unified research hub; cited search + multiple frontier models in one thread |
 | [DisconfirmAI](tools/disconfirmai.md) | Investment research that shows the evidence against a stock idea before you commit |
 | [Pulse](https://pulsecorp.co) | AI-moderated customer interviews for market research |
+| [DDScore](https://www.ddscore.ai/) | First-pass private-company due diligence using deal documents and public sources |
 
 ### AI search engines
 
@@ -443,6 +444,7 @@ Make things - words, images, video, sound.
 | [igly.ai](tools/igly.md) | Browser-based background removal, inpainting, upscaling, and generative fill |
 | [Rao Edits](tools/rao_edits.md) | Reference-image variations, restyles, and AI photo transformations |
 | [TinyTools](https://tinytools-smoky.vercel.app/) | `Free` browser toolbox: offline background removal (WASM), OG images, favicons, palettes; no signup |
+| [Upscale Image (Best Latest Apps)](https://bestlatestapps.com/tools/upscale-image/) | `Free` `Local`; upscale JPG, PNG or WebP 2× or 4× with Real-ESRGAN in the browser |
 
 ### Video generation
 
@@ -497,6 +499,7 @@ Make things - words, images, video, sound.
 | [VoxSail](https://voxsail.com/en/) | Localize uploaded video/audio with AI dubbing and editable translated subtitles; paid plans, one-time starter credits |
 | [Genjutsu AI](https://genjutsuai.dev/) | Freemium; browser video editor that restyles any video from reference photos (outfit/character swap) |
 | [GetYouTubeTranscript](https://getyoutubetranscript.com) | YouTube link → timestamped transcript in SRT, VTT, JSON, CSV, Markdown or TXT; 100 free credits |
+| [Vidmoat](https://www.vidmoat.com) | Edit video by chat on a real timeline; free plan |
 | [MakeAICreator](https://makeaicreator.com) | Face-consistent AI influencer photos and voiceover videos |
 
 ### Voice & speech
@@ -611,6 +614,7 @@ Get the day's work done.
 | Also listed | Best for |
 | :-- | :-- |
 | [Screenpipe](tools/screenpipe.md) | Recall locally captured screen text and audio history; MCP context for AI assistants (source-available) |
+| [AFFiNE](https://affine.pro) | Local-first knowledge base with AI for docs, whiteboards and databases |
 
 #### Email
 | Tool | Best for |
@@ -707,6 +711,7 @@ Connect apps and trigger AI in multi-step pipelines.
 | [Roblox GUI Maker](tools/roblox_gui_maker.md) | Prompt → Roblox Studio GUI and Lua starter code |
 | [Kamply](https://kamplyapp.com) | Paid Mac app; makes on-brand posts, reels, ads and decks via your Claude Code/Codex plan |
 | [APPLORE](https://applore.app/ai-app-icon-generator) | `Free` app icon generator plus a reference library of 18,000+ App Store and Google Play icons |
+| [Kite](https://kite.new) | Shared design canvas where AI agents draw editable layers via hosted MCP |
 
 ### Data, analysis & spreadsheets
 
@@ -814,6 +819,7 @@ For the people writing software, training models, or shipping products.
 | Also listed | Best for |
 | :-- | :-- |
 | [Massvai](https://massvai.com/) | Prompt to full-stack Next.js + Supabase app with exportable code and one-click Vercel deploy |
+| [PolyDraft](https://polydraft.ai) | AI website builder; free to build, paid to publish |
 
 ### Local & open-source model runners
 
