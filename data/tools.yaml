@@ -2940,6 +2940,17 @@
   tier: listed
   last_verified: 2026-11-18
   order: 140
+- name: Kite
+  url: https://kite.new
+  cluster: work
+  category: design
+  best_for: Shared design canvas where AI agents draw editable layers via hosted MCP
+  tags:
+    - freemium
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-24
 - name: Julius
   url: https://julius.ai
   cluster: work
