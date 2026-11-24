@@ -425,8 +425,6 @@ Make things - words, images, video, sound.
 | [ZeroTwo](tools/zerotwo.md) | Image hub - access FLUX / Imagen / Ideogram-style outputs and switch models in one app |
 | [Rao Edits](tools/rao_edits.md) | Browser-based text-to-image generation for creator and marketing visuals |
 | [MakeImg](https://makeimg.ai/) | Text-to-image and reference-photo edits across 11 models, with free daily credits |
-| [PicYep](https://picyep.com) | `Free` Realistic AI headshots, family photos, and pet portraits from a prompt or reference photo, with editing and short video tools |
-
 
 ### Image editing & object work
 
@@ -445,6 +443,7 @@ Make things - words, images, video, sound.
 | [igly.ai](tools/igly.md) | Browser-based background removal, inpainting, upscaling, and generative fill |
 | [Rao Edits](tools/rao_edits.md) | Reference-image variations, restyles, and AI photo transformations |
 | [TinyTools](https://tinytools-smoky.vercel.app/) | `Free` browser toolbox: offline background removal (WASM), OG images, favicons, palettes; no signup |
+| [Upscale Image (Best Latest Apps)](https://bestlatestapps.com/tools/upscale-image/) | `Free` `Local`; upscale JPG, PNG or WebP 2× or 4× with Real-ESRGAN in the browser |
 
 ### Video generation
 

@@ -1167,6 +1167,18 @@
   tier: listed
   last_verified: 2026-11-18
   order: 90
+- name: Upscale Image (Best Latest Apps)
+  url: https://bestlatestapps.com/tools/upscale-image/
+  cluster: create
+  category: image-editing
+  best_for: "`Free` `Local`; upscale JPG, PNG or WebP 2× or 4× with Real-ESRGAN in the browser"
+  tags:
+    - free
+    - local
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-24
 - name: Veo 3.1 (Google)
   url: https://deepmind.google/technologies/veo
   cluster: create
