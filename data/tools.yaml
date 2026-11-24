@@ -374,6 +374,16 @@
   tier: listed
   last_verified: 2026-11-18
   order: 150
+- name: DDScore
+  url: https://www.ddscore.ai/
+  cluster: think
+  category: research
+  best_for: First-pass private-company due diligence using deal documents and public sources
+  tags: [paid]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-20
 - name: You.com
   url: https://you.com
   cluster: think
