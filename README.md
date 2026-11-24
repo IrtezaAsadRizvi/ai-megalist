@@ -611,6 +611,7 @@ Get the day's work done.
 | Also listed | Best for |
 | :-- | :-- |
 | [Screenpipe](tools/screenpipe.md) | Recall locally captured screen text and audio history; MCP context for AI assistants (source-available) |
+| [AFFiNE](https://affine.pro) | Local-first knowledge base with AI for docs, whiteboards and databases |
 
 #### Email
 | Tool | Best for |
