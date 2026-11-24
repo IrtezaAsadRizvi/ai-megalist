@@ -3628,6 +3628,16 @@
   tier: listed
   last_verified: 2026-11-18
   order: 110
+- name: PolyDraft
+  url: https://polydraft.ai
+  cluster: build
+  category: app-builders
+  best_for: AI website builder; free to build, paid to publish
+  tags: [freemium]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-24
 - name: Ollama
   url: https://ollama.com
   cluster: build
