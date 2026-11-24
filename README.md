@@ -15,7 +15,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-111?style=flat-square)](LICENSE)
 [![Awesome](https://img.shields.io/badge/awesome-yes-ff69b4?style=flat-square)](https://awesome.re)
 ![Updated](https://img.shields.io/badge/updated-November%202026-2563eb?style=flat-square)
-![Tools](https://img.shields.io/badge/tools-327-22c55e?style=flat-square)
+![Tools](https://img.shields.io/badge/tools-328-22c55e?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-8b5cf6?style=flat-square)
 
 **[ Quick find ](#quick-find)** &nbsp;·&nbsp; **[ Pick your role ](#pick-your-role)** &nbsp;·&nbsp; **[ The index ](#the-index)** &nbsp;·&nbsp; **[ Sources ](#sources)**
@@ -32,7 +32,7 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 
 1. **[Quick find](#quick-find)**: one-line "I want to..." → category map. Fastest path.
 2. **[Pick your role](#pick-your-role)**: eight ready-made stacks: engineers, researchers, marketers, creators, designers, founders, students, knowledge workers.
-3. **[Browse the index](#the-index)**: 327 tools across five clusters and 23 categories.
+3. **[Browse the index](#the-index)**: 328 tools across five clusters and 23 categories.
 
 > **Conventions** &nbsp; `OSS` open source &nbsp;·&nbsp; `Local` runs on your machine &nbsp;·&nbsp; `Free` meaningful free tier &nbsp;·&nbsp; **Bold** in role tables = the safe default. &nbsp;·&nbsp; **Also listed** = community submissions, not yet hand-tested.
 
@@ -425,8 +425,6 @@ Make things - words, images, video, sound.
 | [ZeroTwo](tools/zerotwo.md) | Image hub - access FLUX / Imagen / Ideogram-style outputs and switch models in one app |
 | [Rao Edits](tools/rao_edits.md) | Browser-based text-to-image generation for creator and marketing visuals |
 | [MakeImg](https://makeimg.ai/) | Text-to-image and reference-photo edits across 11 models, with free daily credits |
-| [PicYep](https://picyep.com) | `Free` Realistic AI headshots, family photos, and pet portraits from a prompt or reference photo, with editing and short video tools |
-
 
 ### Image editing & object work
 
@@ -612,6 +610,7 @@ Get the day's work done.
 | Also listed | Best for |
 | :-- | :-- |
 | [Screenpipe](tools/screenpipe.md) | Recall locally captured screen text and audio history; MCP context for AI assistants (source-available) |
+| [AFFiNE](https://affine.pro) | Local-first knowledge base with AI for docs, whiteboards and databases |
 
 #### Email
 | Tool | Best for |
