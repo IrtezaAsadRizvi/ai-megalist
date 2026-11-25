@@ -503,7 +503,6 @@ Make things - words, images, video, sound.
 | [MakeAICreator](https://makeaicreator.com) | Face-consistent AI influencer photos and voiceover videos |
 | [CutVoke](https://github.com/frankShan001/CutVoke) | `OSS` `Local` `Free` Video editor where AI agents edit the same timeline via MCP |
 
-
 ### Voice & speech
 
 #### TTS / voice cloning
