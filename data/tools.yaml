@@ -3182,6 +3182,17 @@
   tier: listed
   last_verified: 2026-11-18
   order: 10
+- name: UI Verify
+  url: https://uiverify.ai
+  cluster: build
+  category: coding
+  subcategory: code-review
+  best_for: Visual regression testing that shows coding agents what their UI changes did
+  tags: [freemium]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-25
 - name: Devin
   url: https://docs.devin.ai
   cluster: build
