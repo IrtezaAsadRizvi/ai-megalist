@@ -3124,6 +3124,16 @@
   tier: top
   last_verified: 2026-11-18
   order: 90
+- name: AlphaSift
+  url: https://github.com/ZhuLinsen/alphasift
+  cluster: work
+  category: data
+  best_for: Multi-market quant stock screener, Purged Walk-Forward evaluator, and read-only MCP server
+  tags: [free, oss, local]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-26
 - name: Claude Code
   url: https://www.anthropic.com/claude-code
   cluster: build
