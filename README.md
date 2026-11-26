@@ -15,7 +15,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-111?style=flat-square)](LICENSE)
 [![Awesome](https://img.shields.io/badge/awesome-yes-ff69b4?style=flat-square)](https://awesome.re)
 ![Updated](https://img.shields.io/badge/updated-November%202026-2563eb?style=flat-square)
-![Tools](https://img.shields.io/badge/tools-328-22c55e?style=flat-square)
+![Tools](https://img.shields.io/badge/tools-336-22c55e?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-8b5cf6?style=flat-square)
 
 **[ Quick find ](#quick-find)** &nbsp;·&nbsp; **[ Pick your role ](#pick-your-role)** &nbsp;·&nbsp; **[ The index ](#the-index)** &nbsp;·&nbsp; **[ Sources ](#sources)**
@@ -32,7 +32,7 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 
 1. **[Quick find](#quick-find)**: one-line "I want to..." → category map. Fastest path.
 2. **[Pick your role](#pick-your-role)**: eight ready-made stacks: engineers, researchers, marketers, creators, designers, founders, students, knowledge workers.
-3. **[Browse the index](#the-index)**: 328 tools across five clusters and 23 categories.
+3. **[Browse the index](#the-index)**: 336 tools across five clusters and 23 categories.
 
 > **Conventions** &nbsp; `OSS` open source &nbsp;·&nbsp; `Local` runs on your machine &nbsp;·&nbsp; `Free` meaningful free tier &nbsp;·&nbsp; **Bold** in role tables = the safe default. &nbsp;·&nbsp; **Also listed** = community submissions, not yet hand-tested.
 
@@ -473,6 +473,7 @@ Make things - words, images, video, sound.
 | [Rhyvello](https://ai-rap-video-maker.com/) | Paid credits; turns 1–2 photos into a short AI rap video for TikTok/Reels/Shorts |
 | [Sora2 Hub](https://sora2hub.org/) | Many video + image models (Veo 3.1, Kling, Seedance, Hailuo, Wan) in one credit-based studio |
 | [Twistavo](https://twistavo.com) | Paid; replaces a person or character in an existing clip; 60+ video and image models |
+| [RemakeThat](https://remakethat.com) | Remakes a linked winning video with a fresh script and faceless AI creator |
 
 > ⚠️ **Heads up:** OpenAI's Sora consumer apps shut down on **2026-04-26**, and the API followed on **2026-09-24**.
 
