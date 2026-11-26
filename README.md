@@ -798,6 +798,7 @@ For the people writing software, training models, or shipping products.
 | Also listed | Best for |
 | :-- | :-- |
 | [agent-qa](https://github.com/vostride/agent-qa) | Self-improving natural-language web and mobile tests with memory and self-healing |
+| [UI Verify](https://uiverify.ai) | Visual regression testing that shows coding agents what their UI changes did |
 
 #### Cloud / remote SWE agents
 | Tool | Best for |
