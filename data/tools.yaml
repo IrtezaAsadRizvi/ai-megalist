@@ -1656,6 +1656,19 @@
   added_via: pr
   tier: listed
   last_verified: 2026-11-25
+- name: CutVoke
+  url: https://github.com/frankShan001/CutVoke
+  cluster: create
+  category: video-editing
+  best_for: "`OSS` `Local` `Free` Video editor where AI agents edit the same timeline via MCP"
+  tags:
+    - free
+    - oss
+    - local
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-24
 - name: ElevenLabs
   url: https://elevenlabs.io/docs
   cluster: create
