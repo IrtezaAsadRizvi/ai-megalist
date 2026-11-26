@@ -1427,6 +1427,17 @@
   tier: listed
   last_verified: 2026-11-18
   order: 200
+- name: RemakeThat
+  url: https://remakethat.com
+  cluster: create
+  category: video-generation
+  best_for: Remakes a linked winning video with a fresh script and faceless AI creator
+  tags:
+    - paid
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-26
 - name: Descript
   url: https://help.descript.com
   cluster: create
@@ -1635,6 +1646,16 @@
   added_via: pr
   tier: listed
   last_verified: 2026-11-23
+- name: Valmera
+  url: https://valmera.io
+  cluster: create
+  category: video-editing
+  best_for: Upload existing footage, describe cuts and captions, then revise the preview by chat
+  tags: [paid]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-25
 - name: CutVoke
   url: https://github.com/frankShan001/CutVoke
   cluster: create
@@ -3137,6 +3158,16 @@
   tier: top
   last_verified: 2026-11-18
   order: 90
+- name: AlphaSift
+  url: https://github.com/ZhuLinsen/alphasift
+  cluster: work
+  category: data
+  best_for: Multi-market quant stock screener, Purged Walk-Forward evaluator, and read-only MCP server
+  tags: [free, oss, local]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-26
 - name: Claude Code
   url: https://www.anthropic.com/claude-code
   cluster: build
@@ -3195,6 +3226,17 @@
   tier: listed
   last_verified: 2026-11-18
   order: 10
+- name: UI Verify
+  url: https://uiverify.ai
+  cluster: build
+  category: coding
+  subcategory: code-review
+  best_for: Visual regression testing that shows coding agents what their UI changes did
+  tags: [freemium]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-25
 - name: Devin
   url: https://docs.devin.ai
   cluster: build
