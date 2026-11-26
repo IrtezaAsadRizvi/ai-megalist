@@ -473,6 +473,7 @@ Make things - words, images, video, sound.
 | [Rhyvello](https://ai-rap-video-maker.com/) | Paid credits; turns 1–2 photos into a short AI rap video for TikTok/Reels/Shorts |
 | [Sora2 Hub](https://sora2hub.org/) | Many video + image models (Veo 3.1, Kling, Seedance, Hailuo, Wan) in one credit-based studio |
 | [Twistavo](https://twistavo.com) | Paid; replaces a person or character in an existing clip; 60+ video and image models |
+| [RemakeThat](https://remakethat.com) | Remakes a linked winning video with a fresh script and faceless AI creator |
 
 > ⚠️ **Heads up:** OpenAI's Sora consumer apps shut down on **2026-04-26**, and the API followed on **2026-09-24**.
 

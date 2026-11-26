@@ -1427,6 +1427,17 @@
   tier: listed
   last_verified: 2026-11-18
   order: 200
+- name: RemakeThat
+  url: https://remakethat.com
+  cluster: create
+  category: video-generation
+  best_for: Remakes a linked winning video with a fresh script and faceless AI creator
+  tags:
+    - paid
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-26
 - name: Descript
   url: https://help.descript.com
   cluster: create
