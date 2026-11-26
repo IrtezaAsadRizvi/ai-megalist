@@ -15,7 +15,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-111?style=flat-square)](LICENSE)
 [![Awesome](https://img.shields.io/badge/awesome-yes-ff69b4?style=flat-square)](https://awesome.re)
 ![Updated](https://img.shields.io/badge/updated-November%202026-2563eb?style=flat-square)
-![Tools](https://img.shields.io/badge/tools-337-22c55e?style=flat-square)
+![Tools](https://img.shields.io/badge/tools-341-22c55e?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-8b5cf6?style=flat-square)
 
 **[ Quick find ](#quick-find)** &nbsp;·&nbsp; **[ Pick your role ](#pick-your-role)** &nbsp;·&nbsp; **[ The index ](#the-index)** &nbsp;·&nbsp; **[ Sources ](#sources)**
@@ -32,7 +32,7 @@ A curated, opinionated index of AI tools - categorized by the **job to be done**
 
 1. **[Quick find](#quick-find)**: one-line "I want to..." → category map. Fastest path.
 2. **[Pick your role](#pick-your-role)**: eight ready-made stacks: engineers, researchers, marketers, creators, designers, founders, students, knowledge workers.
-3. **[Browse the index](#the-index)**: 337 tools across five clusters and 23 categories.
+3. **[Browse the index](#the-index)**: 341 tools across five clusters and 23 categories.
 
 > **Conventions** &nbsp; `OSS` open source &nbsp;·&nbsp; `Local` runs on your machine &nbsp;·&nbsp; `Free` meaningful free tier &nbsp;·&nbsp; **Bold** in role tables = the safe default. &nbsp;·&nbsp; **Also listed** = community submissions, not yet hand-tested.
 
@@ -886,6 +886,7 @@ For developers building on top of models.
 | [TokenMost](tools/tokenmost.md) | Free-token deals tracker: verified offers, plan-value comparison |
 | [XiuRouter](tools/xiurouter.md) | Hosted multi-model API; Responses, Messages, Chat, Gemini, and tiered pricing |
 | [Respan](tools/respan.md) | Tracing, evals, prompts + gateway across 250+ models |
+| [MartLLM](https://martllm.com) | One OpenAI- and Anthropic-compatible API key for text, image, video and music models |
 
 <sub>[⤴ back to top](#top)</sub>
 
