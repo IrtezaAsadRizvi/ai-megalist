@@ -502,6 +502,7 @@ Make things - words, images, video, sound.
 | [GetYouTubeTranscript](https://getyoutubetranscript.com) | YouTube link → timestamped transcript in SRT, VTT, JSON, CSV, Markdown or TXT; 100 free credits |
 | [Vidmoat](https://www.vidmoat.com) | Edit video by chat on a real timeline; free plan |
 | [MakeAICreator](https://makeaicreator.com) | Face-consistent AI influencer photos and voiceover videos |
+| [Valmera](https://valmera.io) | Upload existing footage, describe cuts and captions, then revise the preview by chat |
 
 ### Voice & speech
 
