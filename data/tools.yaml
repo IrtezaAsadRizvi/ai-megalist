@@ -384,6 +384,16 @@
   added_via: pr
   tier: listed
   last_verified: 2026-11-20
+- name: Frank AI Researcher
+  url: https://www.hifrank.ai
+  cluster: think
+  category: research
+  best_for: AI-moderated customer voice interviews in 50+ languages, available as an app in ChatGPT
+  tags: [freemium]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-27
 - name: You.com
   url: https://you.com
   cluster: think
