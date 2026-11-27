@@ -2766,6 +2766,16 @@
   tier: listed
   last_verified: 2026-11-18
   order: 240
+- name: Buddy.Works
+  url: https://buddy.works
+  cluster: work
+  category: agents
+  best_for: Remote MCP server letting coding agents run pipelines, deploy apps and spin up cloud sandboxes
+  tags: [paid]
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-27
 - name: n8n
   url: https://docs.n8n.io
   cluster: work
