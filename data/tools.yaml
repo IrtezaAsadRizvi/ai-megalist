@@ -4409,3 +4409,14 @@
   tier: listed
   last_verified: 2026-11-18
   order: 110
+- name: Seedance AI Video Generator
+  url: https://www.seeddance.io/
+  cluster: create
+  category: video-generation
+  best_for: Text- and image-to-video with Seedance, Kling, Veo and Wan; first clip free
+  tags:
+    - freemium
+  maker_submitted: true
+  added_via: pr
+  tier: listed
+  last_verified: 2026-11-28
