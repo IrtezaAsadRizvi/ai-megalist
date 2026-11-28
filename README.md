@@ -281,6 +281,7 @@ Conversational generalists - your daily-driver chat. Most now support memory, fi
 | :-- | :-- |
 | [ZeroTwo](tools/zerotwo.md) | All-in-one hub: chat + research + image + video behind one subscription |
 | [unbottled.ai](tools/unbottled.md) | 120+ chat models, including uncensored, plus image, video and music; OpenAI/Anthropic-compatible API; `OSS` |
+| [Whizi](https://whizi.io) | 280+ models incl. GPT, Claude, Gemini, Grok; plus image and video generation |
 
 ### Research & deep research
 
